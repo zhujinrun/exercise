@@ -5,5 +5,3 @@ dotnet WebApi.dll   --urls="http://*:5009" --ip="127.0.0.1" --port="5009"  --wei
 
 consul启动走命令，应对闪退
 Consul.exe agent -dev
-
-consulexe100m多太大，自行官网下载
