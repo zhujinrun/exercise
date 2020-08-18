@@ -1,5 +1,5 @@
-git remote add origin git@github.com:liuzhixin405/netcore.demo.git                         //链接到git
-git pull git@github.com:liuzhixin405/netcore.demo.git               //拉取git
+git remote add origin git@github.com:liuzhixin405/exercise.git                      //链接到git
+git pull git@github.com:liuzhixin405/exercise.git              //拉取git
 git add .                                                //工作区放入缓存区            本地文件有改动需要先做add命令  后面  commit  push
 git commit   -m "新增文件"                     //缓存区放到本地仓储
- git push git@github.com:liuzhixin405/netcore.demo.git                //提交到git（git push origin master)
+ git push git@github.com:liuzhixin405/exercise.git                //提交到git（git push origin master)
