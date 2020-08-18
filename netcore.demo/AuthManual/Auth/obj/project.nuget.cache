@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "enLvucqAfzNj72RaKWS6jEJR2mPP+gwv2GDhewpuj1BQ3X1IBIHdjFTGTH0um4nVuyS9uRzXHu3VKzt3NAH+KA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\Auth\\Auth\\Auth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.6\\microsoft.aspnetcore.jsonpatch.3.1.6.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.6\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.6.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

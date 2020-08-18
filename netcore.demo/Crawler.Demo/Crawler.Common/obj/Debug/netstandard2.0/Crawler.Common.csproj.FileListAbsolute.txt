@@ -1,0 +1,9 @@
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\bin\Debug\netstandard2.0\Crawler.Common.deps.json
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\bin\Debug\netstandard2.0\Crawler.Common.dll
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\obj\Debug\netstandard2.0\Crawler.Common.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\obj\Debug\netstandard2.0\Crawler.Common.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\obj\Debug\netstandard2.0\Crawler.Common.AssemblyInfo.cs
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\bin\Debug\netstandard2.0\Crawler.Common.pdb
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\obj\Debug\netstandard2.0\Crawler.Common.dll
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\obj\Debug\netstandard2.0\Crawler.Common.pdb
+C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Common\obj\Debug\netstandard2.0\Crawler.Common.csproj.CoreCompileInputs.cache

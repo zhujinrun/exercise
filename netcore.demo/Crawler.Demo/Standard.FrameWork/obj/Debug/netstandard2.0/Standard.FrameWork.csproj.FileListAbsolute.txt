@@ -1,0 +1,12 @@
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\bin\Debug\netstandard2.0\Standard.FrameWork.deps.json
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\bin\Debug\netstandard2.0\Standard.FrameWork.dll
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\obj\Debug\netstandard2.0\Standard.FrameWork.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\obj\Debug\netstandard2.0\Standard.FrameWork.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\obj\Debug\netstandard2.0\Standard.FrameWork.AssemblyInfo.cs
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\bin\Debug\netstandard2.0\Standard.FrameWork.pdb
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\obj\Debug\netstandard2.0\Standard.FrameWork.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\obj\Debug\netstandard2.0\Standard.FrameWork.dll
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\obj\Debug\netstandard2.0\Standard.FrameWork.pdb
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\bin\Debug\netstandard2.0\Crawler.Common.dll
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\bin\Debug\netstandard2.0\Crawler.Common.pdb
+C:\Users\lzx\source\repos\Crawler.Demo\Standard.FrameWork\obj\Debug\netstandard2.0\Standard.FrameWork.csproj.CopyComplete
