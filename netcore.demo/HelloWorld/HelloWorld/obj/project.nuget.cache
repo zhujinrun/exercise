@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Tjwvh0upJlUayWiNQRoRGKliuInJRFivhOE9YmWmu3WpPXM9AMPvVDDSv7OUNexHOG03xA2iL0mK7SkBgr5og==",
+  "dgSpecHash": "p4PN4rzrDOtLDQ/z2QphGBkM2qvrskY7dt13mCvwSYdR0mAJbzs5gEEh0GdAjMRA3u3jpG8GsHBOVrikIVuGFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
