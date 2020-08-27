@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Http.Utility\\Crawler.Http.Utility.csproj": {}
+    "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Http.Utility\\Crawler.Http.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Http.Utility\\Crawler.Http.Utility.csproj": {
+    "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Http.Utility\\Crawler.Http.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Http.Utility\\Crawler.Http.Utility.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Http.Utility\\Crawler.Http.Utility.csproj",
         "projectName": "Crawler.Http.Utility",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Http.Utility\\Crawler.Http.Utility.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Http.Utility\\Crawler.Http.Utility.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Http.Utility\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Http.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -55,7 +56,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0W22dc9LExfsQOqE2JWZRcRGFc7r6FP5Gew/U9Ch9NKb5LFdUdBPfgqh1ibU6nXOjKTES/lXYCvynK/gqztkzA==",
+  "dgSpecHash": "SOBXTe928QknxgXJSVgiAGPCZRJhCrrv38gnWq4ZmgbWGQQY4pN/ghKJ06UF2GHOhifpN+PqJSM9W9qUBLTXiA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Standard.FrameWork\\Standard.FrameWork.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Standard.FrameWork\\Standard.FrameWork.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\bouncycastle\\1.8.6.1\\bouncycastle.1.8.6.1.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
