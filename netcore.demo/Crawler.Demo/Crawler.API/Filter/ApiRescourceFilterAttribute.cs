@@ -29,7 +29,7 @@ namespace Crawler.API.Filter
             {
                 CustomCache.Add(key, context.Result);
             }
-            InvokeController.driver.Quit();
+            ProviderController.driver.Quit();
         }
 
         /// <summary>
@@ -43,12 +43,7 @@ namespace Crawler.API.Filter
             {
                 context.Result = CustomCache[key];
                 return;
-            }
-            //var currPath = Directory.GetCurrentDirectory();
-            //ChromeOptions options = new ChromeOptions();
-            //options.AddArguments("start-maximized");
-            //driver= new ChromeDriver(currPath, options);
-            
+            }         
 
         }
     }

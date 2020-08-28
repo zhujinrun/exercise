@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uEzOE9CLops6dhRy5fiOwEwR5Zn+hjtJj59OhpmAh1Qi3KN97ni4SGx+sX2m4iGtOJmJuJQpkdpE50oL1n7TJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

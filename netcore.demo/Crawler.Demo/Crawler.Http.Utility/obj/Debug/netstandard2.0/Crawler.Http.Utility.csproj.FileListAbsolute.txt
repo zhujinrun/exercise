@@ -1,9 +1,0 @@
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\bin\Debug\netstandard2.0\Crawler.Http.Utility.deps.json
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\bin\Debug\netstandard2.0\Crawler.Http.Utility.dll
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\bin\Debug\netstandard2.0\Crawler.Http.Utility.pdb
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\obj\Debug\netstandard2.0\Crawler.Http.Utility.csprojAssemblyReference.cache
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\obj\Debug\netstandard2.0\Crawler.Http.Utility.AssemblyInfoInputs.cache
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\obj\Debug\netstandard2.0\Crawler.Http.Utility.AssemblyInfo.cs
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\obj\Debug\netstandard2.0\Crawler.Http.Utility.csproj.CoreCompileInputs.cache
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\obj\Debug\netstandard2.0\Crawler.Http.Utility.dll
-C:\Users\lzx\source\repos\Crawler.Demo\Crawler.Http.Utility\obj\Debug\netstandard2.0\Crawler.Http.Utility.pdb

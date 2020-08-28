@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using Crawler.API.Filter;
+using Crawler.API;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,6 +14,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.Extensions.Options;
+using Crawler.Utility.HttpHelper;
+using Crawler.API.Services;
+using Crawler.API.Scheduler;
+using Crawler.API.Interface;
+using Crawler.API.Controllers;
+using Crawler.API.Job;
+using Crawler.API.Model;
 
 namespace Crawler.API
 {
@@ -28,9 +37,19 @@ namespace Crawler.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<CookieInfoOptions>(Configuration.GetSection("CookieInfoOptions"));
+
+            services.Configure<MongoDatabaseSettings>(Configuration.GetSection(nameof(MongoDatabaseSettings)));
+            services.AddSingleton<IMongoDatabaseSettings>(sp => sp.GetRequiredService<IOptions<MongoDatabaseSettings>>().Value);
+            services.AddSingleton<TaskSchedulers>();
+            services.AddSingleton<PostDataService>();
+            services.AddSingleton<WebUtils>();
+            services.AddSingleton<GetKolPost>();
+            services.AddControllersWithViews().AddNewtonsoftJson(options => { options.UseMemberCasing(); options.UseCamelCasing(true); });  //json格式美化
+
             services.AddControllers(options=> {
                 options.Filters.Add<ApiExceptionFilterAttribute>();
-            });
+            }).AddNewtonsoftJson();
             services.AddSwaggerGen(s=> {
                 s.SwaggerDoc("V1", new OpenApiInfo() { 
                  Title="crawler",
@@ -61,6 +80,7 @@ namespace Crawler.API
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
+
             {
                 endpoints.MapControllers();
             });

@@ -14,8 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Crawler.Common\Crawler.Common.csproj" />
-    <ProjectReference Include="..\Crawler.Http.Utility\Crawler.Http.Utility.csproj" />
+    <ProjectReference Include="..\Crawler.API\Crawler.API.csproj" />
+    <ProjectReference Include="..\Crawler.Utility\Crawler.Utility.csproj" />
   </ItemGroup>
 
 </Project>

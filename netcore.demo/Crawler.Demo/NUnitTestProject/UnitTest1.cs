@@ -1,13 +1,14 @@
-using Crawler.Common;
-using Crawler.Common.Model;
-using Crawler.Common.Selenuim;
-using Crawler.Http.Utility;
+using Crawler.API.Cookies;
+using Crawler.API.Model;
+using Crawler.Utility.HttpHelper;
+using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Remote;
 using Org.BouncyCastle.Crypto.Tls;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -29,9 +30,10 @@ namespace NUnitTestProject
             HttpGetTest();
             //登录测试
             SeleLogin();
+            
         }
 
-        public void SeleLogin(string url= "https://www.instagram.com/", string domain= ".instagram.com")
+        public void SeleLogin(string url = "https://www.instagram.com/", string domain = ".instagram.com")
         {
             RemoteWebDriver driver = null;
             try
@@ -54,7 +56,7 @@ namespace NUnitTestProject
                 }
                 driver.Url = url;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 driver.Quit();
                 throw ex;
@@ -78,6 +80,45 @@ namespace NUnitTestProject
             var getResult = wu.DoGet(HttpUtility.UrlDecode(url), null, "text/html; charset=utf-8", cookieStr);
 
             Assert.IsTrue(true);
+        }
+
+        [Test]
+        public void RequestPost()
+        {
+            WebUtils webUtils = new WebUtils();
+
+            //localhost:8088/Tarpa/InstagramPosts/CreateInstagramPost
+            //首先获取tooken
+            string tokenUrl = @"http://localhost:8088/token";
+            var jsonPars = "{\"Password\":\"12345678\",\"Email\":\"164910441@qq.com\"}";
+            string contentType = "application/json";
+            var token = GetToken(tokenUrl, contentType, jsonPars);
+
+            string createInstagramPostUrl = @"http://localhost:8088/Tarpa/InstagramPosts/CreateInstagramPost";
+            var postPars = "{\"ShortCode\":\"12345678\",\"OringinalJson\":\"164910441@qq.com\"}";
+            Dictionary<string, string> headers = new Dictionary<string, string>
+             {
+                 {"Authorization","Bearer "+token }
+             };
+            var postResult = webUtils.DoPost(createInstagramPostUrl, new Dictionary<string, string>(), contentType, postPars, false, headers);
+        }
+
+        public string GetToken(string url,string contentType,string jsonPars)
+        {
+            WebUtils webUtils = new WebUtils();
+            var result = webUtils.DoPost(url, new Dictionary<string, string>(), contentType, jsonPars, false, null);
+            var token = JObject.Parse(result).GetValue("data")["token"]?.ToString();
+            if (string.IsNullOrWhiteSpace(token))
+            {
+                throw new Exception("获取token有误");
+            }
+            return token;
+        }
+
+        public string PostKolPost()
+        {
+
+            return "";
         }
     }
 }

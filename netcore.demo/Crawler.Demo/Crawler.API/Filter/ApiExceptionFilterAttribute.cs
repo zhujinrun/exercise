@@ -25,7 +25,7 @@ namespace Crawler.API.Filter
                 var errMessage = $"This is {context.HttpContext.Request.RouteValues["controller"]} ->{context.HttpContext.Request.RouteValues["action"]} Error,Message: {context.Exception.Message}";
                 _logger.LogError(errMessage);
                 Console.WriteLine(errMessage);
-                InvokeController.driver.Quit();
+               
                 context.ExceptionHandled = true;
             }
         }
