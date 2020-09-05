@@ -1,0 +1,7 @@
+C:\Users\lzx\source\repos\ReadBookDemo\ReadBookDemo\bin\Debug\ReadBookDemo.exe.config
+C:\Users\lzx\source\repos\ReadBookDemo\ReadBookDemo\bin\Debug\ReadBookDemo.exe
+C:\Users\lzx\source\repos\ReadBookDemo\ReadBookDemo\bin\Debug\ReadBookDemo.pdb
+C:\Users\lzx\source\repos\ReadBookDemo\ReadBookDemo\obj\Debug\ReadBookDemo.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\ReadBookDemo\ReadBookDemo\obj\Debug\ReadBookDemo.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\ReadBookDemo\ReadBookDemo\obj\Debug\ReadBookDemo.exe
+C:\Users\lzx\source\repos\ReadBookDemo\ReadBookDemo\obj\Debug\ReadBookDemo.pdb

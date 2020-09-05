@@ -1,0 +1,13 @@
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\bin\Debug\net5.0\TaskAsyncDemo.exe
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\bin\Debug\net5.0\TaskAsyncDemo.deps.json
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\bin\Debug\net5.0\TaskAsyncDemo.runtimeconfig.json
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\bin\Debug\net5.0\TaskAsyncDemo.runtimeconfig.dev.json
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\bin\Debug\net5.0\TaskAsyncDemo.dll
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\bin\Debug\net5.0\TaskAsyncDemo.pdb
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\obj\Debug\net5.0\TaskAsyncDemo.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\obj\Debug\net5.0\TaskAsyncDemo.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\obj\Debug\net5.0\TaskAsyncDemo.AssemblyInfo.cs
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\obj\Debug\net5.0\TaskAsyncDemo.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\obj\Debug\net5.0\TaskAsyncDemo.dll
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\obj\Debug\net5.0\TaskAsyncDemo.pdb
+C:\Users\lzx\source\repos\TaskAsyncDemo\TaskAsyncDemo\obj\Debug\net5.0\TaskAsyncDemo.genruntimeconfig.cache
