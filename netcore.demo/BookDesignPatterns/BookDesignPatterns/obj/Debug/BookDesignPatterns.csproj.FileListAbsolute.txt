@@ -1,0 +1,7 @@
+C:\Users\lzx\source\repos\BookDesignPatterns\BookDesignPatterns\bin\Debug\BookDesignPatterns.exe.config
+C:\Users\lzx\source\repos\BookDesignPatterns\BookDesignPatterns\bin\Debug\BookDesignPatterns.exe
+C:\Users\lzx\source\repos\BookDesignPatterns\BookDesignPatterns\bin\Debug\BookDesignPatterns.pdb
+C:\Users\lzx\source\repos\BookDesignPatterns\BookDesignPatterns\obj\Debug\BookDesignPatterns.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\BookDesignPatterns\BookDesignPatterns\obj\Debug\BookDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\BookDesignPatterns\BookDesignPatterns\obj\Debug\BookDesignPatterns.exe
+C:\Users\lzx\source\repos\BookDesignPatterns\BookDesignPatterns\obj\Debug\BookDesignPatterns.pdb
