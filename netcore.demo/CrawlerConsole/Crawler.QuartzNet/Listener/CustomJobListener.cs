@@ -15,24 +15,24 @@ namespace Crawler.QuartzNet.Listener
         public async Task JobExecutionVetoed(IJobExecutionContext context, CancellationToken cancellationToken = default)
         {
             await Task.Run(()=>{
-                Console.WriteLine();
-                Console.WriteLine($"CustomJobListener JobExecutionVetoed {context.JobDetail.Description}");
+               // Console.WriteLine();
+               // Console.WriteLine($"CustomJobListener JobExecutionVetoed {context.JobDetail.Description}");
             });
         }
 
         public async Task JobToBeExecuted(IJobExecutionContext context, CancellationToken cancellationToken = default)
         {
             await Task.Run(() => {
-                Console.WriteLine();
-                Console.WriteLine($"CustomJobListener JobToBeExecuted {context.JobDetail.Description}");
+               // Console.WriteLine();
+               // Console.WriteLine($"CustomJobListener JobToBeExecuted {context.JobDetail.Description}");
             });
         }
 
         public async Task JobWasExecuted(IJobExecutionContext context, JobExecutionException jobException, CancellationToken cancellationToken = default)
         {
             await Task.Run(() => {
-                Console.WriteLine();
-                Console.WriteLine($"CustomJobListener JobWasExecuted {context.JobDetail.Description}");
+               // Console.WriteLine();
+               // Console.WriteLine($"CustomJobListener JobWasExecuted {context.JobDetail.Description}");
             });
         }
     }

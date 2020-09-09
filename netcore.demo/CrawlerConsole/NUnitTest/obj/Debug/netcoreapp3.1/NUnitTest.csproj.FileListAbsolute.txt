@@ -155,3 +155,7 @@ C:\Users\lzx\source\repos\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\Crawl
 C:\Users\lzx\source\repos\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\Crawler.Selenium.pdb
 C:\Users\lzx\source\repos\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\Crawler.Utility.pdb
 C:\Users\lzx\source\repos\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\lzx\source\repos\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\Logger\log4net.config
+C:\Users\lzx\source\repos\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\lzx\source\repos\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\Crawler.Logger.dll
+C:\Users\lzx\source\repos\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\Crawler.Logger.pdb

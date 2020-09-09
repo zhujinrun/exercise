@@ -1,7 +1,10 @@
 ﻿using Crawler.Models;
 using Crawler.Selenium.Helper;
 using Crawler.Service.Config;
+using Crawler.Utility.HttpHelper;
 using CrawlerConsole.DiService;
+using CrawlerConsole.token;
+using Newtonsoft.Json;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Remote;
 using Quartz;
@@ -19,12 +22,17 @@ namespace CrawlerConsole.Job
     [DisallowConcurrentExecution]//拒绝同一时间重复执行，同一任务串行
     public class KolShortCodeJob : IJob
     {
+        private static string TokenString = string.Empty;
         public async Task Execute(IJobExecutionContext context)
         {
-
-
-            //selenium登录
-            ShortCode("https://www.instagram.com/tijneyewear/");
+            List<JData> listTasks = Program.jDatas.Where(x => x.action.ToLower().Equals("instagged")).ToList();
+            foreach (JData jData in listTasks)
+            {
+                var url = jData.targetUrl;
+                //selenium登录https://www.instagram.com/tijneyewear/
+                ShortCode(jData);
+            }
+           
             //获取shortcode
             //写入数据库
             await Task.Delay(1);
@@ -32,8 +40,9 @@ namespace CrawlerConsole.Job
 
         public static RemoteWebDriver driver = null ?? ServiceDiExtension.GetService<SeleniumHelper>().Login(Config.CookieInfoOptions, Config.igUrl);
         private static Queue<string> queueList = new Queue<string>(); //存放列表
-        public void ShortCode(string url, string cls = "_bz0w")
+        public void ShortCode(JData jData, string cls = "_bz0w")
         {
+            var url = jData.targetUrl;
             SeleniumHelper sHelper = ServiceDiExtension.GetService<SeleniumHelper>();
             if (driver.Url != url)
             {
@@ -96,7 +105,7 @@ namespace CrawlerConsole.Job
 
             }
             bool isInsert = true;
-            InsertDB(isInsert, queueList);    //所有数据获取完毕再写入数据库避免重复
+            InsertDB(isInsert, queueList,jData);    //所有数据获取完毕再写入数据库避免重复
         }
         /// <summary>
         /// 获取队列
@@ -136,9 +145,30 @@ namespace CrawlerConsole.Job
 
             }
         }
-        private void InsertDB(bool goOn, Queue<string> list)
+        private void InsertDB(bool goOn, Queue<string> list,JData jData)
         {
-
+            if (string.IsNullOrWhiteSpace(TokenString))
+            {
+                TokenHelper helper = ServiceDiExtension.GetService<TokenHelper>();
+                TokenString = helper.GetToken(Config.uniboneTokenUrl, "application/json", Config.jsonPars);
+            }
+            WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
+            foreach (var shortcode in queueList)
+            {
+                int index = 1;
+            //准备写入数据库       shortcode 截取  、
+            Dictionary<string, string> dicPars = new Dictionary<string, string>
+                                {
+                                    {"ShortCode",shortcode }
+                                };
+            Dictionary<string, string> headers = new Dictionary<string, string>
+                                 {
+                                     {"Authorization","Bearer "+TokenString }
+                                 };
+            var postResult = webUtils.DoPost("https://unibone.dev.heywind.cn"+jData.postBackUrl, null, "application/json", JsonConvert.SerializeObject(dicPars), false, headers);
+                Console.WriteLine($"第 {index} 轮任务返回结果...{postResult}");
+                index++;
+            }
         }
         /// <summary>
         /// 退出

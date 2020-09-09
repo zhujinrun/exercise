@@ -12,4 +12,8 @@
     <Folder Include="Listener\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Crawler.Logger\Crawler.Logger.csproj" />
+  </ItemGroup>
+
 </Project>

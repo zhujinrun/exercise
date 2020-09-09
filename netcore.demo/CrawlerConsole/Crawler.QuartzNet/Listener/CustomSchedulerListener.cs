@@ -1,4 +1,5 @@
-﻿using Quartz;
+﻿using Crawler.Logger;
+using Quartz;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -84,24 +85,26 @@ namespace Crawler.QuartzNet.Listener
             });
         }
 
-        public Task SchedulerError(string msg, SchedulerException cause, CancellationToken cancellationToken = default)
+        public async Task SchedulerError(string msg, SchedulerException cause, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            Console.ForegroundColor = ConsoleColor.Red;
+            await Console.Out.WriteLineAsync(new StringBuilder(msg), cancellationToken);
+            LoggerHelper.Error(msg, cause);
         }
 
         public Task SchedulerInStandbyMode(CancellationToken cancellationToken = default)
-        {
-            throw new NotImplementedException();
+        {    
+            return Task.FromResult(1);
         }
 
         public Task SchedulerShutdown(CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(1);
         }
 
         public Task SchedulerShuttingdown(CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(1);
         }
 
         public async Task SchedulerStarted(CancellationToken cancellationToken = default)
@@ -127,27 +130,27 @@ namespace Crawler.QuartzNet.Listener
 
         public Task TriggerFinalized(ITrigger trigger, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(1);
         }
 
         public Task TriggerPaused(TriggerKey triggerKey, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(1);
         }
 
         public Task TriggerResumed(TriggerKey triggerKey, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(1);
         }
 
         public Task TriggersPaused(string triggerGroup, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(1);
         }
 
         public Task TriggersResumed(string triggerGroup, CancellationToken cancellationToken = default)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(1);
         }
     }
 }

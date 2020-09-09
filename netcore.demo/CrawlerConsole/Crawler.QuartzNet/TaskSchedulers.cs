@@ -18,10 +18,8 @@ namespace Crawler.QuartzNet
         /// </summary>
         public static Dictionary<string, object> jobDetail_Collection = new Dictionary<string, object>();
         public static Dictionary<string, object> trigger_collection = new Dictionary<string, object>();
-        public static async Task Invoke<T>(string taskTime,string name="" ,string group="",string description="") where T:IJob
+        public static async Task Invoke<T>(string taskTime="",string name="" ,string group="",string description="") where T:IJob
         {
-
-            
             StdSchedulerFactory factory = new StdSchedulerFactory();
             IScheduler scheduler = await factory.GetScheduler();
 
@@ -32,18 +30,22 @@ namespace Crawler.QuartzNet
             IJobDetail jobDetail = JobBuilder.Create<T>().WithIdentity(name, group)
                                                                  .WithDescription(description)
                                                                  .Build();
-
-            
-            //定时任务
-            ITrigger trigger = TriggerBuilder
-                   .Create().WithIdentity(name, group)
-                      .WithCronSchedule(taskTime)
-                      //.StartNow()
-                      .WithSimpleSchedule(x => x.WithIntervalInSeconds(10)
-                      .WithRepeatCount(10)
-                      .RepeatForever())
-                      .WithDescription(description).Build();
-
+            ITrigger trigger = null;
+            if (string.IsNullOrWhiteSpace(taskTime))
+            {
+                //定时任务
+                 trigger = TriggerBuilder
+                       .Create().WithIdentity(name, group)                        
+                          .StartNow()
+                          .WithDescription(description).Build();
+            }
+            else
+            {
+                trigger = TriggerBuilder
+                       .Create().WithIdentity(name, group)
+                          .WithCronSchedule(taskTime)
+                          .WithDescription(description).Build();
+            }
 
             #region 添加参数
             var jobPars = jobDetail_Collection.GetEnumerator();

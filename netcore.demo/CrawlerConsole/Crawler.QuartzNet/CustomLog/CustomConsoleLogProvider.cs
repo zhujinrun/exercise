@@ -8,9 +8,9 @@ namespace Crawler.QuartzNet.CustomLog
 {
     public class CustomConsoleLogProvider : ILogProvider
     {
-        public Logger GetLogger(string name)
+        public Quartz.Logging.Logger GetLogger(string name)
         {
-            return new Logger((level, func, exception, parameters) =>
+            return new Quartz.Logging.Logger((level, func, exception, parameters) =>
             {
                 if (level >= LogLevel.Info && func != null)
                 {
@@ -22,12 +22,12 @@ namespace Crawler.QuartzNet.CustomLog
 
         public IDisposable OpenMappedContext(string key, object value, bool destructure = false)
         {
-            throw new NotImplementedException();
+            return new LoggerDisposed();
         }
 
         public IDisposable OpenNestedContext(string message)
         {
-            throw new NotImplementedException();
+            return new LoggerDisposed();
         }
     }
 }

@@ -18,7 +18,7 @@ namespace CrawlerConsole.DiService
             services.AddScoped<WebUtils>();
             services.AddScoped<SeleniumHelper>();
             services.AddScoped<CrawlerConsole.token.TokenHelper>();
-            services.AddScoped<TestDi>();
+
         }
 
         public static T GetService<T>()

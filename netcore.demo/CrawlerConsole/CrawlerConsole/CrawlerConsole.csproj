@@ -6,11 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.9" />
     <PackageReference Include="Quartz" Version="3.1.0" />
     <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Crawler.Logger\Crawler.Logger.csproj" />
     <ProjectReference Include="..\Crawler.QuartzNet\Crawler.QuartzNet.csproj" />
     <ProjectReference Include="..\Crawler.Selenium\Crawler.Selenium.csproj" />
     <ProjectReference Include="..\Crawler.Service\Crawler.Service.csproj" />
@@ -18,6 +20,9 @@
 
   <ItemGroup>
     <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Logger\log4net.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

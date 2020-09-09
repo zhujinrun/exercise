@@ -28,7 +28,7 @@ namespace Crawler.Models
         public string targetUrl { get; set; }
         public string action { get; set; }
         public string cookie { get; set; }
-        public string parameters { get; set; }
+        public object parameters { get; set; }
         public string postBackUrl { get; set; }
         public string timeStamp { get; set; }
         public DateTime createOnUtc { get; set; }

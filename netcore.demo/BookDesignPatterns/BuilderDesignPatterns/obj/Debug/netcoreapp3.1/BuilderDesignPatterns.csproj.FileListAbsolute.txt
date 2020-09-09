@@ -1,0 +1,13 @@
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\bin\Debug\netcoreapp3.1\BuilderDesignPatterns.exe
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\bin\Debug\netcoreapp3.1\BuilderDesignPatterns.deps.json
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\bin\Debug\netcoreapp3.1\BuilderDesignPatterns.runtimeconfig.json
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\bin\Debug\netcoreapp3.1\BuilderDesignPatterns.runtimeconfig.dev.json
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\bin\Debug\netcoreapp3.1\BuilderDesignPatterns.dll
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\bin\Debug\netcoreapp3.1\BuilderDesignPatterns.pdb
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\obj\Debug\netcoreapp3.1\BuilderDesignPatterns.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\obj\Debug\netcoreapp3.1\BuilderDesignPatterns.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\obj\Debug\netcoreapp3.1\BuilderDesignPatterns.AssemblyInfo.cs
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\obj\Debug\netcoreapp3.1\BuilderDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\obj\Debug\netcoreapp3.1\BuilderDesignPatterns.dll
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\obj\Debug\netcoreapp3.1\BuilderDesignPatterns.pdb
+C:\Users\lzx\source\repos\BookDesignPatterns\BuilderDesignPatterns\obj\Debug\netcoreapp3.1\BuilderDesignPatterns.genruntimeconfig.cache

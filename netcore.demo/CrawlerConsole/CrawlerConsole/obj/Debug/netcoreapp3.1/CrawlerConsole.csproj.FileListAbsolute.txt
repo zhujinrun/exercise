@@ -11,7 +11,6 @@ C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.csprojAssemblyReference.cache
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.AssemblyInfoInputs.cache
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.AssemblyInfo.cs
-C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.csproj.CoreCompileInputs.cache
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.csproj.CopyComplete
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.dll
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.pdb
@@ -71,3 +70,8 @@ C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\Logger\log4net.Config
+C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\Crawler.Logger.dll
+C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\Crawler.Logger.pdb

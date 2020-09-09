@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "M2pcu+PfxTEZifS3d/xuhNTeo0k0CnRsim5ewtw0+dNDdkYi+mWTyPuTHxmaWx3jiDuqplXZCvMI0L5OJvsxUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\MVCDesign\\MVCDesign.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\system.diagnostics.eventlog\\4.7.0\\system.diagnostics.eventlog.4.7.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

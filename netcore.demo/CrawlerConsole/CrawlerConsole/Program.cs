@@ -1,4 +1,5 @@
-﻿using Crawler.Models;
+﻿using Crawler.Logger;
+using Crawler.Models;
 using Crawler.QuartzNet;
 using Crawler.Service;
 using Crawler.Utility.HttpHelper;
@@ -12,15 +13,7 @@ using System.Collections.Generic;
 using System.Runtime.Loader;
 using System.Threading.Tasks;
 
-namespace CrawlerConsole
-{
-    public class TestDi
-    {
-        public void Do()
-        {
-            Console.WriteLine("this is test");
-        }
-    }
+namespace CrawlerConsole { 
     public class Program
     {
         /// <summary>
@@ -29,22 +22,25 @@ namespace CrawlerConsole
         public static List<JData> jDatas = new List<JData>();
         static async Task Main(string[] args)
         {
+            //日志测试
+            LoggerHelper.Info("test logger");
             //获取 指令做判断
-            {            
-            }
             {
-                //ITest test = ServiceDiExtension.GetService<ITest>();
-                //test.Go();
-                //Console.Read();
-            }
-            {
-                //任务测试
                 TaskSchedulers.jobDetail_Collection.Add("testJobDetail", "jobDetail1");
                 TaskSchedulers.trigger_collection.Add("testTrigger", "jobTrigger1");
-              //  await TaskSchedulers.Invoke<KolShortCodeJob>("5/10 * * * * ?", "shortcode", "kol分组", "获取shortcode");
-               // await TaskSchedulers.Invoke<KolPostJob>("5/10 * * * * ?", "post", "kol分组", "获取post");
-                await TaskSchedulers.Invoke<ObtainQueueJob>("5/10 * * * * ?", "obtainQueue", "queue分组", "获取队列指令");
-            }      
+
+                //任务测试
+
+                await TaskSchedulers.Invoke<ObtainQueueJob>("", "obtainQueue", "queue分组", "获取队列指令");
+                await Task.Delay(5000);
+                await TaskSchedulers.Invoke<KolPostJob>("6/10 * * * * ?", "post", "kol分组", "获取post");
+
+                await TaskSchedulers.Invoke<KolShortCodeJob>("5/10 * * * * ?", "shortcode", "kol分组", "获取shortcode");
+
+                //await TaskSchedulers.Invoke<TestJob2>("6/10 * * * * ?", "queue分组", "获取队列指令"); //执行一次
+                //await TaskSchedulers.Invoke<TestJob3>("6/10 * * * * ?", "queue分组2", "获取队列指令2"); //执行一次
+                //await TaskSchedulers.Invoke<TestJob>("6/10 * * * * ?", "queue分组3", "获取队列指令3"); //执行一次
+            }
 
             //捕获Ctrl+C事件  
             Console.CancelKeyPress += Console_CancelKeyPress;

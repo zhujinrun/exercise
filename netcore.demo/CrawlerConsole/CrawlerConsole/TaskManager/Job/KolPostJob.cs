@@ -1,4 +1,10 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using Crawler.Logger;
+using Crawler.Models;
+using Crawler.Utility.HttpHelper;
+using CrawlerConsole.DiService;
+using CrawlerConsole.token;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Quartz;
 using System;
 using System.Collections.Generic;
@@ -12,26 +18,25 @@ namespace CrawlerConsole.Job
     [DisallowConcurrentExecution]
     public class KolPostJob : IJob
     {
+        private static string TokenString = string.Empty;
         public async Task Execute(IJobExecutionContext context)
         {
-
-            JobDataMap job_DataMap = context.JobDetail.JobDataMap;
-            JobDataMap trigger_DataMap = context.Trigger.JobDataMap;
-            object obj = job_DataMap.Get("testJobDetail");
-
-            JObject jObject = JObject.Parse(obj.ToString());
-
-            var cookieString = Config.Cookie;
-            var cookieString2 = Config.Cookie2;
-            var url = jObject.GetValue("Url").ToString();
-            var contentType = jObject.GetValue("ContentType").ToString();
-            var shortCodeList = jObject.GetValue("ShortCodeList").ToArray();
-            List<Task> taskLists = new List<Task>();
-            for (int i = 0; i < shortCodeList.Length; i++)
+            await Task.Delay(1);
+            if (string.IsNullOrWhiteSpace(TokenString))
             {
-
+                TokenHelper helper = ServiceDiExtension.GetService<TokenHelper>();
+                TokenString = helper.GetToken(Config.uniboneTokenUrl, "application/json", Config.jsonPars);
+            }
+            WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
+          
+            List<JData> listTasks = Program.jDatas.Where(x => x.action.ToLower().Equals("inspost")).ToList();
+            List<Task> taskLists = new List<Task>();
+            string contentType = "application/json";
+            
+            for (int i = 0; i < listTasks.Count; i++)
+            {
                 int index = i;
-
+                string shortcode = JObject.Parse(listTasks[index].parameters?.ToString()).GetValue("ShortCode")?.ToString();
                 if (taskLists.Count(x => x.Status != TaskStatus.RanToCompletion) >= 20)
                 {
                     Task.WaitAny(taskLists.ToArray());
@@ -39,48 +44,41 @@ namespace CrawlerConsole.Job
                 }
                 else
                 {
-                    taskLists.Add(Task.Run(() =>
+                    taskLists.Add( Task.Run(() =>
                     {
                         Console.WriteLine($"第 {index + 1} 轮任务开始...{DateTime.Now}");
-                        var reqUrl = string.Format(url, shortCodeList[index]);
+                        var reqUrl = listTasks[index].targetUrl;
 
                         try
                         {
                             //获取post列表
-                            //var result = TaskSchedulers._webUtils.DoGet(url: reqUrl, parameters: null, contentType: contentType, cookieStr: cookieString);
-                            ////获取token
-                            //if (string.IsNullOrWhiteSpace(TaskSchedulers.Token))
-                            //{
-                            //    TaskSchedulers.Token = CommonHelper.GetToken(ConfigPage.tokenUrl, ConfigPage.contentType, ConfigPage.jsonPars);
-                            //}
+                            var result = webUtils.DoGet(url: reqUrl, parameters: null, contentType: contentType, cookieStr: Config.Cookie3);
+                           
                             //准备写入数据库
-                        //    Dictionary<string, string> dicPars = new Dictionary<string, string>
-                        //{
-                        //    {"ShortCode",shortCodeList[index]?.ToString() },
-                        //    {"OringinalJson",result }
-                        //};
-                        //    Dictionary<string, string> headers = new Dictionary<string, string>
-                        // {
-                        //     {"Authorization","Bearer "+TaskSchedulers.Token }
-                        // };
-                        //    var postResult = TaskSchedulers._webUtils.DoPost(ConfigPage.updateInstagramUserUrl, new Dictionary<string, string>(), contentType, JsonConvert.SerializeObject(dicPars), false, headers);
-                        //    Console.WriteLine($"第 {index + 1} 轮任务返回结果...{postResult}");
-                            //TaskSchedulers._postDataService.Create(new Data { Datas = result });
+                                    Dictionary<string, string> dicPars = new Dictionary<string, string>
+                                {
+                                    {"shortcode",shortcode },
+                                    {"OringinalJson",result }
+                                };
+                            Dictionary<string, string> headers = new Dictionary<string,string>
+                                 {
+                                     {"Authorization","Bearer "+TokenString }
+                                 };
+                            var postResult = webUtils.DoPost(Config.updateInstagramUserUrl, null, contentType, JsonConvert.SerializeObject(dicPars), false, headers);
+                            Console.WriteLine($"第 {index + 1} 轮任务返回结果...{postResult}");
                         }
                         catch (Exception ex)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            var message = $"报错: {ex.Message} 错误数据: 索引: {index} ，内容: {shortCodeList[index]}";
+                            var message = $"报错: {ex.Message} 错误数据: 索引: {index} ，内容: {listTasks[index].id}";
+                            LoggerHelper.Error(message);
                             Console.WriteLine(message);
-                            
+
                         }
 
                     }));
                 }
-
-                await Task.Delay(1000);
-
-            }
+            }       
         }
     }
 }

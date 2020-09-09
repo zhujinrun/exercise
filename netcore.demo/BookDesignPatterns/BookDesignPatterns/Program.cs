@@ -706,7 +706,7 @@ namespace BookDesignPatterns
                     result = (HttpContext.Current.GetType() != null);
                 }
             }
-            catch (Exception ex)
+            catch
             {
 
             }

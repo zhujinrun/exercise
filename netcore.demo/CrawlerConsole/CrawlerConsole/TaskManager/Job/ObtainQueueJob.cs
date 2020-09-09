@@ -34,9 +34,10 @@ namespace CrawlerConsole.TaskManager.Job
             IDictionary<string, object> parmeters = new Dictionary<string, object>
                 {
                    {"Level",10},
-                   { "Action",null},
-                   { "pageIndex",1},
-                   { "pageSize",5}
+                   { "Action",null}
+                //,
+                   //{ "pageIndex",1},
+                   //{ "pageSize",5}
                 };
 
             WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
@@ -45,7 +46,7 @@ namespace CrawlerConsole.TaskManager.Job
 
             //处理列表
 
-            StorageQueue(commandQueueString);
+            StorageQueue(commandQueueString2,2);
             //存放队列       
             await Task.Delay(1);
         }
@@ -54,19 +55,30 @@ namespace CrawlerConsole.TaskManager.Job
         /// 获取列表或者单条数据
         /// </summary>
         /// <param name="commandQueueString"></param>
-        private static void StorageQueue(string commandQueueString)
+        private static void StorageQueue(string commandQueueString,int mark)
         {
             List<JData> list = new List<JData>();
             ResponseMessage responseMessage = JsonConvert.DeserializeObject<ResponseMessage>(commandQueueString);
             //列表 单条做处理
-            JData jData = JsonConvert.DeserializeObject<JData>(JsonConvert.SerializeObject(responseMessage.data));
-            List<JData> jDatas = JsonConvert.DeserializeObject<List<JData>>(JsonConvert.SerializeObject(responseMessage.data));
-            CookieInfoOptions cio = JsonConvert.DeserializeObject<CookieInfoOptions>(jData.cookie);
+            JData jData = null;
+            List<JData> jDatas = null;
+            if (mark == 1)
+            {
+                 jData = JsonConvert.DeserializeObject<JData>(JsonConvert.SerializeObject(responseMessage.data));
+                //CookieInfoOptions cio = JsonConvert.DeserializeObject<CookieInfoOptions>(jData.cookie);
+            }
+            else
+            {
+                 jDatas = JsonConvert.DeserializeObject<List<JData>>(JsonConvert.SerializeObject(responseMessage.data));
+            }
+            
+           
+            
             if (jData != null)
             {
                 Program.jDatas.Add(jData);
             }
-            if(jDatas.Count > 0)
+            if(jDatas!=null && jDatas.Count > 0)
             {
                 Program.jDatas.AddRange(jDatas);
             }
