@@ -89,6 +89,7 @@ namespace CrawlerConsole.Job
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine(this.GetType() + "GetList", ex.Message);
+                            Console.ForegroundColor = ConsoleColor.White;
                             Quit();
                             throw;
                         }
@@ -119,7 +120,7 @@ namespace CrawlerConsole.Job
             foreach (var item in listres)
             {
                 var href = string.Empty;
-                //var href = item.FindElement(By.TagName("div a"))?.GetAttribute("href");
+                
                 try
                 {
                     var div_a = item.FindElement(By.TagName("div a"));
@@ -130,16 +131,18 @@ namespace CrawlerConsole.Job
                     }
                     if (!string.IsNullOrEmpty(href))
                     {
-                        if (!queueList.Contains(href))
+                        var shortcode = href.Substring(href.LastIndexOf('/', (href.LastIndexOf("/") - 1)) + 1).TrimEnd('/');
+                        if (!queueList.Contains(shortcode))
                         {
-                            queueList.Enqueue(href);
+                            queueList.Enqueue(shortcode);
                         }
                     }
                 }
                 catch (Exception ex)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine(this.GetType() + "EnqueueShortCode", ex.Message);
+                    Console.WriteLine($"{this.GetType()}EnqueueShortCode{ex.Message}");
+                    Console.ForegroundColor = ConsoleColor.White;
                     Quit();
                 }
 
@@ -156,7 +159,7 @@ namespace CrawlerConsole.Job
             foreach (var shortcode in queueList)
             {
                 int index = 1;
-            //准备写入数据库       shortcode 截取  、
+            //准备写入数据库       shortcode 截取 
             Dictionary<string, string> dicPars = new Dictionary<string, string>
                                 {
                                     {"ShortCode",shortcode }

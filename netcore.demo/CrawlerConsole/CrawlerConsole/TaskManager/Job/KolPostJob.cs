@@ -29,7 +29,7 @@ namespace CrawlerConsole.Job
             }
             WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
           
-            List<JData> listTasks = Program.jDatas.Where(x => x.action.ToLower().Equals("inspost")).ToList();
+            List<JData> listTasks = Program.jDatas.Where(x => x.action.ToLower().Equals("inspost")).OrderByDescending(x=>x.level).ToList();
             List<Task> taskLists = new List<Task>();
             string contentType = "application/json";
             
@@ -52,20 +52,20 @@ namespace CrawlerConsole.Job
                         try
                         {
                             //获取post列表
-                            var result = webUtils.DoGet(url: reqUrl, parameters: null, contentType: contentType, cookieStr: Config.Cookie3);
+                            var result = webUtils.DoGet(url: reqUrl, parameters: null, contentType: contentType, cookieStr: Config.Cookie);
                            
                             //准备写入数据库
                                     Dictionary<string, string> dicPars = new Dictionary<string, string>
                                 {
-                                    {"shortcode",shortcode },
+                                    {"Shortcode",shortcode },
                                     {"OringinalJson",result }
                                 };
                             Dictionary<string, string> headers = new Dictionary<string,string>
                                  {
                                      {"Authorization","Bearer "+TokenString }
                                  };
-                            var postResult = webUtils.DoPost(Config.updateInstagramUserUrl, null, contentType, JsonConvert.SerializeObject(dicPars), false, headers);
-                            Console.WriteLine($"第 {index + 1} 轮任务返回结果...{postResult}");
+                            var postResult = webUtils.DoPost(Config.updateInstagramPostUrl, null, contentType, JsonConvert.SerializeObject(dicPars), false, headers);
+                            Console.WriteLine($"{nameof(KolPostJob)}->第 {index + 1} 轮任务返回结果...{postResult}");
                         }
                         catch (Exception ex)
                         {
@@ -73,7 +73,7 @@ namespace CrawlerConsole.Job
                             var message = $"报错: {ex.Message} 错误数据: 索引: {index} ，内容: {listTasks[index].id}";
                             LoggerHelper.Error(message);
                             Console.WriteLine(message);
-
+                            Console.ForegroundColor = ConsoleColor.White;
                         }
 
                     }));

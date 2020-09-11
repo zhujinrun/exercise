@@ -1,0 +1,691 @@
+2020-09-10 09:29:06,885 [1] INFO  InfoLogger - test logger
+2020-09-10 09:35:33,629 [1] INFO  InfoLogger - test logger
+2020-09-10 09:37:53,300 [1] INFO  InfoLogger - test logger
+2020-09-10 09:39:14,347 [6] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 3 ，内容: 5f5838e4fc3b8f5db4a9f8d0
+2020-09-10 09:39:19,336 [20] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 8 ，内容: 5f5838e4fc3b8f5db4a9f8d5
+2020-09-10 09:39:20,563 [4] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 2 ，内容: 5f5838e4fc3b8f5db4a9f8cf
+2020-09-10 09:39:21,203 [7] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 1 ，内容: 5f5838e3fc3b8f5db4a9f8ce
+2020-09-10 09:39:24,132 [17] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 0 ，内容: 5f5838e3fc3b8f5db4a9f8cd
+2020-09-10 09:41:06,279 [21] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 6 ，内容: 5f5838e4fc3b8f5db4a9f8d3
+2020-09-10 09:45:26,791 [16] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 4 ，内容: 5f5838e4fc3b8f5db4a9f8d1
+2020-09-10 09:45:26,792 [22] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 7 ，内容: 5f5838e4fc3b8f5db4a9f8d4
+2020-09-10 09:45:26,898 [23] ERROR InfoLogger - 报错: The operation was canceled. 错误数据: 索引: 5 ，内容: 5f5838e4fc3b8f5db4a9f8d2
+2020-09-10 09:45:27,883 [37] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 9 ，内容: 5f5838e4fc3b8f5db4a9f8d6
+2020-09-10 09:45:28,473 [35] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 11 ，内容: 5f5838e4fc3b8f5db4a9f8d8
+2020-09-10 09:45:28,687 [41] ERROR InfoLogger - 报错: The operation has timed out. 错误数据: 索引: 12 ，内容: 5f5838e4fc3b8f5db4a9f8d9
+2020-09-10 09:45:28,696 [39] ERROR InfoLogger - 报错: Object reference not set to an instance of an object. 错误数据: 索引: 10 ，内容: 5f5838e4fc3b8f5db4a9f8d7
+2020-09-10 09:45:28,774 [4] ERROR InfoLogger - 报错: The operation has timed out. 错误数据: 索引: 14 ，内容: 5f5838e5fc3b8f5db4a9f8db
+2020-09-10 09:45:28,864 [17] ERROR InfoLogger - 报错: The operation has timed out. 错误数据: 索引: 13 ，内容: 5f5838e5fc3b8f5db4a9f8da
+2020-09-10 09:45:29,814 [15] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:29,897 [15] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:29,899 [15] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:31,352 [22] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 33 ，内容: 5f5838e6fc3b8f5db4a9f8ee
+2020-09-10 09:45:36,284 [22] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:36,297 [22] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:36,307 [22] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:41,486 [49] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:41,487 [49] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:41,487 [49] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:49,083 [23] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:49,086 [23] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:49,087 [23] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:53,494 [7] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 122 ，内容: 5f5838eefc3b8f5db4a9f947
+2020-09-10 09:45:55,177 [20] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:55,186 [20] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:55,188 [20] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:50957/session/3a096aa5322fec2a420123141b95eefd/cookie timed out after 60 seconds.
+ ---> System.Net.WebException: The operation has timed out.
+   at System.Net.HttpWebRequest.GetResponse()
+   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+   --- End of inner exception stack trace ---
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 09:45:55,835 [39] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 160 ，内容: 5f5838f1fc3b8f5db4a9f96d
+2020-09-10 09:45:56,424 [15] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 162 ，内容: 5f5838f2fc3b8f5db4a9f96f
+2020-09-10 09:45:57,994 [15] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 189 ，内容: 5f5838f4fc3b8f5db4a9f98a
+2020-09-10 09:46:10,133 [1] INFO  InfoLogger - test logger
+2020-09-10 09:52:56,995 [1] INFO  InfoLogger - test logger
+2020-09-10 10:44:54,333 [1] INFO  InfoLogger - test logger
+2020-09-10 10:46:00,396 [45] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 17 ，内容: 5f5838e5fc3b8f5db4a9f8e3
+2020-09-10 10:47:19,658 [46] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 46 ，内容: 5f5838e8fc3b8f5db4a9f900
+2020-09-10 10:47:19,697 [5] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 36 ，内容: 5f5838e7fc3b8f5db4a9f8f6
+2020-09-10 10:48:21,729 [39] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 73 ，内容: 5f5838eafc3b8f5db4a9f91b
+2020-09-10 10:49:28,089 [5] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 117 ，内容: 5f5838eefc3b8f5db4a9f947
+2020-09-10 10:49:28,184 [6] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 109 ，内容: 5f5838edfc3b8f5db4a9f93f
+2020-09-10 10:50:31,183 [31] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 155 ，内容: 5f5838f1fc3b8f5db4a9f96d
+2020-09-10 10:50:31,234 [47] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 157 ，内容: 5f5838f2fc3b8f5db4a9f96f
+2020-09-10 10:52:39,274 [17] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 248 ，内容: 5f5838f9fc3b8f5db4a9f9ca
+2020-09-10 10:52:39,750 [47] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 262 ，内容: 5f5838fbfc3b8f5db4a9f9d8
+2020-09-10 10:52:39,867 [32] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 264 ，内容: 5f5838fbfc3b8f5db4a9f9da
+2020-09-10 10:54:40,165 [21] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed, see inner exception. 错误数据: 索引: 292 ，内容: 5f5838fdfc3b8f5db4a9f9f6
+2020-09-10 10:54:45,389 [71] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 350 ，内容: 5f583902fc3b8f5db4a9fa31
+2020-09-10 16:32:57,145 [1] INFO  InfoLogger - test logger
+2020-09-10 16:36:19,011 [34] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Unable to read data from the transport connection: 你的主机中的软件中止了一个已建立的连接。. 错误数据: 索引: 11 ，内容: 5f5838e5fc3b8f5db4a9f8de
+2020-09-10 16:36:19,057 [18] ERROR InfoLogger - 报错: The operation has timed out. 错误数据: 索引: 4 ，内容: 5f5838e4fc3b8f5db4a9f8d7
+2020-09-10 16:36:19,161 [14] ERROR InfoLogger - 报错: The operation has timed out. 错误数据: 索引: 0 ，内容: 5f5838e4fc3b8f5db4a9f8d3
+2020-09-10 16:36:21,414 [47] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 16 ，内容: 5f5838e5fc3b8f5db4a9f8e3
+2020-09-10 16:39:07,868 [1] INFO  InfoLogger - test logger
+2020-09-10 16:40:19,928 [1] INFO  InfoLogger - test logger
+2020-09-10 16:40:32,760 [1] INFO  InfoLogger - test logger
+2020-09-10 16:42:18,190 [1] INFO  InfoLogger - test logger
+2020-09-10 16:42:35,112 [1] INFO  InfoLogger - test logger
+2020-09-10 16:43:12,254 [4] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 16:43:12,573 [4] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 16:43:12,634 [4] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 16:43:12,635 [4] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 16:43:12,725 [4] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 16:43:12,727 [4] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 16:43:15,077 [8] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 16:43:15,095 [8] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[3]/button[2]"}
+  (Session info: chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 66
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 41
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 47
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 16:43:45,838 [1] INFO  InfoLogger - test logger
+2020-09-10 16:51:06,054 [1] INFO  InfoLogger - test logger
+2020-09-10 17:05:20,253 [1] INFO  InfoLogger - test logger
+2020-09-10 17:17:08,224 [1] INFO  InfoLogger - test logger
+2020-09-10 18:03:34,817 [1] INFO  InfoLogger - test logger
+2020-09-10 18:11:48,438 [1] INFO  InfoLogger - test logger
+2020-09-10 18:12:38,925 [4] ERROR InfoLogger - Job queue分组.obtainQueue threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrawlerConsole.TaskManager.Job.ObtainQueueJob.StorageQueue(String commandQueueString, Int32 mark) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\ObtainQueueJob.cs:line 68
+   at CrawlerConsole.TaskManager.Job.ObtainQueueJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\ObtainQueueJob.cs:line 46
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrawlerConsole.TaskManager.Job.ObtainQueueJob.StorageQueue(String commandQueueString, Int32 mark) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\ObtainQueueJob.cs:line 68
+   at CrawlerConsole.TaskManager.Job.ObtainQueueJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\ObtainQueueJob.cs:line 46
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 18:12:39,238 [4] ERROR InfoLogger - Job queue分组.obtainQueue threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrawlerConsole.TaskManager.Job.ObtainQueueJob.StorageQueue(String commandQueueString, Int32 mark) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\ObtainQueueJob.cs:line 68
+   at CrawlerConsole.TaskManager.Job.ObtainQueueJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\ObtainQueueJob.cs:line 46
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at CrawlerConsole.TaskManager.Job.ObtainQueueJob.StorageQueue(String commandQueueString, Int32 mark) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\ObtainQueueJob.cs:line 68
+   at CrawlerConsole.TaskManager.Job.ObtainQueueJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\ObtainQueueJob.cs:line 46
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-10 18:34:22,204 [1] INFO  InfoLogger - test logger
+2020-09-10 18:42:42,934 [1] INFO  InfoLogger - test logger
+2020-09-10 20:26:31,739 [1] INFO  InfoLogger - test logger
+2020-09-10 22:26:16,667 [1] INFO  InfoLogger - test logger
+2020-09-10 22:30:17,301 [13] ERROR InfoLogger - 报错: An error occurred while sending the request. The response ended prematurely. 错误数据: 索引: 0
+2020-09-10 22:33:07,060 [1] INFO  InfoLogger - test logger
+2020-09-10 22:37:56,784 [1] INFO  InfoLogger - test logger
+2020-09-10 22:38:49,171 [1] INFO  InfoLogger - test logger
+2020-09-10 22:41:16,261 [1] INFO  InfoLogger - test logger
+2020-09-10 22:41:34,854 [14] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:35,407 [13] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:39,624 [14] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:39,633 [13] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:40,029 [7] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:40,323 [16] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:42,492 [13] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:42,556 [16] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:42,619 [7] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:42,948 [14] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:45,475 [16] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:45,476 [14] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:45,551 [13] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:41:45,607 [7] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:42:18,286 [7] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:42:18,292 [14] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:42:18,291 [13] ERROR InfoLogger - 报错: Invalid URI: The format of the URI could not be determined. 错误数据: 索引: 0
+2020-09-10 22:44:20,893 [1] INFO  InfoLogger - test logger
+2020-09-10 22:48:30,805 [1] INFO  InfoLogger - test logger
+2020-09-10 22:57:25,560 [1] INFO  InfoLogger - test logger
+2020-09-10 23:04:18,154 [1] INFO  InfoLogger - test logger
+2020-09-10 23:08:48,073 [1] INFO  InfoLogger - test logger
+2020-09-10 23:10:37,495 [1] INFO  InfoLogger - test logger
+2020-09-10 23:15:19,900 [1] INFO  InfoLogger - test logger
+2020-09-10 23:20:23,938 [1] INFO  InfoLogger - test logger
+2020-09-10 23:21:03,754 [19] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 6 ，内容: 5f5a0624c83d8c7b80a65a48
+2020-09-10 23:21:03,754 [26] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 8 ，内容: 5f5a0624c83d8c7b80a65a4a
+2020-09-10 23:21:03,812 [18] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 5 ，内容: 5f5a0624c83d8c7b80a65a47
+2020-09-10 23:21:03,866 [21] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 0 ，内容: 5f5a0624c83d8c7b80a65a42
+2020-09-10 23:21:03,937 [25] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 7 ，内容: 5f5a0624c83d8c7b80a65a49
+2020-09-10 23:21:04,018 [16] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 1 ，内容: 5f5a0624c83d8c7b80a65a43
+2020-09-10 23:21:04,108 [20] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 4 ，内容: 5f5a0624c83d8c7b80a65a46
+2020-09-10 23:21:04,284 [19] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 11 ，内容: 5f5a0625c83d8c7b80a65a4d
+2020-09-10 23:21:04,361 [21] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 10 ，内容: 5f5a0625c83d8c7b80a65a4c
+2020-09-10 23:21:04,394 [18] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 9 ，内容: 5f5a0625c83d8c7b80a65a4b
+2020-09-10 23:21:05,436 [18] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 19 ，内容: 5f5a0625c83d8c7b80a65a55
+2020-09-10 23:21:05,849 [38] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 21 ，内容: 5f5a0626c83d8c7b80a65a57
+2020-09-10 23:21:06,635 [18] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 23 ，内容: 5f5a0626c83d8c7b80a65a59
+2020-09-10 23:21:07,188 [18] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 33 ，内容: 5f5a0627c83d8c7b80a65a63
+2020-09-10 23:21:08,863 [18] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 39 ，内容: 5f5a0627c83d8c7b80a65a69
+2020-09-10 23:21:09,219 [37] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 35 ，内容: 5f5a0627c83d8c7b80a65a65
+2020-09-10 23:21:09,284 [14] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 37 ，内容: 5f5a0627c83d8c7b80a65a67
+2020-09-10 23:21:09,626 [20] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 15 ，内容: 5f5a0625c83d8c7b80a65a51
+2020-09-10 23:21:09,627 [18] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 41 ，内容: 5f5a0627c83d8c7b80a65a6b
+2020-09-10 23:21:10,081 [14] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 43 ，内容: 5f5a0627c83d8c7b80a65a6d
+2020-09-10 23:21:20,832 [14] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 51 ，内容: 5f5a0629c83d8c7b80a65a7a
+2020-09-10 23:21:21,178 [14] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 55 ，内容: 5f5a062ac83d8c7b80a65a7e
+2020-09-10 23:21:21,568 [14] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 57 ，内容: 5f5a062ac83d8c7b80a65a80
+2020-09-10 23:21:22,992 [4] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 61 ，内容: 5f5a062ac83d8c7b80a65a84
+2020-09-10 23:21:28,052 [44] ERROR InfoLogger - 报错: The SSL connection could not be established, see inner exception. Authentication failed because the remote party has closed the transport stream. 错误数据: 索引: 71 ，内容: 5f5a062bc83d8c7b80a65a8e
+2020-09-10 23:22:29,482 [1] INFO  InfoLogger - test logger
+2020-09-10 23:24:33,066 [21] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 55 ，内容: 5f5a062ac83d8c7b80a65a7f
+2020-09-10 23:24:33,066 [44] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 65 ，内容: 5f5a062bc83d8c7b80a65a89
+2020-09-10 23:38:34,529 [1] INFO  InfoLogger - test logger
+2020-09-10 23:51:52,329 [1] INFO  InfoLogger - test logger
+2020-09-10 23:52:40,857 [1] INFO  InfoLogger - test logger
+2020-09-10 23:53:32,154 [1] INFO  InfoLogger - test logger

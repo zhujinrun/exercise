@@ -9,7 +9,7 @@ namespace CrawlerConsole
     public static class Config
     {
         public static readonly string igUrl = "https://www.instagram.com/";
-        //public static readonly string tokenUrl = @"https://unibone.dev.heywind.cn/token";
+        public static readonly string unUrl = @"https://unibone.dev.heywind.cn";
         public static readonly string jsonPars = "{\"Password\":\"12345678\",\"Email\":\"164910441@qq.com\"}";
         public static readonly string contentType = "application/json";
 
@@ -19,14 +19,12 @@ namespace CrawlerConsole
         public static readonly string updateInstagramUserUrl = @"https://unibone.dev.heywind.cn/Tarpa/Kols/UpdateInstagramUser";
 
 
-        public static readonly string uniboneTokenUrl = @"https://unibone.dev.heywind.cn/token";
+        public static readonly string uniboneTokenUrl =  @"https://unibone.dev.heywind.cn/token";
         public static readonly string commandQueueUrl = @"https://unibone.dev.heywind.cn/Tarpa/CommandQueues/GetCommandQueue";
         public static readonly string commandQueueListUrl = @"https://unibone.dev.heywind.cn/Tarpa/CommandQueues/GetCommandQueueList";
         private static CookieInfoOptions _cookieInfoOptions;
 
         public static readonly string Cookie= ApplicationConfig.Configuration["Cookie"];
-        public static readonly string Cookie2= ApplicationConfig.Configuration["Cookie2"];
-        public static readonly string Cookie3 = ApplicationConfig.Configuration["Cookie3"];
         public static CookieInfoOptions CookieInfoOptions => _cookieInfoOptions ?? (_cookieInfoOptions = new CookieInfoOptions
         {
             ig_did = ApplicationConfig.Configuration["CookieInfoOptions:ig_did"],

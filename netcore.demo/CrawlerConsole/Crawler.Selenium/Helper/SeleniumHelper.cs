@@ -30,7 +30,9 @@ namespace Crawler.Selenium.Helper
 
                 chromeOptions.AddArguments("start-maximized");
                 chromeOptions.AddUserProfilePreference("profile.default_content_setting_values.images", 2);
-                // chromeOptions.AddArgument("--headless"); //后台运行模式
+                chromeOptions.AddArguments("--no-sandbox");
+                chromeOptions.AddArguments("--disable-dev-shm-usage");
+                chromeOptions.AddArgument("--headless"); //后台运行模式
 
                 // ChromeDriverService service = ChromeDriverService.CreateDefaultService();
                 // service.HideCommandPromptWindow = true;   //控制台禁止

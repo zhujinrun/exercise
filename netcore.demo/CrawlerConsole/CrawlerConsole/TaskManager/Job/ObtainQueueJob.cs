@@ -34,15 +34,12 @@ namespace CrawlerConsole.TaskManager.Job
             IDictionary<string, object> parmeters = new Dictionary<string, object>
                 {
                    {"Level",10},
-                   { "Action",null}
-                //,
-                   //{ "pageIndex",1},
-                   //{ "pageSize",5}
+                   { "Action",null}     
                 };
 
             WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
             string commandQueueString = webUtils.DoPost(Config.commandQueueUrl, null, "application/json", "", false, headers);
-            string commandQueueString2 = webUtils.DoPost(Config.commandQueueListUrl, null, "application/json", JsonConvert.SerializeObject(parmeters), false, headers);
+            string commandQueueString2 = webUtils.DoPost(Config.commandQueueListUrl, null, "application/json", "{}", false, headers);
 
             //处理列表
 
@@ -65,14 +62,11 @@ namespace CrawlerConsole.TaskManager.Job
             if (mark == 1)
             {
                  jData = JsonConvert.DeserializeObject<JData>(JsonConvert.SerializeObject(responseMessage.data));
-                //CookieInfoOptions cio = JsonConvert.DeserializeObject<CookieInfoOptions>(jData.cookie);
             }
             else
             {
                  jDatas = JsonConvert.DeserializeObject<List<JData>>(JsonConvert.SerializeObject(responseMessage.data));
-            }
-            
-           
+            }           
             
             if (jData != null)
             {
@@ -80,9 +74,8 @@ namespace CrawlerConsole.TaskManager.Job
             }
             if(jDatas!=null && jDatas.Count > 0)
             {
-                Program.jDatas.AddRange(jDatas);
+                jDatas.ForEach(x => Program.jDatas.Add(x));
             }
-            
         }
     }
 }
