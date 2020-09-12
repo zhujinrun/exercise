@@ -1,7 +1,10 @@
-﻿using Crawler.Models;
+﻿using Crawler.Common;
+using Crawler.Logger;
+using Crawler.Models;
 using Crawler.Utility.HttpHelper;
 using CrawlerConsole.DiService;
 using CrawlerConsole.token;
+using log4net.Repository.Hierarchy;
 using Newtonsoft.Json;
 using OpenQA.Selenium;
 using Quartz;
@@ -12,21 +15,18 @@ using System.Threading.Tasks;
 
 namespace CrawlerConsole.TaskManager.Job
 {
-    [PersistJobDataAfterExecution]
-    [DisallowConcurrentExecution]
-    public class ObtainQueueJob : IJob
+    public class ObtainQueueJob : CommandJob
     {
-        private static string TokenString = string.Empty;
-        public async Task Execute(IJobExecutionContext context)
+        public async override Task Execute(IJobExecutionContext context)
         {
-            if (string.IsNullOrWhiteSpace(TokenString))
-            {
-                TokenHelper helper = ServiceDiExtension.GetService<TokenHelper>();
-                TokenString = helper.GetToken(Config.uniboneTokenUrl, "application/json", Config.jsonPars);
-            }
+            await ExecuteAction();
+        }
 
-            //获取队列列表
-
+        private  async Task ExecuteAction()
+        {
+            await Task.Delay(100);
+            
+            WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
             IDictionary<string, string> headers = new Dictionary<string, string>
                 {
                    {"Authorization","Bearer "+TokenString }
@@ -34,25 +34,24 @@ namespace CrawlerConsole.TaskManager.Job
             IDictionary<string, object> parmeters = new Dictionary<string, object>
                 {
                    {"Level",10},
-                   { "Action",null}     
+                   { "Action",null}
                 };
 
-            WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
-            string commandQueueString = webUtils.DoPost(Config.commandQueueUrl, null, "application/json", "", false, headers);
+            //获取队列列表
+            CommonHelper.ConsoleAndLogger($"{nameof(ObtainQueueJob)}=>获取队列列表开始... {DateTime.Now}", CommonHelper.LoggerType.Info);
             string commandQueueString2 = webUtils.DoPost(Config.commandQueueListUrl, null, "application/json", "{}", false, headers);
 
             //处理列表
-
-            StorageQueue(commandQueueString2,2);
+            StorageQueue(commandQueueString2, 2);
             //存放队列       
-            await Task.Delay(1);
+            await Task.Delay(100);
+            CommonHelper.ConsoleAndLogger($"{nameof(ObtainQueueJob)}=>获取列表完成... {DateTime.Now}", CommonHelper.LoggerType.Info);
         }
-
         /// <summary>
         /// 获取列表或者单条数据
         /// </summary>
         /// <param name="commandQueueString"></param>
-        private static void StorageQueue(string commandQueueString,int mark)
+        private static void StorageQueue(string commandQueueString, int mark)
         {
             List<JData> list = new List<JData>();
             ResponseMessage responseMessage = JsonConvert.DeserializeObject<ResponseMessage>(commandQueueString);
@@ -61,18 +60,18 @@ namespace CrawlerConsole.TaskManager.Job
             List<JData> jDatas = null;
             if (mark == 1)
             {
-                 jData = JsonConvert.DeserializeObject<JData>(JsonConvert.SerializeObject(responseMessage.data));
+                jData = JsonConvert.DeserializeObject<JData>(JsonConvert.SerializeObject(responseMessage.data));
             }
             else
             {
-                 jDatas = JsonConvert.DeserializeObject<List<JData>>(JsonConvert.SerializeObject(responseMessage.data));
-            }           
-            
+                jDatas = JsonConvert.DeserializeObject<List<JData>>(JsonConvert.SerializeObject(responseMessage.data));
+            }
+
             if (jData != null)
             {
                 Program.jDatas.Add(jData);
             }
-            if(jDatas!=null && jDatas.Count > 0)
+            if (jDatas != null && jDatas.Count > 0)
             {
                 jDatas.ForEach(x => Program.jDatas.Add(x));
             }

@@ -1695,6 +1695,7 @@
       },
       "Crawler.Common/1.0.0": {
         "dependencies": {
+          "Crawler.Logger": "1.0.0",
           "Crawler.Utility": "1.0.0"
         },
         "runtime": {

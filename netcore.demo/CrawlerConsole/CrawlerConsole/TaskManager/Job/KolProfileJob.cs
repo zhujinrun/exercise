@@ -1,4 +1,5 @@
-﻿using Crawler.Logger;
+﻿using Crawler.Common;
+using Crawler.Logger;
 using Crawler.Models;
 using Crawler.Utility.HttpHelper;
 using CrawlerConsole.DiService;
@@ -12,8 +13,7 @@ using System.Threading.Tasks;
 
 namespace CrawlerConsole.TaskManager.Job
 {
-    [PersistJobDataAfterExecution]
-    [DisallowConcurrentExecution]
+
     public class KolProfileJob : CommandJob
     {
         public async override Task Execute(IJobExecutionContext context)
@@ -24,15 +24,16 @@ namespace CrawlerConsole.TaskManager.Job
             List<Task> taskLists = new List<Task>();
             await ExecuteAction(async () => {
                 await Request(listTasks, webUtils);
-            }, listTasks.Count);
+            });
         }
 
         public async Task Request(IList<JData> listTasks, WebUtils webUtils)
         {
             await Task.Delay(100);
-            int index = 0;
-            while(index < listTasks.Count)
+            List<Task> taskLists = new List<Task>();
+            for (int i = 0; i < listTasks.Count; i++)
             {
+                int index = i;
                 Console.WriteLine($"第 {index + 1} 轮任务开始...{DateTime.Now}");
                 var reqUrl = listTasks[index].targetUrl;
 
@@ -58,10 +59,9 @@ namespace CrawlerConsole.TaskManager.Job
                 }
                 catch (Exception ex)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
                     var message = $"报错: {ex.Message} 错误数据: 索引: {index}";
                     LoggerHelper.Error(message);
-                    Console.WriteLine(message);
+                    ConsoleHelper.WriteLine(nameof(KolProfileJob), message, string.Empty, ConsoleColor.Red);
 
                 }
             }

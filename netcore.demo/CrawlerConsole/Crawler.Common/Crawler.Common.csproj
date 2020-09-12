@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Crawler.Logger\Crawler.Logger.csproj" />
     <ProjectReference Include="..\Crawler.Utility\Crawler.Utility.csproj" />
   </ItemGroup>
 

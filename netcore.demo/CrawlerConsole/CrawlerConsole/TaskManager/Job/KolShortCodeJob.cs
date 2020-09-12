@@ -1,8 +1,11 @@
-﻿using Crawler.Models;
+﻿using Crawler.Common;
+using Crawler.Logger;
+using Crawler.Models;
 using Crawler.Selenium.Helper;
 using Crawler.Service.Config;
 using Crawler.Utility.HttpHelper;
 using CrawlerConsole.DiService;
+using CrawlerConsole.TaskManager.Job;
 using CrawlerConsole.token;
 using Newtonsoft.Json;
 using OpenQA.Selenium;
@@ -18,29 +21,31 @@ using System.Threading.Tasks;
 namespace CrawlerConsole.Job
 {
 
-    [PersistJobDataAfterExecution]//执行后保留数据,更新JobDataMap
-    [DisallowConcurrentExecution]//拒绝同一时间重复执行，同一任务串行
-    public class KolShortCodeJob : IJob
+    public class KolShortCodeJob : CommandJob
     {
-        private static string TokenString = string.Empty;
-        public async Task Execute(IJobExecutionContext context)
+        public async override Task Execute(IJobExecutionContext context)
         {
-            List<JData> listTasks = Program.jDatas.Where(x => x.action.ToLower().Equals("instagged")).ToList();
-            foreach (JData jData in listTasks)
-            {
-                var url = jData.targetUrl;
-                //selenium登录https://www.instagram.com/tijneyewear/
-                ShortCode(jData);
-            }
-           
-            //获取shortcode
-            //写入数据库
-            await Task.Delay(1);
+            await Task.Delay(100);
+            WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
+            IList<JData> listTasks = base.GetCommList("instagged");
+            List<Task> taskLists = new List<Task>();
+            await ExecuteAction(() => {
+                Request(listTasks);
+            });
         }
 
+        private void Request(IList<JData> listTasks)
+        {
+            CommonHelper.ConsoleAndLogger($"{nameof(KolShortCodeJob)}=>获取shortcode开始...{DateTime.Now}",CommonHelper.LoggerType.Info);
+            foreach (var item in listTasks)
+            {
+                ShortCode(item);
+            }
+            CommonHelper.ConsoleAndLogger($"{nameof(KolShortCodeJob)}=>获取shortcode完成...{DateTime.Now}", CommonHelper.LoggerType.Info);
+        }
         public static RemoteWebDriver driver = null ?? ServiceDiExtension.GetService<SeleniumHelper>().Login(Config.CookieInfoOptions, Config.igUrl);
         private static Queue<string> queueList = new Queue<string>(); //存放列表
-        public void ShortCode(JData jData, string cls = "_bz0w")
+        private void ShortCode(JData jData, string cls = "_bz0w")
         {
             var url = jData.targetUrl;
             SeleniumHelper sHelper = ServiceDiExtension.GetService<SeleniumHelper>();
@@ -140,9 +145,9 @@ namespace CrawlerConsole.Job
                 }
                 catch (Exception ex)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"{this.GetType()}EnqueueShortCode{ex.Message}");
-                    Console.ForegroundColor = ConsoleColor.White;
+                    string message = $"EnqueueShortCode{ ex.Message}";
+                    LoggerHelper.Error(message);
+                    ConsoleHelper.WriteLine(nameof(KolShortCodeJob), message, string.Empty, ConsoleColor.Red);
                     Quit();
                 }
 
@@ -150,11 +155,6 @@ namespace CrawlerConsole.Job
         }
         private void InsertDB(bool goOn, Queue<string> list,JData jData)
         {
-            if (string.IsNullOrWhiteSpace(TokenString))
-            {
-                TokenHelper helper = ServiceDiExtension.GetService<TokenHelper>();
-                TokenString = helper.GetToken(Config.uniboneTokenUrl, "application/json", Config.jsonPars);
-            }
             WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
             foreach (var shortcode in queueList)
             {
@@ -176,7 +176,7 @@ namespace CrawlerConsole.Job
         /// <summary>
         /// 退出
         /// </summary>
-        public void Quit()
+        private void Quit()
         {
             if (null != driver)
             {
@@ -184,5 +184,6 @@ namespace CrawlerConsole.Job
             }
 
         }
+
     }
 }

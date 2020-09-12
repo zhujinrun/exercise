@@ -16,3 +16,5 @@ C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\obj\Debug\netcoreapp3.
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\obj\Debug\netcoreapp3.1\Crawler.Selenium.pdb
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\bin\Debug\netcoreapp3.1\Crawler.Service.dll
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\bin\Debug\netcoreapp3.1\Crawler.Service.pdb
+C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\bin\Debug\netcoreapp3.1\Crawler.Logger.dll
+C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\bin\Debug\netcoreapp3.1\Crawler.Logger.pdb

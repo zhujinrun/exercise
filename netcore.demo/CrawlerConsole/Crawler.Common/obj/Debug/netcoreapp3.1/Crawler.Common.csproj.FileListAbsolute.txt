@@ -10,3 +10,5 @@ C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Common\bin\Debug\netcoreapp3.1\
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Common\obj\Debug\netcoreapp3.1\Crawler.Common.csproj.CopyComplete
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Common\obj\Debug\netcoreapp3.1\Crawler.Common.dll
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Common\obj\Debug\netcoreapp3.1\Crawler.Common.pdb
+C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Common\bin\Debug\netcoreapp3.1\Crawler.Logger.dll
+C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Common\bin\Debug\netcoreapp3.1\Crawler.Logger.pdb

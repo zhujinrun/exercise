@@ -16,7 +16,8 @@ using System.Threading.Tasks;
 
 namespace CrawlerConsole.TaskManager.Job
 {
-   
+   [PersistJobDataAfterExecution]
+   [DisallowConcurrentExecution]
     public abstract class CommandJob : ICommandJob<JData>
     {
         private static string tokenString;
@@ -27,6 +28,8 @@ namespace CrawlerConsole.TaskManager.Job
             {
                 TokenHelper helper = ServiceDiExtension.GetService<TokenHelper>();
                 tokenString = helper.GetToken(Config.uniboneTokenUrl, "application/json", Config.jsonPars);
+                if (string.IsNullOrWhiteSpace(tokenString))
+                    throw new Exception("获取token失败");
             }
         }
         public string TokenString
@@ -43,29 +46,16 @@ namespace CrawlerConsole.TaskManager.Job
 
         public abstract Task Execute(IJobExecutionContext context);
         
-        public async Task ExecuteAction(Action action, int lcount)
+        /// <summary>
+        /// 任务执行方法
+        /// </summary>
+        /// <param name="action">动作</param>
+        /// <param name="lcount">根据实际需要设置循环次数</param>
+        /// <returns></returns>
+        public virtual async Task ExecuteAction(Action action)
         {
             await Task.Delay(100);
-            WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
-
-            List<Task> taskLists = new List<Task>();
-            for (int i = 0; i < lcount; i++)
-            {
-                int index = i;
-
-                if (taskLists.Count(x => x.Status != TaskStatus.RanToCompletion) >= 20)
-                {
-                    Task.WaitAny(taskLists.ToArray());
-                    taskLists = taskLists.Where(x => x.Status != TaskStatus.RanToCompletion).ToList();
-                }
-                else
-                {
-                    taskLists.Add(Task.Run(() =>
-                    {
-                        action();
-                    }));
-                }
-            }
+            action();
         }
         public IList<JData> GetCommList(string actionType)
         {

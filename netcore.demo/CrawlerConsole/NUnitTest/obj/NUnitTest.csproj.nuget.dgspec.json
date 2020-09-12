@@ -28,6 +28,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj": {
+                "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj"
+              },
               "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj": {
                 "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj"
               }

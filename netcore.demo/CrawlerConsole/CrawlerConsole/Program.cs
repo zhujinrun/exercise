@@ -23,7 +23,7 @@ namespace CrawlerConsole {
         static async Task Main(string[] args)
         {
             //日志测试
-            LoggerHelper.Info("test logger");
+            LoggerHelper.Info("start logger");
             //获取 指令做判断
             {
                 TaskSchedulers.jobDetail_Collection.Add("testJobDetail", "jobDetail1");
@@ -33,11 +33,11 @@ namespace CrawlerConsole {
 
                  await TaskSchedulers.Invoke<ObtainQueueJob>("", "obtainQueue", "queue分组", "获取队列指令");
                  await Task.Delay(5000);
-                 //await TaskSchedulers.Invoke<KolProfileJob>("0 0/1 * * * ? *", "post", "kol分组", "获取Profile");
+                 await TaskSchedulers.Invoke<KolProfileJob>("0 0/1 * * * ? *", "profile", "kol分组", "获取Profile");
                  await TaskSchedulers.Invoke<KolPostJob>("0 0/1 * * * ? *", "post", "kol分组", "获取Post");
                  await TaskSchedulers.Invoke<KolShortCodeJob>("0 0/1 * * * ? *", "shortcode", "kol分组", "获取shortcode");
 
-                //await TaskSchedulers.Invoke<TestJob2>("0 0/1 * * * ? *", "queue分组", "获取队列指令"); //执行一次
+                //await TaskSchedulers.Invoke<TestMethod>("0/30 * * * * ? *", "queue分组", "获取队列指令"); //执行一次
                 //await TaskSchedulers.Invoke<TestJob3>("0 0/1 * * * ? *", "queue分组2", "获取队列指令2"); //执行一次
                 //await TaskSchedulers.Invoke<TestJob>("0 0/1 * * * ? *", "queue分组3", "获取队列指令3"); //执行一次
             }
