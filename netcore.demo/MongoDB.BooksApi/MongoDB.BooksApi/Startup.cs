@@ -11,6 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using MongoDB.BooksApi.Models;
+using MongoDB.BooksApi.Repository;
 using MongoDB.BooksApi.Services;
 
 namespace MongoDB.BooksApi
@@ -30,6 +31,8 @@ namespace MongoDB.BooksApi
             services.Configure<BookstoreDatabaseSettings>(Configuration.GetSection(nameof(BookstoreDatabaseSettings)));
             services.AddSingleton<IBookstoreDatabaseSettings>(sp => sp.GetRequiredService<IOptions<BookstoreDatabaseSettings>>().Value);
             services.AddSingleton<BookService>();
+            services.AddScoped<BookServiceN>();
+            services.AddScoped<BookRepository<Book>>();
             services.AddControllersWithViews().AddNewtonsoftJson(options => { options.UseMemberCasing(); options.UseCamelCasing(true); });
 
             services.AddSwaggerGen(s => {
@@ -69,17 +72,17 @@ namespace MongoDB.BooksApi
 
             app.UseAuthorization();
 
-            //app.UseEndpoints(endpoints =>
-            //{
-            //    endpoints.MapControllerRoute(
-            //        name: "default",
-            //        pattern: "{controller=Home}/{action=Index}/{id?}");
-            //});
-
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllers();
+            //});
         }
     }
 }

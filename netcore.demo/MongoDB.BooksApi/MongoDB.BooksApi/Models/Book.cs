@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace MongoDB.BooksApi.Models
 {
-    public class Book
+    public class Book:BaseEntity
     {
-        [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        //[BsonId]
+        //[BsonRepresentation(BsonType.ObjectId)]
+        //public string Id { get; set; }
 
         [BsonElement("Name")]
         [JsonProperty("Name")]

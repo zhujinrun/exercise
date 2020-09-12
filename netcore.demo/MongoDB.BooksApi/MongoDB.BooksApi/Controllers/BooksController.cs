@@ -15,9 +15,11 @@ namespace MongoDB.BooksApi.Controllers
     public class BooksController : ControllerBase
     {
         private readonly BookService _bookService;
-        public BooksController(BookService bookService)
+        private readonly BookServiceN _bookServiceN;
+        public BooksController(BookService bookService, BookServiceN bookServiceN)
         {
             _bookService = bookService;
+            _bookServiceN = bookServiceN;
         }
         [HttpGet]
         public ActionResult<List<Book>> Get() => _bookService.Get();
@@ -35,11 +37,12 @@ namespace MongoDB.BooksApi.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Book> Create(Book book)
+        public async Task<ActionResult<Book>> Create(Book book)
         {
-            book.Id = ObjectId.GenerateNewId().ToString();
-            _bookService.Create(book);
-            return CreatedAtRoute("GetBook", new { id = book.Id.ToString() }, book);
+            book._id = ObjectId.GenerateNewId().ToString();
+            //_bookService.Create(book);
+            await _bookServiceN.CreateBook(book); 
+            return CreatedAtRoute("GetBook", new { id = book._id.ToString() }, book);
         }
 
         [HttpPut("{id:length(24)}")]
@@ -63,7 +66,7 @@ namespace MongoDB.BooksApi.Controllers
             {
                 return NotFound();
             }
-            _bookService.Remove(book.Id);
+            _bookService.Remove(book._id);
 
             return NoContent();
         }
