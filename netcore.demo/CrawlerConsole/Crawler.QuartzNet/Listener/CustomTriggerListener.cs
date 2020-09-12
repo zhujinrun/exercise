@@ -15,7 +15,7 @@ namespace Crawler.QuartzNet.Listener
         {
             await Task.Run(() =>
             {
-               // Console.WriteLine($"CustomTriggerListener TriggerComplete {trigger.Description}");
+                Console.WriteLine($"CustomTriggerListener TriggerComplete {trigger.Description}");
             });
         }
 
@@ -39,7 +39,7 @@ namespace Crawler.QuartzNet.Listener
         {
             await Task.Run(() =>
             {
-               // Console.WriteLine($"CustomTriggerListener VetoJobExecution {trigger.Description}");
+                Console.WriteLine($"CustomTriggerListener VetoJobExecution {trigger.Description}");
             });
             return false;
         }

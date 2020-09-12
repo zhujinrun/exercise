@@ -8085,11 +8085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\NUnitTest\\NUnitTest.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\NUnitTest\\NUnitTest.csproj",
       "projectName": "NUnitTest",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\NUnitTest\\NUnitTest.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\NUnitTest\\NUnitTest.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\NUnitTest\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\NUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8106,11 +8106,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj"
+            "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj"
             },
-            "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj"
+            "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj"
             }
           }
         }

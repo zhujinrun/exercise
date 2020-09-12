@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Cug8xFG3vTTCDZzrQfTdCI/3iaCPMKY6lr6WVB5oADiINPqlUBwWp0rSUwUOwmGC2YQ2y7zTkxZbrLGGOV6/aw==",
+  "dgSpecHash": "UGr7rOOcEtUTUV54HiOiL6b2jnwiALRl3CPtN6yujJrD4txmId/fTtV8VqfF4hrp4JB0at3uNwniVheG+zWJLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

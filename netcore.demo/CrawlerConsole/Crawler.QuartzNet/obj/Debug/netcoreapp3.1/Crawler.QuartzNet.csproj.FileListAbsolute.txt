@@ -10,3 +10,15 @@ C:\Users\lzx\source\repos\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.QuartzNet\bin\Debug\netcoreapp3.1\Crawler.Logger.dll
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.QuartzNet\bin\Debug\netcoreapp3.1\Crawler.Logger.pdb
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3.1\Crawler.QuartzNet.csproj.CopyComplete
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\bin\Debug\netcoreapp3.1\Crawler.QuartzNet.deps.json
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\bin\Debug\netcoreapp3.1\Crawler.QuartzNet.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\bin\Debug\netcoreapp3.1\Crawler.QuartzNet.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\bin\Debug\netcoreapp3.1\Crawler.Logger.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\bin\Debug\netcoreapp3.1\Crawler.Logger.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3.1\Crawler.QuartzNet.csprojAssemblyReference.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3.1\Crawler.QuartzNet.AssemblyInfoInputs.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3.1\Crawler.QuartzNet.AssemblyInfo.cs
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3.1\Crawler.QuartzNet.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3.1\Crawler.QuartzNet.csproj.CopyComplete
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3.1\Crawler.QuartzNet.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.QuartzNet\obj\Debug\netcoreapp3.1\Crawler.QuartzNet.pdb

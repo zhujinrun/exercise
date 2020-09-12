@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
       "projectName": "Crawler.Utility",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",

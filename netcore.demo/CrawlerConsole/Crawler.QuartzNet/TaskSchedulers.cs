@@ -23,9 +23,9 @@ namespace Crawler.QuartzNet
             StdSchedulerFactory factory = new StdSchedulerFactory();
             IScheduler scheduler = await factory.GetScheduler();
 
-            scheduler.ListenerManager.AddSchedulerListener(new CustomSchedulerListener());
-            scheduler.ListenerManager.AddTriggerListener(new CustomTriggerListener());
-            scheduler.ListenerManager.AddJobListener(new CustomJobListener());
+            //scheduler.ListenerManager.AddSchedulerListener(new CustomSchedulerListener());
+            //scheduler.ListenerManager.AddTriggerListener(new CustomTriggerListener());
+            //scheduler.ListenerManager.AddJobListener(new CustomJobListener());
             await scheduler.Start();   //需要开启才能自动
             IJobDetail jobDetail = JobBuilder.Create<T>().WithIdentity(name, group)
                                                                  .WithDescription(description)

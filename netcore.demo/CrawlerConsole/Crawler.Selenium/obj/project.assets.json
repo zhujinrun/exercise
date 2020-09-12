@@ -6704,11 +6704,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj",
       "projectName": "Crawler.Selenium",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Selenium\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Selenium\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6725,11 +6725,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj"
+            "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj"
             },
-            "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Models\\Crawler.Models.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Models\\Crawler.Models.csproj"
+            "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Models\\Crawler.Models.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Models\\Crawler.Models.csproj"
             }
           }
         }

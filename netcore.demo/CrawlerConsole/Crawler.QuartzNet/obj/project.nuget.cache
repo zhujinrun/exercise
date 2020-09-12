@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H71BWHOUICRKehj/b4kXqVkvEh5F4LFNoxsCG3PKNIyxrdAlqJZsJN9hoaGYamHBjfGA4iHdJLBE/ZHm7B3pMA==",
+  "dgSpecHash": "zCWrBI9mdeu8pMxLTCyRi/yoGnsXD4+XQoDLs+ZXEAlWxyW/pu6V9eYPODarln7M4cjAtYxw5G4iodn/5Pd8sQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.QuartzNet\\Crawler.QuartzNet.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.QuartzNet\\Crawler.QuartzNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\log4net\\2.0.9\\log4net.2.0.9.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

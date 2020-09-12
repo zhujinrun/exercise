@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+sohDa5q3jX6vbbJ7yb/gesSo5S3y72Be2+b40IgWwbFIeMysQgO5fkpY9oV41ZVpzH9j7VM8KMPi9TSQI1DBw==",
+  "dgSpecHash": "WxAgK620FuImgK64ifxJ0ijdJuBsp2jBMvjO9auoQWda/sLmA7l1i6t53xrZU2n8VctYL/D0O+WBelsJeFA1EA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\log4net\\2.0.9\\log4net.2.0.9.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

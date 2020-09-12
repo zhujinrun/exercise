@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wiRj4B9hKXBJRHh5481LnMQhyoWlxChhWnRMu/3Ativ+f/QVNFfr0GE0Kzt8fPCAzzrp/Egs9pJ+ce7jrEcWoQ==",
+  "dgSpecHash": "UQtFbf/J5FWIJL7zl12BrGxx1JypNIin52P6bcVkMkLg/RSFyX6SD4MwPsL1FZ3ByaRmIyWijGmi90Cc+eGJSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\NUnitTest\\NUnitTest.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\NUnitTest\\NUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\log4net\\2.0.9\\log4net.2.0.9.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

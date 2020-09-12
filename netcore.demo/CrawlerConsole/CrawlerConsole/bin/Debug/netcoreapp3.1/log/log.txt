@@ -598,3 +598,12 @@ from tab crashed
    at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
    at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
 2020-09-13 01:18:23,812 [7] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 149 ，内容: 5f5a0633c83d8c7b80a65aeb
+2020-09-13 01:31:08,380 [1] INFO  InfoLogger - start logger
+2020-09-13 01:31:23,034 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/13 1:31:16
+2020-09-13 01:31:30,141 [10] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/13 1:31:30
+2020-09-13 01:32:09,961 [12] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/9/13 1:32:00
+2020-09-13 01:32:20,668 [14] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 41 ，内容: 5f5a062ac83d8c7b80a65a7f
+2020-09-13 01:32:20,936 [23] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 51 ，内容: 5f5a062bc83d8c7b80a65a89
+2020-09-13 01:32:24,612 [51] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 59 ，内容: 5f5a062bc83d8c7b80a65a91
+2020-09-13 01:32:25,808 [20] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 73 ，内容: 5f5a062dc83d8c7b80a65a9f
+2020-09-13 01:32:29,187 [43] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 103 ，内容: 5f5a062fc83d8c7b80a65abd

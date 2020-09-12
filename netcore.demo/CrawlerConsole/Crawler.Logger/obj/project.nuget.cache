@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oXejODLo6GGHgywyxv7RxwDJAhYk8PLEOKdvnHikLDPHqKgFbHDch4Rif9TrmZjSPS1NL8jMg3VDrdHRxhKiiw==",
+  "dgSpecHash": "mupaBDq1W+xruzWGBz0Vg2kcV0Gd6VViD0k3kz41ZNFK0qt3VM1QtSSopVDnHCLePnLf6ltjVUplBoLED4AUhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\log4net\\2.0.9\\log4net.2.0.9.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

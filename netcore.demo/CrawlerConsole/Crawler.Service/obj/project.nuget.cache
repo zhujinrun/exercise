@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dtqWEPAtWnVFHaSIbgzafm61dK6Nq72Qgqe09seQPDhh3fEvv+zrcm0L+l2vK5X47J+MmJ8gn03Wj6p0V8XhAQ==",
+  "dgSpecHash": "woj769YN5gR/Qoo0ZKM5QSUZDXG4YMREbLPygreh3NEUdp3VMKffwAAfVDwN2jVXGNsQFGvmm2g175/xCkCnFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.7\\microsoft.extensions.configuration.3.1.7.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.7\\microsoft.extensions.configuration.abstractions.3.1.7.nupkg.sha512",

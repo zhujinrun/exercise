@@ -7803,11 +7803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj",
       "projectName": "CrawlerConsole",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\CrawlerConsole\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\CrawlerConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7824,17 +7824,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj"
+            "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj"
             },
-            "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.QuartzNet\\Crawler.QuartzNet.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.QuartzNet\\Crawler.QuartzNet.csproj"
+            "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.QuartzNet\\Crawler.QuartzNet.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.QuartzNet\\Crawler.QuartzNet.csproj"
             },
-            "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj"
+            "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj"
             },
-            "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj"
+            "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj"
             }
           }
         }

@@ -4710,11 +4710,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
       "projectName": "Crawler.Logger",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",

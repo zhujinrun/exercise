@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj": {}
+    "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj": {
+    "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj",
         "projectName": "Crawler.Common",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Common\\Crawler.Common.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Common\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj": {
-                "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj"
+              "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj": {
+                "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj"
               },
-              "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj": {
-                "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj"
+              "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj": {
+                "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj"
               }
             }
           }
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj": {
+    "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
         "projectName": "Crawler.Logger",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Logger\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,14 +123,14 @@
         }
       }
     },
-    "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj": {
+    "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
         "projectName": "Crawler.Utility",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\Crawler.Utility.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\CrawlerConsole\\Crawler.Utility\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
