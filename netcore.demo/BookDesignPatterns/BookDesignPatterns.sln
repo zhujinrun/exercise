@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorDesign", "Decorato
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDesign", "MVCDesign\MVCDesign.csproj", "{3230A0EF-6DD4-4CBA-A67C-529A8026C5FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandDesign", "CommandDesign\CommandDesign.csproj", "{C1959007-AE6C-4294-9015-42C62654F47F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandDesign", "CommandDesign\CommandDesign.csproj", "{C1959007-AE6C-4294-9015-42C62654F47F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateDesign", "StateDesign\StateDesign.csproj", "{1ADE2026-F44F-479C-BA2B-56F851225B10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C1959007-AE6C-4294-9015-42C62654F47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1959007-AE6C-4294-9015-42C62654F47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1959007-AE6C-4294-9015-42C62654F47F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADE2026-F44F-479C-BA2B-56F851225B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADE2026-F44F-479C-BA2B-56F851225B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADE2026-F44F-479C-BA2B-56F851225B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADE2026-F44F-479C-BA2B-56F851225B10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

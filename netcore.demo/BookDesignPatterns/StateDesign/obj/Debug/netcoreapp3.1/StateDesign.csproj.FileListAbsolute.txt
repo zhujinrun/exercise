@@ -1,0 +1,15 @@
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\bin\Debug\netcoreapp3.1\StateDesign.exe
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\bin\Debug\netcoreapp3.1\StateDesign.deps.json
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\bin\Debug\netcoreapp3.1\StateDesign.runtimeconfig.json
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\bin\Debug\netcoreapp3.1\StateDesign.runtimeconfig.dev.json
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\bin\Debug\netcoreapp3.1\StateDesign.dll
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\bin\Debug\netcoreapp3.1\StateDesign.pdb
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\obj\Debug\netcoreapp3.1\StateDesign.AssemblyInfoInputs.cache
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\obj\Debug\netcoreapp3.1\StateDesign.AssemblyInfo.cs
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\obj\Debug\netcoreapp3.1\StateDesign.dll
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\obj\Debug\netcoreapp3.1\StateDesign.pdb
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\obj\Debug\netcoreapp3.1\StateDesign.genruntimeconfig.cache
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\obj\Debug\netcoreapp3.1\StateDesign.csprojAssemblyReference.cache
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\obj\Debug\netcoreapp3.1\StateDesign.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\BookDesignPatterns\StateDesign\obj\Debug\netcoreapp3.1\StateDesign.csproj.CopyComplete

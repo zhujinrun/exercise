@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "3YQBSzyKd1yzVMmk4HirJQmcYMxBPDCxktLE7q3rYvDpf+c+PPkAdU3w5hqOEHUGwTUwB5PpGcy7Ue+TchTArg==",
+  "success": true,
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\StateDesign\\StateDesign.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lzx\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
