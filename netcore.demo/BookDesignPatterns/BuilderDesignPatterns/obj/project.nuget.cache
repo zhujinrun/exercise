@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HipuwbhtEdt+8lrnscJ0l4n0v2AI5NGhAa5rc4AylttGp24xbOcwqI6dfhlikI6qZe02LZ36gvHFlB5zamGSLw==",
+  "dgSpecHash": "OgNpt+ujTGEUM7vnjsFU9QeqUFIyxcyn3FGIE17QotY4GsZjTQ8uE/CfuD/MkolsuIT2TB0Djlq2y6QLtZAkJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\BuilderDesignPatterns\\BuilderDesignPatterns.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\BuilderDesignPatterns\\BuilderDesignPatterns.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

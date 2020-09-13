@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj": {}
+    "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj": {
+    "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj",
         "projectName": "DecoratorDesign",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\DecoratorDesign\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\DecoratorDesign\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",

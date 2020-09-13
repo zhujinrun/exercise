@@ -1,0 +1,13 @@
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.exe
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.deps.json
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.runtimeconfig.json
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.runtimeconfig.dev.json
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.dll
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\bin\Debug\netcoreapp3.1\CommandDesign.pdb
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.csprojAssemblyReference.cache
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.AssemblyInfoInputs.cache
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.AssemblyInfo.cs
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.dll
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.pdb
+D:\github-exercise\netcore.demo\BookDesignPatterns\CommandDesign\obj\Debug\netcoreapp3.1\CommandDesign.genruntimeconfig.cache

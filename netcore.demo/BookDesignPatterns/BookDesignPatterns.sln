@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDesignPatterns", "Bu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorDesign", "DecoratorDesign\DecoratorDesign.csproj", "{C31B14B9-F071-4916-B2A1-9A484AD86945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDesign", "MVCDesign\MVCDesign.csproj", "{3230A0EF-6DD4-4CBA-A67C-529A8026C5FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDesign", "MVCDesign\MVCDesign.csproj", "{3230A0EF-6DD4-4CBA-A67C-529A8026C5FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandDesign", "CommandDesign\CommandDesign.csproj", "{C1959007-AE6C-4294-9015-42C62654F47F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3230A0EF-6DD4-4CBA-A67C-529A8026C5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3230A0EF-6DD4-4CBA-A67C-529A8026C5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3230A0EF-6DD4-4CBA-A67C-529A8026C5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1959007-AE6C-4294-9015-42C62654F47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1959007-AE6C-4294-9015-42C62654F47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1959007-AE6C-4294-9015-42C62654F47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1959007-AE6C-4294-9015-42C62654F47F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

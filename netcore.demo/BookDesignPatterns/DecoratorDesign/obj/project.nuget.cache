@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8u97I7aA5Wm25BRnhTZYzCdh+yTEwzPcsn2/IDDaJTyFzX7tzS5cVGoydzSIdwta1viWCZEYbrCCuRgZXP+zJQ==",
+  "dgSpecHash": "AFP5I8K0UVNeu0s84SPnFzukfJZJRfSSfx2V975qrT7qluTq/L8Oq1nxheFGIpAhMC5M/2xwm73Vv0j+rZJkmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

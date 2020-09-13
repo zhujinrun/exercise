@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M2pcu+PfxTEZifS3d/xuhNTeo0k0CnRsim5ewtw0+dNDdkYi+mWTyPuTHxmaWx3jiDuqplXZCvMI0L5OJvsxUQ==",
+  "dgSpecHash": "1bDxZgPsQ3kmWWHPn8i5g8BDH2WlhvrqlXget4pSIyqO7ovRihLV7tNfT9rSKYw8p9qvdiG8UIS4RI49zgRPsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\BookDesignPatterns\\MVCDesign\\MVCDesign.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\MVCDesign\\MVCDesign.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

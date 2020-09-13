@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\BuilderDesignPatterns\\BuilderDesignPatterns.csproj",
-      "projectName": "BuilderDesignPatterns",
-      "projectPath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\BuilderDesignPatterns\\BuilderDesignPatterns.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\CommandDesign\\CommandDesign.csproj",
+      "projectName": "CommandDesign",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\CommandDesign\\CommandDesign.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\BuilderDesignPatterns\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\CommandDesign\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
