@@ -25,8 +25,8 @@ namespace CommandDesign
             //    Console.WriteLine($"name={receiver.Name}");
             //    Console.WriteLine($"name={receiver.Address}");
 
-            //    KolAsset kolAsset = new KolAsset();
-            //    kolAsset.AssetType = new List<AssetType> {AssetType.Youtube,AssetType.FaceBook };
+            CommandTest1.KolAsset kolAsset = new CommandTest1.KolAsset();
+            kolAsset.AssetType = new List<CommandTest1.AssetType> { CommandTest1.AssetType.Youtube, CommandTest1.AssetType.FaceBook };
 
             //    Invoker1 invoker1 = new Invoker1();
             //    invoker1.AddHandler(new Receiver1().A);
@@ -359,7 +359,7 @@ namespace CommandDesign
         }
         public class KolAsset
         {
-            public List<int> AssetID { get; set; }
+            private List<int> AssetID { get; set; }
 
             [IgnoreDataMember]
             public List<AssetType> AssetType
