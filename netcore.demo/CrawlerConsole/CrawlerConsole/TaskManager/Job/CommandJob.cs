@@ -27,6 +27,7 @@ namespace CrawlerConsole.TaskManager.Job
             if (string.IsNullOrWhiteSpace(tokenString))
             {
                 TokenHelper helper = ServiceDiExtension.GetService<TokenHelper>();
+                //
                 tokenString = helper.GetToken(Config.uniboneTokenUrl, "application/json", Config.jsonPars);
                 if (string.IsNullOrWhiteSpace(tokenString))
                     throw new Exception("获取token失败");

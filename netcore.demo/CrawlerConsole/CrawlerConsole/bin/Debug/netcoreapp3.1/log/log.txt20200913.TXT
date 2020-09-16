@@ -1,0 +1,600 @@
+2020-09-13 00:01:22,243 [1] INFO  InfoLogger - test logger
+2020-09-13 00:01:40,187 [1] INFO  InfoLogger - test logger
+2020-09-13 00:01:57,394 [1] INFO  InfoLogger - test logger
+2020-09-13 00:02:45,371 [1] INFO  InfoLogger - test logger
+2020-09-13 00:09:16,155 [1] INFO  InfoLogger - test logger
+2020-09-13 00:17:17,288 [1] INFO  InfoLogger - test logger
+2020-09-13 00:19:40,064 [1] INFO  InfoLogger - test logger
+2020-09-13 00:32:15,911 [1] INFO  InfoLogger - test logger
+2020-09-13 00:36:15,114 [1] INFO  InfoLogger - test logger
+2020-09-13 00:37:07,481 [1] INFO  InfoLogger - test logger
+2020-09-13 00:38:48,929 [1] INFO  InfoLogger - test logger
+2020-09-13 00:40:14,612 [1] INFO  InfoLogger - test logger
+2020-09-13 00:41:12,458 [1] INFO  InfoLogger - test logger
+2020-09-13 00:41:42,970 [1] INFO  InfoLogger - test logger
+2020-09-13 01:00:24,161 [1] INFO  InfoLogger - start logger
+2020-09-13 01:01:05,569 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'queue分组.obtainQueue'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.TaskManager.Job.ObtainQueueJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,946 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'queue分组.obtainQueue'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.TaskManager.Job.ObtainQueueJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,949 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'queue分组.obtainQueue'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.TaskManager.Job.ObtainQueueJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,951 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'queue分组.obtainQueue'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.TaskManager.Job.ObtainQueueJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,967 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.post'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.Job.KolPostJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,969 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.post'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.Job.KolPostJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,971 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.post'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.Job.KolPostJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,973 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.post'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.Job.KolPostJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,978 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.profile'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.TaskManager.Job.KolProfileJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,980 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.profile'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.TaskManager.Job.KolProfileJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,981 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.profile'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.TaskManager.Job.KolProfileJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,983 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.profile'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.TaskManager.Job.KolProfileJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,988 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.shortcode'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.Job.KolShortCodeJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,990 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.shortcode'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.Job.KolShortCodeJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,992 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.shortcode'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.Job.KolShortCodeJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:05,993 [4] ERROR InfoLogger - An error occurred instantiating job to be executed. job= 'kol分组.shortcode'
+Quartz.SchedulerException: Problem instantiating class 'CrawlerConsole.Job.KolShortCodeJob: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.'
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   --- End of inner exception stack trace ---
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.InstantiateJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Simpl.PropertySettingJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)
+   at Quartz.Core.JobRunShell.Initialize(QuartzScheduler sched, CancellationToken cancellationToken) [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.TaskManager.Job.CommandJob' threw an exception.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Crawler.Utility.HttpHelper.WebUtils.DoPost(String url, IDictionary`2 parameters, String contentType, String jsonStr, Boolean gZip, IDictionary`2 headers) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\HttpHelper\WebUtils.cs:line 77
+   at CrawlerConsole.token.TokenHelper.GetToken(String url, String contentType, String jsonPars) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\token\TokenHelper.cs:line 25
+   at CrawlerConsole.TaskManager.Job.CommandJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 30
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at Quartz.Util.ObjectUtils.InstantiateType[T](Type type)
+   at Quartz.Simpl.SimpleJobFactory.NewJob(TriggerFiredBundle bundle, IScheduler scheduler)]
+2020-09-13 01:01:49,078 [1] INFO  InfoLogger - start logger
+2020-09-13 01:01:55,170 [8] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/13 1:01:55
+2020-09-13 01:01:59,855 [5] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/13 1:01:59
+2020-09-13 01:02:00,247 [16] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/9/13 1:02:00
+2020-09-13 01:02:00,256 [8] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/9/13 1:02:00
+2020-09-13 01:02:00,264 [20] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/9/13 1:02:00
+2020-09-13 01:17:37,861 [1] INFO  InfoLogger - start logger
+2020-09-13 01:17:44,101 [7] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/13 1:17:44
+2020-09-13 01:17:50,480 [8] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/13 1:17:50
+2020-09-13 01:18:00,305 [15] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/9/13 1:18:00
+2020-09-13 01:18:12,016 [45] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 41 ，内容: 5f5a062ac83d8c7b80a65a7f
+2020-09-13 01:18:12,817 [18] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 51 ，内容: 5f5a062bc83d8c7b80a65a89
+2020-09-13 01:18:13,452 [40] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 59 ，内容: 5f5a062bc83d8c7b80a65a91
+2020-09-13 01:18:15,932 [33] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 64 ，内容: 5f5a062cc83d8c7b80a65a96
+2020-09-13 01:18:16,625 [16] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 73 ，内容: 5f5a062dc83d8c7b80a65a9f
+2020-09-13 01:18:20,261 [31] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 103 ，内容: 5f5a062fc83d8c7b80a65abd
+2020-09-13 01:18:22,226 [15] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 68
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 46
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 52
+   at CrawlerConsole.Job.KolShortCodeJob.Request(IList`1 listTasks) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 42
+   at CrawlerConsole.Job.KolShortCodeJob.<>c__DisplayClass0_0.<Execute>b__0() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at CrawlerConsole.TaskManager.Job.CommandJob.ExecuteAction(Action action) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 57
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 68
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 46
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 52
+   at CrawlerConsole.Job.KolShortCodeJob.Request(IList`1 listTasks) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 42
+   at CrawlerConsole.Job.KolShortCodeJob.<>c__DisplayClass0_0.<Execute>b__0() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at CrawlerConsole.TaskManager.Job.CommandJob.ExecuteAction(Action action) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 57
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-13 01:18:22,656 [15] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 68
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 46
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 52
+   at CrawlerConsole.Job.KolShortCodeJob.Request(IList`1 listTasks) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 42
+   at CrawlerConsole.Job.KolShortCodeJob.<>c__DisplayClass0_0.<Execute>b__0() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at CrawlerConsole.TaskManager.Job.CommandJob.ExecuteAction(Action action) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 57
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 68
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 46
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 52
+   at CrawlerConsole.Job.KolShortCodeJob.Request(IList`1 listTasks) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 42
+   at CrawlerConsole.Job.KolShortCodeJob.<>c__DisplayClass0_0.<Execute>b__0() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at CrawlerConsole.TaskManager.Job.CommandJob.ExecuteAction(Action action) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 57
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-13 01:18:22,659 [15] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 68
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 46
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 52
+   at CrawlerConsole.Job.KolShortCodeJob.Request(IList`1 listTasks) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 42
+   at CrawlerConsole.Job.KolShortCodeJob.<>c__DisplayClass0_0.<Execute>b__0() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at CrawlerConsole.TaskManager.Job.CommandJob.ExecuteAction(Action action) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 57
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 68
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 46
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 52
+   at CrawlerConsole.Job.KolShortCodeJob.Request(IList`1 listTasks) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 42
+   at CrawlerConsole.Job.KolShortCodeJob.<>c__DisplayClass0_0.<Execute>b__0() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at CrawlerConsole.TaskManager.Job.CommandJob.ExecuteAction(Action action) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 57
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-13 01:18:22,662 [15] ERROR InfoLogger - Job kol分组.shortcode threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception.
+ ---> System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 68
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 46
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 52
+   at CrawlerConsole.Job.KolShortCodeJob.Request(IList`1 listTasks) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 42
+   at CrawlerConsole.Job.KolShortCodeJob.<>c__DisplayClass0_0.<Execute>b__0() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at CrawlerConsole.TaskManager.Job.CommandJob.ExecuteAction(Action action) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 57
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)
+   --- End of inner exception stack trace --- [See nested exception: System.TypeInitializationException: The type initializer for 'CrawlerConsole.Job.KolShortCodeJob' threw an exception.
+ ---> OpenQA.Selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=85.0.4183.102)
+   at Crawler.Selenium.Helper.SeleniumHelper.Login(CookieInfoOptions jsonCookie, String url) in C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Selenium\Helper\SeleniumHelper.cs:line 68
+   at CrawlerConsole.Job.KolShortCodeJob..cctor() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 46
+   --- End of inner exception stack trace ---
+   at CrawlerConsole.Job.KolShortCodeJob.ShortCode(JData jData, String cls) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 52
+   at CrawlerConsole.Job.KolShortCodeJob.Request(IList`1 listTasks) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 42
+   at CrawlerConsole.Job.KolShortCodeJob.<>c__DisplayClass0_0.<Execute>b__0() in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 33
+   at CrawlerConsole.TaskManager.Job.CommandJob.ExecuteAction(Action action) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\CommandJob.cs:line 57
+   at CrawlerConsole.Job.KolShortCodeJob.Execute(IJobExecutionContext context) in C:\Users\lzx\source\repos\CrawlerConsole\CrawlerConsole\TaskManager\Job\KolShortCodeJob.cs:line 32
+   at Quartz.Core.JobRunShell.Run(CancellationToken cancellationToken)]
+2020-09-13 01:18:23,812 [7] ERROR InfoLogger - 报错: The remote server returned an error: (404) Not Found. 错误数据: 索引: 149 ，内容: 5f5a0633c83d8c7b80a65aeb

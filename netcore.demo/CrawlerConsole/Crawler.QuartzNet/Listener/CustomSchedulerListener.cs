@@ -12,8 +12,7 @@ namespace Crawler.QuartzNet.Listener
     {
         public async Task JobAdded(IJobDetail jobDetail, CancellationToken cancellationToken = default)
         {
-            await Task.Run(() =>
-            {
+            await Task.Run(()=> {
                 Console.WriteLine();
                 Console.WriteLine($"This is {nameof(CustomSchedulerListener)} JobAdded {jobDetail.Description}");
             });
@@ -21,8 +20,7 @@ namespace Crawler.QuartzNet.Listener
 
         public async Task JobDeleted(JobKey jobKey, CancellationToken cancellationToken = default)
         {
-            await Task.Run(() =>
-            {
+            await Task.Run(() => {
                 Console.WriteLine();
                 Console.WriteLine($"This is {nameof(CustomSchedulerListener)} JobDeleted {jobKey.Name}");
             });
@@ -30,8 +28,7 @@ namespace Crawler.QuartzNet.Listener
 
         public async Task JobInterrupted(JobKey jobKey, CancellationToken cancellationToken = default)
         {
-            await Task.Run(() =>
-            {
+            await Task.Run(() => {
                 Console.WriteLine();
                 Console.WriteLine($"This is {nameof(CustomSchedulerListener)} JobInterrupted {jobKey.Name}");
             });
@@ -39,8 +36,7 @@ namespace Crawler.QuartzNet.Listener
 
         public async Task JobPaused(JobKey jobKey, CancellationToken cancellationToken = default)
         {
-            await Task.Run(() =>
-            {
+            await Task.Run(() => {
                 Console.WriteLine();
                 Console.WriteLine($"This is {nameof(CustomSchedulerListener)} JobPaused {jobKey.Name}");
             });
@@ -48,8 +44,7 @@ namespace Crawler.QuartzNet.Listener
 
         public async Task JobResumed(JobKey jobKey, CancellationToken cancellationToken = default)
         {
-            await Task.Run(() =>
-            {
+            await Task.Run(() => {
                 Console.WriteLine();
                 Console.WriteLine($"This is {nameof(CustomSchedulerListener)} JobResumed {jobKey.Name}");
             });
@@ -57,8 +52,7 @@ namespace Crawler.QuartzNet.Listener
 
         public async Task JobScheduled(ITrigger trigger, CancellationToken cancellationToken = default)
         {
-            await Task.Run(() =>
-            {
+            await Task.Run(() => {
                 Console.WriteLine();
                 Console.WriteLine($"This is {nameof(CustomSchedulerListener)} JobScheduled {trigger.CalendarName}");
             });
@@ -99,7 +93,7 @@ namespace Crawler.QuartzNet.Listener
         }
 
         public Task SchedulerInStandbyMode(CancellationToken cancellationToken = default)
-        {
+        {    
             return Task.FromResult(1);
         }
 
@@ -115,16 +109,16 @@ namespace Crawler.QuartzNet.Listener
 
         public async Task SchedulerStarted(CancellationToken cancellationToken = default)
         {
-            await Task.Run(() =>
-            {
+            await Task.Run(() => {
+
                 Console.WriteLine($"This is {nameof(CustomSchedulerListener)} SchedulerStarted ");
             });
         }
 
         public async Task SchedulerStarting(CancellationToken cancellationToken = default)
         {
-            await Task.Run(() =>
-            {
+            await Task.Run(() => {
+
                 Console.WriteLine($"This is {nameof(CustomSchedulerListener)} SchedulerStarting ");
             });
         }

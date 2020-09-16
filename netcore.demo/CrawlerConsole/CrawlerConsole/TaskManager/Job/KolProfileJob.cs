@@ -34,15 +34,14 @@ namespace CrawlerConsole.TaskManager.Job
             for (int i = 0; i < listTasks.Count; i++)
             {
                 int index = i;
-                Console.WriteLine($"第 {index + 1} 轮任务开始...{DateTime.Now}");
+                Console.WriteLine($"{nameof(KolProfileJob)}第 {index + 1} 轮任务开始...{DateTime.Now}");
                 var reqUrl = listTasks[index].targetUrl;
-
                 try
                 {
                     //获取post列表
                     var result = webUtils.DoGet(url: reqUrl, parameters: null, contentType: "application/json", cookieStr: Config.Cookie);
     
-                //准备写入数据库
+                    //准备写入数据库
                     Dictionary<string, string> dicPars = new Dictionary<string, string>
                                     {
                                     //{"Shortcode",shortcode },
@@ -54,15 +53,12 @@ namespace CrawlerConsole.TaskManager.Job
                                  };
                     //报错shortcode是null ,检查队列url  http://localhost:8088  Config.unUrl
                     var postResult = webUtils.DoPost(Config.unUrl + listTasks[index].postBackUrl, null, "application/json", JsonConvert.SerializeObject(dicPars), false, headers);
-                    Console.WriteLine($"第 {index + 1} 轮任务返回结果...{postResult}");
-                    index++;
+                    Console.WriteLine($"{nameof(KolProfileJob)}第 {index + 1} 轮任务返回结果...{postResult}");
                 }
                 catch (Exception ex)
                 {
-                    var message = $"报错: {ex.Message} 错误数据: 索引: {index}";
-                    LoggerHelper.Error(message);
-                    ConsoleHelper.WriteLine(nameof(KolProfileJob), message, string.Empty, ConsoleColor.Red);
-
+                    var message = $"{nameof(KolProfileJob)}报错: {ex.Message} 错误数据: 索引: {index}";
+                    CommonHelper.ConsoleAndLogger(message, CommonHelper.LoggerType.Error);
                 }
             }
            

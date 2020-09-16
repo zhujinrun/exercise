@@ -33,9 +33,9 @@ namespace CrawlerConsole {
 
                  await TaskSchedulers.Invoke<ObtainQueueJob>("", "obtainQueue", "queue分组", "获取队列指令");
                  await Task.Delay(5000);
-                 await TaskSchedulers.Invoke<KolProfileJob>("0 0/1 * * * ? *", "profile", "kol分组", "获取Profile");
+                 //await TaskSchedulers.Invoke<KolProfileJob>("0 0/1 * * * ? *", "profile", "kol分组", "获取Profile");
                  await TaskSchedulers.Invoke<KolPostJob>("0 0/1 * * * ? *", "post", "kol分组", "获取Post");
-                 await TaskSchedulers.Invoke<KolShortCodeJob>("0 0/1 * * * ? *", "shortcode", "kol分组", "获取shortcode");
+                 //await TaskSchedulers.Invoke<KolShortCodeJob>("0 0/1 * * * ? *", "shortcode", "kol分组", "获取shortcode");
 
                 //await TaskSchedulers.Invoke<TestMethod>("0/30 * * * * ? *", "queue分组", "获取队列指令"); //执行一次
                 //await TaskSchedulers.Invoke<TestJob3>("0 0/1 * * * ? *", "queue分组2", "获取队列指令2"); //执行一次

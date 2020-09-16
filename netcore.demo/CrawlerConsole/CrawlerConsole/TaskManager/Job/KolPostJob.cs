@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace CrawlerConsole.Job
@@ -37,7 +38,7 @@ namespace CrawlerConsole.Job
             {
                 int index = i;
                 string shortcode = JObject.Parse(listTasks[index].parameters?.ToString()).GetValue("ShortCode")?.ToString();
-                if (taskLists.Count(x => x.Status != TaskStatus.RanToCompletion) >= 20)
+                if (taskLists.Count(x => x.Status != TaskStatus.RanToCompletion) >= 10)
                 {
                     Task.WaitAny(taskLists.ToArray());
                     taskLists = taskLists.Where(x => x.Status != TaskStatus.RanToCompletion).ToList();
@@ -46,11 +47,11 @@ namespace CrawlerConsole.Job
                 {
                     taskLists.Add(Task.Run(() =>
                     {
-                        Console.WriteLine($"第 {index + 1} 轮任务开始...{DateTime.Now}");
+                        Console.WriteLine($"{nameof(KolPostJob)}第 {index + 1} 轮任务开始...{DateTime.Now}");
                         var reqUrl = listTasks[index].targetUrl;
-
                         try
                         {
+                            Thread.Sleep(3000);
                             //获取post列表
                             var result = webUtils.DoGet(url: reqUrl, parameters: null, contentType: "application/json", cookieStr: Config.Cookie);
 
@@ -64,15 +65,15 @@ namespace CrawlerConsole.Job
                                  {
                                      {"Authorization","Bearer "+TokenString }
                                  };
-                            var postResult = webUtils.DoPost(Config.updateInstagramPostUrl, null, "application/json", JsonConvert.SerializeObject(dicPars), false, headers);
+                            //Config.updateInstagramPostUrl
+                            Thread.Sleep(3000);
+                            var postResult = webUtils.DoPost("http://localhost:8088/Tarpa/InstagramPosts/UpdateInstagramPost", null, "application/json", JsonConvert.SerializeObject(dicPars), false, headers);
                             Console.WriteLine($"{nameof(KolPostJob)}->第 {index + 1} 轮任务返回结果...{postResult}");
                         }
                         catch (Exception ex)
                         {
-
-                            var message = $"报错: {ex.Message} 错误数据: 索引: {index} ，内容: {listTasks[index].id}";
-                            LoggerHelper.Error(message);
-                            ConsoleHelper.WriteLine(nameof(KolPostJob), message, string.Empty, ConsoleColor.Red);
+                            var message = $"{nameof(KolPostJob)}报错: {ex.Message} 错误数据: 索引: {index} ，内容: {listTasks[index].id}";
+                            CommonHelper.ConsoleAndLogger(message, CommonHelper.LoggerType.Error);
                         }
 
                     }));

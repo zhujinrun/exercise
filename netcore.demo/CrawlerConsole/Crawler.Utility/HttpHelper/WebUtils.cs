@@ -13,7 +13,7 @@ namespace Crawler.Utility.HttpHelper
 
     public class WebUtils
     {
-        private int _timeout = 100000;
+        private int _timeout = 10000;
 
         /// <summary>
         /// 请求与响应的超时时间

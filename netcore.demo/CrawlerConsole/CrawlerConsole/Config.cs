@@ -15,11 +15,14 @@ namespace CrawlerConsole
 
 
         public static readonly string createInstagramPostUrl = @"https://unibone.dev.heywind.cn/Tarpa/InstagramPosts/CreateInstagramPost";
+
+        //public static readonly string updateInstagramPostUrl = @"http://localhost:8088/Tarpa/InstagramPosts/UpdateInstagramPost";
         public static readonly string updateInstagramPostUrl = @"https://unibone.dev.heywind.cn/Tarpa/InstagramPosts/UpdateInstagramPost";
         public static readonly string updateInstagramUserUrl = @"https://unibone.dev.heywind.cn/Tarpa/Kols/UpdateInstagramUser";
 
 
         public static readonly string uniboneTokenUrl =  @"https://unibone.dev.heywind.cn/token";
+        //public static readonly string uniboneTokenUrl = @"http://localhost:8088/token";
         public static readonly string commandQueueUrl = @"https://unibone.dev.heywind.cn/Tarpa/CommandQueues/GetCommandQueue";
         public static readonly string commandQueueListUrl = @"https://unibone.dev.heywind.cn/Tarpa/CommandQueues/GetCommandQueueList";
         private static CookieInfoOptions _cookieInfoOptions;

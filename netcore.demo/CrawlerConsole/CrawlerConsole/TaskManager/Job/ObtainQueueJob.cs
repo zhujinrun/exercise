@@ -25,27 +25,35 @@ namespace CrawlerConsole.TaskManager.Job
         private  async Task ExecuteAction()
         {
             await Task.Delay(100);
-            
-            WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
-            IDictionary<string, string> headers = new Dictionary<string, string>
+
+            try
+            {
+                WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
+                IDictionary<string, string> headers = new Dictionary<string, string>
                 {
                    {"Authorization","Bearer "+TokenString }
                 };
-            IDictionary<string, object> parmeters = new Dictionary<string, object>
+                IDictionary<string, object> parmeters = new Dictionary<string, object>
                 {
                    {"Level",10},
                    { "Action",null}
                 };
 
-            //获取队列列表
-            CommonHelper.ConsoleAndLogger($"{nameof(ObtainQueueJob)}=>获取队列列表开始... {DateTime.Now}", CommonHelper.LoggerType.Info);
-            string commandQueueString2 = webUtils.DoPost(Config.commandQueueListUrl, null, "application/json", "{}", false, headers);
+                //获取队列列表
+                CommonHelper.ConsoleAndLogger($"{nameof(ObtainQueueJob)}=>获取队列列表开始... {DateTime.Now}", CommonHelper.LoggerType.Info);
+                string commandQueueString2 = webUtils.DoPost(Config.commandQueueListUrl, null, "application/json", "{}", false, headers);
 
-            //处理列表
-            StorageQueue(commandQueueString2, 2);
-            //存放队列       
-            await Task.Delay(100);
-            CommonHelper.ConsoleAndLogger($"{nameof(ObtainQueueJob)}=>获取列表完成... {DateTime.Now}", CommonHelper.LoggerType.Info);
+                //处理列表
+                StorageQueue(commandQueueString2, 2);
+                //存放队列       
+                await Task.Delay(100);
+                CommonHelper.ConsoleAndLogger($"{nameof(ObtainQueueJob)}=>获取列表完成... {DateTime.Now}", CommonHelper.LoggerType.Info);
+
+            }
+            catch
+            {
+
+            }
         }
         /// <summary>
         /// 获取列表或者单条数据

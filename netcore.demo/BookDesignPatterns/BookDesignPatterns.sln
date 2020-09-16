@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCDesign", "MVCDesign\MVCD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandDesign", "CommandDesign\CommandDesign.csproj", "{C1959007-AE6C-4294-9015-42C62654F47F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateDesign", "StateDesign\StateDesign.csproj", "{1ADE2026-F44F-479C-BA2B-56F851225B10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateDesign", "StateDesign\StateDesign.csproj", "{1ADE2026-F44F-479C-BA2B-56F851225B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineDesign", "PipelineDesign\PipelineDesign.csproj", "{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{1ADE2026-F44F-479C-BA2B-56F851225B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ADE2026-F44F-479C-BA2B-56F851225B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ADE2026-F44F-479C-BA2B-56F851225B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
