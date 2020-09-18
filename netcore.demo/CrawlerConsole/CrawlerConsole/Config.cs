@@ -25,6 +25,7 @@ namespace CrawlerConsole
         //public static readonly string uniboneTokenUrl = @"http://localhost:8088/token";
         public static readonly string commandQueueUrl = @"https://unibone.dev.heywind.cn/Tarpa/CommandQueues/GetCommandQueue";
         public static readonly string commandQueueListUrl = @"https://unibone.dev.heywind.cn/Tarpa/CommandQueues/GetCommandQueueList";
+        //public static readonly string commandQueueListUrl = @"http://localhost:8088/Tarpa/CommandQueues/GetCommandQueueList";
         private static CookieInfoOptions _cookieInfoOptions;
 
         public static readonly string Cookie= ApplicationConfig.Configuration["Cookie"];

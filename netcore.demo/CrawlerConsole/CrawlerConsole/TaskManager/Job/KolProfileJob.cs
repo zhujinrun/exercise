@@ -18,18 +18,18 @@ namespace CrawlerConsole.TaskManager.Job
     {
         public async override Task Execute(IJobExecutionContext context)
         {
-            await Task.Delay(100);
+           await Task.Delay(100);
             WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
             IList<JData> listTasks = base.GetCommList("insprofile");
             List<Task> taskLists = new List<Task>();
-            await ExecuteAction(async () => {
-                await Request(listTasks, webUtils);
+             ExecuteAction( () => {
+                 Request(listTasks, webUtils);
             });
         }
 
-        public async Task Request(IList<JData> listTasks, WebUtils webUtils)
+        public void Request(IList<JData> listTasks, WebUtils webUtils)
         {
-            await Task.Delay(100);
+            
             List<Task> taskLists = new List<Task>();
             for (int i = 0; i < listTasks.Count; i++)
             {

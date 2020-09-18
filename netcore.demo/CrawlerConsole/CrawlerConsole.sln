@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crawler.Utility", "Crawler.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crawler.Models", "Crawler.Models\Crawler.Models.csproj", "{B071C073-CEBD-4227-AAE8-D1C2AC7E4253}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler.Logger", "Crawler.Logger\Crawler.Logger.csproj", "{F62E80B2-2D5F-46B5-B153-6126BDF07F2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crawler.Logger", "Crawler.Logger\Crawler.Logger.csproj", "{F62E80B2-2D5F-46B5-B153-6126BDF07F2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -15,7 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandDesign", "CommandDes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateDesign", "StateDesign\StateDesign.csproj", "{1ADE2026-F44F-479C-BA2B-56F851225B10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipelineDesign", "PipelineDesign\PipelineDesign.csproj", "{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipelineDesign", "PipelineDesign\PipelineDesign.csproj", "{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publish-SubscriberDesign", "Publish-SubscriberDesign\Publish-SubscriberDesign.csproj", "{BB37D657-6F5D-44E0-8F57-3C4F467D370F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesign", "ObserverDesign\ObserverDesign.csproj", "{6809418B-6BEE-4090-A70E-B8F0A9F38A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDesign", "TemplateDesign\TemplateDesign.csproj", "{7B081524-B047-48AA-B3D1-8107C0CE1E34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B9BEBF1-7CAE-4A56-BCAF-B08843A15B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB37D657-6F5D-44E0-8F57-3C4F467D370F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB37D657-6F5D-44E0-8F57-3C4F467D370F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB37D657-6F5D-44E0-8F57-3C4F467D370F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB37D657-6F5D-44E0-8F57-3C4F467D370F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6809418B-6BEE-4090-A70E-B8F0A9F38A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6809418B-6BEE-4090-A70E-B8F0A9F38A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6809418B-6BEE-4090-A70E-B8F0A9F38A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6809418B-6BEE-4090-A70E-B8F0A9F38A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B081524-B047-48AA-B3D1-8107C0CE1E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B081524-B047-48AA-B3D1-8107C0CE1E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B081524-B047-48AA-B3D1-8107C0CE1E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B081524-B047-48AA-B3D1-8107C0CE1E34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

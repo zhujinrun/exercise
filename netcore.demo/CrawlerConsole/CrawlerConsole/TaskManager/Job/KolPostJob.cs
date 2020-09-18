@@ -5,40 +5,42 @@ using Crawler.Utility.HttpHelper;
 using CrawlerConsole.DiService;
 using CrawlerConsole.TaskManager.Job;
 using CrawlerConsole.token;
+using Microsoft.Extensions.Primitives;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Quartz;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
 namespace CrawlerConsole.Job
 {
+
     public class KolPostJob : CommandJob
     {
-        public override async Task Execute(IJobExecutionContext context)
+        private static readonly object objLock = new object();
+        public async override Task Execute(IJobExecutionContext context)
         {
             await Task.Delay(100);
             WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
             IList<JData> listTasks = base.GetCommList("inspost");
-            List<Task> taskLists = new List<Task>();
-            await ExecuteAction(async () => {
-                await Request(listTasks, webUtils);
-            });
+            ExecuteAction(() =>
+           {
+               Request(listTasks, webUtils);
+           });
         }
-
-        private async Task Request(IList<JData> listTasks, WebUtils webUtils)
+        private void Request(IList<JData> listTasks, WebUtils webUtils)
         {
-            await Task.Delay(100);
             List<Task> taskLists = new List<Task>();
-            for (int i = 0; i < listTasks.Count; i++)
+            int index = 0;
+            foreach (var jData in listTasks)
             {
-                int index = i;
-                string shortcode = JObject.Parse(listTasks[index].parameters?.ToString()).GetValue("ShortCode")?.ToString();
-                if (taskLists.Count(x => x.Status != TaskStatus.RanToCompletion) >= 10)
+                
+                if (taskLists.Where(x => x.Status != TaskStatus.RanToCompletion).Count() >= 10)
                 {
                     Task.WaitAny(taskLists.ToArray());
                     taskLists = taskLists.Where(x => x.Status != TaskStatus.RanToCompletion).ToList();
@@ -47,14 +49,29 @@ namespace CrawlerConsole.Job
                 {
                     taskLists.Add(Task.Run(() =>
                     {
-                        Console.WriteLine($"{nameof(KolPostJob)}第 {index + 1} 轮任务开始...{DateTime.Now}");
-                        var reqUrl = listTasks[index].targetUrl;
+
+                        JData data = jData;
+                        string shortcode = JObject.Parse(data.parameters?.ToString()).GetValue("ShortCode")?.ToString();
+
+                        Console.WriteLine($"{nameof(KolPostJob)} {data.id} 任务开始...{DateTime.Now}");
+                        var reqUrl = data.targetUrl;
+                        var result = string.Empty;
+                        Thread.Sleep(8000);
+                        //获取post列表
                         try
                         {
-                            Thread.Sleep(3000);
-                            //获取post列表
-                            var result = webUtils.DoGet(url: reqUrl, parameters: null, contentType: "application/json", cookieStr: Config.Cookie);
-
+                            lock (objLock)
+                            {
+                                result = webUtils.DoGet(url: reqUrl, parameters: null, contentType: "application/json", cookieStr: Config.Cookie);
+                            }     
+                        }
+                        catch (Exception ex)
+                        {
+                            var message = $"{nameof(KolPostJob)}获取shortcode报错: {ex.Message} 错误数据: 内容: {data.id}";
+                            CommonHelper.ConsoleAndLogger(message, CommonHelper.LoggerType.Error);
+                        }
+                        if (!string.IsNullOrEmpty(result))
+                        {
                             //准备写入数据库
                             Dictionary<string, string> dicPars = new Dictionary<string, string>
                                 {
@@ -65,20 +82,28 @@ namespace CrawlerConsole.Job
                                  {
                                      {"Authorization","Bearer "+TokenString }
                                  };
-                            //Config.updateInstagramPostUrl
-                            Thread.Sleep(3000);
-                            var postResult = webUtils.DoPost("http://localhost:8088/Tarpa/InstagramPosts/UpdateInstagramPost", null, "application/json", JsonConvert.SerializeObject(dicPars), false, headers);
-                            Console.WriteLine($"{nameof(KolPostJob)}->第 {index + 1} 轮任务返回结果...{postResult}");
-                        }
-                        catch (Exception ex)
-                        {
-                            var message = $"{nameof(KolPostJob)}报错: {ex.Message} 错误数据: 索引: {index} ，内容: {listTasks[index].id}";
-                            CommonHelper.ConsoleAndLogger(message, CommonHelper.LoggerType.Error);
-                        }
 
+                            Thread.Sleep(3000);
+                            try
+                            {
+                                var postResult = string.Empty;
+                                lock (objLock)
+                                {
+                                    postResult = webUtils.DoPost(Config.updateInstagramPostUrl, null, "application/json", JsonConvert.SerializeObject(dicPars), false, headers);
+                                }
+                                Console.WriteLine($"{nameof(KolPostJob)}-> {data.id} 任务返回结果...{postResult}");
+                            }
+                            catch (Exception ex)
+                            {
+                                var message = $"{nameof(KolPostJob)}写入数据库报错: {ex.Message} 错误数据: 内容: {data.id}";
+                                CommonHelper.ConsoleAndLogger(message, CommonHelper.LoggerType.Error);
+                            }
+                        }
                     }));
                 }
+                Console.WriteLine($"任务{index}完成");
+                index++;
             }
-        }
+        }    
     }
 }

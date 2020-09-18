@@ -19,13 +19,13 @@ namespace CrawlerConsole.TaskManager.Job
     {
         public async override Task Execute(IJobExecutionContext context)
         {
-            await ExecuteAction();
+            await Task.Delay(100);
+             ExecuteAction();
         }
 
-        private  async Task ExecuteAction()
+        private  void ExecuteAction()
         {
-            await Task.Delay(100);
-
+            Task.Delay(100);
             try
             {
                 WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
@@ -45,8 +45,8 @@ namespace CrawlerConsole.TaskManager.Job
 
                 //处理列表
                 StorageQueue(commandQueueString2, 2);
-                //存放队列       
-                await Task.Delay(100);
+                //存放队列
+                Task.Delay(100);
                 CommonHelper.ConsoleAndLogger($"{nameof(ObtainQueueJob)}=>获取列表完成... {DateTime.Now}", CommonHelper.LoggerType.Info);
 
             }

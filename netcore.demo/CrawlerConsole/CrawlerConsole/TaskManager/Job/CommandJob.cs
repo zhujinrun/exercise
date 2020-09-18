@@ -27,7 +27,7 @@ namespace CrawlerConsole.TaskManager.Job
             if (string.IsNullOrWhiteSpace(tokenString))
             {
                 TokenHelper helper = ServiceDiExtension.GetService<TokenHelper>();
-                //
+                
                 tokenString = helper.GetToken(Config.uniboneTokenUrl, "application/json", Config.jsonPars);
                 if (string.IsNullOrWhiteSpace(tokenString))
                     throw new Exception("获取token失败");
@@ -53,9 +53,8 @@ namespace CrawlerConsole.TaskManager.Job
         /// <param name="action">动作</param>
         /// <param name="lcount">根据实际需要设置循环次数</param>
         /// <returns></returns>
-        public virtual async Task ExecuteAction(Action action)
+        public virtual void ExecuteAction(Action action)
         {
-            await Task.Delay(100);
             action();
         }
         public IList<JData> GetCommList(string actionType)

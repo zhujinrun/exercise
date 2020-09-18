@@ -9,20 +9,16 @@ namespace Crawler.Common
     {
         public static void Write(string title, string message, string subTitle, ConsoleColor consoleColor)
         {
-            var color = Console.ForegroundColor;
             Console.ForegroundColor = consoleColor;
             string dateNowTxt = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
             Console.Write(string.IsNullOrWhiteSpace(subTitle)?$"[{dateNowTxt}]{title}:{message}":$"[{dateNowTxt}]{title}[{subTitle}]:{message}");
-            Console.ForegroundColor = color;
         }
 
         public static void WriteLine(string title, string message, string subTitle, ConsoleColor consoleColor)
         {
-            var color = Console.ForegroundColor;
             Console.ForegroundColor = consoleColor;
             string dateNowTxt = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
             Console.WriteLine(string.IsNullOrWhiteSpace(subTitle) ? $"[{dateNowTxt}]{title}:{message}" : $"[{dateNowTxt}]{title}[{subTitle}]:{message}");
-            Console.ForegroundColor = color;
         }
 
         public static void ServerWrite(string message,string subTitle=null,ConsoleColor consoleColor = ConsoleColor.White)

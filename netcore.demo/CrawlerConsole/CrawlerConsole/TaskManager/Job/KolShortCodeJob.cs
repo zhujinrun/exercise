@@ -25,11 +25,11 @@ namespace CrawlerConsole.Job
     {
         public async override Task Execute(IJobExecutionContext context)
         {
-            await Task.Delay(100);
+           await Task.Delay(100);
             WebUtils webUtils = ServiceDiExtension.GetService<WebUtils>();
             IList<JData> listTasks = base.GetCommList("instagged");
             List<Task> taskLists = new List<Task>();
-            await ExecuteAction(() => {
+             ExecuteAction(() => {
                 Request(listTasks);
             });
         }

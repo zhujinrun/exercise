@@ -24,6 +24,6 @@ namespace CrawlerConsole.TaskManager.Job
         /// </summary>
         /// <param name="action"></param>
         /// <returns></returns>
-        Task ExecuteAction(Action action);
+        void ExecuteAction(Action action);
     }
 }

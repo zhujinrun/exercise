@@ -25,7 +25,6 @@ namespace Crawler.Common
 
         public static void ConsoleAndLogger(string message,LoggerType loggerType)
         {
-            var color =  Console.ForegroundColor;
             var current = ConsoleColor.White;
             switch (loggerType)
             {
@@ -35,14 +34,16 @@ namespace Crawler.Common
                     break;            
                 case LoggerType.Warn:
                     LoggerHelper.Warn(message);
+                    current = ConsoleColor.White;
                     break;
                 case LoggerType.Info:
                 default:
+                    current = ConsoleColor.White;
                     LoggerHelper.Info(message);
                     break;
             }
-            ConsoleHelper.WriteLine(LoggerType.Error.ToString(), message, "", current);
-            Console.ForegroundColor = color;
+            ConsoleHelper.WriteLine("", message, "", current);
+            Console.ForegroundColor = ConsoleColor.White;
         }
         public enum LoggerType
         {
