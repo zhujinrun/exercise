@@ -23,6 +23,15 @@ namespace Crawler.Common
             }
         }
 
+        /// <summary>
+        /// 同步服务器时间和当前时间
+        /// </summary>
+        /// <returns></returns>
+        public static string GetSTime(bool iSLocalEnvironment = false)
+        {
+            
+            return iSLocalEnvironment ? DateTime.Now.ToString(): DateTime.Now.AddHours(8).ToString();
+        }
         public static void ConsoleAndLogger(string message,LoggerType loggerType)
         {
             var current = ConsoleColor.White;

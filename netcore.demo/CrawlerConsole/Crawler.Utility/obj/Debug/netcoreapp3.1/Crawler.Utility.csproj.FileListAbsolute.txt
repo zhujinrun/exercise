@@ -10,9 +10,9 @@ C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\bin\Debug\netcoreapp3.1\Crawler.Utility.deps.json
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\bin\Debug\netcoreapp3.1\Crawler.Utility.dll
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\bin\Debug\netcoreapp3.1\Crawler.Utility.pdb
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1\Crawler.Utility.csprojAssemblyReference.cache
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1\Crawler.Utility.AssemblyInfoInputs.cache
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1\Crawler.Utility.AssemblyInfo.cs
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1\Crawler.Utility.csproj.CoreCompileInputs.cache
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1\Crawler.Utility.dll
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1\Crawler.Utility.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1\Crawler.Utility.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Debug\netcoreapp3.1\Crawler.Utility.csprojAssemblyReference.cache

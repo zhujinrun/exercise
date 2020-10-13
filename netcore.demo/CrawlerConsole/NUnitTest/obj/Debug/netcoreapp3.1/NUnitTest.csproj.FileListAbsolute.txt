@@ -320,3 +320,7 @@ D:\github-exercise\netcore.demo\CrawlerConsole\NUnitTest\obj\Debug\netcoreapp3.1
 D:\github-exercise\netcore.demo\CrawlerConsole\NUnitTest\obj\Debug\netcoreapp3.1\NUnitTest.dll
 D:\github-exercise\netcore.demo\CrawlerConsole\NUnitTest\obj\Debug\netcoreapp3.1\NUnitTest.pdb
 D:\github-exercise\netcore.demo\CrawlerConsole\NUnitTest\obj\Debug\netcoreapp3.1\NUnitTest.genruntimeconfig.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\RestSharp.Serializers.Newtonsoft.Json.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\NUnitTest\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll

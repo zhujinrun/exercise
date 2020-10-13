@@ -18,7 +18,7 @@ namespace Crawler.Service
             services = new ServiceCollection();
             foreach (var action in actions)
             {
-                action(services);
+                action?.Invoke(services);
             }
         }
 

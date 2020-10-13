@@ -22,13 +22,16 @@ namespace CrawlerConsole.token
         /// <returns></returns>
         public string GetToken(string url, string contentType, string jsonPars)
         {
-            var result = _webUtils.DoPost(url, new Dictionary<string, object>(), contentType, jsonPars, false, null);
-            var token = JObject.Parse(result).GetValue("data")["token"]?.ToString();
-            if (string.IsNullOrWhiteSpace(token))
+            try
             {
-                throw new Exception("获取token有误");
+                var result = _webUtils.DoPost(url, new Dictionary<string, object>(), contentType, jsonPars, false, null);
+                return JObject.Parse(result).GetValue("data")["token"]?.ToString();
             }
-            return token;
+            catch
+            {
+                throw;
+            }
+           
         }
     }
 }

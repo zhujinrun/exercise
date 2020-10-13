@@ -3,12 +3,12 @@ using Crawler.Service.Config;
 using System;
 using System.Collections.Generic;
 using System.Text;
-
 namespace CrawlerConsole
 {
     public static class Config
     {
-        public static readonly string igUrl = "https://www.instagram.com/";
+        public static bool iSLocalEnvironment = true;        //true代表 是本地环境 北京时间  false 8小时时差
+        public static readonly string igUrl = "https://www.instagram.com";
         public static readonly string unUrl = @"https://unibone.dev.heywind.cn";
         public static readonly string jsonPars = "{\"Password\":\"12345678\",\"Email\":\"164910441@qq.com\"}";
         public static readonly string contentType = "application/json";
@@ -18,6 +18,7 @@ namespace CrawlerConsole
 
         //public static readonly string updateInstagramPostUrl = @"http://localhost:8088/Tarpa/InstagramPosts/UpdateInstagramPost";
         public static readonly string updateInstagramPostUrl = @"https://unibone.dev.heywind.cn/Tarpa/InstagramPosts/UpdateInstagramPost";
+        public static readonly string updateInstagramPostUrl2 = @"Tarpa/InstagramPosts/UpdateInstagramPost";
         public static readonly string updateInstagramUserUrl = @"https://unibone.dev.heywind.cn/Tarpa/Kols/UpdateInstagramUser";
 
 
@@ -40,6 +41,18 @@ namespace CrawlerConsole
             fbm_124024574287414 = ApplicationConfig.Configuration["CookieInfoOptions:fbm_124024574287414"],
             sessionid = ApplicationConfig.Configuration["CookieInfoOptions:sessionid"]
 
+        });
+
+        private static RabbitMQOption _rabbitMQOptions;
+
+        public static RabbitMQOption RabbitMQOptions => _rabbitMQOptions ?? (_rabbitMQOptions = new RabbitMQOption
+        {
+            Exchange = ApplicationConfig.Configuration["RabbitMQ:Exchange"],
+            Host = ApplicationConfig.Configuration["RabbitMQ:Host"],
+            Port = int.Parse(ApplicationConfig.Configuration["RabbitMQ:Port"]),
+            UserName = ApplicationConfig.Configuration["RabbitMQ:UserName"],
+            PassWord = ApplicationConfig.Configuration["RabbitMQ:PassWord"],
+            RoutingKey = ApplicationConfig.Configuration["RabbitMQ:RoutingKey"]
         });
     }
 

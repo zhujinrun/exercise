@@ -7,3 +7,11 @@ C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Logger\bin\Debug\netcoreapp3.1\
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Logger\obj\Debug\netcoreapp3.1\Crawler.Logger.csproj.CoreCompileInputs.cache
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Logger\obj\Debug\netcoreapp3.1\Crawler.Logger.dll
 C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Logger\obj\Debug\netcoreapp3.1\Crawler.Logger.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Logger\bin\Debug\netcoreapp3.1\Crawler.Logger.deps.json
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Logger\bin\Debug\netcoreapp3.1\Crawler.Logger.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Logger\bin\Debug\netcoreapp3.1\Crawler.Logger.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Logger\obj\Debug\netcoreapp3.1\Crawler.Logger.AssemblyInfoInputs.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Logger\obj\Debug\netcoreapp3.1\Crawler.Logger.AssemblyInfo.cs
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Logger\obj\Debug\netcoreapp3.1\Crawler.Logger.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Logger\obj\Debug\netcoreapp3.1\Crawler.Logger.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Logger\obj\Debug\netcoreapp3.1\Crawler.Logger.pdb

@@ -34,7 +34,7 @@ namespace Crawler.Utility.HttpHelper
         {
             
             HttpWebRequest req = GetWebRequest(url, "POST");
-            //req.ContentType = "application/x-www-form-urlencoded;charset=utf-8";
+
             req.ContentType = contentType;
             if (headers!=null && headers.Count > 0)
             {
@@ -74,6 +74,10 @@ namespace Crawler.Utility.HttpHelper
             catch (WebException ex)
             {
                 WebResponse wr = ex.Response;
+                if (wr == null)
+                {
+                    throw;
+                }
                 System.IO.Stream st = wr.GetResponseStream();
                 StreamReader sr = new StreamReader(st, System.Text.Encoding.Default);
                 string sError = sr.ReadToEnd();

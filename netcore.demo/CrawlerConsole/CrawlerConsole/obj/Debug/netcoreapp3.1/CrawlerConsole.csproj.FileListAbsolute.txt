@@ -147,8 +147,12 @@ D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\bin\Debug\netcorea
 D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.csprojAssemblyReference.cache
 D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.AssemblyInfoInputs.cache
 D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.AssemblyInfo.cs
-D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.csproj.CoreCompileInputs.cache
 D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.csproj.CopyComplete
 D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.dll
 D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.pdb
 D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.genruntimeconfig.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\obj\Debug\netcoreapp3.1\CrawlerConsole.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\CrawlerConsole\bin\Debug\netcoreapp3.1\RestSharp.Serializers.Newtonsoft.Json.dll
