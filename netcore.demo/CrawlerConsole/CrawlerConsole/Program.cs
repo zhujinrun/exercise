@@ -52,9 +52,10 @@ namespace CrawlerConsole
 
             await TaskSchedulers.Invoke<ObtainQueueJob>("", "obtainQueue", "queue分组", "获取队列指令");
             await Task.Delay(1000);
-            //await TaskSchedulers.Invoke<KolProfileJob>("0 0/1 * * * ? *", "profile", "kol分组", "获取Profile");
-            //await TaskSchedulers.Invoke<KolPostJob>("0 0/1 * * * ? *", "post", "kol分组", "获取Post");
-            await TaskSchedulers.Invoke<KolShortCodeJob>("0 0/1 * * * ? *", "shortcode", "kol分组", "获取shortcode");
+
+              //await TaskSchedulers.Invoke<KolShortCodeJob>("0 0/1 * * * ? *", "shortcode", "kol分组", "获取shortcode");
+             await TaskSchedulers.Invoke<KolProfileJob>("0 0/1 * * * ? *", "profile", "kol分组", "获取Profile");
+             await TaskSchedulers.Invoke<KolPostJob>("0 0/1 * * * ? *", "post", "kol分组", "获取Post");
             if (!Config.iSLocalEnvironment)
             {
                 while (true)
@@ -68,7 +69,7 @@ namespace CrawlerConsole
             {
                 Console.ReadLine();
             }
-           
+
         }
         private static bool TryRegisterService()
         {

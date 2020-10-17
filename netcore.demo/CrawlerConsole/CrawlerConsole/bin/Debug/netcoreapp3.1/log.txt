@@ -1,42 +1,337 @@
-2020-09-26 09:59:37,018 [1] INFO  InfoLogger - start logger
-2020-09-26 10:00:07,849 [1] INFO  InfoLogger - start logger
-2020-09-26 10:00:34,411 [1] INFO  InfoLogger - start logger
-2020-09-26 10:01:11,812 [1] INFO  InfoLogger - start logger
-2020-09-26 10:02:01,611 [1] INFO  InfoLogger - start logger
-2020-09-26 10:02:57,812 [1] INFO  InfoLogger - start logger
-2020-09-26 10:03:01,329 [5] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDkvMjMvMjAyMSAwMjowMzowMCIsIm5iZiI6MTYwMTA4NTc4MCwiZXhwIjoxNjMyMzYyNTgwLCJpYXQiOjE2MDEwODU3ODAsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.3Pj8yJRN8p8ZrQ6wmenY7f3dVR6JT_IPGku0WWi_2uM
-2020-09-26 10:03:01,434 [9] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/26 18:03:01
-2020-09-26 10:03:03,723 [9] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/26 18:03:03
-2020-09-26 10:04:36,280 [1] INFO  InfoLogger - start logger
-2020-09-26 10:04:39,057 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDkvMjMvMjAyMSAwMjowNDozNyIsIm5iZiI6MTYwMTA4NTg3NywiZXhwIjoxNjMyMzYyNjc3LCJpYXQiOjE2MDEwODU4NzcsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.0yIodtewHgc1WyCyMggSDZalcBW5mdPcjRjW8oa4AQ8
-2020-09-26 10:05:25,223 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/26 18:05:25
-2020-09-26 10:06:20,230 [1] INFO  InfoLogger - start logger
-2020-09-26 10:06:23,177 [5] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDkvMjMvMjAyMSAwMjowNjoyMiIsIm5iZiI6MTYwMTA4NTk4MiwiZXhwIjoxNjMyMzYyNzgyLCJpYXQiOjE2MDEwODU5ODIsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.L1FddoEFuvmOEMm6GLb1u8BCGFNLjOt_HFdiF5lzATg
-2020-09-26 10:06:29,629 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/26 10:06:29
-2020-09-26 10:06:42,879 [10] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/26 10:06:42
-2020-09-26 10:09:04,278 [38] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/9/26 10:09:04
-2020-09-26 10:09:14,887 [27] INFO  InfoLogger - start insert to db
-2020-09-26 10:09:14,890 [33] INFO  InfoLogger - start get post from ing
-2020-09-26 10:12:55,764 [1] INFO  InfoLogger - start logger
-2020-09-26 10:12:58,538 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDkvMjMvMjAyMSAwMjoxMjo1NyIsIm5iZiI6MTYwMTA4NjM3NywiZXhwIjoxNjMyMzYzMTc3LCJpYXQiOjE2MDEwODYzNzcsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.9SVQirV9TcNtrA11M8hsMjpYWqiZD8veZUHjU31ZMcs
-2020-09-26 10:12:58,562 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/26 10:12:58
-2020-09-26 10:13:00,970 [10] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/26 10:13:00
-2020-09-26 10:13:19,766 [10] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/9/26 10:13:19
-2020-09-26 10:13:19,772 [8] INFO  InfoLogger - start insert to db
-2020-09-26 10:13:19,773 [12] INFO  InfoLogger - start get post from ing
-2020-09-26 11:08:51,235 [1] INFO  InfoLogger - start logger
-2020-09-26 11:08:54,093 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDkvMjMvMjAyMSAwMzowODo1MyIsIm5iZiI6MTYwMTA4OTczMywiZXhwIjoxNjMyMzY2NTMzLCJpYXQiOjE2MDEwODk3MzMsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.Na6YnHt68F3jE1Ez2UnCNGJFEL737oxpjcjmpnDBBDk
-2020-09-26 11:08:54,119 [5] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/26 11:08:54
-2020-09-26 11:08:56,465 [5] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/26 11:08:56
-2020-09-26 11:16:13,365 [1] INFO  InfoLogger - start logger
-2020-09-26 11:16:15,998 [5] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDkvMjMvMjAyMSAwMzoxNjoxNCIsIm5iZiI6MTYwMTA5MDE3NCwiZXhwIjoxNjMyMzY2OTc0LCJpYXQiOjE2MDEwOTAxNzQsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.wYrN-kUj3z8f-tw_YZSzRApYXDav3vqgdwOxj5Jfmkw
-2020-09-26 11:16:16,024 [4] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/26 11:16:16
-2020-09-26 11:16:19,106 [4] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/26 11:16:19
-2020-09-26 11:17:32,104 [1] INFO  InfoLogger - start logger
-2020-09-26 11:17:35,115 [5] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDkvMjMvMjAyMSAwMzoxNzozNCIsIm5iZiI6MTYwMTA5MDI1NCwiZXhwIjoxNjMyMzY3MDU0LCJpYXQiOjE2MDEwOTAyNTQsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.dhR-QMKZw9g_9EanY0-28b_Wmc-_63vrwR3u6RrLfEQ
-2020-09-26 11:17:35,171 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/26 11:17:35
-2020-09-26 11:17:37,698 [10] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/26 11:17:37
-2020-09-26 11:22:09,218 [1] INFO  InfoLogger - start logger
-2020-09-26 11:22:14,928 [5] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMDkvMjMvMjAyMSAwMzoyMjoxMyIsIm5iZiI6MTYwMTA5MDUzMywiZXhwIjoxNjMyMzY3MzMzLCJpYXQiOjE2MDEwOTA1MzMsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.CLgrU9ho8VBZwBhMp4H_seeUrE7TdDnSFaFLwBl391Q
-2020-09-26 11:22:14,952 [9] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/9/26 11:22:14
-2020-09-26 11:22:35,726 [9] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/9/26 11:22:35
+2020-10-16 09:23:58,009 [1] INFO  InfoLogger - start logger
+2020-10-16 09:24:15,169 [9] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:24:15
+2020-10-16 09:24:17,731 [9] ERROR InfoLogger - Object reference not set to an instance of an object.
+2020-10-16 09:24:45,598 [1] INFO  InfoLogger - start logger
+2020-10-16 09:24:48,148 [5] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMTAvMTMvMjAyMSAwMToyNDo0NSIsIm5iZiI6MTYwMjgxMTQ4NSwiZXhwIjoxNjM0MDg4Mjg1LCJpYXQiOjE2MDI4MTE0ODUsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.0yN-yNTFGUv6yDemT8r6JqRbRZBmQOrVvImnnC74WQk
+2020-10-16 09:24:48,195 [11] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:24:48
+2020-10-16 09:24:49,886 [11] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 9:24:49
+2020-10-16 09:25:00,035 [12] INFO  InfoLogger - KolPostJob=> 1 任务开始...2020/10/16 9:25:00
+2020-10-16 09:29:06,373 [1] INFO  InfoLogger - start logger
+2020-10-16 09:29:11,957 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMTAvMTMvMjAyMSAwMToyOTowOSIsIm5iZiI6MTYwMjgxMTc0OSwiZXhwIjoxNjM0MDg4NTQ5LCJpYXQiOjE2MDI4MTE3NDksImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.2CVDwCNqRlyJYM3DBHn9j9mPmAztatUAOfN60RgzKDI
+2020-10-16 09:29:11,984 [8] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:29:11
+2020-10-16 09:29:13,645 [8] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 9:29:13
+2020-10-16 09:30:00,040 [14] INFO  InfoLogger - KolPostJob=> 1 任务开始...2020/10/16 9:30:00
+2020-10-16 09:30:03,739 [14] INFO  InfoLogger - 第1post请求完成
+2020-10-16 09:30:04,285 [13] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b3 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:30:04,286 [13] INFO  InfoLogger - 任务1完成
+2020-10-16 09:30:04,288 [13] INFO  InfoLogger - KolPostJob=> 2 任务开始...2020/10/16 9:30:04
+2020-10-16 09:30:07,970 [12] INFO  InfoLogger - 第2post请求完成
+2020-10-16 09:30:08,373 [14] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b4 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:30:08,376 [14] INFO  InfoLogger - 任务2完成
+2020-10-16 09:30:08,376 [14] INFO  InfoLogger - KolPostJob=> 3 任务开始...2020/10/16 9:30:08
+2020-10-16 09:30:11,811 [13] INFO  InfoLogger - 第3post请求完成
+2020-10-16 09:30:12,120 [13] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b5 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:30:12,122 [13] INFO  InfoLogger - 任务3完成
+2020-10-16 09:30:12,123 [13] INFO  InfoLogger - KolPostJob=> 4 任务开始...2020/10/16 9:30:12
+2020-10-16 09:30:15,646 [12] INFO  InfoLogger - 第4post请求完成
+2020-10-16 09:30:16,032 [12] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b6 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:30:16,034 [12] INFO  InfoLogger - 任务4完成
+2020-10-16 09:30:16,035 [12] INFO  InfoLogger - KolPostJob=> 5 任务开始...2020/10/16 9:30:16
+2020-10-16 09:30:19,599 [13] INFO  InfoLogger - 第5post请求完成
+2020-10-16 09:30:19,997 [15] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b7 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:30:19,999 [15] INFO  InfoLogger - 任务5完成
+2020-10-16 09:30:20,000 [15] INFO  InfoLogger - KolPostJob=> 6 任务开始...2020/10/16 9:30:20
+2020-10-16 09:31:37,339 [1] INFO  InfoLogger - start logger
+2020-10-16 09:31:49,253 [9] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:31:49
+2020-10-16 09:31:50,526 [9] ERROR InfoLogger - 不知道这样的主机。 不知道这样的主机。
+2020-10-16 09:32:03,342 [1] INFO  InfoLogger - start logger
+2020-10-16 09:32:15,180 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:32:15
+2020-10-16 09:32:16,465 [10] ERROR InfoLogger - 不知道这样的主机。 不知道这样的主机。
+2020-10-16 09:33:21,852 [16] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 9:33:21
+2020-10-16 09:34:00,014 [26] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 9:34:00
+2020-10-16 09:34:34,184 [1] INFO  InfoLogger - start logger
+2020-10-16 09:34:39,722 [5] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMTAvMTMvMjAyMSAwMTozNDozNyIsIm5iZiI6MTYwMjgxMjA3NywiZXhwIjoxNjM0MDg4ODc3LCJpYXQiOjE2MDI4MTIwNzcsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.-w7VAIHRkrM9lVHujKI5fiVa2Q5vM5dmc6mpZGs6JB8
+2020-10-16 09:34:39,746 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:34:39
+2020-10-16 09:34:41,411 [10] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 9:34:41
+2020-10-16 09:35:00,033 [15] INFO  InfoLogger - KolPostJob=> 1 任务开始...2020/10/16 9:35:00
+2020-10-16 09:35:03,714 [10] INFO  InfoLogger - 第1post请求完成
+2020-10-16 09:35:04,112 [4] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b3 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:04,112 [4] INFO  InfoLogger - 任务1完成
+2020-10-16 09:35:04,113 [4] INFO  InfoLogger - KolPostJob=> 2 任务开始...2020/10/16 9:35:04
+2020-10-16 09:35:07,756 [4] INFO  InfoLogger - 第2post请求完成
+2020-10-16 09:35:08,162 [4] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b4 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:08,163 [4] INFO  InfoLogger - 任务2完成
+2020-10-16 09:35:08,163 [4] INFO  InfoLogger - KolPostJob=> 3 任务开始...2020/10/16 9:35:08
+2020-10-16 09:35:11,710 [13] INFO  InfoLogger - 第3post请求完成
+2020-10-16 09:35:12,013 [15] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b5 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:12,015 [15] INFO  InfoLogger - 任务3完成
+2020-10-16 09:35:12,016 [15] INFO  InfoLogger - KolPostJob=> 4 任务开始...2020/10/16 9:35:12
+2020-10-16 09:35:15,490 [10] INFO  InfoLogger - 第4post请求完成
+2020-10-16 09:35:15,837 [13] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b6 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:15,839 [13] INFO  InfoLogger - 任务4完成
+2020-10-16 09:35:15,840 [13] INFO  InfoLogger - KolPostJob=> 5 任务开始...2020/10/16 9:35:15
+2020-10-16 09:35:19,668 [15] INFO  InfoLogger - 第5post请求完成
+2020-10-16 09:35:20,218 [13] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b7 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:20,219 [13] INFO  InfoLogger - 任务5完成
+2020-10-16 09:35:20,220 [13] INFO  InfoLogger - KolPostJob=> 6 任务开始...2020/10/16 9:35:20
+2020-10-16 09:35:23,141 [10] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 9:35:23
+2020-10-16 09:35:23,143 [15] INFO  InfoLogger - start insert to db
+2020-10-16 09:35:23,143 [13] INFO  InfoLogger - start get post from ing
+2020-10-16 09:35:23,897 [21] INFO  InfoLogger - 第6post请求完成
+2020-10-16 09:35:24,261 [4] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b8 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:24,262 [4] INFO  InfoLogger - 任务6完成
+2020-10-16 09:35:24,263 [4] INFO  InfoLogger - KolPostJob=> 7 任务开始...2020/10/16 9:35:24
+2020-10-16 09:35:27,790 [21] INFO  InfoLogger - 第7post请求完成
+2020-10-16 09:35:28,146 [23] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6b9 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:28,147 [23] INFO  InfoLogger - 任务7完成
+2020-10-16 09:35:28,148 [23] INFO  InfoLogger - KolPostJob=> 8 任务开始...2020/10/16 9:35:28
+2020-10-16 09:35:31,747 [4] INFO  InfoLogger - 第8post请求完成
+2020-10-16 09:35:32,143 [23] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6ba 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:32,144 [23] INFO  InfoLogger - 任务8完成
+2020-10-16 09:35:32,145 [23] INFO  InfoLogger - KolPostJob=> 9 任务开始...2020/10/16 9:35:32
+2020-10-16 09:35:35,703 [24] INFO  InfoLogger - 第9post请求完成
+2020-10-16 09:35:36,032 [23] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6bb 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:36,033 [23] INFO  InfoLogger - 任务9完成
+2020-10-16 09:35:36,034 [23] INFO  InfoLogger - KolPostJob=> 10 任务开始...2020/10/16 9:35:36
+2020-10-16 09:35:40,080 [21] INFO  InfoLogger - 第10post请求完成
+2020-10-16 09:35:40,455 [25] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6bc 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:40,457 [25] INFO  InfoLogger - 任务10完成
+2020-10-16 09:35:40,458 [25] INFO  InfoLogger - KolPostJob=> 11 任务开始...2020/10/16 9:35:40
+2020-10-16 09:35:44,082 [24] INFO  InfoLogger - 第11post请求完成
+2020-10-16 09:35:44,435 [25] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6bd 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:44,436 [25] INFO  InfoLogger - 任务11完成
+2020-10-16 09:35:44,437 [25] INFO  InfoLogger - KolPostJob=> 12 任务开始...2020/10/16 9:35:44
+2020-10-16 09:35:47,930 [24] INFO  InfoLogger - 第12post请求完成
+2020-10-16 09:35:48,239 [24] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6be 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:48,240 [24] INFO  InfoLogger - 任务12完成
+2020-10-16 09:35:48,241 [24] INFO  InfoLogger - KolPostJob=> 13 任务开始...2020/10/16 9:35:48
+2020-10-16 09:35:51,754 [24] INFO  InfoLogger - 第13post请求完成
+2020-10-16 09:35:52,046 [4] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6bf 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:52,048 [4] INFO  InfoLogger - 任务13完成
+2020-10-16 09:35:52,048 [4] INFO  InfoLogger - KolPostJob=> 14 任务开始...2020/10/16 9:35:52
+2020-10-16 09:35:55,530 [21] INFO  InfoLogger - 第14post请求完成
+2020-10-16 09:35:55,846 [23] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6c0 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:55,847 [23] INFO  InfoLogger - 任务14完成
+2020-10-16 09:35:55,848 [23] INFO  InfoLogger - KolPostJob=> 15 任务开始...2020/10/16 9:35:55
+2020-10-16 09:35:59,606 [23] INFO  InfoLogger - 第15post请求完成
+2020-10-16 09:35:59,953 [24] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6c1 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:35:59,954 [24] INFO  InfoLogger - 任务15完成
+2020-10-16 09:35:59,955 [24] INFO  InfoLogger - KolPostJob=> 16 任务开始...2020/10/16 9:35:59
+2020-10-16 09:36:03,622 [10] INFO  InfoLogger - 第16post请求完成
+2020-10-16 09:36:04,024 [4] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6c2 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:04,025 [4] INFO  InfoLogger - 任务16完成
+2020-10-16 09:36:04,026 [4] INFO  InfoLogger - KolPostJob=> 17 任务开始...2020/10/16 9:36:04
+2020-10-16 09:36:07,468 [24] INFO  InfoLogger - 第17post请求完成
+2020-10-16 09:36:07,785 [10] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6c3 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:07,786 [10] INFO  InfoLogger - 任务17完成
+2020-10-16 09:36:07,787 [10] INFO  InfoLogger - KolPostJob=> 18 任务开始...2020/10/16 9:36:07
+2020-10-16 09:36:11,559 [10] INFO  InfoLogger - 第18post请求完成
+2020-10-16 09:36:11,923 [24] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6c4 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:11,924 [24] INFO  InfoLogger - 任务18完成
+2020-10-16 09:36:11,925 [24] INFO  InfoLogger - KolPostJob=> 19 任务开始...2020/10/16 9:36:11
+2020-10-16 09:36:15,427 [25] INFO  InfoLogger - 第19post请求完成
+2020-10-16 09:36:15,797 [4] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6c5 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:15,798 [4] INFO  InfoLogger - 任务19完成
+2020-10-16 09:36:15,799 [4] INFO  InfoLogger - KolPostJob=> 20 任务开始...2020/10/16 9:36:15
+2020-10-16 09:36:19,413 [24] INFO  InfoLogger - 第20post请求完成
+2020-10-16 09:36:19,839 [26] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6c6 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:19,840 [26] INFO  InfoLogger - 任务20完成
+2020-10-16 09:36:19,840 [26] INFO  InfoLogger - KolPostJob=> 21 任务开始...2020/10/16 9:36:19
+2020-10-16 09:36:23,362 [21] INFO  InfoLogger - 第21post请求完成
+2020-10-16 09:36:23,725 [10] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6c7 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:23,726 [10] INFO  InfoLogger - 任务21完成
+2020-10-16 09:36:23,727 [10] INFO  InfoLogger - KolPostJob=> 22 任务开始...2020/10/16 9:36:23
+2020-10-16 09:36:27,376 [21] INFO  InfoLogger - 第22post请求完成
+2020-10-16 09:36:27,734 [23] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6c8 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:27,735 [23] INFO  InfoLogger - 任务22完成
+2020-10-16 09:36:27,736 [23] INFO  InfoLogger - KolPostJob=> 23 任务开始...2020/10/16 9:36:27
+2020-10-16 09:36:31,193 [26] INFO  InfoLogger - 第23post请求完成
+2020-10-16 09:36:31,556 [25] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6c9 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:31,558 [25] INFO  InfoLogger - 任务23完成
+2020-10-16 09:36:31,558 [25] INFO  InfoLogger - KolPostJob=> 24 任务开始...2020/10/16 9:36:31
+2020-10-16 09:36:35,200 [10] INFO  InfoLogger - 第24post请求完成
+2020-10-16 09:36:35,546 [23] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6ca 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:35,547 [23] INFO  InfoLogger - 任务24完成
+2020-10-16 09:36:35,548 [23] INFO  InfoLogger - KolPostJob=> 25 任务开始...2020/10/16 9:36:35
+2020-10-16 09:36:39,093 [25] INFO  InfoLogger - 第25post请求完成
+2020-10-16 09:36:39,397 [26] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6cb 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:39,400 [26] INFO  InfoLogger - 任务25完成
+2020-10-16 09:36:39,400 [26] INFO  InfoLogger - KolPostJob=> 26 任务开始...2020/10/16 9:36:39
+2020-10-16 09:36:42,692 [24] INFO  InfoLogger - 第26post请求完成
+2020-10-16 09:36:42,995 [24] INFO  InfoLogger - KolPostJob-> 5f6a166b2c547124ecccb6cc 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:42,996 [24] INFO  InfoLogger - 任务26完成
+2020-10-16 09:36:42,997 [24] INFO  InfoLogger - KolPostJob=> 27 任务开始...2020/10/16 9:36:42
+2020-10-16 09:36:46,433 [4] INFO  InfoLogger - 第27post请求完成
+2020-10-16 09:36:46,732 [23] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6cd 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:46,733 [23] INFO  InfoLogger - 任务27完成
+2020-10-16 09:36:46,734 [23] INFO  InfoLogger - KolPostJob=> 28 任务开始...2020/10/16 9:36:46
+2020-10-16 09:36:50,410 [4] INFO  InfoLogger - 第28post请求完成
+2020-10-16 09:36:50,818 [21] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6ce 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:50,819 [21] INFO  InfoLogger - 任务28完成
+2020-10-16 09:36:50,819 [21] INFO  InfoLogger - KolPostJob=> 29 任务开始...2020/10/16 9:36:50
+2020-10-16 09:36:54,391 [4] INFO  InfoLogger - 第29post请求完成
+2020-10-16 09:36:54,753 [4] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6cf 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:54,754 [4] INFO  InfoLogger - 任务29完成
+2020-10-16 09:36:54,755 [4] INFO  InfoLogger - KolPostJob=> 30 任务开始...2020/10/16 9:36:54
+2020-10-16 09:36:58,352 [25] INFO  InfoLogger - 第30post请求完成
+2020-10-16 09:36:58,698 [25] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6d0 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:36:58,700 [25] INFO  InfoLogger - 任务30完成
+2020-10-16 09:36:58,700 [25] INFO  InfoLogger - KolPostJob=> 31 任务开始...2020/10/16 9:36:58
+2020-10-16 09:37:01,924 [24] INFO  InfoLogger - 第31post请求完成
+2020-10-16 09:37:02,292 [21] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6d1 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:37:02,293 [21] INFO  InfoLogger - 任务31完成
+2020-10-16 09:37:02,294 [21] INFO  InfoLogger - KolPostJob=> 32 任务开始...2020/10/16 9:37:02
+2020-10-16 09:37:05,815 [10] INFO  InfoLogger - 第32post请求完成
+2020-10-16 09:37:06,167 [25] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6d2 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:37:06,168 [25] INFO  InfoLogger - 任务32完成
+2020-10-16 09:37:06,168 [25] INFO  InfoLogger - KolPostJob=> 33 任务开始...2020/10/16 9:37:06
+2020-10-16 09:37:09,774 [24] INFO  InfoLogger - 第33post请求完成
+2020-10-16 09:37:10,190 [23] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6d3 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:37:10,191 [23] INFO  InfoLogger - 任务33完成
+2020-10-16 09:37:10,192 [23] INFO  InfoLogger - KolPostJob=> 34 任务开始...2020/10/16 9:37:10
+2020-10-16 09:37:13,633 [25] INFO  InfoLogger - 第34post请求完成
+2020-10-16 09:37:13,946 [21] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6d4 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:37:13,947 [21] INFO  InfoLogger - 任务34完成
+2020-10-16 09:37:13,948 [21] INFO  InfoLogger - KolPostJob=> 35 任务开始...2020/10/16 9:37:13
+2020-10-16 09:37:17,417 [4] INFO  InfoLogger - 第35post请求完成
+2020-10-16 09:37:17,841 [24] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6d5 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:37:17,842 [24] INFO  InfoLogger - 任务35完成
+2020-10-16 09:37:17,842 [24] INFO  InfoLogger - KolPostJob=> 36 任务开始...2020/10/16 9:37:17
+2020-10-16 09:37:21,340 [4] INFO  InfoLogger - 第36post请求完成
+2020-10-16 09:37:21,762 [24] INFO  InfoLogger - KolPostJob-> 5f6a166c2c547124ecccb6d6 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is been crawled","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:37:21,763 [24] INFO  InfoLogger - 任务36完成
+2020-10-16 09:37:21,764 [24] INFO  InfoLogger - KolPostJob=> 37 任务开始...2020/10/16 9:37:21
+2020-10-16 09:37:25,318 [24] INFO  InfoLogger - 第37post请求完成
+2020-10-16 09:48:46,158 [1] INFO  InfoLogger - start logger
+2020-10-16 09:48:49,700 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMjAyMS8xMC8xMyAxOjQ4OjQ5IiwibmJmIjoxNjAyODEyOTI5LCJleHAiOjE2MzQwODk3MjksImlhdCI6MTYwMjgxMjkyOSwiaXNzIjoiSGV5d2luZCBVbmlib25lIiwiYXVkIjoiSGV5d2luZCBVbmlib25lIn0.QQi6xDZsN7D1ATexBmdBc6Cca-9YEpokC5rS-Afs7SY
+2020-10-16 09:48:49,752 [8] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:48:49
+2020-10-16 09:48:52,386 [8] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 9:48:52
+2020-10-16 09:49:00,037 [5] INFO  InfoLogger - KolPostJob=> 1 任务开始...2020/10/16 9:49:00
+2020-10-16 09:49:03,728 [5] INFO  InfoLogger - 第1post请求完成
+2020-10-16 09:49:05,619 [11] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b3 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:05,621 [11] INFO  InfoLogger - 任务1完成
+2020-10-16 09:49:05,622 [11] INFO  InfoLogger - KolPostJob=> 2 任务开始...2020/10/16 9:49:05
+2020-10-16 09:49:09,361 [11] INFO  InfoLogger - 第2post请求完成
+2020-10-16 09:49:10,018 [5] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b4 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:10,020 [5] INFO  InfoLogger - 任务2完成
+2020-10-16 09:49:10,021 [5] INFO  InfoLogger - KolPostJob=> 3 任务开始...2020/10/16 9:49:10
+2020-10-16 09:49:13,498 [5] INFO  InfoLogger - 第3post请求完成
+2020-10-16 09:49:14,124 [21] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b5 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:14,125 [21] INFO  InfoLogger - 任务3完成
+2020-10-16 09:49:14,126 [21] INFO  InfoLogger - KolPostJob=> 4 任务开始...2020/10/16 9:49:14
+2020-10-16 09:49:17,570 [5] INFO  InfoLogger - 第4post请求完成
+2020-10-16 09:49:18,194 [14] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b6 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:18,195 [14] INFO  InfoLogger - 任务4完成
+2020-10-16 09:49:18,196 [14] INFO  InfoLogger - KolPostJob=> 5 任务开始...2020/10/16 9:49:18
+2020-10-16 09:49:21,777 [20] INFO  InfoLogger - 第5post请求完成
+2020-10-16 09:49:21,975 [14] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 9:49:21
+2020-10-16 09:49:21,976 [8] INFO  InfoLogger - start insert to db
+2020-10-16 09:49:21,976 [5] INFO  InfoLogger - start get post from ing
+2020-10-16 09:49:22,405 [11] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b7 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:22,406 [11] INFO  InfoLogger - 任务5完成
+2020-10-16 09:49:22,407 [11] INFO  InfoLogger - KolPostJob=> 6 任务开始...2020/10/16 9:49:22
+2020-10-16 09:49:25,957 [24] INFO  InfoLogger - 第6post请求完成
+2020-10-16 09:49:26,601 [21] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b8 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:26,602 [21] INFO  InfoLogger - 任务6完成
+2020-10-16 09:49:26,603 [21] INFO  InfoLogger - KolPostJob=> 7 任务开始...2020/10/16 9:49:26
+2020-10-16 09:49:30,087 [23] INFO  InfoLogger - 第7post请求完成
+2020-10-16 09:49:30,690 [25] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6b9 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:30,692 [25] INFO  InfoLogger - 任务7完成
+2020-10-16 09:49:30,693 [25] INFO  InfoLogger - KolPostJob=> 8 任务开始...2020/10/16 9:49:30
+2020-10-16 09:49:34,365 [13] INFO  InfoLogger - 第8post请求完成
+2020-10-16 09:49:34,998 [24] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6ba 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:34,999 [24] INFO  InfoLogger - 任务8完成
+2020-10-16 09:49:35,000 [24] INFO  InfoLogger - KolPostJob=> 9 任务开始...2020/10/16 9:49:35
+2020-10-16 09:49:38,554 [11] INFO  InfoLogger - 第9post请求完成
+2020-10-16 09:49:39,173 [24] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6bb 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:39,174 [24] INFO  InfoLogger - 任务9完成
+2020-10-16 09:49:39,175 [24] INFO  InfoLogger - KolPostJob=> 10 任务开始...2020/10/16 9:49:39
+2020-10-16 09:49:42,410 [24] INFO  InfoLogger - 第10post请求完成
+2020-10-16 09:49:43,007 [25] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6bc 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:49:43,008 [25] INFO  InfoLogger - 任务10完成
+2020-10-16 09:49:43,009 [25] INFO  InfoLogger - KolPostJob=> 11 任务开始...2020/10/16 9:49:43
+2020-10-16 09:51:27,840 [1] INFO  InfoLogger - start logger
+2020-10-16 09:51:30,049 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMjAyMS8xMC8xMyAxOjUxOjI5IiwibmJmIjoxNjAyODEzMDg5LCJleHAiOjE2MzQwODk4ODksImlhdCI6MTYwMjgxMzA4OSwiaXNzIjoiSGV5d2luZCBVbmlib25lIiwiYXVkIjoiSGV5d2luZCBVbmlib25lIn0.-V3CrDaNlHwLXcYN-CPHgKW11Cbx2AB8oYVp1KLCZDc
+2020-10-16 09:51:30,077 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:51:30
+2020-10-16 09:51:31,959 [10] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 9:51:31
+2020-10-16 09:52:00,176 [14] INFO  InfoLogger - KolPostJob=> 1 任务开始...2020/10/16 9:52:00
+2020-10-16 09:52:03,930 [12] INFO  InfoLogger - 第1post请求完成
+2020-10-16 09:52:04,569 [14] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b3 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:52:04,571 [14] INFO  InfoLogger - 任务1完成
+2020-10-16 09:52:04,573 [14] INFO  InfoLogger - KolPostJob=> 2 任务开始...2020/10/16 9:52:04
+2020-10-16 09:52:08,192 [13] INFO  InfoLogger - 第2post请求完成
+2020-10-16 09:52:08,776 [12] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b4 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:52:08,778 [12] INFO  InfoLogger - 任务2完成
+2020-10-16 09:52:08,779 [12] INFO  InfoLogger - KolPostJob=> 3 任务开始...2020/10/16 9:52:08
+2020-10-16 09:52:12,203 [14] INFO  InfoLogger - 第3post请求完成
+2020-10-16 09:52:12,803 [12] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b5 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:52:12,807 [12] INFO  InfoLogger - 任务3完成
+2020-10-16 09:52:12,808 [12] INFO  InfoLogger - KolPostJob=> 4 任务开始...2020/10/16 9:52:12
+2020-10-16 09:52:16,239 [13] INFO  InfoLogger - 第4post请求完成
+2020-10-16 09:52:16,814 [21] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b6 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:52:16,815 [21] INFO  InfoLogger - 任务4完成
+2020-10-16 09:52:16,816 [21] INFO  InfoLogger - KolPostJob=> 5 任务开始...2020/10/16 9:52:16
+2020-10-16 09:52:20,537 [13] INFO  InfoLogger - 第5post请求完成
+2020-10-16 09:52:21,138 [15] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b7 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:52:21,165 [15] INFO  InfoLogger - 任务5完成
+2020-10-16 09:52:21,166 [15] INFO  InfoLogger - KolPostJob=> 6 任务开始...2020/10/16 9:52:21
+2020-10-16 09:52:44,482 [1] INFO  InfoLogger - start logger
+2020-10-16 09:52:46,763 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMjAyMS8xMC8xMyAxOjUyOjQ2IiwibmJmIjoxNjAyODEzMTY2LCJleHAiOjE2MzQwODk5NjYsImlhdCI6MTYwMjgxMzE2NiwiaXNzIjoiSGV5d2luZCBVbmlib25lIiwiYXVkIjoiSGV5d2luZCBVbmlib25lIn0.1NQwOmCGcOzNQGVRPNfhmv8mN2YLon8JzwC9g-JcGxE
+2020-10-16 09:52:46,822 [8] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 9:52:46
+2020-10-16 09:52:48,531 [8] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 9:52:48
+2020-10-16 09:53:09,979 [11] INFO  InfoLogger - KolPostJob=> 1 任务开始...2020/10/16 9:53:09
+2020-10-16 09:53:26,666 [17] INFO  InfoLogger - 第1post请求完成
+2020-10-16 09:53:45,128 [14] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b3 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:53:45,130 [14] INFO  InfoLogger - 任务1完成
+2020-10-16 09:53:45,130 [14] INFO  InfoLogger - KolPostJob=> 2 任务开始...2020/10/16 9:53:45
+2020-10-16 09:53:48,728 [18] INFO  InfoLogger - 第2post请求完成
+2020-10-16 09:53:52,717 [10] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b4 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:53:52,720 [10] INFO  InfoLogger - 任务2完成
+2020-10-16 09:53:52,721 [10] INFO  InfoLogger - KolPostJob=> 3 任务开始...2020/10/16 9:53:52
+2020-10-16 09:53:56,151 [18] INFO  InfoLogger - 第3post请求完成
+2020-10-16 09:53:56,723 [8] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b5 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:53:56,724 [8] INFO  InfoLogger - 任务3完成
+2020-10-16 09:53:56,725 [8] INFO  InfoLogger - KolPostJob=> 4 任务开始...2020/10/16 9:53:56
+2020-10-16 09:54:11,882 [24] INFO  InfoLogger - 第4post请求完成
+2020-10-16 09:54:15,703 [24] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b6 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:54:15,704 [24] INFO  InfoLogger - 任务4完成
+2020-10-16 09:54:15,706 [24] INFO  InfoLogger - KolPostJob=> 5 任务开始...2020/10/16 9:54:15
+2020-10-16 09:54:19,233 [24] INFO  InfoLogger - 第5post请求完成
+2020-10-16 09:54:35,522 [15] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b7 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:54:35,525 [15] INFO  InfoLogger - 任务5完成
+2020-10-16 09:54:35,529 [15] INFO  InfoLogger - KolPostJob=> 6 任务开始...2020/10/16 9:54:35
+2020-10-16 09:54:39,068 [24] INFO  InfoLogger - 第6post请求完成
+2020-10-16 09:54:39,642 [8] INFO  InfoLogger - KolPostJob-> 5f6a16692c547124ecccb6b8 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:54:39,643 [8] INFO  InfoLogger - 任务6完成
+2020-10-16 09:54:39,645 [8] INFO  InfoLogger - KolPostJob=> 7 任务开始...2020/10/16 9:54:39
+2020-10-16 09:54:51,071 [15] INFO  InfoLogger - 第7post请求完成
+2020-10-16 09:54:51,650 [28] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6b9 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:54:51,651 [28] INFO  InfoLogger - 任务7完成
+2020-10-16 09:54:51,652 [28] INFO  InfoLogger - KolPostJob=> 8 任务开始...2020/10/16 9:54:51
+2020-10-16 09:55:03,284 [10] INFO  InfoLogger - 第8post请求完成
+2020-10-16 09:55:03,292 [8] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 9:55:03
+2020-10-16 09:55:03,293 [11] INFO  InfoLogger - start insert to db
+2020-10-16 09:55:03,293 [14] INFO  InfoLogger - start get post from ing
+2020-10-16 09:55:03,861 [24] INFO  InfoLogger - KolPostJob-> 5f6a166a2c547124ecccb6ba 任务返回结果...{"code":40000,"data":null,"message":"InstagramPost is null","meta":"","pageIndex":0,"pageSize":0,"totalCount":0}
+2020-10-16 09:55:03,863 [24] INFO  InfoLogger - 任务8完成
+2020-10-16 09:55:03,864 [24] INFO  InfoLogger - KolPostJob=> 9 任务开始...2020/10/16 9:55:03
+2020-10-16 10:58:15,562 [1] INFO  InfoLogger - start logger
+2020-10-16 10:58:42,363 [1] INFO  InfoLogger - start logger
+2020-10-16 10:58:45,328 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMTAvMTMvMjAyMSAwMjo1ODo0MiIsIm5iZiI6MTYwMjgxNzEyMiwiZXhwIjoxNjM0MDkzOTIyLCJpYXQiOjE2MDI4MTcxMjIsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.PzTlQVF_GBoMvQQEG1Y-dtO-bH6ufy08B8_412IDaBE
+2020-10-16 10:58:45,356 [5] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 10:58:45
+2020-10-16 10:58:47,086 [5] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 10:58:47
+2020-10-16 10:59:00,011 [14] INFO  InfoLogger - KolPostJob=> 1 任务开始...2020/10/16 10:59:00
+2020-10-16 10:59:40,486 [13] INFO  InfoLogger - 第1post请求完成
+2020-10-16 11:12:43,841 [1] INFO  InfoLogger - start logger
+2020-10-16 11:12:46,358 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMTAvMTMvMjAyMSAwMzoxMjo0NCIsIm5iZiI6MTYwMjgxNzk2NCwiZXhwIjoxNjM0MDk0NzY0LCJpYXQiOjE2MDI4MTc5NjQsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.42NlFJISR3fo26eosUwyA0G4CsMXuCArGN4gX0h7iCE
+2020-10-16 11:12:46,412 [9] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 11:12:46
+2020-10-16 11:12:48,103 [9] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 11:12:48
+2020-10-16 11:14:23,545 [12] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 11:14:23
+2020-10-16 11:14:23,550 [7] INFO  InfoLogger - start insert to db
+2020-10-16 11:14:23,557 [21] INFO  InfoLogger - start get post from ing
+2020-10-16 11:35:51,714 [1] INFO  InfoLogger - start logger
+2020-10-16 11:35:54,452 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMTAvMTMvMjAyMSAwMzozNTo1MiIsIm5iZiI6MTYwMjgxOTM1MiwiZXhwIjoxNjM0MDk2MTUyLCJpYXQiOjE2MDI4MTkzNTIsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.sLeSHzUHovAsMnS8mGSQCphJBkZhNfr6gM7Lx5rncKE
+2020-10-16 11:35:54,483 [10] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/16 11:35:54
+2020-10-16 11:35:56,206 [10] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/16 11:35:56
+2020-10-16 11:36:33,586 [10] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 11:36:33
+2020-10-16 11:36:33,590 [9] INFO  InfoLogger - start insert to db
+2020-10-16 11:36:33,591 [12] INFO  InfoLogger - start get post from ing
+2020-10-16 11:57:42,479 [12] INFO  InfoLogger - KolShortCodeJob=>获取shortcode完成...2020/10/16 11:57:42
+2020-10-16 11:57:42,486 [42] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 11:57:42
+2020-10-16 11:57:42,487 [44] INFO  InfoLogger - start insert to db
+2020-10-16 11:57:42,488 [12] INFO  InfoLogger - start get post from ing
+2020-10-16 12:22:44,394 [12] ERROR InfoLogger - EnqueueShortCodeno such element: Unable to locate element: {"method":"css selector","selector":"div a"}
+  (Session info: chrome=86.0.4240.75)
+2020-10-16 12:23:24,179 [24] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/16 12:23:24
+2020-10-16 12:23:24,179 [12] INFO  InfoLogger - start insert to db
+2020-10-16 12:23:24,179 [25] INFO  InfoLogger - start get post from ing

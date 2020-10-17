@@ -1,0 +1,13 @@
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\obj\Debug\netcoreapp3.1\TestAbstractFactory.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\obj\Debug\netcoreapp3.1\TestAbstractFactory.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\obj\Debug\netcoreapp3.1\TestAbstractFactory.AssemblyInfo.cs
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\obj\Debug\netcoreapp3.1\TestAbstractFactory.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\bin\Debug\netcoreapp3.1\TestAbstractFactory.exe
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\bin\Debug\netcoreapp3.1\TestAbstractFactory.deps.json
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\bin\Debug\netcoreapp3.1\TestAbstractFactory.runtimeconfig.json
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\bin\Debug\netcoreapp3.1\TestAbstractFactory.runtimeconfig.dev.json
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\bin\Debug\netcoreapp3.1\TestAbstractFactory.dll
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\bin\Debug\netcoreapp3.1\TestAbstractFactory.pdb
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\obj\Debug\netcoreapp3.1\TestAbstractFactory.dll
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\obj\Debug\netcoreapp3.1\TestAbstractFactory.pdb
+C:\Users\lzx\source\repos\TestAbstractFactory\TestAbstractFactory\obj\Debug\netcoreapp3.1\TestAbstractFactory.genruntimeconfig.cache

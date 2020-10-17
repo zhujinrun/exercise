@@ -7,25 +7,27 @@ namespace CrawlerConsole
 {
     public static class Config
     {
+        public static readonly string localUrl = @"http://localhost:8088/";
+        public static readonly string remoteUrl = @"https://unibone.dev.heywind.cn/";
+        public static readonly string dynamicUrl = remoteUrl;
         public static bool iSLocalEnvironment = true;        //true代表 是本地环境 北京时间  false 8小时时差
         public static readonly string igUrl = "https://www.instagram.com";
-        public static readonly string unUrl = @"https://unibone.dev.heywind.cn";
+        public static readonly string unUrl = dynamicUrl;
         public static readonly string jsonPars = "{\"Password\":\"12345678\",\"Email\":\"164910441@qq.com\"}";
         public static readonly string contentType = "application/json";
 
 
-        public static readonly string createInstagramPostUrl = @"https://unibone.dev.heywind.cn/Tarpa/InstagramPosts/CreateInstagramPost";
+        public static readonly string createInstagramPostUrl = dynamicUrl + @"Tarpa/InstagramPosts/CreateInstagramPost";
 
-        //public static readonly string updateInstagramPostUrl = @"http://localhost:8088/Tarpa/InstagramPosts/UpdateInstagramPost";
-        public static readonly string updateInstagramPostUrl = @"https://unibone.dev.heywind.cn/Tarpa/InstagramPosts/UpdateInstagramPost";
-        public static readonly string updateInstagramPostUrl2 = @"Tarpa/InstagramPosts/UpdateInstagramPost";
-        public static readonly string updateInstagramUserUrl = @"https://unibone.dev.heywind.cn/Tarpa/Kols/UpdateInstagramUser";
+        public static readonly string updateInstagramPostUrl = dynamicUrl + @"Tarpa/InstagramPosts/UpdateInstagramPost";
+        public static readonly string updateInstagramPostUrl2 = dynamicUrl + @"Tarpa/InstagramPosts/UpdateInstagramPost";
+        public static readonly string updateInstagramUserUrl = dynamicUrl+@"Tarpa/Kols/UpdateInstagramUser";
 
 
-        public static readonly string uniboneTokenUrl =  @"https://unibone.dev.heywind.cn/token";
+        public static readonly string uniboneTokenUrl = dynamicUrl+@"token";
         //public static readonly string uniboneTokenUrl = @"http://localhost:8088/token";
-        public static readonly string commandQueueUrl = @"https://unibone.dev.heywind.cn/Tarpa/CommandQueues/GetCommandQueue";
-        public static readonly string commandQueueListUrl = @"https://unibone.dev.heywind.cn/Tarpa/CommandQueues/GetCommandQueueList";
+        public static readonly string commandQueueUrl = dynamicUrl + @"Tarpa/CommandQueues/GetCommandQueue";
+        public static readonly string commandQueueListUrl = dynamicUrl + @"Tarpa/CommandQueues/GetCommandQueueList";
         //public static readonly string commandQueueListUrl = @"http://localhost:8088/Tarpa/CommandQueues/GetCommandQueueList";
         private static CookieInfoOptions _cookieInfoOptions;
 

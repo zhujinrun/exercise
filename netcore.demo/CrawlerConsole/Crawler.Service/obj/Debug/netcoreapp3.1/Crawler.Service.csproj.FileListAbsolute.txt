@@ -15,3 +15,4 @@ D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Debug\netcore
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.csproj.CoreCompileInputs.cache
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.dll
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.csprojAssemblyReference.cache
