@@ -36,16 +36,17 @@ namespace Crawler.Selenium.Helper
                 var chromeOptions = new ChromeOptions();
 
                 chromeOptions.AddArguments("start-maximized");
-                chromeOptions.AddUserProfilePreference("profile.default_content_setting_values.images", 2);
+                chromeOptions.AddUserProfilePreference("profile.default_content_setting_values.images", 2);  //禁止加载图片 可用
                 chromeOptions.AddArguments("--no-sandbox");
-                chromeOptions.AddArguments("--disable-dev-shm-usage");
-                if(!iSLocalEnvironment)
+                //chromeOptions.AddArguments("--disable-dev-shm-usage");
+                //chromeOptions.AddArguments("blink-settings=imagesEnabled=false");  //禁止加载图片  可用
+                if (!iSLocalEnvironment)
                 chromeOptions.AddArgument("--headless"); //后台运行模式
 
                 DateTime nowDatetime = DateTime.Now;
                 Console.WriteLine("Creating starting...");
-                    //driver = new ChromeDriver(Directory.GetCurrentDirectory(), chromeOptions);
-                    driver = new ChromeDriver(chromeOptions);
+                    driver = new ChromeDriver(Directory.GetCurrentDirectory(), chromeOptions);
+                    //driver = new ChromeDriver(chromeOptions);
                 
                 Console.WriteLine("Crateing Completed...");
                 if (null == driver)
@@ -57,7 +58,9 @@ namespace Crawler.Selenium.Helper
 
                 foreach (var item in jsonCookie.GetType().GetProperties())
                 {
-                    driver.Manage().Cookies.AddCookie(new Cookie(item.Name, jsonCookie.GetType().GetProperty(item.Name).GetValue(jsonCookie, null)?.ToString()));
+                    var value = item.GetValue(jsonCookie);
+                    if (value != null)
+                    driver.Manage().Cookies.AddCookie(new Cookie(item.Name, value.ToString()));
                 }
                 driver.Url = url;
                 var d = driver.Url;

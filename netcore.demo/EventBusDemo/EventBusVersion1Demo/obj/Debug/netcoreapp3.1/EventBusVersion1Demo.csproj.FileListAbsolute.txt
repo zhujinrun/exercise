@@ -1,0 +1,13 @@
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\bin\Debug\netcoreapp3.1\EventBusVersion1Demo.exe
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\bin\Debug\netcoreapp3.1\EventBusVersion1Demo.deps.json
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\bin\Debug\netcoreapp3.1\EventBusVersion1Demo.runtimeconfig.json
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\bin\Debug\netcoreapp3.1\EventBusVersion1Demo.runtimeconfig.dev.json
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\bin\Debug\netcoreapp3.1\EventBusVersion1Demo.dll
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\bin\Debug\netcoreapp3.1\EventBusVersion1Demo.pdb
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\obj\Debug\netcoreapp3.1\EventBusVersion1Demo.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\obj\Debug\netcoreapp3.1\EventBusVersion1Demo.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\obj\Debug\netcoreapp3.1\EventBusVersion1Demo.AssemblyInfo.cs
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\obj\Debug\netcoreapp3.1\EventBusVersion1Demo.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\obj\Debug\netcoreapp3.1\EventBusVersion1Demo.dll
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\obj\Debug\netcoreapp3.1\EventBusVersion1Demo.pdb
+C:\Users\lzx\source\repos\EventBusDemo\EventBusVersion1Demo\obj\Debug\netcoreapp3.1\EventBusVersion1Demo.genruntimeconfig.cache

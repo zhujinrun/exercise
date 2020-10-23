@@ -1,7 +1,9 @@
 ﻿using Crawler.Models;
 using Crawler.Service.Config;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 namespace CrawlerConsole
 {
@@ -32,6 +34,38 @@ namespace CrawlerConsole
         private static CookieInfoOptions _cookieInfoOptions;
 
         public static readonly string Cookie= ApplicationConfig.Configuration["Cookie"];
+
+        /// <summary>
+        /// 解析cookie返回CookieInfoOptions对象
+        /// </summary>
+        /// <param name="strs"></param>
+        /// <returns></returns>
+        public static CookieInfoOptions ParsingCookie(string strs)
+        {
+            var json = string.Empty;
+            var collection = strs.Split(";");
+            foreach (var str in collection)
+            {
+               var arr = str.Split("=");
+                arr[0] = arr[0].Trim();
+                if (!string.IsNullOrWhiteSpace(arr[1]))
+                {
+                    if (arr[0] == "urlgen")
+                    {
+
+                        json += $"\"{arr[0]}\":{arr[1]}";
+                    }
+                    else
+                    {
+                        json += $"\"{arr[0]}\":\"{arr[1]}\",";
+                    }
+                }
+            }
+            return JsonConvert.DeserializeObject<CookieInfoOptions>("{"+json.TrimEnd(',')+"}");
+        }
+        /// <summary>
+        /// 每次每个参数赋值繁琐 不用
+        /// </summary>
         public static CookieInfoOptions CookieInfoOptions => _cookieInfoOptions ?? (_cookieInfoOptions = new CookieInfoOptions
         {
             ig_did = ApplicationConfig.Configuration["CookieInfoOptions:ig_did"],

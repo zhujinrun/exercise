@@ -12,6 +12,8 @@ namespace Crawler.Models
         public string urlgen { get; set; }
         public string fbm_124024574287414 { get; set; }
         public string sessionid { get; set; }
+        public string ig_nrcb { get; set; }
+        public string shbid { get; set; }
 
 
     }

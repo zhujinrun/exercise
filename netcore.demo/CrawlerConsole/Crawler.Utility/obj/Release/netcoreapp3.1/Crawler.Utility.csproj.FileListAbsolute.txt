@@ -6,3 +6,4 @@ D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Release\netco
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Release\netcoreapp3.1\Crawler.Utility.csproj.CoreCompileInputs.cache
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Release\netcoreapp3.1\Crawler.Utility.dll
 D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Release\netcoreapp3.1\Crawler.Utility.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Utility\obj\Release\netcoreapp3.1\Crawler.Utility.csprojAssemblyReference.cache

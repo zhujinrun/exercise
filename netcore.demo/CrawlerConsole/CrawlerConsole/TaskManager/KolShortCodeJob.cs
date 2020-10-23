@@ -36,7 +36,7 @@ namespace CrawlerConsole.TaskManager
         public KolShortCodeJob()
         {
             Console.WriteLine("constructor starting...");
-            driver =  seleniumHelper.Login(Config.CookieInfoOptions,Config.igUrl,Config.iSLocalEnvironment);
+            driver =  seleniumHelper.Login(Config.ParsingCookie(Config.Cookie),Config.igUrl,Config.iSLocalEnvironment);
         }
        
         public async Task Execute(IJobExecutionContext context)
@@ -51,12 +51,14 @@ namespace CrawlerConsole.TaskManager
                 var insertUrl = listTasks.FirstOrDefault().postBackUrl;
 
                 Task.Run(() => {
+                    Console.WriteLine($"Thread = {Thread.CurrentThread.ManagedThreadId}");
                     CommonHelper.ConsoleAndLogger($"start insert to db",CommonHelper.LoggerType.Info);
                     InsertDB(Isinsert, insertUrl);
                 });
 
                 await Task.Run(() =>
                 {
+                    Console.WriteLine($"Thread = {Thread.CurrentThread.ManagedThreadId}");
                     CommonHelper.ConsoleAndLogger($"start get post from ing", CommonHelper.LoggerType.Info);
                     foreach (var item in listTasks)
                     {
@@ -146,8 +148,8 @@ namespace CrawlerConsole.TaskManager
 
             foreach (var item in listres)
             {
+                Thread.Sleep(2000);
                 var href = string.Empty;
-
                 try
                 {
                     var div_a = item.FindElement(By.TagName("div a"));
@@ -180,7 +182,7 @@ namespace CrawlerConsole.TaskManager
             int index = 1;
             while (isGo)
             {
-                if(queueList.Count > 0)
+                if (queueList.Count > 0)
                 {
                     queueList.TryDequeue(out string result);
                     //准备写入数据库       shortcode 截取 
