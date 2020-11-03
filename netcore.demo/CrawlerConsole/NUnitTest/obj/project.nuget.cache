@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SsJZHOSdIwyBrCg5FVAsOsqIR38sjVCLLdmGsFSGjzdNi04GiS3TYWU0g5xi5UF7+qZN+j41RQM9qFjsNfFRng==",
+  "dgSpecHash": "sgGgoJv1w3MEHby54KU8dUIWrgQy1rsVZfARF5B+1f9/SvfxVAdgHFvcUhzNce5xVOlVEdf7ewu25fqSD38xtA==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\NUnitTest\\NUnitTest.csproj",
   "expectedPackageFiles": [
@@ -135,7 +135,8 @@
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.3.0\\system.xml.xpath.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

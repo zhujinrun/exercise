@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TI8KMywD+pl1BBfBcqH+nitGgWKYixLD97qHA6jhbzPz6iyxtKY9FuXCNva7cwc4dhv7IcsQ50bWVB6pJbrxNw==",
+  "dgSpecHash": "5+DkrruYcQOOJpkUtz3HQQt/LE+Gyu3+YyFyxBTKSl4RsAbKoo1XQ3BYKJYLVmgFgCiUgl39G8mlCJyvj9ryrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

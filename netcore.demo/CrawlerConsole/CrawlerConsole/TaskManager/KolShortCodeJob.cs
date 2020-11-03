@@ -29,7 +29,7 @@ namespace CrawlerConsole.TaskManager
     {
   
         private static ConcurrentQueue<string> queueList = new ConcurrentQueue<string>(); //存放列表
-      
+        
         private static BaseJob baseJob = CustomApplicationService.GetService<BaseJob>();
         private static SeleniumHelper seleniumHelper = baseJob.seleniumHelper;
         private RemoteWebDriver driver;
@@ -51,14 +51,13 @@ namespace CrawlerConsole.TaskManager
                 var insertUrl = listTasks.FirstOrDefault().postBackUrl;
 
                 Task.Run(() => {
-                    Console.WriteLine($"Thread = {Thread.CurrentThread.ManagedThreadId}");
+
                     CommonHelper.ConsoleAndLogger($"start insert to db",CommonHelper.LoggerType.Info);
                     InsertDB(Isinsert, insertUrl);
                 });
 
                 await Task.Run(() =>
                 {
-                    Console.WriteLine($"Thread = {Thread.CurrentThread.ManagedThreadId}");
                     CommonHelper.ConsoleAndLogger($"start get post from ing", CommonHelper.LoggerType.Info);
                     foreach (var item in listTasks)
                     {
@@ -76,8 +75,7 @@ namespace CrawlerConsole.TaskManager
 
         private  void ShortCode(SeleniumHelper seleniumHelper,RemoteWebDriver driver, JData jData, string cls = "_bz0w")
         {
-            var url = jData.targetUrl;
-            driver.Url = driver.Url!=url ? url: driver.Url;
+            driver.Url = driver.Url!= jData.targetUrl ? jData.targetUrl : driver.Url;
             long height = 0; //存放鼠标上一次执行后浏览器的高度
             bool isGoto = true;         //是否循环获取数据
             bool isFirst = true;          //第一次加载
@@ -133,9 +131,7 @@ namespace CrawlerConsole.TaskManager
                 }
                 height = tobeequal;
                 EnqueueShortCode(cls,driver); //获取shortcode
-
             }
-           
         }
         /// <summary>
         /// 获取队列
@@ -144,7 +140,7 @@ namespace CrawlerConsole.TaskManager
         private void EnqueueShortCode(string cls,RemoteWebDriver driver)
         {
             // xpath = //*[@id="react-root"]/section/main/div/div[3]/article/div[1]/div   
-            IEnumerable<IWebElement> listres = driver.FindElementsByClassName(cls);          //获取最新数据  
+            IEnumerable<IWebElement> listres = driver.FindElementsByClassName(cls);          //获取最新数据
 
             foreach (var item in listres)
             {

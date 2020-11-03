@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj": {}
+    "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj": {
+    "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj",
         "projectName": "Crawler.API",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.API\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj": {
-                "projectPath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj"
+              "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj": {
+                "projectPath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj"
               }
             }
           }
@@ -98,16 +98,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -116,18 +106,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj": {
+    "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj",
         "projectName": "Crawler.Utility",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Utility\\Crawler.Utility.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.Utility\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,18 +154,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.7.20366.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

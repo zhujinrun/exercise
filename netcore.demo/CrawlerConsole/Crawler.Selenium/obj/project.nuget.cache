@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wEPOoCR8BhUvMe5C45AuqrkHNL8T4sDsCJUgBrd3T6cK+F/CTpPOVSWHqEym60j5U1SgBVWfPSpZhZQGTvEYCg==",
+  "dgSpecHash": "JgUxnmBfeM6GKT9iWY8migjqGzWXxT+jIIyXLdI2/rKkHCnRIs3loX+wljVwXvYUrTbImls+AwtVXDFCxwWYIw==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Selenium\\Crawler.Selenium.csproj",
   "expectedPackageFiles": [
@@ -87,7 +87,8 @@
     "C:\\Users\\lzx\\.nuget\\packages\\system.threading.threadpool\\4.0.10\\system.threading.threadpool.4.0.10.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512"
+    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

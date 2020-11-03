@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "woj769YN5gR/Qoo0ZKM5QSUZDXG4YMREbLPygreh3NEUdp3VMKffwAAfVDwN2jVXGNsQFGvmm2g175/xCkCnFg==",
+  "dgSpecHash": "elPQdWuRJ38cx+ZJ1h2agj+MjsuBUMptJeI579xhlxO1nEdnZs7lF5goPPST9r4omM83D/fNfSx01CLY7btghg==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Service\\Crawler.Service.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,8 @@
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.7\\microsoft.extensions.fileproviders.abstractions.3.1.7.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\3.1.7\\microsoft.extensions.fileproviders.physical.3.1.7.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\3.1.7\\microsoft.extensions.filesystemglobbing.3.1.7.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512"
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

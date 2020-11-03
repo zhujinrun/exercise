@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mupaBDq1W+xruzWGBz0Vg2kcV0Gd6VViD0k3kz41ZNFK0qt3VM1QtSSopVDnHCLePnLf6ltjVUplBoLED4AUhg==",
+  "dgSpecHash": "O9mfOfm8+5mP2AKV8zei+TPRKLE2oLWsSp6FX6piTtxEg4Spb4LxzWIO5nu3uTfBpzJqd+e/zSq++IHC8c33kA==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\Crawler.Logger\\Crawler.Logger.csproj",
   "expectedPackageFiles": [
@@ -73,7 +73,8 @@
     "C:\\Users\\lzx\\.nuget\\packages\\system.threading.threadpool\\4.0.10\\system.threading.threadpool.4.0.10.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512"
+    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AZIjs7UGASoOIIkVhI7Gbp4t7gNGuBYA8+T2bk5ohSmsoWFXjgGG8oPh4DZ4+lFDQUomF+MbEcmOTI3/qKMN0A==",
+  "dgSpecHash": "kYcq6xwf7QxGKYyOVRCbJYJWD+td1JHti+Nujo8lXo95hNoHRcMk2MwICSio9ivsNWjRK7/jYyNPR9O1aK5LzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\Crawler.Demo\\Crawler.API\\Crawler.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\bouncycastle\\1.8.6.1\\bouncycastle.1.8.6.1.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
@@ -155,9 +155,7 @@
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
+    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": [
     {

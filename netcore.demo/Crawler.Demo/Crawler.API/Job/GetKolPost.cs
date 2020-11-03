@@ -43,10 +43,7 @@ namespace Crawler.API.Job
             {
                 
                 int index = i;
-               if(index < 2977)
-                {
-                    continue;
-                }
+              
                 if (taskLists.Count(x => x.Status != TaskStatus.RanToCompletion) >= 20)
                 {
                     Task.WaitAny(taskLists.ToArray());

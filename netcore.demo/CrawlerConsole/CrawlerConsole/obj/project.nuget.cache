@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OXW7ARMlT+6LYVCX/oAFfWrNCipHazjNq+DecTb1g3dty9RZgAinb2sCo2fPgpk0CldK9l99jHoXR9tiTTtX6A==",
+  "dgSpecHash": "GweE2yB/0A4GzIt2zk5DbsmdzEi6ETo0bMiZJuzcut19s6MzI1K/h7921JgcmhvghfdI+VecmoIa+ikFUTLo3g==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\CrawlerConsole\\CrawlerConsole\\CrawlerConsole.csproj",
   "expectedPackageFiles": [
@@ -123,7 +123,9 @@
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\lzx\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

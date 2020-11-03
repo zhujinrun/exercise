@@ -1,0 +1,13 @@
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\bin\Debug\net5.0\备忘录模式三.exe
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\bin\Debug\net5.0\备忘录模式三.deps.json
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\bin\Debug\net5.0\备忘录模式三.runtimeconfig.json
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\bin\Debug\net5.0\备忘录模式三.runtimeconfig.dev.json
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\bin\Debug\net5.0\备忘录模式三.dll
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\bin\Debug\net5.0\备忘录模式三.pdb
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\obj\Debug\net5.0\备忘录模式三.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\obj\Debug\net5.0\备忘录模式三.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\obj\Debug\net5.0\备忘录模式三.AssemblyInfo.cs
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\obj\Debug\net5.0\备忘录模式三.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\obj\Debug\net5.0\备忘录模式三.dll
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\obj\Debug\net5.0\备忘录模式三.pdb
+C:\Users\lzx\source\repos\备忘录模式\备忘录模式三\obj\Debug\net5.0\备忘录模式三.genruntimeconfig.cache

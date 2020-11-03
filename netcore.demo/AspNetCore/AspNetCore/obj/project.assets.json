@@ -2561,11 +2561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
       "projectName": "AspNetCore",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\AspNetCore\\AspNetCore\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\AspNetCore\\AspNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2576,7 +2576,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -2631,7 +2632,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
