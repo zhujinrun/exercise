@@ -19,7 +19,7 @@ namespace Crawler.Selenium.Helper
     public class SeleniumHelper
     {
         private RemoteWebDriver driver = null;
-        public RemoteWebDriver Login(CookieInfoOptions jsonCookie, string url = "https://www.instagram.com/",bool iSLocalEnvironment= false)
+        public RemoteWebDriver Login(CookieInfoOptions jsonCookie, string url = "https://www.instagram.com/", bool iSLocalEnvironment = false)
         {
             Console.WriteLine("Loginng starting...");
             if (driver != null)
@@ -30,7 +30,7 @@ namespace Crawler.Selenium.Helper
             {
                 throw new Exception($"this {url} url address is error");
             }
-            
+
             try
             {
                 var chromeOptions = new ChromeOptions();
@@ -38,16 +38,17 @@ namespace Crawler.Selenium.Helper
                 chromeOptions.AddArguments("start-maximized");
                 chromeOptions.AddUserProfilePreference("profile.default_content_setting_values.images", 2);  //禁止加载图片 可用
                 chromeOptions.AddArguments("--no-sandbox");
-                //chromeOptions.AddArguments("--disable-dev-shm-usage");
-                //chromeOptions.AddArguments("blink-settings=imagesEnabled=false");  //禁止加载图片  可用
-                if (!iSLocalEnvironment)
+                //if (!iSLocalEnvironment)
+                //{
+                chromeOptions.AddArgument("disable-gpu");
                 chromeOptions.AddArgument("--headless"); //后台运行模式
+                //}
 
                 DateTime nowDatetime = DateTime.Now;
                 Console.WriteLine("Creating starting...");
-                    driver = new ChromeDriver(Directory.GetCurrentDirectory(), chromeOptions);
-                    //driver = new ChromeDriver(chromeOptions);
-                
+                driver = new ChromeDriver(Directory.GetCurrentDirectory(), chromeOptions);
+                //driver = new ChromeDriver(chromeOptions);
+
                 Console.WriteLine("Crateing Completed...");
                 if (null == driver)
                 {
@@ -60,14 +61,16 @@ namespace Crawler.Selenium.Helper
                 {
                     var value = item.GetValue(jsonCookie);
                     if (value != null)
-                    driver.Manage().Cookies.AddCookie(new Cookie(item.Name, value.ToString()));
+                        driver.Manage().Cookies.AddCookie(new Cookie(item.Name, value.ToString()));
                 }
                 driver.Url = url;
                 var d = driver.Url;
                 Thread.Sleep(5000);
-                if (iSLocalEnvironment)
-                Click("/html/body/div[4]/div/div/div/div[3]/button[2]", driver); //点击弹框 //后台模式禁用
-                 Console.WriteLine("return driver...");
+                #region 后台模式禁用 
+                // if (iSLocalEnvironment)             
+                // Click("/html/body/div[4]/div/div/div/div[3]/button[2]", driver); //点击弹框 
+                #endregion
+                Console.WriteLine("return driver...");
                 return driver;
             }
             catch (Exception ex)
@@ -77,11 +80,12 @@ namespace Crawler.Selenium.Helper
                 {
                     driver.Quit();
                     driver.Dispose();
+                    driver = null;
                 }
                 throw ex;
             }
         }
-        
+
         /// <summary>
         /// 通过xpath获取元素信息
         /// </summary>
