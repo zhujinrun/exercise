@@ -1,0 +1,196 @@
+nohup dotnet CrawlerConsole.dll > runtime.log 2>&1 &       爬虫守护进程 搭配exit,不能直接关闭xshell，只能通过命令exit退出。否则守护进程被关闭
+nohup  dotnet Unibone.WebRouter.dll --urls=http://172.17.0.14:5000 ip=172.17.0.14 port=5000  > runtime.log 2>&1 &   tarpa后台
+jobs -l  查看后台运行进程   
+kill -s  9 进程号   关闭守护进程
+chmod +x chromedriver
+sudo htop
+sudo glances
+服务器重启都需要手动关闭防火墙
+sudo ufw disable
+ while (true)
+                {
+                    Thread.Sleep(10000);
+                    LoggerHelper.Info($"working{DateTime.Now.ToString()}");
+                }  提到Console.WriteLine()  避免守护进程跑不起来
+
+rabbitmq http://122.51.209.158:15672/   lzx 123456
+
+ls -l 文件名   查看权限
+chmod 777 文件名称
+
+redis 配置文件 下protected-mode no    
+bind 127.0.0.1 改成 bind 0.0.0.0  关闭防火墙或者开启端口
+
+mongod 122.51.209.158:27017
+
+mysql   122.51.209.158:3306  root lx123456
+
+sudo systemctl enable --now mysqld
+sudo systemctl status mysqld
+
+目录下操作：
+rabbitmq-server -detached
+rabbitmqctl stop
+rabbitmqctl status
+
+目录下操作：
+[root@localhost conf]# /usr/local/soft/redis5/bin/redis-server /usr/local/soft/redis5/conf/redis.conf
+检查状态
+netstat -anp | grep 6379
+启动客户端： /usr/local/soft/redis5/bin/redis-cli
+ 后输入 CONFIG SET stop-writes-on-bgsave-error no 解决持久化报错 ， flushall方法报错
+
+启动
+systemctl start redis    
+查看状态
+systemctl status redis
+使开机启动
+systemctl enable redis
+systemctl stop redis   
+
+
+防火墙有关
+yum install firewalld systemd -y
+systemctl status firewalld
+systemctl start firewalld.service
+systemctl stop firewalld.service
+systemctl enable firewalld.service
+systemctl disable firewalld.service
+
+
+/usr/local/mongodb/bin/mongod -f   /usr/local/mongodb/conf/master.conf
+/usr/local/mongodb/bin/mongod -f  /usr/local/mongodb/conf/slaver.conf
+/usr/local/mongodb/bin/mongod -f /usr/local/mongodb/conf/arbiter.conf
+
+#连接到节点
+  ./mongo 127.0.0.1:27017
+  >use admin
+  >cfg={ _id:"test", members:[ {_id:0,host:'127.0.0.1:27017',priority:2}, {_id:1,host:'127.0.0.1:27019',priority:1}, {_id:2,host:'127.0.0.1:27018',arbiterOnly:true}] };
+  >rs.initiate(cfg)
+  >rs.status()
+  >{
+  "set" : "test",
+  "date" : ISODate("2016-03-29T16:47:12.395Z"),
+  "myState" : 1,
+  "term" : NumberLong(5),
+  "heartbeatIntervalMillis" : NumberLong(2000),
+  "members" : [
+      {
+          "_id" : 0,
+          "name" : "127.0.0.1:27017",
+          "health" : 1,
+          "state" : 1,
+          "stateStr" : "PRIMARY",
+          "uptime" : 44,
+          "optime" : {
+              "ts" : Timestamp(1459269999, 2),
+              "t" : NumberLong(5)
+          },
+          "optimeDate" : ISODate("2016-03-29T16:46:39Z"),
+          "electionTime" : Timestamp(1459269999, 1),
+          "electionDate" : ISODate("2016-03-29T16:46:39Z"),
+          "configVersion" : 1,
+          "self" : true
+      },
+      {
+          "_id" : 1,
+          "name" : "10.10.24.39:27017",
+          "health" : 1,
+          "state" : 2,
+          "stateStr" : "SECONDARY",
+          "uptime" : 42,
+          "optime" : {
+              "ts" : Timestamp(1459269999, 2),
+              "t" : NumberLong(5)
+          },
+          "optimeDate" : ISODate("2016-03-29T16:46:39Z"),
+          "lastHeartbeat" : ISODate("2016-03-29T16:47:11.726Z"),
+          "lastHeartbeatRecv" : ISODate("2016-03-29T16:47:10.637Z"),
+          "pingMs" : NumberLong(0),
+          "syncingTo" : "10.10.24.38:27017",
+          "configVersion" : 1
+      },
+      {
+          "_id" : 2,
+          "name" : "10.10.24.39:27018",
+          "health" : 1,
+          "state" : 7,
+          "stateStr" : "ARBITER",
+          "uptime" : 42,
+          "lastHeartbeat" : ISODate("2016-03-29T16:47:11.697Z"),
+          "lastHeartbeatRecv" : ISODate("2016-03-29T16:47:11.258Z"),
+          "pingMs" : NumberLong(0),
+          "configVersion" : 1
+      }
+  ],
+  "ok" : 1
+  }
+
+netstat -anutp
+netstat -antup | grep 22
+
+
+
+本地mongodb
+mongod --config D:\MongoDB\config\rs1.conf
+mongod --config D:\MongoDB\config\rs2.conf
+mongod --config D:\MongoDB\config\rs3.conf
+
+win10下 开启rabbitmq:
+安装目录拷贝到硬盘
+cmd 到sbin目录 
+
+用户目录下 .erlang.cookie文件拷贝到sbin下和 C:\Windows\System32\config\systemprofile下
+rabbitmq-service install
+rabbitmq-service enable
+rabbitmq-service start
+rabbitmqctl  status
+rabbitmqctl add_user  lx 123456
+rabbitmqctl set_permissions lx ".*" ".*" ".*"
+rabbitmqctl set_user_tags lx administrator
+
+
+http://127.0.0.1:15672/无法访问 ，需要开启ctl
+1、rabbitmqctl start_app
+
+2、rabbitmq-plugins enable rabbitmq_management
+
+3、rabbitmqctl stop
+
+
+1.安装selenium
+ 
+sudo pip install selenium
+ 
+2.安装Chrome
+ 
+
+第一步：sudo apt-get install libxss1 libappindicator1 libindicator7
+第二步：wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+第三步：sudo apt-get install -f
+第四步：sudo dpkg -i google-chrome-stable_current_amd64.deb
+ 
+
+3.安装chromedriver
+复制代码
+第一步：wget -N http://chromedriver.storage.googleapis.com/2.29/chromedriver_linux64.zip
+第二步：unzip chromedriver_linux64.zip
+第三步：chmod +x chromedriver
+第四步：sudo mv -f chromedriver /usr/local/share/chromedriver
+第五步： sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+第六步：sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedrive
+
+
+重点 ：首先安装好浏览器 ，再按照对应浏览器去下载chromedriver
+
+mariadb 密码 lx123456
+free -h  查看内存
+sar -u 1 5 查看cpu
+sudo glances
+
+centos7防火墙设置:
+firewall-cmd --state
+systemctl start firewalld.service
+firewall-cmd --zone=public --add-port=8080/tcp --permanent
+systemctl restart firewalld.service
+firewall-cmd --reload

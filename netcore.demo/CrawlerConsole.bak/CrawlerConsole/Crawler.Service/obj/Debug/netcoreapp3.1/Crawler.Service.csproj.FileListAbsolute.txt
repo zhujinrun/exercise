@@ -1,9 +1,0 @@
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\bin\Debug\netcoreapp3.1\Crawler.Service.deps.json
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\bin\Debug\netcoreapp3.1\Crawler.Service.dll
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\bin\Debug\netcoreapp3.1\Crawler.Service.pdb
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.csprojAssemblyReference.cache
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.AssemblyInfoInputs.cache
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.AssemblyInfo.cs
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.dll
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.pdb
-C:\Users\lzx\source\repos\CrawlerConsole\Crawler.Service\obj\Debug\netcoreapp3.1\Crawler.Service.csproj.CoreCompileInputs.cache

@@ -1,8 +1,0 @@
-2020-10-24 09:12:37,565 [1] INFO  InfoLogger - start logger
-2020-10-24 09:12:38,661 [4] INFO  InfoLogger - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1ZjMwZTE2MTAyYjFiZDM0YzQ1NGEzMzUiLCJ1bmlxdWVfbmFtZSI6InpoaXhpbi5saXUiLCJyb2xlIjoiW1wiNWVkOWRlNmM3ZTc4NTc0NDc4MzIwYWUwXCJdIiwiZW1haWwiOiIxNjQ5MTA0NDFAcXEuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9leHBpcmF0aW9uIjoiMTAvMjEvMjAyMSAwMToxMjozNyIsIm5iZiI6MTYwMzUwMTk1NywiZXhwIjoxNjM0Nzc4NzU3LCJpYXQiOjE2MDM1MDE5NTcsImlzcyI6IkhleXdpbmQgVW5pYm9uZSIsImF1ZCI6IkhleXdpbmQgVW5pYm9uZSJ9.n6Ra1rkJpgfHImw8E8mxQCFYxISMIdb2tpAaJk6S1_k
-2020-10-24 09:12:38,690 [7] INFO  InfoLogger - ObtainQueueJob=>获取队列列表开始... 2020/10/24 9:12:38
-2020-10-24 09:12:40,172 [7] INFO  InfoLogger - ObtainQueueJob=>获取列表完成... 2020/10/24 9:12:40
-2020-10-24 09:12:57,303 [7] INFO  InfoLogger - KolShortCodeJob=>获取shortcode开始...2020/10/24 9:12:57
-2020-10-24 09:12:57,304 [15] INFO  InfoLogger - start insert to db
-2020-10-24 09:12:57,305 [11] INFO  InfoLogger - start get post from ing
-2020-10-24 09:29:22,958 [11] INFO  InfoLogger - KolShortCodeJob=>获取shortcode完成...2020/10/24 9:29:22

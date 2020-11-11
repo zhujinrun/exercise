@@ -1,9 +1,0 @@
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\bin\Release\netcoreapp3.1\Crawler.Service.deps.json
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\bin\Release\netcoreapp3.1\Crawler.Service.dll
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\bin\Release\netcoreapp3.1\Crawler.Service.pdb
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Release\netcoreapp3.1\Crawler.Service.AssemblyInfoInputs.cache
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Release\netcoreapp3.1\Crawler.Service.AssemblyInfo.cs
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Release\netcoreapp3.1\Crawler.Service.csproj.CoreCompileInputs.cache
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Release\netcoreapp3.1\Crawler.Service.dll
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Release\netcoreapp3.1\Crawler.Service.pdb
-D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Service\obj\Release\netcoreapp3.1\Crawler.Service.csprojAssemblyReference.cache
