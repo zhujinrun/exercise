@@ -1,0 +1,13 @@
+C:\Users\lzx\source\repos\模板方法\模板方法\bin\Debug\net5.0\模板方法.exe
+C:\Users\lzx\source\repos\模板方法\模板方法\bin\Debug\net5.0\模板方法.deps.json
+C:\Users\lzx\source\repos\模板方法\模板方法\bin\Debug\net5.0\模板方法.runtimeconfig.json
+C:\Users\lzx\source\repos\模板方法\模板方法\bin\Debug\net5.0\模板方法.runtimeconfig.dev.json
+C:\Users\lzx\source\repos\模板方法\模板方法\bin\Debug\net5.0\模板方法.dll
+C:\Users\lzx\source\repos\模板方法\模板方法\bin\Debug\net5.0\模板方法.pdb
+C:\Users\lzx\source\repos\模板方法\模板方法\obj\Debug\net5.0\模板方法.csprojAssemblyReference.cache
+C:\Users\lzx\source\repos\模板方法\模板方法\obj\Debug\net5.0\模板方法.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\模板方法\模板方法\obj\Debug\net5.0\模板方法.AssemblyInfo.cs
+C:\Users\lzx\source\repos\模板方法\模板方法\obj\Debug\net5.0\模板方法.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\模板方法\模板方法\obj\Debug\net5.0\模板方法.dll
+C:\Users\lzx\source\repos\模板方法\模板方法\obj\Debug\net5.0\模板方法.pdb
+C:\Users\lzx\source\repos\模板方法\模板方法\obj\Debug\net5.0\模板方法.genruntimeconfig.cache
