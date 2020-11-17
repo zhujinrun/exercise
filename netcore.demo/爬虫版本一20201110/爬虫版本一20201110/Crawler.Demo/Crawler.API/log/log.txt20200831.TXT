@@ -1,0 +1,12 @@
+2020-08-31 09:20:04,068 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-31 09:20:04,079 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-31 09:20:04,081 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-31 09:20:04,084 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-31 09:27:31,494 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-31 09:27:31,503 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-31 09:27:31,504 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-31 09:27:31,506 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-31 09:42:34,696 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-31 09:42:34,706 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-31 09:42:34,707 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-31 09:42:34,709 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API

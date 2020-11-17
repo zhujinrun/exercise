@@ -1,0 +1,92 @@
+2020-08-28 09:08:04,704 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 09:08:04,721 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 09:08:04,724 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 09:08:04,726 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 09:23:55,136 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 09:23:55,144 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 09:23:55,145 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 09:23:55,147 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 13:44:14,867 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 13:44:14,884 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 13:44:14,885 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 13:44:14,887 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 13:54:40,136 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 13:54:40,144 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 13:54:40,146 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 13:54:40,148 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 14:03:51,764 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 14:03:51,773 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 14:03:51,775 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 14:03:51,777 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 14:34:42,312 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 14:34:42,321 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 14:34:42,323 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 14:34:42,325 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 14:45:24,995 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 14:45:25,014 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 14:45:25,017 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 14:45:25,020 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 14:53:23,596 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 14:53:23,606 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 14:53:23,608 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 14:53:23,609 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 14:58:51,199 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 14:58:51,208 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 14:58:51,209 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 14:58:51,211 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 16:29:28,348 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 16:29:28,357 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 16:29:28,359 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 16:29:28,361 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 17:10:32,722 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 17:10:33,236 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 17:10:33,530 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 17:10:33,600 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 17:13:27,063 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-08-28 17:13:27,095 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-08-28 17:13:27,098 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 17:13:27,099 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 17:13:27,100 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 17:16:44,527 [2] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2020-08-28 17:22:21,339 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-08-28 17:22:21,367 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-08-28 17:22:21,369 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 17:22:21,369 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 17:22:21,370 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 17:42:53,535 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5000
+2020-08-28 17:42:53,547 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:5001
+2020-08-28 17:42:53,548 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 17:42:53,548 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 17:42:53,549 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 17:42:53,599 [1] FATAL Microsoft.AspNetCore.Server.Kestrel - Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+ ---> System.Net.Sockets.SocketException (10048): 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2020-08-28 18:12:01,629 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 18:12:01,640 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 18:12:01,642 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 18:12:01,643 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 18:38:25,912 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 18:38:25,924 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 18:38:25,925 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-08-28 18:38:25,961 [5] WARN  Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware - Failed to determine the https port for redirect.
+2020-08-28 18:51:00,708 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-08-28 18:51:00,717 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-08-28 18:51:00,719 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-08-28 18:51:00,721 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API

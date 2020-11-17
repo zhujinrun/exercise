@@ -1,0 +1,14 @@
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\bin\Release\netcoreapp3.1\Crawler.Common.deps.json
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\bin\Release\netcoreapp3.1\Crawler.Common.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\bin\Release\netcoreapp3.1\Crawler.Common.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\bin\Release\netcoreapp3.1\Crawler.Logger.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\bin\Release\netcoreapp3.1\Crawler.Utility.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\bin\Release\netcoreapp3.1\Crawler.Logger.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\bin\Release\netcoreapp3.1\Crawler.Utility.pdb
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\obj\Release\netcoreapp3.1\Crawler.Common.csprojAssemblyReference.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\obj\Release\netcoreapp3.1\Crawler.Common.AssemblyInfoInputs.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\obj\Release\netcoreapp3.1\Crawler.Common.AssemblyInfo.cs
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\obj\Release\netcoreapp3.1\Crawler.Common.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\obj\Release\netcoreapp3.1\Crawler.Common.csproj.CopyComplete
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\obj\Release\netcoreapp3.1\Crawler.Common.dll
+D:\github-exercise\netcore.demo\CrawlerConsole\Crawler.Common\obj\Release\netcoreapp3.1\Crawler.Common.pdb

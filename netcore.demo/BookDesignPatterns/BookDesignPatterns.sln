@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Publish-SubscriberDesign", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesign", "ObserverDesign\ObserverDesign.csproj", "{6809418B-6BEE-4090-A70E-B8F0A9F38A54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDesign", "TemplateDesign\TemplateDesign.csproj", "{7B081524-B047-48AA-B3D1-8107C0CE1E34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateDesign", "TemplateDesign\TemplateDesign.csproj", "{7B081524-B047-48AA-B3D1-8107C0CE1E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibilityDesign", "ResponsibilityDesign\ResponsibilityDesign.csproj", "{A03D49A6-FBAF-49E9-A781-757403E59CF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{7B081524-B047-48AA-B3D1-8107C0CE1E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B081524-B047-48AA-B3D1-8107C0CE1E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B081524-B047-48AA-B3D1-8107C0CE1E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A03D49A6-FBAF-49E9-A781-757403E59CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03D49A6-FBAF-49E9-A781-757403E59CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A03D49A6-FBAF-49E9-A781-757403E59CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03D49A6-FBAF-49E9-A781-757403E59CF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

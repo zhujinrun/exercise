@@ -1,0 +1,137 @@
+2020-11-03 10:29:25,182 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 10:29:25,195 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 10:29:25,197 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 10:29:25,199 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 10:57:18,384 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 10:57:18,394 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 10:57:18,396 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 10:57:18,399 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 10:57:53,109 [8] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 10:58:21,451 [8] ERROR Crawler.API.Filter.ApiExceptionFilterAttribute - This is Provider ->Login Error,Message: this  url address is error
+2020-11-03 10:58:26,749 [18] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 10:59:55,631 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 10:59:55,641 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 10:59:55,644 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 10:59:55,646 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:00:17,702 [14] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:01:07,141 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:01:07,150 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:01:07,152 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:01:07,153 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:01:18,394 [17] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:02:59,621 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:02:59,630 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:02:59,633 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:02:59,635 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:03:14,176 [4] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:03:53,555 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:03:53,574 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:03:53,576 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:03:53,577 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:04:09,110 [16] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:04:51,132 [21] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:04:51,134 [15] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:04:51,136 [11] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:06:44,086 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:06:44,096 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:06:44,098 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:06:44,100 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:06:56,274 [14] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:07:34,973 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:07:34,982 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:07:34,984 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:07:34,986 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:07:42,124 [14] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:09:57,521 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:09:57,530 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:09:57,532 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:09:57,534 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:10:05,542 [14] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:11:00,152 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:11:00,162 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:11:00,164 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:11:00,165 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:11:14,208 [19] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:12:55,587 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:12:55,617 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:12:55,619 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:12:55,620 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:13:04,463 [16] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:13:47,225 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:13:47,234 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:13:47,236 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:13:47,238 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:13:57,534 [9] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:18:43,610 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:18:43,619 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:18:43,621 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:18:43,623 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:18:57,913 [12] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:23:00,465 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:23:00,474 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:23:00,476 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:23:00,478 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:23:08,880 [14] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:27:29,807 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 11:27:29,817 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 11:27:29,819 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 11:27:29,821 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 11:27:43,092 [10] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 11:29:06,701 [2] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2020-11-03 16:03:59,191 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:03:59,200 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:03:59,202 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:03:59,204 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:04:08,221 [15] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:06:19,719 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:06:19,728 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:06:19,730 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:06:19,731 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:06:47,501 [17] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:17:01,873 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:17:01,882 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:17:01,884 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:17:01,886 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:17:08,745 [13] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:18:27,611 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:18:27,619 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:18:27,621 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:18:27,623 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:18:32,050 [12] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:19:39,675 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:19:39,687 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:19:39,688 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:19:39,690 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:19:51,458 [17] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:22:04,469 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:22:04,478 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:22:04,480 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:22:04,482 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:22:32,525 [7] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:24:44,919 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:24:44,928 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:24:44,929 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:24:44,931 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:24:52,388 [17] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:26:21,901 [10] ERROR Crawler.API.Filter.ApiExceptionFilterAttribute - This is Provider ->GetList Error,Message: A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:61397/session//url. The status of the exception was UnknownError, and the message was: 由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。
+2020-11-03 16:26:33,609 [4] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:26:47,464 [25] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:34:03,298 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:34:03,313 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:34:03,315 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:34:03,317 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:34:09,170 [9] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:34:48,207 [9] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:36:16,418 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:36:16,427 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:36:16,429 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:36:16,431 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:36:45,766 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:36:45,774 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:36:45,776 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:36:45,778 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API
+2020-11-03 16:36:50,241 [9] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-03 16:41:13,151 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-03 16:41:13,160 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-03 16:41:13,163 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-03 16:41:13,165 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\Users\lzx\source\repos\Crawler.Demo\Crawler.API

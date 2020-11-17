@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gM/68quXsdSgcYi12FkTXuwtZG6GMHAQvqfsEWJHf/JShvQc/P9IGIpuVqhxV7dNpH5MMHEZ5RbDxR4sxPvQlQ==",
+  "dgSpecHash": "J7cWGu6ZmpU2/K4/SVhAC9mrnJSJCiefOcFTLLxQcR71h+xyn3Az3AQC3x0FG7HmjVcNbuU3KyG6o3S5YN3bTw==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\Publish-SubscriberDesign\\Publish-SubscriberDesign.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }

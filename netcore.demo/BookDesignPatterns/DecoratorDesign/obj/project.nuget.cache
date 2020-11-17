@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AFP5I8K0UVNeu0s84SPnFzukfJZJRfSSfx2V975qrT7qluTq/L8Oq1nxheFGIpAhMC5M/2xwm73Vv0j+rZJkmw==",
+  "dgSpecHash": "ItuH1gAZNkpDvtqqrn6qeE9TVgPxA4EKUL26C6UD7V6vtitiGLuizD3sC8YQqNMQWPXBnWopptju3/UsS7kqUw==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\DecoratorDesign\\DecoratorDesign.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
+  ],
   "logs": []
 }
