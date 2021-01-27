@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CFYr5FgRQ0Yo45jTYKBcaciXB5RrXiGRK5VoXjge/4yHkTh2o7YSW7ZKhV966T7pe0oTEfmvYE4n73FdeUDJJQ==",
+  "dgSpecHash": "m/vFIYEXSr6wJ/Mb1TSHnXWAhhAelQk+eumN7xWu787cdxPuAqSJQo/8cF2ArNJJWW0na8k00fXzDM01Ikt3sQ==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\ObserverDesign\\ObserverDesign.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

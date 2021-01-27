@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CTBvFdILWEEFYzuCwnc1pChi+euivhFVHKlkLn8L8P7M30pN+OJXCYWBIeWcN5FAnEezYZq+KA9KrFwVCpBVuA==",
+  "dgSpecHash": "x1erKUCn45Od63txpykNaN95M89NvmklVjq5RzsF8R5JvL0js1duV3lvabggQyfthkNuage9uIkSfQO+vL+Qpw==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\TemplateDesign\\TemplateDesign.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

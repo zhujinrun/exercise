@@ -1,0 +1,73 @@
+2020-11-09 16:34:43,266 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 16:34:43,277 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 16:34:43,279 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 16:34:43,281 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 16:35:08,360 [12] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 16:35:19,164 [12] ERROR Crawler.API.Filter.ApiExceptionFilterAttribute - This is Provider ->Login Error,Message: this  url address is error
+2020-11-09 16:43:45,611 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 16:43:45,621 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 16:43:45,623 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 16:43:45,624 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 16:43:52,983 [9] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 16:45:10,835 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 16:45:10,844 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 16:45:10,846 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 16:45:10,847 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 16:45:16,796 [14] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 16:46:46,038 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 16:46:46,047 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 16:46:46,049 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 16:46:46,051 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 16:46:54,862 [15] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 16:52:05,554 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 16:52:05,563 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 16:52:05,565 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 16:52:05,566 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 16:52:17,963 [16] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:04:37,095 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:04:37,104 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:04:37,106 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:04:37,108 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:05:16,820 [8] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:07:03,036 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:07:03,046 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:07:03,048 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:07:03,049 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:07:18,585 [13] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:09:13,682 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:09:13,691 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:09:13,693 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:09:13,695 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:11:34,094 [15] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:14:48,624 [2] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2020-11-09 17:16:28,439 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:16:28,454 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:16:28,456 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:16:28,458 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:16:43,662 [15] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:18:36,995 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:18:37,004 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:18:37,005 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:18:37,007 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:18:43,806 [14] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:20:00,352 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:20:00,361 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:20:00,362 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:20:00,364 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:20:14,811 [10] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:31:50,137 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:31:50,146 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:31:50,148 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:31:50,149 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:32:31,991 [4] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:35:06,587 [2] INFO  Microsoft.Hosting.Lifetime - Application is shutting down...
+2020-11-09 17:43:44,146 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:43:44,154 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:43:44,157 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:43:44,158 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:43:58,476 [15] INFO  Crawler.API.Controllers.ProviderController - crawler start...
+2020-11-09 17:44:57,258 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:6001
+2020-11-09 17:44:57,267 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2020-11-09 17:44:57,269 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2020-11-09 17:44:57,270 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: D:\github-exercise\netcore.demo\Crawler.Demo\Crawler.API
+2020-11-09 17:45:02,201 [10] INFO  Crawler.API.Controllers.ProviderController - crawler start...

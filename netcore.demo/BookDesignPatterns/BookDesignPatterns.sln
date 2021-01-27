@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverDesign", "ObserverD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateDesign", "TemplateDesign\TemplateDesign.csproj", "{7B081524-B047-48AA-B3D1-8107C0CE1E34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResponsibilityDesign", "ResponsibilityDesign\ResponsibilityDesign.csproj", "{A03D49A6-FBAF-49E9-A781-757403E59CF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResponsibilityDesign", "ResponsibilityDesign\ResponsibilityDesign.csproj", "{A03D49A6-FBAF-49E9-A781-757403E59CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentDemo", "ComponentDemo\ComponentDemo.csproj", "{77F8FB58-B4BA-45AB-8E12-B75DD6DD4E73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{A03D49A6-FBAF-49E9-A781-757403E59CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A03D49A6-FBAF-49E9-A781-757403E59CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A03D49A6-FBAF-49E9-A781-757403E59CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F8FB58-B4BA-45AB-8E12-B75DD6DD4E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F8FB58-B4BA-45AB-8E12-B75DD6DD4E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F8FB58-B4BA-45AB-8E12-B75DD6DD4E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F8FB58-B4BA-45AB-8E12-B75DD6DD4E73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

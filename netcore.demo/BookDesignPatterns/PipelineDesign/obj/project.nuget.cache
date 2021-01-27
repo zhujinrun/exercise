@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EimD4EmmH12kV+WEuQyCmCpETibRlplP82djO7S/aGara+AlDbsxJmRCfkqVt9UCiSmkJ9osoufyBiG1zokYRw==",
+  "dgSpecHash": "EUN8Otk6kOV5N11QSHDt88IJtGj3XMaWZhSHBl7Qxn4WyLxebPmtLoh1lxKTK29F8u/StoLRAWpMqDJlnewV9A==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\BookDesignPatterns\\PipelineDesign\\PipelineDesign.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.2\\microsoft.netcore.app.host.win-x64.3.1.2.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
