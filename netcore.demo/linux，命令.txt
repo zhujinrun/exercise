@@ -196,3 +196,6 @@ systemctl restart firewalld.service
 firewall-cmd --reload
 
 google-chrome --version
+
+mysql命令登录
+mysql -uroot -p密码（注意-p和密码之间没有空格）
