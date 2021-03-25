@@ -1,6 +1,8 @@
 ﻿using BlazorApp.Shared;
+using BlazorWebApi.Server.Paging;
 using BlazorWebApi.Server.Service;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +24,7 @@ namespace BlazorWebApi.Server.Controllers
         [Route("GetByDeptId/{deptId}")]
         public IList<UserInfo> GetAllForDepartment(int deptId)
         {
-            return _userInfoService.GetForDepartment(new UserParameters()).Where(x=>x.DeptId==deptId).ToList();
+            return _userInfoService.GetForDepartment(new UserParameters()).Where(x => x.DeptId == deptId).ToList();
         }
         [HttpGet]
         [Route("GetUser/{userId}")]
@@ -43,5 +45,28 @@ namespace BlazorWebApi.Server.Controllers
         {
             return _userInfoService.GetForDepartment(new UserParameters());
         }
+        [HttpPost]
+        [Route("UpdateUser")]
+        public UserInfo UpdateUser(UserInfo userinfo)
+        {
+            _userInfoService.Update(userinfo);
+            return userinfo;
+        }
+        [HttpGet]
+        [Route("GetPage")]
+        public PagedList<UserInfo> GetUserInfosPage([FromQuery] UserParameters userParameters)
+        {
+            var users = _userInfoService.GetForDepartment(userParameters).ToPagedList(userParameters.PageNumber, userParameters.PageSize);
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(users.MetaData));
+            return users;
+        }
+        [HttpDelete]
+        [Route("DeleteUser/{userid}")]
+        public ActionResult DeleteUser(int userid)
+        {
+            _userInfoService.Delete(userid);
+            return Ok();
+        }
+
     }
 }

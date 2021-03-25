@@ -1,4 +1,5 @@
 ﻿using BlazorApp.Shared;
+using Microsoft.AspNetCore.WebUtilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,19 +53,60 @@ namespace BlazorAppWeb.Service
             return JsonSerializer.Deserialize<List<UserInfo>>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
         }
 
-        public Task<PagingResponse<UserInfo>> GetUserInfos(UserParameters userParameters)
+        public async Task<PagingResponse<UserInfo>> GetUserInfos(UserParameters userParameters)
         {
-            throw new NotImplementedException();
+            var queryStringParam = new Dictionary<string, string>
+            {
+                ["pageNumber"] = userParameters.PageNumber.ToString(),
+                ["searchTerm"] = userParameters.SearchTerm ?? ""
+
+            };
+            var response = await _client.GetAsync(QueryHelpers.AddQueryString("user/GetPage", queryStringParam));
+            var content = await response.Content.ReadAsStringAsync();
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(content);
+            }
+            var pagingResponse = new PagingResponse<UserInfo>
+            {
+                Items = JsonSerializer.Deserialize<List<UserInfo>>(content, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }),
+                MetaData = JsonSerializer.Deserialize<MetaData>(response.Headers.GetValues("X-Pagination").First(), new JsonSerializerOptions { PropertyNameCaseInsensitive = true })
+            };
+            return pagingResponse;
         }
 
-        public Task<UserInfo> UpdateUser(UserInfo userinfo)
+        public async Task<UserInfo> UpdateUser(UserInfo userInfo)
         {
-            throw new NotImplementedException();
+            var userinfoJson =
+                          new StringContent(
+                              JsonSerializer.Serialize(userInfo),
+                              Encoding.UTF8,
+                              "application/json");
+
+            var response = await _client.PostAsync(
+                "user/UpdateUser", userinfoJson);
+            if (response.IsSuccessStatusCode)
+            {
+                return await JsonSerializer.DeserializeAsync<UserInfo>
+                    (await response.Content.ReadAsStreamAsync());
+            }
+
+            return null;
         }
 
-        public Task<string> UploadFile(MultipartFormDataContent content)
+        public async Task<string> UploadFile(MultipartFormDataContent content)
         {
-            throw new NotImplementedException();
+            var postResult = await _client.PostAsync("upload", content);
+            var postContent = await postResult.Content.ReadAsStringAsync();
+            if (!postResult.IsSuccessStatusCode)
+            {
+                throw new ApplicationException(postContent);
+            }
+            else
+            {
+                var path = postContent;
+                return path;
+            }
         }
     }
 }

@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using BlazorAppWeb.Service;
+using Tewr.Blazor.FileReader;
 
 namespace BlazorAppWeb
 {
@@ -20,6 +21,7 @@ namespace BlazorAppWeb
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:7000") });
             builder.Services.AddScoped<IUserHttpRepository, UserHttpRepository>();
+            builder.Services.AddFileReaderService(o => o.UseWasmSharedBuffer = true);
             await builder.Build().RunAsync();
         }
     }

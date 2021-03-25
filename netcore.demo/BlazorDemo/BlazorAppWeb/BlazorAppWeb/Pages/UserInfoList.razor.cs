@@ -17,11 +17,11 @@ namespace BlazorAppWeb.Pages
 		[Inject]
 		public IUserHttpRepository userHttpRepository { get; set; }
 
-		public List<UserInfo> Userinfos = new List<UserInfo>();
+		public List<UserInfo> UserInfos = new List<UserInfo>();
 
 		protected override async Task OnInitializedAsync()
 		{
-			Userinfos = await userHttpRepository.GetUserInfos();
+			UserInfos = await userHttpRepository.GetUserInfos();
 		}
 	}
 }

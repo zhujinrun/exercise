@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\BlazorAppWeb\\BlazorAppWeb\\BlazorAppWeb.csproj": {}
+    "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorAppWeb\\BlazorAppWeb\\BlazorAppWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\BlazorAppWeb\\BlazorAppWeb\\BlazorAppWeb.csproj": {
+    "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorAppWeb\\BlazorAppWeb\\BlazorAppWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\BlazorAppWeb\\BlazorAppWeb\\BlazorAppWeb.csproj",
+        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorAppWeb\\BlazorAppWeb\\BlazorAppWeb.csproj",
         "projectName": "BlazorAppWeb",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\BlazorAppWeb\\BlazorAppWeb\\BlazorAppWeb.csproj",
+        "projectPath": "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorAppWeb\\BlazorAppWeb\\BlazorAppWeb.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\BlazorAppWeb\\BlazorAppWeb\\obj\\",
+        "outputPath": "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorAppWeb\\BlazorAppWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,9 +50,17 @@
               "target": "Package",
               "version": "[5.0.4, )"
             },
+            "Microsoft.AspNetCore.WebUtilities": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[3.0.0.20340, )"
             }
           },
           "imports": [

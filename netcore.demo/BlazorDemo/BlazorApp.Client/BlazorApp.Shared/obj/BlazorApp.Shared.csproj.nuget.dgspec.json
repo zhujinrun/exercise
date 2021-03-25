@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\BlazorApp.Client\\BlazorApp.Shared\\BlazorApp.Shared.csproj": {}
+    "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorApp.Client\\BlazorApp.Shared\\BlazorApp.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\BlazorApp.Client\\BlazorApp.Shared\\BlazorApp.Shared.csproj": {
+    "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorApp.Client\\BlazorApp.Shared\\BlazorApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\BlazorApp.Client\\BlazorApp.Shared\\BlazorApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorApp.Client\\BlazorApp.Shared\\BlazorApp.Shared.csproj",
         "projectName": "BlazorApp.Shared",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\BlazorApp.Client\\BlazorApp.Shared\\BlazorApp.Shared.csproj",
+        "projectPath": "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorApp.Client\\BlazorApp.Shared\\BlazorApp.Shared.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\BlazorApp.Client\\BlazorApp.Shared\\obj\\",
+        "outputPath": "C:\\Users\\lzx\\source\\repos\\BlazorDemo\\BlazorApp.Client\\BlazorApp.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
