@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VGB0yqNOBiGbwc98W2lMarOraZVg69YtF9SZw40SNqYPgk/hi8tesF+feTl5FElUseIVm6elV6ZW2rAgDkWqBw==",
+  "dgSpecHash": "Jkld/OhTILHOHFsJpA0J6sf7VCPibGy4yF7EsEso3b6R7LVJueaZKnAuhwxTlPDnlQr5sAHM2SBroHpVWOi9kA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Application\\BackStageDemo.Application.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Application\\BackStageDemo.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\jetbrains.annotations\\2020.3.0\\jetbrains.annotations.2020.3.0.nupkg.sha512",

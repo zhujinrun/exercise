@@ -10432,11 +10432,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStage.Web\\BackStage.Web.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStage.Web\\BackStage.Web.csproj",
       "projectName": "BackStage.Web",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStage.Web\\BackStage.Web.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStage.Web\\BackStage.Web.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStage.Web\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStage.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10454,8 +10454,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Application\\BackStageDemo.Application.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Application\\BackStageDemo.Application.csproj"
+            "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Application\\BackStageDemo.Application.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Application\\BackStageDemo.Application.csproj"
             }
           }
         }

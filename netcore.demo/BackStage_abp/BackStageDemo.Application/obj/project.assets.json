@@ -7431,11 +7431,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Application\\BackStageDemo.Application.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Application\\BackStageDemo.Application.csproj",
       "projectName": "BackStageDemo.Application",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Application\\BackStageDemo.Application.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Application\\BackStageDemo.Application.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Application\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7453,11 +7453,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj"
+            "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj"
             },
-            "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.EntityFrameworkCore\\BackStageDemo.EntityFrameworkCore.csproj": {
-              "projectPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.EntityFrameworkCore\\BackStageDemo.EntityFrameworkCore.csproj"
+            "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.EntityFrameworkCore\\BackStageDemo.EntityFrameworkCore.csproj": {
+              "projectPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.EntityFrameworkCore\\BackStageDemo.EntityFrameworkCore.csproj"
             }
           }
         }

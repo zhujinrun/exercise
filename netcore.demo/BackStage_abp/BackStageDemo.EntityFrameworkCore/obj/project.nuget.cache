@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mi5EpCdQfHPB3vyk61sQ7JzFssuL8nvJphdfhyE3UZyS1SSzVNrk0zzh5oEIy9Da3EXJecFIJw8l/qyPUvyuDQ==",
+  "dgSpecHash": "gWNB19GyTfe1cla96Mx8rW7Zv43wT58+jycgxxOs/eECJGOHgbXG1ryACPTIlr7cst1krnmTnLj7Tfplp/wcRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.EntityFrameworkCore\\BackStageDemo.EntityFrameworkCore.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.EntityFrameworkCore\\BackStageDemo.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\jetbrains.annotations\\2020.3.0\\jetbrains.annotations.2020.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

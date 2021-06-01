@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MgPNK4+xetCnzW2HFFlgKmc+cPsXBc3HWPU7QOI2B8KGAYmI6Blq6S8Kqld3yBK3j21ZBWxb1EDdUEt3pcCezA==",
+  "dgSpecHash": "+zu0jyAgceD2+c2HZzQy/dQw7dpEl21474QGVr9dKfBioBfYKDXSwxTXPahDM03FlwUFKh/IMOU6TxCN01N7aA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStage.Web\\BackStage.Web.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStage.Web\\BackStage.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\autofac.extensions.dependencyinjection\\6.0.0\\autofac.extensions.dependencyinjection.6.0.0.nupkg.sha512",

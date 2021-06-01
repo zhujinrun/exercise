@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj": {}
+    "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj": {
+    "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj",
         "projectName": "BackStageDemo.Domain",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Domain\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",

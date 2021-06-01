@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/IRGtyp9HGErIDTAOGUzQJAh/VrMGr6UoLUP57AWt2M3QljNItCxICrvqIDnCk3CoP7iA/uYVaG+L7GGfWZ3og==",
+  "dgSpecHash": "g6cyAxU5ouGGLOcfPmmgqWrpiLrG5RKSbMm/ym3AxmkIP/juCXLrGXAVHWOCFW+TS/YTmvSIsUhwe9DBpOchcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\BackStage\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\BackStage_abp\\BackStageDemo.Domain\\BackStageDemo.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\jetbrains.annotations\\2020.3.0\\jetbrains.annotations.2020.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
