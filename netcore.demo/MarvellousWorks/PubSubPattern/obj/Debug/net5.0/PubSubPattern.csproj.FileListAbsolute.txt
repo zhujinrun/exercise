@@ -1,0 +1,12 @@
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\bin\Debug\net5.0\PubSubPattern.deps.json
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\bin\Debug\net5.0\PubSubPattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\bin\Debug\net5.0\ref\PubSubPattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\bin\Debug\net5.0\PubSubPattern.pdb
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\obj\Debug\net5.0\PubSubPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\obj\Debug\net5.0\PubSubPattern.AssemblyInfoInputs.cache
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\obj\Debug\net5.0\PubSubPattern.AssemblyInfo.cs
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\obj\Debug\net5.0\PubSubPattern.csproj.CoreCompileInputs.cache
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\obj\Debug\net5.0\PubSubPattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\obj\Debug\net5.0\ref\PubSubPattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\obj\Debug\net5.0\PubSubPattern.pdb
+C:\Users\12142\source\repos\MarvellousWorks\PubSubPattern\obj\Debug\net5.0\PubSubPattern.csproj.AssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\bin\Debug\net5.0\PipelinePattern.deps.json
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\bin\Debug\net5.0\PipelinePattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\bin\Debug\net5.0\ref\PipelinePattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\bin\Debug\net5.0\PipelinePattern.pdb
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\obj\Debug\net5.0\PipelinePattern.csproj.AssemblyReference.cache
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\obj\Debug\net5.0\PipelinePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\obj\Debug\net5.0\PipelinePattern.AssemblyInfoInputs.cache
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\obj\Debug\net5.0\PipelinePattern.AssemblyInfo.cs
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\obj\Debug\net5.0\PipelinePattern.csproj.CoreCompileInputs.cache
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\obj\Debug\net5.0\PipelinePattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\obj\Debug\net5.0\ref\PipelinePattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\PipelinePattern\obj\Debug\net5.0\PipelinePattern.pdb

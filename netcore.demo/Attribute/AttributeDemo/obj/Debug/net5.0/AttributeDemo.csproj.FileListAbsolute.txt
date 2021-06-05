@@ -1,0 +1,16 @@
+C:\Users\12142\source\repos\Test\AttributeDemo\bin\Debug\net5.0\AttributeDemo.exe
+C:\Users\12142\source\repos\Test\AttributeDemo\bin\Debug\net5.0\AttributeDemo.deps.json
+C:\Users\12142\source\repos\Test\AttributeDemo\bin\Debug\net5.0\AttributeDemo.runtimeconfig.json
+C:\Users\12142\source\repos\Test\AttributeDemo\bin\Debug\net5.0\AttributeDemo.runtimeconfig.dev.json
+C:\Users\12142\source\repos\Test\AttributeDemo\bin\Debug\net5.0\AttributeDemo.dll
+C:\Users\12142\source\repos\Test\AttributeDemo\bin\Debug\net5.0\ref\AttributeDemo.dll
+C:\Users\12142\source\repos\Test\AttributeDemo\bin\Debug\net5.0\AttributeDemo.pdb
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\AttributeDemo.csprojAssemblyReference.cache
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\AttributeDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\AttributeDemo.AssemblyInfoInputs.cache
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\AttributeDemo.AssemblyInfo.cs
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\AttributeDemo.csproj.CoreCompileInputs.cache
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\AttributeDemo.dll
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\ref\AttributeDemo.dll
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\AttributeDemo.pdb
+C:\Users\12142\source\repos\Test\AttributeDemo\obj\Debug\net5.0\AttributeDemo.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\bin\Debug\net5.0\ObserverPattern.deps.json
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\bin\Debug\net5.0\ObserverPattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\bin\Debug\net5.0\ref\ObserverPattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\bin\Debug\net5.0\ObserverPattern.pdb
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\obj\Debug\net5.0\ObserverPattern.csproj.AssemblyReference.cache
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\obj\Debug\net5.0\ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\obj\Debug\net5.0\ObserverPattern.AssemblyInfoInputs.cache
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\obj\Debug\net5.0\ObserverPattern.AssemblyInfo.cs
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\obj\Debug\net5.0\ObserverPattern.csproj.CoreCompileInputs.cache
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\obj\Debug\net5.0\ObserverPattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\obj\Debug\net5.0\ref\ObserverPattern.dll
+C:\Users\12142\source\repos\MarvellousWorks\ObserverPattern\obj\Debug\net5.0\ObserverPattern.pdb

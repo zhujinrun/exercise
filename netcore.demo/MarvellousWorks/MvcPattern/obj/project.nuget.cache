@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "naW0Tucs2+7dgxpj8twjnYxxXgEjFPagi73jkUMBL4x2YlLC8iuYWZHi795TcIJ+gO9TYd6suv8FSZlIjBu9ow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\12142\\source\\repos\\MarvellousWorks\\MvcPattern\\MvcPattern.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\12142\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.1\\microsoft.netcore.platforms.5.0.1.nupkg.sha512",
+    "C:\\Users\\12142\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\12142\\.nuget\\packages\\system.diagnostics.eventlog\\5.0.1\\system.diagnostics.eventlog.5.0.1.nupkg.sha512",
+    "C:\\Users\\12142\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\12142\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
