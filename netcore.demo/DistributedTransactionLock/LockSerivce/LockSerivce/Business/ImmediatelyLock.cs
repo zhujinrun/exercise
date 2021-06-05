@@ -29,8 +29,7 @@ namespace LockService.Business
                             client.Set<int>("inventoryNum", inventory - 1);
                             //订单+1
                             var orderNum = client.Incr("orderNum");
-                            client.Set<int>("inventoryNum", inventory - 1);
-
+                            inventory = client.Get<int>("inventoryNum");
                             Console.WriteLine($"{i}抢购成功*****线程id：{ Thread.CurrentThread.ManagedThreadId.ToString("00")},库存：{inventory},订单数量：{orderNum}");
 
                         }
