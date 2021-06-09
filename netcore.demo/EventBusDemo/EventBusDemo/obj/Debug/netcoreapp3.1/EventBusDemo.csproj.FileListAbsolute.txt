@@ -11,3 +11,16 @@ C:\Users\lzx\source\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\Even
 C:\Users\lzx\source\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.dll
 C:\Users\lzx\source\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.pdb
 C:\Users\lzx\source\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.genruntimeconfig.cache
+D:\我的文档\repos\EventBusDemo\EventBusDemo\bin\Debug\netcoreapp3.1\EventBusDemo.exe
+D:\我的文档\repos\EventBusDemo\EventBusDemo\bin\Debug\netcoreapp3.1\EventBusDemo.deps.json
+D:\我的文档\repos\EventBusDemo\EventBusDemo\bin\Debug\netcoreapp3.1\EventBusDemo.runtimeconfig.json
+D:\我的文档\repos\EventBusDemo\EventBusDemo\bin\Debug\netcoreapp3.1\EventBusDemo.runtimeconfig.dev.json
+D:\我的文档\repos\EventBusDemo\EventBusDemo\bin\Debug\netcoreapp3.1\EventBusDemo.dll
+D:\我的文档\repos\EventBusDemo\EventBusDemo\bin\Debug\netcoreapp3.1\EventBusDemo.pdb
+D:\我的文档\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.csproj.AssemblyReference.cache
+D:\我的文档\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.AssemblyInfoInputs.cache
+D:\我的文档\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.AssemblyInfo.cs
+D:\我的文档\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.csproj.CoreCompileInputs.cache
+D:\我的文档\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.dll
+D:\我的文档\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.pdb
+D:\我的文档\repos\EventBusDemo\EventBusDemo\obj\Debug\netcoreapp3.1\EventBusDemo.genruntimeconfig.cache
