@@ -209,3 +209,6 @@ docker rm $(docker ps -a)
 
 指定内存解决内存不足服务器带不动情况
 docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -e ES_JAVA_OPTS="-Xms100m -Xmx200m"   elasticsearch:7.2.0
+
+docker exec -it 容器id /bin/bash    进入容器实例
+vi 文件名
