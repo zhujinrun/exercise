@@ -1,25 +1,25 @@
-nohup dotnet CrawlerConsole.dll > runtime.log 2>&1 &       ÅÀ³æÊØ»¤½ø³Ì ´îÅäexit,²»ÄÜÖ±½Ó¹Ø±Õxshell£¬Ö»ÄÜÍ¨¹ıÃüÁîexitÍË³ö¡£·ñÔòÊØ»¤½ø³Ì±»¹Ø±Õ
-nohup  dotnet Unibone.WebRouter.dll --urls=http://172.17.0.14:5000 ip=172.17.0.14 port=5000  > runtime.log 2>&1 &   tarpaºóÌ¨
-jobs -l  ²é¿´ºóÌ¨ÔËĞĞ½ø³Ì   
-kill -s  9 ½ø³ÌºÅ   ¹Ø±ÕÊØ»¤½ø³Ì
+nohup dotnet CrawlerConsole.dll > runtime.log 2>&1 &       çˆ¬è™«å®ˆæŠ¤è¿›ç¨‹ æ­é…exit,ä¸èƒ½ç›´æ¥å…³é—­xshellï¼Œåªèƒ½é€šè¿‡å‘½ä»¤exité€€å‡ºã€‚å¦åˆ™å®ˆæŠ¤è¿›ç¨‹è¢«å…³é—­
+nohup  dotnet Unibone.WebRouter.dll --urls=http://172.17.0.14:5000 ip=172.17.0.14 port=5000  > runtime.log 2>&1 &   tarpaåå°
+jobs -l  æŸ¥çœ‹åå°è¿è¡Œè¿›ç¨‹   
+kill -s  9 è¿›ç¨‹å·   å…³é—­å®ˆæŠ¤è¿›ç¨‹
 chmod +x chromedriver
 sudo htop
 sudo glances
-·şÎñÆ÷ÖØÆô¶¼ĞèÒªÊÖ¶¯¹Ø±Õ·À»ğÇ½
+æœåŠ¡å™¨é‡å¯éƒ½éœ€è¦æ‰‹åŠ¨å…³é—­é˜²ç«å¢™
 sudo ufw disable
  while (true)
                 {
                     Thread.Sleep(10000);
                     LoggerHelper.Info($"working{DateTime.Now.ToString()}");
-                }  Ìáµ½Console.WriteLine()  ±ÜÃâÊØ»¤½ø³ÌÅÜ²»ÆğÀ´
+                }  æåˆ°Console.WriteLine()  é¿å…å®ˆæŠ¤è¿›ç¨‹è·‘ä¸èµ·æ¥
 
 rabbitmq http://122.51.209.158:15672/   lzx 123456
 
-ls -l ÎÄ¼şÃû   ²é¿´È¨ÏŞ
-chmod 777 ÎÄ¼şÃû³Æ
+ls -l æ–‡ä»¶å   æŸ¥çœ‹æƒé™
+chmod 777 æ–‡ä»¶åç§°
 
-redis ÅäÖÃÎÄ¼ş ÏÂprotected-mode no    
-bind 127.0.0.1 ¸Ä³É bind 0.0.0.0  ¹Ø±Õ·À»ğÇ½»òÕß¿ªÆô¶Ë¿Ú
+redis é…ç½®æ–‡ä»¶ ä¸‹protected-mode no    
+bind 127.0.0.1 æ”¹æˆ bind 0.0.0.0  å…³é—­é˜²ç«å¢™æˆ–è€…å¼€å¯ç«¯å£
 
 mongod 122.51.209.158:27017
 
@@ -28,28 +28,28 @@ mysql   122.51.209.158:3306  root lx123456
 sudo systemctl enable --now mysqld
 sudo systemctl status mysqld
 
-Ä¿Â¼ÏÂ²Ù×÷£º
+ç›®å½•ä¸‹æ“ä½œï¼š
 rabbitmq-server -detached
 rabbitmqctl stop
 rabbitmqctl status
 
-Ä¿Â¼ÏÂ²Ù×÷£º
+ç›®å½•ä¸‹æ“ä½œï¼š
 [root@localhost conf]# /usr/local/soft/redis5/bin/redis-server /usr/local/soft/redis5/conf/redis.conf
-¼ì²é×´Ì¬
+æ£€æŸ¥çŠ¶æ€
 netstat -anp | grep 6379
-Æô¶¯¿Í»§¶Ë£º /usr/local/soft/redis5/bin/redis-cli
- ºóÊäÈë CONFIG SET stop-writes-on-bgsave-error no ½â¾ö³Ö¾Ã»¯±¨´í £¬ flushall·½·¨±¨´í
+å¯åŠ¨å®¢æˆ·ç«¯ï¼š /usr/local/soft/redis5/bin/redis-cli
+ åè¾“å…¥ CONFIG SET stop-writes-on-bgsave-error no è§£å†³æŒä¹…åŒ–æŠ¥é”™ ï¼Œ flushallæ–¹æ³•æŠ¥é”™
 
-Æô¶¯
+å¯åŠ¨
 systemctl start redis    
-²é¿´×´Ì¬
+æŸ¥çœ‹çŠ¶æ€
 systemctl status redis
-Ê¹¿ª»úÆô¶¯
+ä½¿å¼€æœºå¯åŠ¨
 systemctl enable redis
 systemctl stop redis   
 
 
-·À»ğÇ½ÓĞ¹Ø
+é˜²ç«å¢™æœ‰å…³
 yum install firewalld systemd -y
 systemctl status firewalld
 systemctl start firewalld.service
@@ -62,7 +62,7 @@ systemctl disable firewalld.service
 /usr/local/mongodb/bin/mongod -f  /usr/local/mongodb/conf/slaver.conf
 /usr/local/mongodb/bin/mongod -f /usr/local/mongodb/conf/arbiter.conf
 
-#Á¬½Óµ½½Úµã
+#è¿æ¥åˆ°èŠ‚ç‚¹
   ./mongo 127.0.0.1:27017
   >use admin
   >cfg={ _id:"test", members:[ {_id:0,host:'127.0.0.1:27017',priority:2}, {_id:1,host:'127.0.0.1:27019',priority:1}, {_id:2,host:'127.0.0.1:27018',arbiterOnly:true}] };
@@ -131,16 +131,16 @@ netstat -antup | grep 22
 
 
 
-±¾µØmongodb
+æœ¬åœ°mongodb
 mongod --config D:\MongoDB\config\rs1.conf
 mongod --config D:\MongoDB\config\rs2.conf
 mongod --config D:\MongoDB\config\rs3.conf
 
-win10ÏÂ ¿ªÆôrabbitmq:
-°²×°Ä¿Â¼¿½±´µ½Ó²ÅÌ
-cmd µ½sbinÄ¿Â¼ 
+win10ä¸‹ å¼€å¯rabbitmq:
+å®‰è£…ç›®å½•æ‹·è´åˆ°ç¡¬ç›˜
+cmd åˆ°sbinç›®å½• 
 
-ÓÃ»§Ä¿Â¼ÏÂ .erlang.cookieÎÄ¼ş¿½±´µ½sbinÏÂºÍ C:\Windows\System32\config\systemprofileÏÂ
+ç”¨æˆ·ç›®å½•ä¸‹ .erlang.cookieæ–‡ä»¶æ‹·è´åˆ°sbinä¸‹å’Œ C:\Windows\System32\config\systemprofileä¸‹
 rabbitmq-service install
 rabbitmq-service enable
 rabbitmq-service start
@@ -150,45 +150,45 @@ rabbitmqctl set_permissions lx ".*" ".*" ".*"
 rabbitmqctl set_user_tags lx administrator
 
 
-http://127.0.0.1:15672/ÎŞ·¨·ÃÎÊ £¬ĞèÒª¿ªÆôctl
-1¡¢rabbitmqctl start_app
+http://127.0.0.1:15672/æ— æ³•è®¿é—® ï¼Œéœ€è¦å¼€å¯ctl
+1ã€rabbitmqctl start_app
 
-2¡¢rabbitmq-plugins enable rabbitmq_management
+2ã€rabbitmq-plugins enable rabbitmq_management
 
-3¡¢rabbitmqctl stop
+3ã€rabbitmqctl stop
 
 
-1.°²×°selenium
+1.å®‰è£…selenium
  
 sudo pip install selenium
  
-2.°²×°Chrome
+2.å®‰è£…Chrome
  
 
-µÚÒ»²½£ºsudo apt-get install libxss1 libappindicator1 libindicator7
-µÚ¶ş²½£ºwget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-µÚÈı²½£ºsudo apt-get install -f
-µÚËÄ²½£ºsudo dpkg -i google-chrome-stable_current_amd64.deb
+ç¬¬ä¸€æ­¥ï¼šsudo apt-get install libxss1 libappindicator1 libindicator7
+ç¬¬äºŒæ­¥ï¼šwget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ç¬¬ä¸‰æ­¥ï¼šsudo apt-get install -f
+ç¬¬å››æ­¥ï¼šsudo dpkg -i google-chrome-stable_current_amd64.deb
  
 
-3.°²×°chromedriver
-¸´ÖÆ´úÂë
-µÚÒ»²½£ºwget -N http://chromedriver.storage.googleapis.com/2.29/chromedriver_linux64.zip
-µÚ¶ş²½£ºunzip chromedriver_linux64.zip
-µÚÈı²½£ºchmod +x chromedriver
-µÚËÄ²½£ºsudo mv -f chromedriver /usr/local/share/chromedriver
-µÚÎå²½£º sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
-µÚÁù²½£ºsudo ln -s /usr/local/share/chromedriver /usr/bin/chromedrive
+3.å®‰è£…chromedriver
+å¤åˆ¶ä»£ç 
+ç¬¬ä¸€æ­¥ï¼šwget -N http://chromedriver.storage.googleapis.com/2.29/chromedriver_linux64.zip
+ç¬¬äºŒæ­¥ï¼šunzip chromedriver_linux64.zip
+ç¬¬ä¸‰æ­¥ï¼šchmod +x chromedriver
+ç¬¬å››æ­¥ï¼šsudo mv -f chromedriver /usr/local/share/chromedriver
+ç¬¬äº”æ­¥ï¼š sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+ç¬¬å…­æ­¥ï¼šsudo ln -s /usr/local/share/chromedriver /usr/bin/chromedrive
 
 
-ÖØµã £ºÊ×ÏÈ°²×°ºÃä¯ÀÀÆ÷ £¬ÔÙ°´ÕÕ¶ÔÓ¦ä¯ÀÀÆ÷È¥ÏÂÔØchromedriver
+é‡ç‚¹ ï¼šé¦–å…ˆå®‰è£…å¥½æµè§ˆå™¨ ï¼Œå†æŒ‰ç…§å¯¹åº”æµè§ˆå™¨å»ä¸‹è½½chromedriver
 
-mariadb ÃÜÂë lx123456
-free -h  ²é¿´ÄÚ´æ
-sar -u 1 5 ²é¿´cpu
+mariadb å¯†ç  lx123456
+free -h  æŸ¥çœ‹å†…å­˜
+sar -u 1 5 æŸ¥çœ‹cpu
 sudo glances
 
-centos7·À»ğÇ½ÉèÖÃ:
+centos7é˜²ç«å¢™è®¾ç½®:
 firewall-cmd --state
 systemctl start firewalld.service
 firewall-cmd --zone=public --add-port=8080/tcp --permanent
@@ -197,5 +197,12 @@ firewall-cmd --reload
 
 google-chrome --version
 
-mysqlÃüÁîµÇÂ¼
-mysql -uroot -pÃÜÂë£¨×¢Òâ-pºÍÃÜÂëÖ®¼äÃ»ÓĞ¿Õ¸ñ£©
+mysqlå‘½ä»¤ç™»å½•
+mysql -uroot -på¯†ç ï¼ˆæ³¨æ„-på’Œå¯†ç ä¹‹é—´æ²¡æœ‰ç©ºæ ¼ï¼‰
+
+
+# åˆ é™¤å®¹å™¨
+docker rm å®¹å™¨ID
+
+# åˆ é™¤æ‰€æœ‰å®¹å™¨
+docker rm $(docker ps -a) 
