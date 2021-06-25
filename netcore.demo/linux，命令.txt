@@ -215,4 +215,4 @@ vi 文件名
 
 git clone https://github.com/.../skywalking-docker.git
 cd skywalking-docker/6.x/docker-compose/
-docker-compose up
+docker-compose up -d
