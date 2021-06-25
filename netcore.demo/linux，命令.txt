@@ -212,3 +212,7 @@ docker run -d --name elasticsearch -p 9200:9200 -p 9300:9300 -e "discovery.type=
 
 docker exec -it 容器id /bin/bash    进入容器实例
 vi 文件名
+
+git clone https://github.com/.../skywalking-docker.git
+cd skywalking-docker/6.x/docker-compose/
+docker-compose up
