@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProviderPattern.Pattern2
+namespace ProviderPattern
 {
     /// <summary>
     /// Xml配置提供者
