@@ -1,0 +1,193 @@
+2021-06-26 00:00:19.289 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:00:45.216 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.4.16246368451860004.
+2021-06-26 00:00:45.301 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.4.16246368452830006.
+2021-06-26 00:00:46.385 +08:00 [SkyWalkingDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.1525413s
+2021-06-26 00:00:49.293 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32754 32767 1000 1000
+2021-06-26 00:00:49.328 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:00:49 +00:00
+2021-06-26 00:01:19.292 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:01:46.830 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.6.16246369068000004.
+2021-06-26 00:01:46.886 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.10.16246369068700006.
+2021-06-26 00:01:49.282 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:01:49 +00:00
+2021-06-26 00:01:49.327 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:01:49.330 +08:00 [SkyWalkingDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0950608s
+2021-06-26 00:02:19.292 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:02:49.284 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:02:49 +00:00
+2021-06-26 00:02:49.328 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:03:19.289 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32762 32767 1000 1000
+2021-06-26 00:03:46.068 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.46.16246370260480001.
+2021-06-26 00:03:46.158 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.46.16246370261410002.
+2021-06-26 00:03:46.372 +08:00 [SkyWalkingDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.1278454s
+2021-06-26 00:03:49.291 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:03:49 +00:00
+2021-06-26 00:03:49.328 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:04:19.290 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:04:49.296 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:04:49 +00:00
+2021-06-26 00:04:49.338 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:05:19.305 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 13M ThreadPool 32762 32767 1000 1000
+2021-06-26 00:05:34.129 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.68.16246371341100001.
+2021-06-26 00:05:34.331 +08:00 [SkyWalkingDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0963643s
+2021-06-26 00:05:36.854 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.69.16246371368300001.
+2021-06-26 00:05:37.337 +08:00 [SkyWalkingDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0912858s
+2021-06-26 00:05:49.293 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:05:49 +00:00
+2021-06-26 00:05:49.326 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:06:19.291 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32763 32767 1000 1000
+2021-06-26 00:06:49.289 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:06:49 +00:00
+2021-06-26 00:06:49.325 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32754 32767 1000 1000
+2021-06-26 00:07:19.293 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:07:49.292 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:07:49 +00:00
+2021-06-26 00:07:49.307 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:08:19.283 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:08:49.288 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:08:49 +00:00
+2021-06-26 00:08:49.335 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 15M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:09:19.294 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 15M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:09:49.308 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32754 32767 1000 1000
+2021-06-26 00:09:49.330 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:09:49 +00:00
+2021-06-26 00:10:12.183 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.79.16246374121640001.
+2021-06-26 00:10:12.246 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.6.16246374122270005.
+2021-06-26 00:10:13.337 +08:00 [SkyWalkingDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0930091s
+2021-06-26 00:10:17.124 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.62.16246374171030001.
+2021-06-26 00:10:17.183 +08:00 [SkyWalkingDemo] [Debug] SkyApm.Transport.AsyncQueueSegmentDispatcher : Dispatch trace segment. [SegmentId]=5.89.16246374171650001.
+2021-06-26 00:10:19.292 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:10:19.340 +08:00 [SkyWalkingDemo] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0944438s
+2021-06-26 00:10:49.321 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:10:49 +00:00
+2021-06-26 00:10:49.382 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:11:19.308 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:11:49.303 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:11:49 +00:00
+2021-06-26 00:11:49.337 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:12:19.301 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32761 32767 1000 1000
+2021-06-26 00:12:49.290 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:12:49.329 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:12:49 +00:00
+2021-06-26 00:13:19.289 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:13:49.287 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:13:49 +00:00
+2021-06-26 00:13:49.332 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:14:19.293 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:14:49.306 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:14:49 +00:00
+2021-06-26 00:14:49.334 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:15:19.294 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32762 32767 1000 1000
+2021-06-26 00:15:49.297 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:15:49 +00:00
+2021-06-26 00:15:49.351 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 19M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:16:19.300 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:16:49.292 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:16:49 +00:00
+2021-06-26 00:16:49.334 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32754 32767 1000 1000
+2021-06-26 00:17:19.289 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 20M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:17:49.295 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:17:49 +00:00
+2021-06-26 00:17:49.339 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 21M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:18:19.288 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:18:49.301 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:18:49 +00:00
+2021-06-26 00:18:49.333 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:19:19.304 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 21M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:19:49.312 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 22M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:19:49.312 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:19:49 +00:00
+2021-06-26 00:20:19.288 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:20:49.304 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:20:49 +00:00
+2021-06-26 00:20:49.339 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 22M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:21:19.299 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:21:49.293 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:21:49 +00:00
+2021-06-26 00:21:49.337 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:22:19.298 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 23M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:22:49.300 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:22:49 +00:00
+2021-06-26 00:22:49.300 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.03125 GenCollectCount 0 0 0 23M ThreadPool 32754 32767 1000 1000
+2021-06-26 00:23:19.300 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32762 32767 1000 1000
+2021-06-26 00:23:49.331 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:23:49 +00:00
+2021-06-26 00:23:49.370 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:24:19.290 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:24:49.300 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:24:49 +00:00
+2021-06-26 00:24:49.337 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 24M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:25:19.305 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:25:49.300 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:25:49.339 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:25:49 +00:00
+2021-06-26 00:26:19.299 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 25M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:26:49.304 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:26:49 +00:00
+2021-06-26 00:26:49.339 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32754 32767 1000 1000
+2021-06-26 00:27:19.298 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:27:49.299 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:27:49 +00:00
+2021-06-26 00:27:49.341 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:28:19.306 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 26M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:28:49.302 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:28:49 +00:00
+2021-06-26 00:28:49.336 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 27M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:29:19.303 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 1 0 0 4M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:29:49.303 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:29:49 +00:00
+2021-06-26 00:29:49.337 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 4M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:30:19.299 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:30:49.310 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:30:49 +00:00
+2021-06-26 00:30:49.310 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:31:19.295 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:31:49.308 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 5M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:31:49.348 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:31:49 +00:00
+2021-06-26 00:32:19.308 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32761 32767 1000 1000
+2021-06-26 00:32:49.303 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:32:49 +00:00
+2021-06-26 00:32:49.352 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32754 32767 1000 1000
+2021-06-26 00:33:19.306 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:33:49.307 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:33:49 +00:00
+2021-06-26 00:33:49.347 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 6M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:34:19.312 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 7M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:34:49.308 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:34:49 +00:00
+2021-06-26 00:34:49.345 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 7M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:35:19.307 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 7M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:35:49.325 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:35:49.325 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:35:49 +00:00
+2021-06-26 00:36:19.304 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:36:49.300 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:36:49 +00:00
+2021-06-26 00:36:49.336 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32761 32767 1000 1000
+2021-06-26 00:37:19.308 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 8M ThreadPool 32762 32767 1000 1000
+2021-06-26 00:37:49.304 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:37:49.339 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:37:49 +00:00
+2021-06-26 00:38:19.308 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 9M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:38:49.312 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:38:49 +00:00
+2021-06-26 00:38:49.348 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 9M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:39:19.307 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 10M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:39:49.299 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:39:49 +00:00
+2021-06-26 00:39:49.343 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:40:19.304 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:40:49.303 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:40:49 +00:00
+2021-06-26 00:40:49.340 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 10M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:41:19.304 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:41:49.310 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:41:49 +00:00
+2021-06-26 00:41:49.354 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:42:19.306 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 11M ThreadPool 32761 32767 1000 1000
+2021-06-26 00:42:49.296 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:42:49 +00:00
+2021-06-26 00:42:49.340 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:43:19.301 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:43:49.305 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:43:49 +00:00
+2021-06-26 00:43:49.346 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32761 32767 1000 1000
+2021-06-26 00:44:19.305 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 12M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:44:49.313 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:44:49.313 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:44:49 +00:00
+2021-06-26 00:45:19.300 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:45:49.303 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:45:49.339 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:45:49 +00:00
+2021-06-26 00:46:19.294 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 13M ThreadPool 32760 32767 1000 1000
+2021-06-26 00:46:49.302 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:46:49.337 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:46:49 +00:00
+2021-06-26 00:47:19.303 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:47:49.304 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:47:49 +00:00
+2021-06-26 00:47:49.344 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.015625 GenCollectCount 0 0 0 14M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:48:19.305 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:48:49.320 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0.03125 GenCollectCount 0 0 0 15M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:48:49.345 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:48:49 +00:00
+2021-06-26 00:49:19.312 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:49:49.311 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:49:49 +00:00
+2021-06-26 00:49:49.337 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 15M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:50:19.313 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:50:49.318 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32755 32767 1000 1000
+2021-06-26 00:50:49.341 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:50:49 +00:00
+2021-06-26 00:51:19.326 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 16M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:51:49.407 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:51:49 +00:00
+2021-06-26 00:51:49.434 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32758 32767 1000 1000
+2021-06-26 00:52:19.321 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:52:49.326 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32757 32767 1000 1000
+2021-06-26 00:52:49.348 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:52:49 +00:00
+2021-06-26 00:53:19.329 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 17M ThreadPool 32759 32767 1000 1000
+2021-06-26 00:53:49.324 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:53:49 +00:00
+2021-06-26 00:53:49.348 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32761 32767 1000 1000
+2021-06-26 00:54:19.322 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:54:49.317 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Ping server @2021/6/25 16:54:49 +00:00
+2021-06-26 00:54:49.341 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32756 32767 1000 1000
+2021-06-26 00:55:19.315 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Report CLR Stats. CPU UsagePercent 0 GenCollectCount 0 0 0 18M ThreadPool 32761 32767 1000 1000
+2021-06-26 00:55:38.513 +08:00 [SkyWalkingDemo] [Information] SkyApm.InstrumentStartup : Initializing ...
+2021-06-26 00:55:38.631 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2021-06-26 00:55:38.652 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2021-06-26 00:55:38.653 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2021-06-26 00:55:38.653 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2021-06-26 00:55:38.653 +08:00 [SkyWalkingDemo] [Information] SkyApm.Service.CLRStatsService : Loaded instrument service [SkyApm.Service.CLRStatsService].
+2021-06-26 00:55:38.654 +08:00 [SkyWalkingDemo] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2021-06-26 00:55:38.654 +08:00 [SkyWalkingDemo] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].

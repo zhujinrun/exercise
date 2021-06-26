@@ -1,0 +1,12 @@
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\bin\Debug\net5.0\CommonTool.deps.json
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\bin\Debug\net5.0\CommonTool.dll
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\bin\Debug\net5.0\ref\CommonTool.dll
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\bin\Debug\net5.0\CommonTool.pdb
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.csproj.AssemblyReference.cache
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.AssemblyInfo.cs
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.dll
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\ref\CommonTool.dll
+C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.pdb
