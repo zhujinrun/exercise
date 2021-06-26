@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qpOnT/rJRPJVdH0xLHE8izdN1g9j5ZdvI25mLkIfrtXgUis6HKc6hTCSbTCDNYW8M5ayhDLOoh+AHnf+pplg2g==",
+  "dgSpecHash": "WeIn92Bj2ZLpseNJc9KVCBUaByYE9zSDAPS+N2NdM7KUJCQD02YS9zd+uL/v67ekDSO8Ey7Nzva5Dyrzss1eXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\12142\\source\\repos\\MarvellousWorks\\AbstractFactory\\AbstractFactory.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\MarvellousWorks\\AbstractFactory\\AbstractFactory.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m1RQzkAoKFfxvJMrH0QNXc68f/wOvLEn89e0TF3YrP5t/7Ii8ict4ul1kSSQO57Xf3puR76bHXn4MHtHqIRDNg==",
+  "dgSpecHash": "mv7j7H39MJxtaNTOC/XpUutkWDOx0p6ZXcvPLoHaopkEFWPybp9Oz4Vtnr8gAOFl9qPwY6c4mgr/cHf8aA9nbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\12142\\source\\repos\\MarvellousWorks\\BuildPattern\\BuildPattern.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\MarvellousWorks\\BuildPattern\\BuildPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

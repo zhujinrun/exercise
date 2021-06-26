@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0Df872CT68BK+LwWewREcpPmaeP4k1FsNOClzo7+jmauKzm3tPnYRJJSLI7fbGD0QBVGYDqmcukTp1X1EL1fEw==",
+  "dgSpecHash": "myxE+GNagKWPsVH5NVTq1h3uJLaXeR2aQaDZ7QKw36LlkpNtDBkc8qmvclb1MrFR8WW/WNagS6DfhF9oCPIPAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\12142\\source\\repos\\MarvellousWorks\\PipelinePattern\\PipelinePattern.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\MarvellousWorks\\PipelinePattern\\PipelinePattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

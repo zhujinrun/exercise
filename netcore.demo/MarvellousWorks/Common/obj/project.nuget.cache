@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NKTr7cg6oN3vWi/xpQ8u2vr6M0O3R/mhklaPAeRtDmahfqPrqejkXKC1pJtjOPXEIQxKVvQ6oQwvzsfauntvLw==",
+  "dgSpecHash": "FAf35jh4VVMRPQhG1W0bm4HzC8A1IEIsS2FuHlXL3YJiknNqzd6KIHcStUqZeFZm2tVUFE2IYMvcz3Q4M6JWnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\12142\\source\\repos\\MarvellousWorks\\Common\\Common.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\MarvellousWorks\\Common\\Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

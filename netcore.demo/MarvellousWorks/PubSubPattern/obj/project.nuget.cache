@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WkcvA7kaoBxUoFR4o6LWe0cIVVn6JiUOvquwnj5koFw5R6izDC6wfMEWOvtu4QW9i1U9gC3fABrLPVrOL1pKZw==",
+  "dgSpecHash": "IcLPpg89uGDOi16Mvt0rPyfp3Pw+RpbqXPb06Go6cvaL1BamPSQOtfl3lpStzn8G/1zOjYfSjblPm2HB7NA+nQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\12142\\source\\repos\\MarvellousWorks\\PubSubPattern\\PubSubPattern.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\MarvellousWorks\\PubSubPattern\\PubSubPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

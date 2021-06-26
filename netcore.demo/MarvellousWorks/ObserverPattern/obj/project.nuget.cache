@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xbt0GkUizZil8Ci+sSuclZWDIKBD/5gfMaE6MccHe/uFSgw2+C8qldDVlv4O8YtCWh3CxEj1rdvjOiGrlORZVw==",
+  "dgSpecHash": "xqm691DB1NCDmH3Fe9L/NjiHlyCgQ+V+V9jsmdRhc+VXTBDhNUA5AyV7Hzcs6tWLAPBShtrMRVofXOmZlIzZ0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\12142\\source\\repos\\MarvellousWorks\\ObserverPattern\\ObserverPattern.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\MarvellousWorks\\ObserverPattern\\ObserverPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
