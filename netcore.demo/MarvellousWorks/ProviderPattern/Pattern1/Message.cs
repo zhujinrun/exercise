@@ -61,7 +61,7 @@ namespace ProviderPattern
                    // System.Web.Configuration.ProvidersHelper.InstantiateProviders(messageConfig.Providers, _providers, typeof(MessageProvider));
 
                     // 所用的Provider为配置中默认的Provider
-                    _provider = _providers[messageConfig.DefaultProvider] as MessageProvider;
+                    _provider = (_providers[messageConfig.DefaultProvider]) as MessageProvider;
 
                     m_isInitialized = true;
 

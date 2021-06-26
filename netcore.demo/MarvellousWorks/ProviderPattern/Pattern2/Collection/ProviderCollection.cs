@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProviderPattern
+namespace ProviderPattern.Collection
 {
     /// <summary>
     /// 集合提供者

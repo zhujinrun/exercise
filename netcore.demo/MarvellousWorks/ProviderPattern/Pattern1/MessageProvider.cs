@@ -17,7 +17,7 @@ namespace ProviderPattern
 
     public class SqlMessageProvider : MessageProvider
     {
-        private string _connectionString;
+        private string _connectionString="str";
         public override List<MessageModel> Get()
         {
             List<MessageModel> list = new List<MessageModel>();
