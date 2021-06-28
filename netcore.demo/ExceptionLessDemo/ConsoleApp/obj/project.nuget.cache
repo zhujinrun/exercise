@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dXbWkWEIGDeE7qO9zqy38LDQo/x1p0ZNV/eXml71fffaYhiFNIqbMR8Nwjs8K3/ZDlHt8lcDngZWz8H/diN6AQ==",
+  "dgSpecHash": "oIgpS/cMCvuTe6xT+ZLelPcK3ZVDpavUBJlMU1xROeYv5vRKOYo8fd0BUVmmK2V5PqL7Q6JiX/c/3bzLC3tneA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\exceptionless\\4.6.2\\exceptionless.4.6.2.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.platformabstractions\\1.1.0\\microsoft.extensions.platformabstractions.1.1.0.nupkg.sha512",

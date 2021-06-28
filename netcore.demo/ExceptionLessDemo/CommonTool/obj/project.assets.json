@@ -5011,11 +5011,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\CommonTool\\CommonTool.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\CommonTool\\CommonTool.csproj",
       "projectName": "CommonTool",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\CommonTool\\CommonTool.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\CommonTool\\CommonTool.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\CommonTool\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\CommonTool\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",

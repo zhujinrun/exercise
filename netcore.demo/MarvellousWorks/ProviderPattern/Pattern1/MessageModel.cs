@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ProviderPattern
 {
+    /// <summary>
+    /// 整个模块的起点
+    /// </summary>
     public class MessageModel
     {
         /// <summary>

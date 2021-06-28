@@ -34,6 +34,7 @@
       "WebApp/1.0.0": {
         "dependencies": {
           "CommonTool": "1.0.0",
+          "Exceptionless.AspNetCore": "4.6.2",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",

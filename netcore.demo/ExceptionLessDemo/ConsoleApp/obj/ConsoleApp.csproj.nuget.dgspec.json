@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\ConsoleApp\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",

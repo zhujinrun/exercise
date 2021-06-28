@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WzFqSRTGb56VRo09roiqx0nrSYZMVaj/Oer1b/2IG1/xjjEu2g4yUWHEz4UB7gEcYaTyXLRP9k0yXOaFHgFSbg==",
+  "dgSpecHash": "H6oJ1k9Wk/6HTyM1qCvsHSL9l6je1DVhAQIg1gPaQpGGP9tbkVtIvOZCKLwenvg+kgWKh0+uIUFbKHNBA+Ta6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\ExceptionLessDemo\\WebApp\\WebApp.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\ExceptionLessDemo\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\exceptionless\\4.6.2\\exceptionless.4.6.2.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\exceptionless.aspnetcore\\4.6.2\\exceptionless.aspnetcore.4.6.2.nupkg.sha512",

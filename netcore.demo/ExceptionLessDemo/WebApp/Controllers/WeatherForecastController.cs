@@ -18,12 +18,11 @@ namespace WebApp.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-        public CommonTool.Service.ILogger Logger { get; }
+       
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, CommonTool.Service.ILogger loggerex)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-            Logger = loggerex;
         }
 
         [HttpGet]
@@ -51,16 +50,6 @@ namespace WebApp.Controllers
             {
                 ex.ToExceptionless().Submit();
             }
-            _logger.LogInformation(string.Format("Gets方法调用了"));
-            _logger.LogWarning(string.Format("Gets方法调用了"));
-            _logger.LogError(string.Format("Gets方法调用了"));
-            _logger.LogDebug(string.Format("Gets方法调用了"));
-
-            Logger.Trace($"User Login Successfully. Time:{DateTime.Now.ToString()}", "Tag1", "Tag2");
-            Logger.Debug($"User Login Successfully. Time:{DateTime.Now.ToString()}", "Tag1", "Tag2");
-            Logger.Info($"User Login Successfully. Time:{DateTime.Now.ToString()}", "Tag1", "Tag2");
-            Logger.Warn($"User Login Successfully. Time:{DateTime.Now.ToString()}", "Tag1", "Tag2");
-            Logger.Error($"User Login Successfully. Time:{DateTime.Now.ToString()}", "Tag1", "Tag2");
             return "ok";
         }
     }

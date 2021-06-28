@@ -1,4 +1,3 @@
-using CommonTool.Service.Impl;
 using Exceptionless;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,8 +33,6 @@ namespace WebApp
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebApp", Version = "v1" });
             });
-            
-            services.AddSingleton(typeof(CommonTool.Service.ILogger), typeof(ExceptionLessLogger));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,8 +44,11 @@ namespace WebApp
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebApp v1"));
             }
-            app.UseExceptionless(Configuration["Exceptionless:ApiKey"]);
-            app.UseHttpsRedirection();
+            app.UseExceptionless();
+            ExceptionlessClient.Default.Configuration.ApiKey = Configuration["Exceptionless:ApiKey"];
+          //ExceptionlessClient.Default.Configuration.ServerUrl = Configuration.GetSection("Exceptionless:ServerUrl").Value;  官网的一样不能加
+            ExceptionlessClient.Default.CreateLog("info", Exceptionless.Logging.LogLevel.Info.ToString()).Submit();
+           app.UseHttpsRedirection();
 
             app.UseRouting();
 

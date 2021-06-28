@@ -10,3 +10,15 @@ C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTo
 C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.dll
 C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\ref\CommonTool.dll
 C:\Users\lzx\source\repos\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.pdb
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\bin\Debug\net5.0\CommonTool.deps.json
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\bin\Debug\net5.0\CommonTool.dll
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\bin\Debug\net5.0\ref\CommonTool.dll
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\bin\Debug\net5.0\CommonTool.pdb
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.csproj.AssemblyReference.cache
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.GeneratedMSBuildEditorConfig.editorconfig
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.AssemblyInfoInputs.cache
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.AssemblyInfo.cs
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.dll
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\ref\CommonTool.dll
+D:\github-exercise\netcore.demo\ExceptionLessDemo\CommonTool\obj\Debug\net5.0\CommonTool.pdb
