@@ -219,3 +219,9 @@ docker-compose up -d
 
 查看容器ip等信息
 docker inspect 容器id 
+
+//获取指定容器的ip
+docker inspect --format '{{ .NetworkSettings.IPAddress }}' 68f0d84be6ad
+
+//获取所有容器ip
+docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
