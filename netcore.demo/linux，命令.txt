@@ -225,3 +225,5 @@ docker inspect --format '{{ .NetworkSettings.IPAddress }}' 68f0d84be6ad
 
 //获取所有容器ip
 docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+
+docker-compose down --volumes  //停止删除所有分卷
