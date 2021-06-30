@@ -216,3 +216,6 @@ vi 文件名
 git clone https://github.com/.../skywalking-docker.git
 cd skywalking-docker/6.x/docker-compose/
 docker-compose up -d
+
+查看容器ip等信息
+docker inspect 容器id 
