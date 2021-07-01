@@ -227,3 +227,14 @@ docker inspect --format '{{ .NetworkSettings.IPAddress }}' 68f0d84be6ad
 docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
 
 docker-compose down --volumes  //停止删除所有分卷
+
+刚刚新装的CentOS8.1，默认是图形界面，因为主要是当web服务器用，所以没必要用图形界面（主要是占用内存更多），参照下面命令改下就可以切换了。
+获取系统当前启动模式命令
+systemctl get-default
+修改系统启动模式命令
+
+systemctl set-default multi-user.target     #修改为命令行模式
+或者
+
+systemctl set-default graphical.target     #修改为图形化模式
+重启系统就可进入新设置的启动模式
