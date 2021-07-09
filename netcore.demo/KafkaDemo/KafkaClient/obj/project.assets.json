@@ -215,11 +215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\KafkaDemo\\KafkaClient\\KafkaClient.csproj",
+      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\KafkaDemo\\KafkaClient\\KafkaClient.csproj",
       "projectName": "KafkaClient",
-      "projectPath": "C:\\Users\\lzx\\source\\repos\\KafkaDemo\\KafkaClient\\KafkaClient.csproj",
+      "projectPath": "D:\\github-exercise\\netcore.demo\\KafkaDemo\\KafkaClient\\KafkaClient.csproj",
       "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lzx\\source\\repos\\KafkaDemo\\KafkaClient\\obj\\",
+      "outputPath": "D:\\github-exercise\\netcore.demo\\KafkaDemo\\KafkaClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -230,10 +230,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -245,6 +247,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Confluent.Kafka": {
             "target": "Package",
@@ -266,7 +269,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

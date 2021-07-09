@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kx28f2hn1EagD1bXrKLGTzzI80YsB2MuiZ3vEL8nXqsLe4CJUWAeve03CEEKxf1aQnBO1ASE/anyhSdyPGTwPg==",
+  "dgSpecHash": "++cMd6Pc/IrM2ClsVLxjk0ZGMD1ZfnZqherki+1aGOgflSOJP1wP5V7VY50Mk7Vm1rUUV48eKV5+VhW7tmbRqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\KafkaDemo\\KafkaClient\\KafkaClient.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\KafkaDemo\\KafkaClient\\KafkaClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\confluent.kafka\\1.5.0\\confluent.kafka.1.5.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\librdkafka.redist\\1.5.0\\librdkafka.redist.1.5.0.nupkg.sha512",

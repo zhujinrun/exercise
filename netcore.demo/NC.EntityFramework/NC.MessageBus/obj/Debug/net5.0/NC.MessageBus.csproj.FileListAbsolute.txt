@@ -1,0 +1,12 @@
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.AssemblyInfo.cs
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\NC.MessageBus.deps.json
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\NC.MessageBus.dll
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\ref\NC.MessageBus.dll
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\NC.MessageBus.pdb
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.dll
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\ref\NC.MessageBus.dll
+C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.pdb
