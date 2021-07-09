@@ -216,3 +216,28 @@ vi 文件名
 git clone https://github.com/.../skywalking-docker.git
 cd skywalking-docker/6.x/docker-compose/
 docker-compose up -d
+
+查看容器ip等信息
+docker inspect 容器id 
+
+//获取指定容器的ip
+docker inspect --format '{{ .NetworkSettings.IPAddress }}' 68f0d84be6ad
+
+//获取所有容器ip
+docker inspect --format='{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
+
+docker-compose down --volumes  //停止删除所有分卷
+
+刚刚新装的CentOS8.1，默认是图形界面，因为主要是当web服务器用，所以没必要用图形界面（主要是占用内存更多），参照下面命令改下就可以切换了。
+获取系统当前启动模式命令
+systemctl get-default
+修改系统启动模式命令
+
+systemctl set-default multi-user.target     #修改为命令行模式
+或者
+
+systemctl set-default graphical.target     #修改为图形化模式
+重启系统就可进入新设置的启动模式
+centos7安装docker命令yum install -y docker-ce会无效 需要使用yum install -y docker-ce-cli
+
+iptables -I INPUT -p tcp --dport 端口号 -j ACCEPT
