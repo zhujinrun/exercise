@@ -239,3 +239,5 @@ systemctl set-default multi-user.target     #修改为命令行模式
 systemctl set-default graphical.target     #修改为图形化模式
 重启系统就可进入新设置的启动模式
 centos7安装docker命令yum install -y docker-ce会无效 需要使用yum install -y docker-ce-cli
+
+iptables -I INPUT -p tcp --dport 端口号 -j ACCEPT
