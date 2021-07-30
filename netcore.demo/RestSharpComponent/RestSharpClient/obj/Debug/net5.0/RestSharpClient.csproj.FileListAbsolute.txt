@@ -1,0 +1,12 @@
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\bin\Debug\net5.0\RestSharpClient.deps.json
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\bin\Debug\net5.0\RestSharpClient.dll
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\bin\Debug\net5.0\ref\RestSharpClient.dll
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\bin\Debug\net5.0\RestSharpClient.pdb
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.csproj.AssemblyReference.cache
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.AssemblyInfoInputs.cache
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.AssemblyInfo.cs
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.csproj.CoreCompileInputs.cache
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.dll
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\ref\RestSharpClient.dll
+C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.pdb
