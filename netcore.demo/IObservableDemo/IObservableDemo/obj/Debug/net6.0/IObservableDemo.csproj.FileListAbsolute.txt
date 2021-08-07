@@ -1,0 +1,15 @@
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\bin\Debug\net6.0\IObservableDemo.exe
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\bin\Debug\net6.0\IObservableDemo.deps.json
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\bin\Debug\net6.0\IObservableDemo.runtimeconfig.json
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\bin\Debug\net6.0\IObservableDemo.dll
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\bin\Debug\net6.0\ref\IObservableDemo.dll
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\bin\Debug\net6.0\IObservableDemo.pdb
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\IObservableDemo.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\IObservableDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\IObservableDemo.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\IObservableDemo.AssemblyInfo.cs
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\IObservableDemo.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\IObservableDemo.dll
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\ref\IObservableDemo.dll
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\IObservableDemo.pdb
+C:\Users\admin\source\repos\IObservableDemo\IObservableDemo\obj\Debug\net6.0\IObservableDemo.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj": {}
+    "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj": {
+    "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj",
         "projectName": "RestSharpClient",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\RestSharpClient\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\RestSharpClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj": {
+    "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj",
+        "projectUniqueName": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj",
         "projectName": "TestRestSharpComponent",
-        "projectPath": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj",
+        "projectPath": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj",
         "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\TestRestSharpComponent\\obj\\",
+        "outputPath": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\TestRestSharpComponent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj": {
-                "projectPath": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj"
+              "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj": {
+                "projectPath": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\RestSharpClient\\RestSharpClient.csproj"
               }
             }
           }

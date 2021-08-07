@@ -10,3 +10,15 @@ C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\Re
 C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.dll
 C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\ref\RestSharpClient.dll
 C:\Users\lzx\source\repos\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.pdb
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\bin\Debug\net5.0\RestSharpClient.deps.json
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\bin\Debug\net5.0\RestSharpClient.dll
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\bin\Debug\net5.0\ref\RestSharpClient.dll
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\bin\Debug\net5.0\RestSharpClient.pdb
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.csproj.AssemblyReference.cache
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.AssemblyInfoInputs.cache
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.AssemblyInfo.cs
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.csproj.CoreCompileInputs.cache
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.dll
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\ref\RestSharpClient.dll
+D:\github-exercise\netcore.demo\RestSharpComponent\RestSharpClient\obj\Debug\net5.0\RestSharpClient.pdb

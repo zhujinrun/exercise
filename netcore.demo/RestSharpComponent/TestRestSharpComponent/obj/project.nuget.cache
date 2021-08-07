@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "37BfqbH96HXbGR2TjF1OAy7Qf3AgRXQtKwovV3zdJ9pCNNlyaTjoPhBOY88RPkybrG248HEK6OrvAZb/E3pC1Q==",
+  "dgSpecHash": "2F/ZVkLYlekG27EMGCpdyzIhL1hI0NuPrZg3gkU/7g9irLfycalRpjymj8K9Fk+NvaLvqnGkAQBaw6M2ceXwew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\TestRestSharpComponent\\TestRestSharpComponent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

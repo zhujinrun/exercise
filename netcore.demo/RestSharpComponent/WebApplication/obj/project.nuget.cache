@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qd64kcU4WTTtyKfbbBafr8Rig82BDXYlXjrbj/rPN6o+9gzbjsQm6zNw4h5CJLLo5ZBX9Df2d9cO/tQCKX/xMg==",
+  "dgSpecHash": "D2+fXAVDMYxwHdUYhBv0X5fgr7j2DtIsvCCgSO49j8QI9l91eig4je7GAFzBSGfdOl0dHMDIWad2KewQ29i1xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\RestSharpComponent\\WebApplication\\WebApplication.csproj",
+  "projectFilePath": "D:\\github-exercise\\netcore.demo\\RestSharpComponent\\WebApplication\\WebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
