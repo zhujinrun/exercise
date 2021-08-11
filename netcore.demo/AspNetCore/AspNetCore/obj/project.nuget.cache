@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5+DkrruYcQOOJpkUtz3HQQt/LE+Gyu3+YyFyxBTKSl4RsAbKoo1XQ3BYKJYLVmgFgCiUgl39G8mlCJyvj9ryrw==",
+  "dgSpecHash": "uv9g1HUH63gUro53elnYIBGjEgjErqTN5ssVmrRLroddlL9udKUxJoS77HRj/9vEYLIvyt0Hqwu836sinoysgg==",
   "success": true,
   "projectFilePath": "D:\\github-exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
   "expectedPackageFiles": [
@@ -56,7 +56,11 @@
     "C:\\Users\\lzx\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\lzx\\.nuget\\packages\\system.threading.tasks.dataflow\\4.9.0\\system.threading.tasks.dataflow.4.9.0.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\lzx\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.16\\microsoft.netcore.app.host.win-x64.3.1.16.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\lzx\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }

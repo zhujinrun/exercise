@@ -1,116 +1,86 @@
-﻿using System;
-using System.Collections;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
-using System.Security.Cryptography;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
 
-namespace HelloWorld
+namespace XmlToJson
 {
-
     class Program
     {
-        /// <summary>
-        /// 版本一
-        /// </summary>
-        /// <param name="lists"></param>
-        /// <param name="len"></param>
-        /// <returns></returns>
-        static List<object[]> ThreeProcessPartial(List<int> lists, int len)
-        {
-            int count = lists.Count; //已知数组个数
-            List<object[]> ints = new List<object[]>();
-            //取余分组
-            var arrCount = count % len != 0 ? count / len + 1 : count / len;
-
-            object[] obj0 = new object[arrCount];
-            object[] obj1 = new object[arrCount];
-            object[] obj2 = new object[arrCount];
-            int k = 0;
-            while (count > 0)        //10--
-            {
-                if (count % 3 == 0) //0
-                {
-                    obj0[k] = "test" + count;
-                }
-                else if (count % 3 == 1)    //1
-                {
-                    obj1[k] = "test" + count;
-                }
-                else if (count % 3 == 2) //2
-                {
-                    obj2[k] = "test" + count;
-                    k++;
-                }
-                count--;
-            }
-            ints.Add(obj0);
-            ints.Add(obj1);
-            ints.Add(obj2);
-            return ints;
-        }
-        /// <summary>
-        /// 版本二
-        /// </summary>
-        /// <param name="list"></param>
-        /// <param name="func"></param>
-        /// <returns></returns>
-        static IEnumerable<object> GetResult(List<int> list,Func<int,bool> func)
-        {
-            List<object> result = new List<object>();
-            int count = list.Count;
-            for (int i = 0; i < count; i++)
-            {
-                if (func(i))
-                {
-                    result.Add(list[i]);
-                }
-            }
-            return result;
-        }
-
         static void Main(string[] args)
         {
-            //版本二
-            {
-                List<int> list = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-                List<object[]> result = new List<object[]>();
-                 var count = list.Count;
-                var r1 = GetResult(list,(x)=> x % 3 == 0).ToArray();
-                var r2 = GetResult(list, (x) => x % 3 == 1).ToArray();
-                var r3 = GetResult(list, (x) => x % 3 == 2).ToArray();
-                result.Add(r2); result.Add(r1); result.Add(r3);
-                ShowResult(result);
-            }
-            //版本一
-            {
-                List<int> list = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-                var result = ThreeProcessPartial(list, 3);
-                ShowResult(result);
-            }
-            //未完待续       
+            string xml = @"<?xml version=""1.0"" encoding=""GBK""?>
+            <Transaction>
+                <SystemHead>
+                    <Language> zh_CN </Language>
+                    <Encodeing></Encodeing>
+                    <Version></Version>
+                    <ServiceName></ServiceName>
+                    <CifNo> 2000729524 </CifNo>
+                    <UserID> 014 </UserID>
+                    <SyMacFlag></SyMacFlag>
+                    <MAC></MAC>
+                    <SyPinFlag></SyPinFlag>
+                    <PinSeed></PinSeed>
+                    <LicenseId></LicenseId>
+                    <Flag></Flag>
+                    <Note></Note>
+                </SystemHead>
+                <TransHead>
+                    <TransCode> b2e004003 </TransCode>
+                    <BatchID> 20038556452006121800000002 </BatchID>
+                    <JnlDate> 20030809(YYYYMMDD) </JnlDate>
+                    <JnlTime> 144534 </JnlTime>
+                </TransHead>
+                <TransContent>
+                        <ReqData>
+                            <ClientPatchID> 200385564520061218000000010001 </ClientPatchID>
+            <ClientBchID> 222 </ClientBchID>
+            <ClientPchID> 3639174 </ClientPchID>
+                        </ReqData>
+                </TransContent>
+            </Transaction>";
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml(xml);
+
+            string jsonText = JsonConvert.SerializeXmlNode(doc);
+            Console.WriteLine(jsonText);
+
+            string jsonStr = @"{""?xml"":{
+                                ""@version"":""1.0"",
+                                ""@encoding"":""GBK""
+                            },
+                            ""transaction"":{
+                                ""balance"":{
+                                    ""balanceRequest"":{
+                                        ""balanceRequestHeader"":{
+                                            ""language"":""zh-cn"",
+                                            ""clientTime"":""2009-10-23T10:30:01"",
+                                            ""logonPart"":{
+                                                ""userID"":"""",
+                                                ""userPassword"":"""",
+                                                ""operatorID"":""""
+                                            },
+                                            ""batchID"":""2000049420200910231000001"",
+                                            ""transPatches"":""1""
+                                        },
+                                        ""balanceRequestBody"":{
+                                            ""balanceRequestRecord"":{
+                                                ""clientPatchID"":""2000049420200910231000001001"",
+                                                ""accountNo"":""083503120100304014119""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }";
+            XmlDocument doc1 = JsonConvert.DeserializeXmlNode(jsonStr);
+            Console.WriteLine(doc1.OuterXml);
             Console.Read();
-        }
-        /// <summary>
-        /// 展示
-        /// </summary>
-        /// <param name="result"></param>
-        private static void ShowResult(List<object[]> result)
-        {
-            int i = 1;
-            foreach (object[] item in result)
-            {
-                Console.WriteLine($"..........第{i++}组.........");
-                foreach (var sub in item)
-                {
-                    Console.WriteLine(sub);
-                }
-            }
+
         }
     }
 }
