@@ -2556,19 +2556,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lzx\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github-exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+      "projectUniqueName": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
       "projectName": "AspNetCore",
-      "projectPath": "D:\\github-exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
-      "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "D:\\github-exercise\\netcore.demo\\AspNetCore\\AspNetCore\\obj\\",
+      "projectPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2576,8 +2576,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -2633,7 +2632,7 @@
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.16, 3.1.16]"
+            "version": "[3.1.17, 3.1.17]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
@@ -2652,7 +2651,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
       }
     }
   }
