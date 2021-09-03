@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4eFM5NvEstiVLNvWAyT7YDB9SLcOSzYIYRAqg7ERlbx3RMfkfCZPCob3Nz5lVaAbaUqqS91Mhu2ZMcgiRSPvXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\source\\repos\\My.Project.Ioc\\My.Project.Ioc.IBusiness\\My.Project.Ioc.IBusiness.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

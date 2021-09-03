@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yzaGMop4JahS6jdeq27ek1GxD5qA0NNCUfzQ3u6Ef3+tU5akZtbn0+8oVxL6Ig8+APalbGMwpFk00afbmCnW0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\source\\repos\\My.Project.Ioc\\My.Project.Ioc.Business\\My.Project.Ioc.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

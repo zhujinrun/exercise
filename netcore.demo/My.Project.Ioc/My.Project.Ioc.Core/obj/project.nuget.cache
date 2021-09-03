@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "yA2mzFJQUpXwXrq9/9ztypTAgBdVQ8I6gihfnCBIEGL4NrkQ2qQuFKrQ9vkjkdasRctCyzSgaNBkbw0pnsnvwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\source\\repos\\My.Project.Ioc\\My.Project.Ioc.Core\\My.Project.Ioc.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\My.Project.Ioc.Core\My.Project.Ioc.Core.csproj" />
+    <ProjectReference Include="..\My.Project.Ioc.IBusiness\My.Project.Ioc.IBusiness.csproj" />
+  </ItemGroup>
+
+</Project>
