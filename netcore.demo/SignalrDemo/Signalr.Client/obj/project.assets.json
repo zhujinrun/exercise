@@ -1158,11 +1158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\SignalrDemo\\Signalr.Client\\Signalr.Client.csproj",
+      "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\SignalrDemo\\Signalr.Client\\Signalr.Client.csproj",
       "projectName": "Signalr.Client",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\SignalrDemo\\Signalr.Client\\Signalr.Client.csproj",
+      "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\SignalrDemo\\Signalr.Client\\Signalr.Client.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\SignalrDemo\\Signalr.Client\\obj\\",
+      "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\SignalrDemo\\Signalr.Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1173,16 +1173,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\admin\\source\\repos\\NuGet包生成\\Lx.xxx.GetNew\\bin\\Debug\\nupkg": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/cachemanager/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\admin\\source\\repos\\SignalrDemo\\Signalr.Models\\Signalr.Models.csproj": {
-              "projectPath": "C:\\Users\\admin\\source\\repos\\SignalrDemo\\Signalr.Models\\Signalr.Models.csproj"
+            "F:\\GitHub\\exercise\\netcore.demo\\SignalrDemo\\Signalr.Models\\Signalr.Models.csproj": {
+              "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\SignalrDemo\\Signalr.Models\\Signalr.Models.csproj"
             }
           }
         }
@@ -1224,12 +1222,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.8, 5.0.8]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
       }
     }
   }

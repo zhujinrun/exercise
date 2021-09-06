@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qJahWq0N9Cv4i5JOj35PEfiGjV5icc7/G2rmGQy0T9xxclXFN8DAKFOYmWfo7Hm/WkpgMfeu4pnchb+bCkYrkg==",
+  "success": true,
+  "projectFilePath": "F:\\GitHub\\exercise\\netcore.demo\\SignalrDemo\\Signalr.Models\\Signalr.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
