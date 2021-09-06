@@ -43,5 +43,12 @@ namespace AspNetCore.Controllers
             base.ViewBag.Now = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss fff");
             return View();
         }
+
+
+        [ResponseCache(Duration = 600)]
+        public string GetValueT()
+        {
+            return "OK";
+        }
     }
 }

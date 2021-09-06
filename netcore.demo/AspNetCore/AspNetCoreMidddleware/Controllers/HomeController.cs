@@ -34,4 +34,10 @@ public class HomeController : Controller
         base.ViewBag.Now = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss fff");
         return View();
     }
+
+    [ResponseCache(Duration = 600)]  //谷歌无效，ie生效。 testproject测试 httpclient的Test2方法调用有效
+    public string GetValue()
+    {
+        return "OK";
+    }
 }

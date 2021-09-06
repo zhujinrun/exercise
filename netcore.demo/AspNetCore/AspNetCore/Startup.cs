@@ -31,9 +31,25 @@ namespace AspNetCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+
+            //services.AddControllersWithViews(options =>
+            //{
+            //    options.CacheProfiles.Add("Caching", new CacheProfile()
+            //    {
+            //        Duration = 120,
+            //        Location = ResponseCacheLocation.Any,
+            //        VaryByHeader = "cookie"
+            //    });
+            //    options.CacheProfiles.Add("NoCaching", new CacheProfile()
+            //    {
+            //        NoStore = true,
+            //        Location = ResponseCacheLocation.None
+            //    });
+
+            //});        //等效responsecaching      Action加[ResponseCache(CacheProfileName = "Caching")]即可
+
             //services.AddTransient<FactoryActivatedMiddleware>();
-            var aa= AppConfigurtaionServices.Configuration.GetSection("SchedulerConfig").GetChildren();
+            var aa = AppConfigurtaionServices.Configuration.GetSection("SchedulerConfig").GetChildren();
             foreach (var item in aa)
             {
                 _collection.Add($"[{item.Key}]", $"\"{item.Value}\"");
