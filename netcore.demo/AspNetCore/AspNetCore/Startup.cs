@@ -32,8 +32,8 @@ namespace AspNetCore
         public void ConfigureServices(IServiceCollection services)
         {
             
-            services.AddTransient<FactoryActivatedMiddleware>();
-           var aa= AppConfigurtaionServices.Configuration.GetSection("SchedulerConfig").GetChildren();
+            //services.AddTransient<FactoryActivatedMiddleware>();
+            var aa= AppConfigurtaionServices.Configuration.GetSection("SchedulerConfig").GetChildren();
             foreach (var item in aa)
             {
                 _collection.Add($"[{item.Key}]", $"\"{item.Value}\"");
@@ -70,11 +70,11 @@ namespace AspNetCore
             app.UseAuthorization();
 
             app.UseRequestCulture();
-            app.Run(async (context) => {
-                await context.Response.WriteAsync($"Hello {CultureInfo.CurrentCulture.DisplayName}");
-            });
-            app.UseConventionalMiddleware();
-            app.UseFactoryActivatedMiddleware();
+            //app.Run(async (context) => {
+            //    await context.Response.WriteAsync($"Hello {CultureInfo.CurrentCulture.DisplayName}");
+            //});
+            //app.UseConventionalMiddleware();
+            //app.UseFactoryActivatedMiddleware();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

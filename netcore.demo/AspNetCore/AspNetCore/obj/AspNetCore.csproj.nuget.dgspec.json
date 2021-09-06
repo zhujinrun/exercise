@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj": {}
+    "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj": {
+    "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+        "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
         "projectName": "AspNetCore",
-        "projectPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+        "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\obj\\",
+        "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.Build": {
               "target": "Package",
@@ -74,19 +74,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
+              "version": "[5.0.0, 5.0.0]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.17, 3.1.17]"
+              "version": "[5.0.8, 5.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
+              "version": "[5.0.0, 5.0.0]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
+              "version": "[5.0.0, 5.0.0]"
             }
           ],
           "frameworkReferences": {

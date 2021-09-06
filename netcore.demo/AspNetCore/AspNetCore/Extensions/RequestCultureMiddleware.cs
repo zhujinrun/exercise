@@ -10,6 +10,10 @@ namespace AspNetCore.Extensions
     public class RequestCultureMiddleware
     {
         private readonly RequestDelegate _next;
+        public RequestCultureMiddleware(RequestDelegate next)
+        {
+            _next = next;
+        }
 
         public async Task InvokeAsync(HttpContext context)
         {

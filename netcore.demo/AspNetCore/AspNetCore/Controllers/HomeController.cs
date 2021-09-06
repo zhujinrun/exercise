@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using AspNetCore.Models;
+using AspNetCore.Extensions;
 
 namespace AspNetCore.Controllers
 {
@@ -18,8 +19,10 @@ namespace AspNetCore.Controllers
             _logger = logger;
         }
 
+        [CustomActionFilter]           //控制器缓存  后台数据 前台数据不会缓存
         public IActionResult Index()
         {
+            base.ViewBag.Now = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss fff");
             return View();
         }
 
@@ -28,10 +31,17 @@ namespace AspNetCore.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [ResponseCache(Duration = 600, Location = ResponseCacheLocation.Any, NoStore = false)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [ResponseCache(Duration = 60)]    //视图缓存
+        public IActionResult InfoCache()
+        {
+            base.ViewBag.Now = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss fff");
+            return View();
         }
     }
 }
