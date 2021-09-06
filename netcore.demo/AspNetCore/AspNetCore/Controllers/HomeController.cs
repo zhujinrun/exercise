@@ -45,7 +45,7 @@ namespace AspNetCore.Controllers
         }
 
 
-        [ResponseCache(Duration = 600)]
+        [ResponseCache(Duration = 600)] //谷歌无效，ie生效。 testproject测试 httpclient的Test2方法调用无效
         public string GetValueT()
         {
             return "OK";
