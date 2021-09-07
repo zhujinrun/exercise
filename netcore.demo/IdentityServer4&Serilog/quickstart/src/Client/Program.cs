@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Client
 {
+    /// <summary>
+    /// 调用客户端 Api ，先获取服务端IdentityServer拿到token
+    /// </summary>
     class Program
     {
         private static async Task Main()

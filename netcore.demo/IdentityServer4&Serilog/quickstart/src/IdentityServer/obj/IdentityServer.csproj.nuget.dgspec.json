@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj": {}
+    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
-    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj": {
+    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\IdentityServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
+        "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
         "projectName": "IdentityServer",
-        "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
+        "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\obj\\",
+        "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

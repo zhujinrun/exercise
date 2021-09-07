@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\Api\\Api.csproj": {}
+    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\Api\\Api.csproj": {}
   },
   "projects": {
-    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\Api\\Api.csproj": {
+    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\Api\\Api.csproj",
+        "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\Api\\Api.csproj",
+        "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4\\quickstart\\src\\Api\\obj\\",
+        "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
