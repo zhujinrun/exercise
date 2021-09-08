@@ -241,3 +241,8 @@ systemctl set-default graphical.target     #修改为图形化模式
 centos7安装docker命令yum install -y docker-ce会无效 需要使用yum install -y docker-ce-cli
 
 iptables -I INPUT -p tcp --dport 端口号 -j ACCEPT
+
+
+docker 下没有vim 安装命令:
+apt-get update 
+apt-get install vim 
