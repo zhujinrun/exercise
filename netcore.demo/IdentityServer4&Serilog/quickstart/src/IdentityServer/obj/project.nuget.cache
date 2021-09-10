@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4ugAInewHnXPvjBHFqUcynVQMuRoi+E3pSVsdaAqR9UceN7KtSif/EIcdRlb2IoETx2nf5YCu/xx8SlywMesmg==",
+  "dgSpecHash": "iohULG2RNpdkskaVOS2qedbbB5BOF5btVXH3xfi96X938NVsM+1FhrZ2m0qgRRoWNonw37D44XNrJFn3P8um8w==",
   "success": true,
   "projectFilePath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
   "expectedPackageFiles": [
@@ -79,11 +79,7 @@
     "C:\\Users\\admin\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\system.threading.timer\\4.0.1\\system.threading.timer.4.0.1.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.17\\microsoft.netcore.app.host.win-x64.3.1.17.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\system.threading.timer\\4.0.1\\system.threading.timer.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }

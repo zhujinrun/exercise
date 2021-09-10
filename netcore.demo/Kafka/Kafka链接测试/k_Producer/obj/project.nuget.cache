@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "smfy3URaY3E6QvKykj1WjMExqJCi3/Iot9p30Nm0NoXfcCOxYTcvjjshqHYW3OWTcwS846JVDSvdsh94tQgs/g==",
+  "dgSpecHash": "k6aLs8xqiyP9zpKDKs6SAxpBgZe9hQoWFs9RlxvUruHg2M8jvE6yAlS91hO6o8LY4qf7md3FcX2KtZOgvH3KHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\KafkaDemo\\k_Producer\\k_Producer.csproj",
+  "projectFilePath": "F:\\GitHub\\exercise\\netcore.demo\\Kafka\\Kafka链接测试\\k_Producer\\k_Producer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\confluent.kafka\\1.7.0\\confluent.kafka.1.7.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\librdkafka.redist\\1.7.0\\librdkafka.redist.1.7.0.nupkg.sha512",

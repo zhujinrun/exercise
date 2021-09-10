@@ -32,7 +32,7 @@ namespace JwtService
 
             services.AddOpenApiDocument(settings =>
             {
-                settings.Title = "IDCM合约后台管理系统";
+                settings.Title = "后台管理系统";
                 settings.AllowReferencesWithProperties = true;
                 settings.AddSecurity("身份认证Token", Enumerable.Empty<string>(), new OpenApiSecurityScheme()
                 {

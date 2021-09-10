@@ -11,7 +11,7 @@ namespace k_Consumer
             var result = string.Empty;
             var config = new ConsumerConfig
             {
-                BootstrapServers = "localhost:9093,localhost:9094,localhost:9095",
+                BootstrapServers = "13.212.67.10:9082",
                 GroupId = "001",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };

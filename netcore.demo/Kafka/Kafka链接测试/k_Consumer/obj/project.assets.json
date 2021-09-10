@@ -220,11 +220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\KafkaDemo\\k_Consumer\\k_Consumer.csproj",
+      "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj",
       "projectName": "k_Consumer",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\KafkaDemo\\k_Consumer\\k_Consumer.csproj",
+      "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\KafkaDemo\\k_Consumer\\obj\\",
+      "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\Kafka\\Kafka链接测试\\k_Consumer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,8 +235,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/cachemanager/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -274,7 +273,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
       }
     }
   }
