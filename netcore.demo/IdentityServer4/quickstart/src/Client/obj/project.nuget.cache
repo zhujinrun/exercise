@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "t3Mol8sm8jN+LuBjh+Gm28W8yUK/ZWh2s8nfnyTTa/FlcASzeYoQ56aBOUVwuNt2fMutrCSjetNb8B7O2b42zw==",
+  "dgSpecHash": "O8iFslR22TzVG2A0djBp4XKQNCN6IYHNgFmPXsf6atpDW66+YJKsWWYV7PFKIaHifKJQ/NjSS1MXhi4vb4Ck2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lzx\\source\\repos\\IdentityServer4\\quickstart\\src\\Client\\Client.csproj",
+  "projectFilePath": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\Client\\Client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lzx\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
-    "C:\\Users\\lzx\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.text.encodings.web\\4.7.0\\system.text.encodings.web.4.7.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.8\\microsoft.netcore.app.host.win-x64.5.0.8.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

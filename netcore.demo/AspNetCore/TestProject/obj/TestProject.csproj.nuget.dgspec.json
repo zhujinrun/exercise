@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj": {}
+    "D:\\GitHub_\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj": {}
   },
   "projects": {
-    "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj": {
+    "D:\\GitHub_\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "D:\\GitHub_\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj",
         "projectName": "TestProject",
-        "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj",
+        "projectPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\TestProject\\obj\\",
+        "outputPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\TestProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

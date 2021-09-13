@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = AspNetcoreMvc
+build_property.ProjectDir = D:\GitHub_\netcore.demo\IdentityServer4\IdentityServer4AspNetyCoreMvc\AspNetcoreMvc\

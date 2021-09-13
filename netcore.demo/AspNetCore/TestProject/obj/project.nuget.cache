@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Lmy0T7v+flXl6+2k0yirE6RCDw2s+kv9uwxC8hTmVAyWU8sB6bjczbHS3JVhD7ZlFqyidDq4odj/z/JG2ok/g==",
+  "dgSpecHash": "hjYzykMLabR99dv4DVCK7X7rW+/8xZ3LQmhcOjmV9msEpFsvFL8VEVLjFdU2pqqsSLsgkmvVKuzfHOcRtcnjnQ==",
   "success": true,
-  "projectFilePath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj",
+  "projectFilePath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\TestProject\\TestProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

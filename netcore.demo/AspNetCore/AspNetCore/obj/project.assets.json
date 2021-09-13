@@ -2561,11 +2561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+      "projectUniqueName": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
       "projectName": "AspNetCore",
-      "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+      "projectPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCore\\obj\\",
+      "outputPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2625,6 +2625,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.8, 5.0.8]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

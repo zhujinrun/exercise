@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/z9dD/rr8Z69fvqovMg1sogWJiYtkwf7QSGhuZwUfxSSsZ2EMzfGIL4NDyPrBEY2h4TlwuEvnbd5tZINxqw7HQ==",
+  "dgSpecHash": "m+m5Q2FOnPh5dZKySi7awh6oXKLI0PnZvoGXP3Re1az9BTUFzfIKip4cPfdgl+oWte6FJ64VjTqq5FAVlJ4rMA==",
   "success": true,
-  "projectFilePath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCoreMidddleware\\AspNetCoreMidddleware.csproj",
+  "projectFilePath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCoreMidddleware\\AspNetCoreMidddleware.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCoreMidddleware\\AspNetCoreMidddleware.csproj",
+      "projectUniqueName": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCoreMidddleware\\AspNetCoreMidddleware.csproj",
       "projectName": "AspNetCoreMidddleware",
-      "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCoreMidddleware\\AspNetCoreMidddleware.csproj",
+      "projectPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCoreMidddleware\\AspNetCoreMidddleware.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\AspNetCore\\AspNetCoreMidddleware\\obj\\",
+      "outputPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCoreMidddleware\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
