@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD:netcore.demo/IdentityServer4&Serilog/quickstart/src/IdentityServer/obj/IdentityServer.csproj.nuget.dgspec.json
     "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\IdentityServer.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
         "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\IdentityServer\\obj\\",
+=======
+    "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
+        "projectName": "IdentityServer",
+        "projectPath": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\IdentityServer\\obj\\",
+>>>>>>> b740e4dd953318a5a749e9ac021ffbf3054ec71b:netcore.demo/IdentityServer4/quickstart/src/IdentityServer/obj/IdentityServer.csproj.nuget.dgspec.json
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,6 +73,27 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+<<<<<<< HEAD:netcore.demo/IdentityServer4&Serilog/quickstart/src/IdentityServer/obj/IdentityServer.csproj.nuget.dgspec.json
+=======
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.17, 3.1.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+>>>>>>> b740e4dd953318a5a749e9ac021ffbf3054ec71b:netcore.demo/IdentityServer4/quickstart/src/IdentityServer/obj/IdentityServer.csproj.nuget.dgspec.json
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

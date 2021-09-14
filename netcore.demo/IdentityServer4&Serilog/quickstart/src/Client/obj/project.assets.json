@@ -120,11 +120,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD:netcore.demo/IdentityServer4&Serilog/quickstart/src/Client/obj/project.assets.json
       "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\Client\\Client.csproj",
       "projectName": "Client",
       "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\Client\\Client.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
       "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\quickstart\\src\\Client\\obj\\",
+=======
+      "projectUniqueName": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\Client\\Client.csproj",
+      "projectName": "Client",
+      "projectPath": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\Client\\Client.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\quickstart\\src\\Client\\obj\\",
+>>>>>>> b740e4dd953318a5a749e9ac021ffbf3054ec71b:netcore.demo/IdentityServer4/quickstart/src/Client/obj/project.assets.json
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,6 +176,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.8, 5.0.8]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
