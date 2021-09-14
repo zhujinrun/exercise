@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\netcore.demo\\IdentityServer4\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\AspNetcoreMvc.csproj": {}
+    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\AspNetcoreMvc.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\netcore.demo\\IdentityServer4\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\AspNetcoreMvc.csproj": {
+    "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\AspNetcoreMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\AspNetcoreMvc.csproj",
+        "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\AspNetcoreMvc.csproj",
         "projectName": "AspNetcoreMvc",
-        "projectPath": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\AspNetcoreMvc.csproj",
+        "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\AspNetcoreMvc.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\obj\\",
+        "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\IdentityServer4AspNetyCoreMvc\\AspNetcoreMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

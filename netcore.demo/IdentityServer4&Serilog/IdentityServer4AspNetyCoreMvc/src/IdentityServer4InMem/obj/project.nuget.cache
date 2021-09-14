@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bQlrGxf+R2Hd/FjxtEbgTKeagHt6u172DaU3mfLVT18CozT8fEeFjN7gFj6FLng0BFMBNRezteBR+pf+lH9Ipg==",
+  "dgSpecHash": "OYUgq8WFnjtyoQLgBfBeFlQyM0tF4JCd3FiHdJeJAihsvbOfNhhnhPAV4s4rCDvSvXH8dgnDtlcIrj2tW+dyxQ==",
   "success": true,
-  "projectFilePath": "D:\\GitHub_\\netcore.demo\\IdentityServer4\\IdentityServer4AspNetyCoreMvc\\src\\IdentityServer4InMem\\IdentityServer4InMem.csproj",
+  "projectFilePath": "F:\\GitHub\\exercise\\netcore.demo\\IdentityServer4&Serilog\\IdentityServer4AspNetyCoreMvc\\src\\IdentityServer4InMem\\IdentityServer4InMem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\identityserver4\\4.0.0\\identityserver4.4.0.0.nupkg.sha512",

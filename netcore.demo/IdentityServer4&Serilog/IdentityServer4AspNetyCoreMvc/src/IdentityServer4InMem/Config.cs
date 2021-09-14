@@ -37,7 +37,7 @@ namespace IdentityServer4InMem
                     RedirectUris = { "https://localhost:44300/signin-oidc" },
                     FrontChannelLogoutUri = "https://localhost:44300/signout-oidc",
                     PostLogoutRedirectUris = { "https://localhost:44300/signout-callback-oidc" },
-                     AlwaysIncludeUserClaimsInIdToken = true,
+                     AlwaysIncludeUserClaimsInIdToken = true, //少了这句会报错id_Tokn找不到，页面跳转不过去,务必要加
                     AllowOfflineAccess = true,
                     AllowedScopes = { "openid", "profile", "scope2" }
                 },
