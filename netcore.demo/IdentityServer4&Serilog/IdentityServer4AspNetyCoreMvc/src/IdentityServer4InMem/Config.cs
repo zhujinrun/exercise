@@ -31,7 +31,7 @@ namespace IdentityServer4InMem
                 {
                     ClientId = "interactive",
                     ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
-                    
+
                     AllowedGrantTypes = GrantTypes.Code,
 
                     RedirectUris = { "https://localhost:44300/signin-oidc" },
@@ -42,5 +42,16 @@ namespace IdentityServer4InMem
                     AllowedScopes = { "openid", "profile", "scope2" }
                 },
             };
+        public static IEnumerable<ApiResource> GetApis()
+        {
+            return new ApiResource[]
+          {
+                new ApiResource("api1", "My API #1", new List<string> { "location" })
+                {
+                    ApiSecrets = { new Secret("api1 secret".Sha256()) }
+                },
+                new ApiResource("api2", "Express API")
+          };
+        }
     }
 }
