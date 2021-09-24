@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\bin\Debug\net5.0\IDCM.Contract.IGrains.deps.json
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\bin\Debug\net5.0\IDCM.Contract.IGrains.dll
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\bin\Debug\net5.0\ref\IDCM.Contract.IGrains.dll
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\bin\Debug\net5.0\IDCM.Contract.IGrains.pdb
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.orleans.g.args.txt
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.orleans.g.cs
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.AssemblyInfo.cs
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.dll
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\ref\IDCM.Contract.IGrains.dll
+C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.pdb

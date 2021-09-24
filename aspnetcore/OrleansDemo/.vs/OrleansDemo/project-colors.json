@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b084d6b4-b091-420a-851e-7aef1cccc001": {
+      "ProjectGuid": "b084d6b4-b091-420a-851e-7aef1cccc001",
+      "DisplayName": "IDCM.Contract.IGrains",
+      "ColorIndex": 0
+    },
+    "de7198f1-c4db-4d32-a5ec-6311a73b2f58": {
+      "ProjectGuid": "de7198f1-c4db-4d32-a5ec-6311a73b2f58",
+      "DisplayName": "IDCM.Contract.WebApi",
+      "ColorIndex": 1
+    },
+    "d4861bdc-9d7f-49b8-b899-643859d82733": {
+      "ProjectGuid": "d4861bdc-9d7f-49b8-b899-643859d82733",
+      "DisplayName": "IDCM.Contract.Client",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
