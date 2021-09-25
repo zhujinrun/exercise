@@ -24,6 +24,7 @@ namespace IDCM.Contract.Client.Extension
                     opt.Configure = (b =>
                     {
                         b.UseLocalhostClustering();
+                        b.AddOutgoingGrainCallFilter<ExceptionCallFilter>();
                         //b.AddApplicationInsightsTelemetryConsumer("INSTRUMENTATION_KEY");
                     });
                 });

@@ -9,5 +9,6 @@ namespace IDCM.Contract.IGrains
     public interface IBaseDataGrains : Orleans.IGrainWithIntegerKey
     {
         Task<bool> GetError();
+        Task<bool> SaveOrder();
     }
 }

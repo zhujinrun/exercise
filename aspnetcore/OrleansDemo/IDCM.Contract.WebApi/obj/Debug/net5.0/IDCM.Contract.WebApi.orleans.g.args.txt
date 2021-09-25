@@ -1,17 +1,20 @@
 LogLevel:Warning
-ProjectPath:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\IDCM.Contract.WebApi.csproj
+ProjectPath:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\IDCM.Contract.WebApi.csproj
 ProjectGuid:
 AssemblyName:IDCM.Contract.WebApi
 OutputType:Exe
-TargetPath:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\bin\Debug\net5.0\IDCM.Contract.WebApi.dll
-CodeGenOutputFile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\obj\Debug\net5.0\IDCM.Contract.WebApi.orleans.g.cs
-Compile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\Controllers\WeatherForecastController.cs
-Compile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\Extension\Extensions.cs
-Compile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\Orleans\BaseInfoGrains.cs
-Compile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\Program.cs
-Compile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\Startup.cs
-Compile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.WebApi\WeatherForecast.cs
-Reference:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\bin\Debug\net5.0\IDCM.Contract.IGrains.dll
+TargetPath:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\bin\Debug\net5.0\IDCM.Contract.WebApi.dll
+CodeGenOutputFile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\obj\Debug\net5.0\IDCM.Contract.WebApi.orleans.g.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\Controllers\WeatherForecastController.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\Extension\CustomExceptionFilter.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\Extension\Extensions.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\Orleans\BaseInfoGrains.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\Program.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\Startup.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\WeatherForecast.cs
+Reference:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.Business\bin\Debug\net5.0\IDCM.Contract.Business.dll
+Reference:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.IBusiness\bin\Debug\net5.0\IDCM.Contract.IBusiness.dll
+Reference:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.IGrains\bin\Debug\net5.0\IDCM.Contract.IGrains.dll
 Reference:C:\Users\admin\.nuget\packages\microsoft.applicationinsights\2.4.0\lib\netstandard1.3\Microsoft.ApplicationInsights.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Antiforgery.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -317,4 +320,4 @@ Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.XDocument.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll
 DefineConstants:TRACE,DEBUG,NET,NET5_0,NETCOREAPP
-InputHash:af095b60edc0413c8359415b8f14062c4adfd524
+InputHash:c616c9bef58775d9a065de27decddc394b78a6f4

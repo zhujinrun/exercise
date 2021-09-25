@@ -35,5 +35,11 @@ namespace IDCM.Contract.WebApi.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        [Route("throw")]
+        public void Throw()
+        {
+            throw new Exception("error");
+        }
     }
 }

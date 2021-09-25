@@ -1,3 +1,6 @@
+using IDCM.Contract.Business;
+using IDCM.Contract.IBusiness;
+using IDCM.Contract.WebApi.Extension;
 using IDCM.Contract.WebApi.Orleans;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -28,12 +31,16 @@ namespace IDCM.Contract.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers();
+            services.AddControllers(o =>
+            {
+                o.Filters.Add<CustomExceptionFilter>();    //只能是实现了controllerbase的的才有效果,baseinfoGrains没有
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "IDCM.Contract.WebApi", Version = "v1" });
             });
             services.AddTransient<BaseInfoGrains>(); //orleans注册
+            services.AddSingleton<IOrderBusiness,OrderBusiness>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

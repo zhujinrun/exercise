@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31710.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDCM.Contract.IGrains", "IDCM.Contract.IGrains\IDCM.Contract.IGrains.csproj", "{B084D6B4-B091-420A-851E-7AEF1CCCC001}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDCM.Contract.IGrains", "IDCM.Contract.IGrains\IDCM.Contract.IGrains.csproj", "{B084D6B4-B091-420A-851E-7AEF1CCCC001}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDCM.Contract.WebApi", "IDCM.Contract.WebApi\IDCM.Contract.WebApi.csproj", "{DE7198F1-C4DB-4D32-A5EC-6311A73B2F58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDCM.Contract.WebApi", "IDCM.Contract.WebApi\IDCM.Contract.WebApi.csproj", "{DE7198F1-C4DB-4D32-A5EC-6311A73B2F58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDCM.Contract.Client", "IDCM.Contract.Client\IDCM.Contract.Client.csproj", "{D4861BDC-9D7F-49B8-B899-643859D82733}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IDCM.Contract.Client", "IDCM.Contract.Client\IDCM.Contract.Client.csproj", "{D4861BDC-9D7F-49B8-B899-643859D82733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDCM.Contract.IBusiness", "IDCM.Contract.IBusiness\IDCM.Contract.IBusiness.csproj", "{01CC633B-A291-45D4-942E-784DF71A9E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDCM.Contract.Business", "IDCM.Contract.Business\IDCM.Contract.Business.csproj", "{78225CAD-6B11-42AC-A0F6-8EC4A257934D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{D4861BDC-9D7F-49B8-B899-643859D82733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4861BDC-9D7F-49B8-B899-643859D82733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4861BDC-9D7F-49B8-B899-643859D82733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CC633B-A291-45D4-942E-784DF71A9E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CC633B-A291-45D4-942E-784DF71A9E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CC633B-A291-45D4-942E-784DF71A9E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CC633B-A291-45D4-942E-784DF71A9E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78225CAD-6B11-42AC-A0F6-8EC4A257934D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78225CAD-6B11-42AC-A0F6-8EC4A257934D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78225CAD-6B11-42AC-A0F6-8EC4A257934D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78225CAD-6B11-42AC-A0F6-8EC4A257934D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

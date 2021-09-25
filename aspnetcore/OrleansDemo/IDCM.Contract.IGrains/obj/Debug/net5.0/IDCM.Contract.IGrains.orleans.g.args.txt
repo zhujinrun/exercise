@@ -1,17 +1,47 @@
 LogLevel:Warning
-ProjectPath:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\IDCM.Contract.IGrains.csproj
+ProjectPath:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.IGrains\IDCM.Contract.IGrains.csproj
 ProjectGuid:
 AssemblyName:IDCM.Contract.IGrains
 OutputType:Library
-TargetPath:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\bin\Debug\net5.0\IDCM.Contract.IGrains.dll
-CodeGenOutputFile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.orleans.g.cs
-Compile:C:\Users\admin\source\repos\OrleansDemo\IDCM.Contract.IGrains\IBaseDataGrains.cs
+TargetPath:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.IGrains\bin\Debug\net5.0\IDCM.Contract.IGrains.dll
+CodeGenOutputFile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.IGrains\obj\Debug\net5.0\IDCM.Contract.IGrains.orleans.g.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.IGrains\Extension\ExceptionCallFilter.cs
+Compile:D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.IGrains\IBaseDataGrains.cs
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.authentication.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.authentication.core\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Core.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.authorization\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.authorization.policy\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authorization.Policy.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.hosting.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.hosting.server.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.http.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.http\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.http.extensions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.http.features\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.mvc.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.mvc.core\2.2.5\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.Core.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.responsecaching.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.routing.abstractions\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.routing\2.2.0\lib\netcoreapp2.2\Microsoft.AspNetCore.Routing.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.webutilities\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.CSharp.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.dotnet.platformabstractions\2.1.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.configuration.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.dependencyinjection\2.2.0\lib\netcoreapp2.0\Microsoft.Extensions.DependencyInjection.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.dependencymodel\2.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.fileproviders.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.hosting.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.logging.abstractions\5.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.objectpool\2.2.0\lib\netstandard2.0\Microsoft.Extensions.ObjectPool.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.options\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.extensions.primitives\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll
+Reference:C:\Users\admin\.nuget\packages\microsoft.net.http.headers\2.2.0\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.VisualBasic.Core.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.VisualBasic.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\Microsoft.Win32.Primitives.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\mscorlib.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\netstandard.dll
+Reference:C:\Users\admin\.nuget\packages\newtonsoft.json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll
 Reference:C:\Users\admin\.nuget\packages\microsoft.orleans.core.abstractions\3.5.0\lib\netstandard2.0\Orleans.Core.Abstractions.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.AppContext.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Buffers.dll
@@ -160,4 +190,4 @@ Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.XDocument.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll
 DefineConstants:TRACE,DEBUG,NET,NET5_0,NETCOREAPP
-InputHash:eab644467a620452fb250158ce2c65271090ee91
+InputHash:f4d839591b6f64ae9efb6fb0cd13c0b321f43efa

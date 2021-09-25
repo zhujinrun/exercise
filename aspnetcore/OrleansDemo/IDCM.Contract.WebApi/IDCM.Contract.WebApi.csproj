@@ -19,6 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IDCM.Contract.Business\IDCM.Contract.Business.csproj" />
+    <ProjectReference Include="..\IDCM.Contract.IBusiness\IDCM.Contract.IBusiness.csproj" />
     <ProjectReference Include="..\IDCM.Contract.IGrains\IDCM.Contract.IGrains.csproj" />
   </ItemGroup>
 

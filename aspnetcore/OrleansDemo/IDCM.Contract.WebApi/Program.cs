@@ -1,3 +1,4 @@
+using IDCM.Contract.IGrains;
 using IDCM.Contract.WebApi.Extension;
 using IDCM.Contract.WebApi.Orleans;
 using Microsoft.AspNetCore.Hosting;
@@ -28,7 +29,10 @@ namespace IDCM.Contract.WebApi
                     webBuilder.UseStartup<Startup>();
                 }).UseExtOrleans(builder =>
                 {
-                    builder.ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(BaseInfoGrains).Assembly).WithReferences());
+                    builder.ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(BaseInfoGrains).Assembly).WithReferences())
+                    .AddIncomingGrainCallFilter<ExceptionCallFilter>();
+                    ;
+
                 });
     }
 }

@@ -37,5 +37,11 @@ namespace IDCM.Contract.Client.Controllers
         {
             return "OK";
         }
+        [HttpGet]
+
+        public Task<bool> SaveOrder()
+        {
+            return _baseDataGrains.SaveOrder();
+        }
     }
 }
