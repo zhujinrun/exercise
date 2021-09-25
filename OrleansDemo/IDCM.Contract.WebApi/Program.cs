@@ -1,4 +1,3 @@
-using IDCM.Contract.IGrains;
 using IDCM.Contract.WebApi.Extension;
 using IDCM.Contract.WebApi.Orleans;
 using Microsoft.AspNetCore.Hosting;
@@ -11,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IDCM.Contract.Core.Extension;
 
 namespace IDCM.Contract.WebApi
 {

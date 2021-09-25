@@ -1,5 +1,5 @@
-﻿using IDCM.Contract.IBusiness;
-using IDCM.Contract.IGrains;
+﻿using IDCM.Contract.BaseInfo;
+using IDCM.Contract.IBusiness;
 using Microsoft.AspNetCore.Mvc;
 using Orleans;
 using System;

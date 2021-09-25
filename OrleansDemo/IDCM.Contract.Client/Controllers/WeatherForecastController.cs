@@ -1,5 +1,4 @@
-﻿using IDCM.Contract.IGrains;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Orleans;
 using System;

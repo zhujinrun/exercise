@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IDCM.Contract.WebApi
-build_property.ProjectDir = D:\GitHub_\exercise\aspnetcore\OrleansDemo\IDCM.Contract.WebApi\
+build_property.ProjectDir = D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.WebApi\

@@ -318,16 +318,16 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.0.0"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration.Binder/3.0.0": {
@@ -354,7 +354,7 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -375,31 +375,30 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/3.0.0": {
+      "Microsoft.Extensions.FileProviders.Abstractions/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.0.0"
+          "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/3.0.0": {
+      "Microsoft.Extensions.Hosting.Abstractions/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0",
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "3.0.0"
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "5.0.0"
         },
         "compile": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+          "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
         }
       },
       "Microsoft.Extensions.Logging/3.0.0": {
@@ -490,7 +489,7 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.0.0": {
+      "Microsoft.Extensions.Primitives/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
@@ -2388,6 +2387,20 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "IDCM.Contract.BaseInfo/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Orleans.Core.Abstractions": "3.5.0",
+          "Microsoft.Orleans.OrleansRuntime": "3.5.0"
+        },
+        "compile": {
+          "bin/placeholder/IDCM.Contract.BaseInfo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IDCM.Contract.BaseInfo.dll": {}
+        }
+      },
       "IDCM.Contract.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2401,6 +2414,26 @@
           "bin/placeholder/IDCM.Contract.Business.dll": {}
         }
       },
+      "IDCM.Contract.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.Extensions.Hosting.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Orleans.Core.Abstractions": "3.5.0",
+          "Microsoft.Orleans.OrleansTelemetryConsumers.AI": "3.5.0",
+          "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": "3.5.0",
+          "Microsoft.Orleans.Runtime.Abstractions": "3.5.0",
+          "OrleansDashboard": "3.5.2"
+        },
+        "compile": {
+          "bin/placeholder/IDCM.Contract.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IDCM.Contract.Core.dll": {}
+        }
+      },
       "IDCM.Contract.IBusiness/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2409,21 +2442,6 @@
         },
         "runtime": {
           "bin/placeholder/IDCM.Contract.IBusiness.dll": {}
-        }
-      },
-      "IDCM.Contract.IGrains/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.Orleans.Core.Abstractions": "3.5.0"
-        },
-        "compile": {
-          "bin/placeholder/IDCM.Contract.IGrains.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/IDCM.Contract.IGrains.dll": {}
         }
       }
     }
@@ -2806,19 +2824,24 @@
         "microsoft.extensions.configuration.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.0.0": {
-      "sha512": "Lge/PbXC53jI1MF2J92X5EZOeKV8Q/rlB1aV3H9I/ZTDyQGOyBcL03IAvnviWpHKj43BDkNy6kU2KKoh8kAS0g==",
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+      "sha512": "ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/3.0.0",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll",
-        "lib/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
-        "microsoft.extensions.configuration.abstractions.nuspec"
+        "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.Extensions.Configuration.Binder/3.0.0": {
@@ -2853,17 +2876,24 @@
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0": {
-      "sha512": "ofQRroDlzJ0xKOtzNuaVt6QKNImFkhkG0lIMpGl7PtXnIf5SuLWBeiQZAP8DNSxDBJJdcsPkiJiMYK2WA5H8dQ==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "sha512": "ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.Extensions.DependencyModel/3.0.0": {
@@ -2887,34 +2917,46 @@
         "microsoft.extensions.dependencymodel.nuspec"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/3.0.0": {
-      "sha512": "kahEeykb6FyQytoZNNXuz74X85B4weIEt8Kd+0klK48bkXDWOIHAOvNjlGsPMcS9CL935Te8QGQS83JqCbpdHA==",
+    "Microsoft.Extensions.FileProviders.Abstractions/5.0.0": {
+      "sha512": "iuZIiZ3mteEb+nsUqpGXKx2cGF+cv6gWPd5jqQI4hzqdiJ6I94ddLjKhQOuRW1lueHwocIw30xbSHGhQj0zjdQ==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/3.0.0",
+      "path": "microsoft.extensions.fileproviders.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
-        "lib/netcoreapp3.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.FileProviders.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.3.0.0.nupkg.sha512",
-        "microsoft.extensions.fileproviders.abstractions.nuspec"
+        "microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
-    "Microsoft.Extensions.Hosting.Abstractions/3.0.0": {
-      "sha512": "qeDWS5ErmkUN96BdQqpmeCmLk5HJWQ/SPw3ux5v5/Qb0hKZS5wojBMulnBC7JUEiBwg7Ir71Yjf1lFiRT5MdtQ==",
+    "Microsoft.Extensions.Hosting.Abstractions/5.0.0": {
+      "sha512": "cbUOCePYBl1UhM+N2zmDSUyJ6cODulbtUd9gEzMFIK3RQDtP/gJsE08oLcBSXH3Q1RAQ0ex7OAB3HeTKB9bXpg==",
       "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/3.0.0",
+      "path": "microsoft.extensions.hosting.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.dll",
-        "lib/netcoreapp3.0/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Hosting.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.3.0.0.nupkg.sha512",
-        "microsoft.extensions.hosting.abstractions.nuspec"
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Abstractions.xml",
+        "microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.Extensions.Logging/3.0.0": {
@@ -3025,19 +3067,26 @@
         "microsoft.extensions.options.configurationextensions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.0.0": {
-      "sha512": "6gwewTbmOh+ZVBicVkL1XRp79sx4O7BVY6Yy+7OYZdwn3pyOKe9lOam+3gXJ3TZMjhJZdV0Ub8hxHt2vkrmN5Q==",
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "sha512": "cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.0.0",
+      "path": "microsoft.extensions.primitives/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
         "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
         "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.0.0.nupkg.sha512",
-        "microsoft.extensions.primitives.nuspec"
+        "microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.Net.Http.Headers/2.2.0": {
@@ -7875,31 +7924,35 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "IDCM.Contract.BaseInfo/1.0.0": {
+      "type": "project",
+      "path": "../IDCM.Contract.BaseInfo/IDCM.Contract.BaseInfo.csproj",
+      "msbuildProject": "../IDCM.Contract.BaseInfo/IDCM.Contract.BaseInfo.csproj"
+    },
     "IDCM.Contract.Business/1.0.0": {
       "type": "project",
       "path": "../IDCM.Contract.Business/IDCM.Contract.Business.csproj",
       "msbuildProject": "../IDCM.Contract.Business/IDCM.Contract.Business.csproj"
     },
+    "IDCM.Contract.Core/1.0.0": {
+      "type": "project",
+      "path": "../IDCM.Contract.Core/IDCM.Contract.Core.csproj",
+      "msbuildProject": "../IDCM.Contract.Core/IDCM.Contract.Core.csproj"
+    },
     "IDCM.Contract.IBusiness/1.0.0": {
       "type": "project",
       "path": "../IDCM.Contract.IBusiness/IDCM.Contract.IBusiness.csproj",
       "msbuildProject": "../IDCM.Contract.IBusiness/IDCM.Contract.IBusiness.csproj"
-    },
-    "IDCM.Contract.IGrains/1.0.0": {
-      "type": "project",
-      "path": "../IDCM.Contract.IGrains/IDCM.Contract.IGrains.csproj",
-      "msbuildProject": "../IDCM.Contract.IGrains/IDCM.Contract.IGrains.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "IDCM.Contract.BaseInfo >= 1.0.0",
       "IDCM.Contract.Business >= 1.0.0",
+      "IDCM.Contract.Core >= 1.0.0",
       "IDCM.Contract.IBusiness >= 1.0.0",
-      "IDCM.Contract.IGrains >= 1.0.0",
       "Microsoft.Orleans.CodeGenerator.MSBuild >= 3.5.0",
       "Microsoft.Orleans.OrleansRuntime >= 3.5.0",
-      "Microsoft.Orleans.OrleansTelemetryConsumers.AI >= 3.5.0",
-      "Microsoft.Orleans.OrleansTelemetryConsumers.Counters >= 3.5.0",
       "Microsoft.Orleans.Runtime.Abstractions >= 3.5.0",
       "Orleans.MultiClient >= 3.3.0",
       "OrleansDashboard >= 3.5.2",
@@ -7912,11 +7965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
+      "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
       "projectName": "IDCM.Contract.WebApi",
-      "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
+      "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.WebApi\\obj\\",
+      "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7933,14 +7986,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
-              "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj"
+            "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj"
             },
-            "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
-              "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
+            "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj"
             },
-            "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj": {
-              "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj"
+            "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj"
+            },
+            "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
             }
           }
         }
@@ -7962,14 +8018,6 @@
             "version": "[3.5.0, )"
           },
           "Microsoft.Orleans.OrleansRuntime": {
-            "target": "Package",
-            "version": "[3.5.0, )"
-          },
-          "Microsoft.Orleans.OrleansTelemetryConsumers.AI": {
-            "target": "Package",
-            "version": "[3.5.0, )"
-          },
-          "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": {
             "target": "Package",
             "version": "[3.5.0, )"
           },

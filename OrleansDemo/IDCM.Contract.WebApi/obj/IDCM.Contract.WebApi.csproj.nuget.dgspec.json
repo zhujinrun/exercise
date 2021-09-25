@@ -1,17 +1,87 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj": {}
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj",
-        "projectName": "IDCM.Contract.Business",
-        "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj",
+        "projectName": "IDCM.Contract.BaseInfo",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Orleans.OrleansRuntime": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj",
+        "projectName": "IDCM.Contract.Business",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +98,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
-                "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
+              "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
+                "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
               }
             }
           }
@@ -62,68 +132,14 @@
         }
       }
     },
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj",
-        "projectName": "IDCM.Contract.IBusiness",
-        "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj",
+        "projectName": "IDCM.Contract.Core",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj",
-        "projectName": "IDCM.Contract.IGrains",
-        "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -156,6 +172,10 @@
               "target": "Package",
               "version": "[2.2.5, )"
             },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -169,6 +189,22 @@
             "Microsoft.Orleans.Core.Abstractions": {
               "target": "Package",
               "version": "[3.5.0, )"
+            },
+            "Microsoft.Orleans.OrleansTelemetryConsumers.AI": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Orleans.Runtime.Abstractions": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "OrleansDashboard": {
+              "target": "Package",
+              "version": "[3.5.2, )"
             }
           },
           "imports": [
@@ -190,14 +226,68 @@
         }
       }
     },
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj": {
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
-        "projectName": "IDCM.Contract.WebApi",
-        "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj",
+        "projectName": "IDCM.Contract.IBusiness",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.WebApi\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
+        "projectName": "IDCM.Contract.WebApi",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,14 +304,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
-                "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj"
+              "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj": {
+                "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj"
               },
-              "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
-                "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
+              "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
+                "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj"
               },
-              "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj": {
-                "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj"
+              "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {
+                "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj"
+              },
+              "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
+                "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
               }
             }
           }
@@ -243,14 +336,6 @@
               "version": "[3.5.0, )"
             },
             "Microsoft.Orleans.OrleansRuntime": {
-              "target": "Package",
-              "version": "[3.5.0, )"
-            },
-            "Microsoft.Orleans.OrleansTelemetryConsumers.AI": {
-              "target": "Package",
-              "version": "[3.5.0, )"
-            },
-            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": {
               "target": "Package",
               "version": "[3.5.0, )"
             },

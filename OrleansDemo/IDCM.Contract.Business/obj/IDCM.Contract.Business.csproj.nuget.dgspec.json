@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {}
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj",
         "projectName": "IDCM.Contract.Business",
-        "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.Business\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
-                "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
+              "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
+                "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj",
         "projectName": "IDCM.Contract.IBusiness",
-        "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IBusiness\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

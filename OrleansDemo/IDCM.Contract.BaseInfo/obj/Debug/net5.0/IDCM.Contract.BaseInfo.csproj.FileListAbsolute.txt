@@ -1,0 +1,14 @@
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\bin\Debug\net5.0\IDCM.Contract.BaseInfo.deps.json
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\bin\Debug\net5.0\IDCM.Contract.BaseInfo.dll
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\bin\Debug\net5.0\ref\IDCM.Contract.BaseInfo.dll
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\bin\Debug\net5.0\IDCM.Contract.BaseInfo.pdb
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.AssemblyInfoInputs.cache
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.AssemblyInfo.cs
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.csproj.CoreCompileInputs.cache
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.dll
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\ref\IDCM.Contract.BaseInfo.dll
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.pdb
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.csproj.AssemblyReference.cache
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.orleans.g.args.txt
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.orleans.g.cs

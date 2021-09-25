@@ -1,5 +1,6 @@
-﻿using IDCM.Contract.Client.Extension;
-using IDCM.Contract.IGrains;
+﻿using IDCM.Contract.BaseInfo;
+using IDCM.Contract.Client.Extension;
+using IDCM.Contract.Foundation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,13 +16,13 @@ namespace IDCM.Contract.Client.Controllers
     {
         private readonly ILogger<BaseInfoController> _logger;
         private readonly IBaseDataGrains _baseDataGrains;
+        private readonly IFoundationGrains _foundationGrains;
 
-        public BaseInfoController()
+        public BaseInfoController(ILogger<BaseInfoController> logger)
         {
-            //_logger = logger;
+            _logger = logger;
             var serviceProvider = GlobalConfigure.ServiceLocatorInstance.CreateScope().ServiceProvider;
-
-          
+            this._foundationGrains = serviceProvider.GetRequiredService<IOrleansClient>().GetGrain<IFoundationGrains>(1);
             this._baseDataGrains = serviceProvider.GetRequiredService<IOrleansClient>().GetGrain<IBaseDataGrains>(1);
         }
         [HttpPost]
@@ -42,6 +43,13 @@ namespace IDCM.Contract.Client.Controllers
         public Task<bool> SaveOrder()
         {
             return _baseDataGrains.SaveOrder();
+        }
+
+        [HttpGet]
+
+        public Task<bool> Foundation()
+        {
+            return _foundationGrains.GetError();
         }
     }
 }

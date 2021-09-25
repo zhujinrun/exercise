@@ -1,4 +1,6 @@
-﻿using IDCM.Contract.IGrains;
+﻿using IDCM.Contract.BaseInfo;
+using IDCM.Contract.Core.Extension;
+using IDCM.Contract.Foundation;
 using Microsoft.Extensions.DependencyInjection;
 using Orleans;
 using Orleans.Hosting;
@@ -23,9 +25,23 @@ namespace IDCM.Contract.Client.Extension
                     opt.SetServiceAssembly(typeof(IBaseDataGrains).Assembly);
                     opt.Configure = (b =>
                     {
-                        b.UseLocalhostClustering();
+                        b.UseLocalhostClustering(gatewayPort: 30000);
                         b.AddOutgoingGrainCallFilter<ExceptionCallFilter>();
-                        //b.AddApplicationInsightsTelemetryConsumer("INSTRUMENTATION_KEY");
+                        b.AddApplicationInsightsTelemetryConsumer("INSTRUMENTATION_KEY");
+                    });
+                });
+
+                build.AddClient(opt =>
+                {
+                    opt.ServiceId = "bar";
+                    opt.ClusterId = "bar";
+
+                    opt.SetServiceAssembly(typeof(IFoundationGrains).Assembly);
+                    opt.Configure = (b =>
+                    {
+                        b.UseLocalhostClustering( gatewayPort:30001);
+                        b.AddOutgoingGrainCallFilter<ExceptionCallFilter>();
+                        b.AddApplicationInsightsTelemetryConsumer("INSTRUMENTATION_KEY");
                     });
                 });
             });

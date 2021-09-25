@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj": {}
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj": {
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj",
         "projectName": "IDCM.Contract.IGrains",
-        "projectPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IGrains\\IDCM.Contract.IGrains.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\aspnetcore\\OrleansDemo\\IDCM.Contract.IGrains\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IGrains\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,6 +57,22 @@
             "Microsoft.Orleans.Core.Abstractions": {
               "target": "Package",
               "version": "[3.5.0, )"
+            },
+            "Microsoft.Orleans.OrleansTelemetryConsumers.AI": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Orleans.OrleansTelemetryConsumers.Counters": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "Microsoft.Orleans.Runtime.Abstractions": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "OrleansDashboard": {
+              "target": "Package",
+              "version": "[3.5.2, )"
             }
           },
           "imports": [

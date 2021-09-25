@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IDCM.Contract.IGrains\IDCM.Contract.IGrains.csproj" />
+    <ProjectReference Include="..\IDCM.Contract.BaseInfo\IDCM.Contract.BaseInfo.csproj" />
+    <ProjectReference Include="..\IDCM.Contract.Core\IDCM.Contract.Core.csproj" />
+    <ProjectReference Include="..\IDCM.Contract.Foundation\IDCM.Contract.Foundation.csproj" />
   </ItemGroup>
 
   <ItemGroup>
