@@ -26,6 +26,7 @@ namespace IDCM.Contract.WebApi
            
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    webBuilder.UseUrls("https://localhost:5002");
                     webBuilder.UseStartup<Startup>();
                 }).UseExtOrleans(builder =>
                 {

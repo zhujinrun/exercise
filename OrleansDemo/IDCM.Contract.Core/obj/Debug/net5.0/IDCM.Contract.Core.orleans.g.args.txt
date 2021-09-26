@@ -1,12 +1,14 @@
 LogLevel:Warning
-ProjectPath:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.Core\IDCM.Contract.Core.csproj
+ProjectPath:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Core\IDCM.Contract.Core.csproj
 ProjectGuid:
 AssemblyName:IDCM.Contract.Core
 OutputType:Library
-TargetPath:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.Core\bin\Debug\net5.0\IDCM.Contract.Core.dll
-CodeGenOutputFile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.Core\obj\Debug\net5.0\IDCM.Contract.Core.orleans.g.cs
-Compile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.Core\Extension\ExceptionCallFilter.cs
-Compile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.Core\Extension\Extensions.cs
+TargetPath:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Core\bin\Debug\net5.0\IDCM.Contract.Core.dll
+CodeGenOutputFile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Core\obj\Debug\net5.0\IDCM.Contract.Core.orleans.g.cs
+Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Core\Extension\AjaxResult.cs
+Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Core\Extension\ErrorResult.cs
+Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Core\Extension\ExceptionCallFilter.cs
+Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Core\Extension\Extensions.cs
 Reference:C:\Users\admin\.nuget\packages\microsoft.applicationinsights\2.4.0\lib\netstandard1.3\Microsoft.ApplicationInsights.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Antiforgery.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -307,4 +309,4 @@ Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.XDocument.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll
 DefineConstants:TRACE,DEBUG,NET,NET5_0,NETCOREAPP
-InputHash:54c31c26fcbe5b801e168fc9e26d7abffe607fa6
+InputHash:29f6d9592014dfa2974922883eeda0b65baa237e

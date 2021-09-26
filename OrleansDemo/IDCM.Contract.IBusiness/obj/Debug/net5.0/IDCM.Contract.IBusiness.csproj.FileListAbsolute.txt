@@ -20,3 +20,15 @@ D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Co
 D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.dll
 D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\ref\IDCM.Contract.IBusiness.dll
 D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.pdb
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\bin\Debug\net5.0\IDCM.Contract.IBusiness.deps.json
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\bin\Debug\net5.0\IDCM.Contract.IBusiness.dll
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\bin\Debug\net5.0\ref\IDCM.Contract.IBusiness.dll
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\bin\Debug\net5.0\IDCM.Contract.IBusiness.pdb
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.AssemblyInfoInputs.cache
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.AssemblyInfo.cs
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.csproj.CoreCompileInputs.cache
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.dll
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\ref\IDCM.Contract.IBusiness.dll
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.pdb
+F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.csproj.AssemblyReference.cache

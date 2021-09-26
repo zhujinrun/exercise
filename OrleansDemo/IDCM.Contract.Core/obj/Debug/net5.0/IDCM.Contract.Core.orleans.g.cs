@@ -27,6 +27,8 @@ namespace OrleansGeneratedCode
 
         public void Populate(global::Orleans.Serialization.SerializerFeature feature)
         {
+            feature.AddKnownType("IDCM.Contract.Core.Extension.AjaxResult,IDCM.Contract.Core", "IDCM.Contract.Core.Extension.AjaxResult");
+            feature.AddKnownType("IDCM.Contract.Core.Extension.ErrorResult,IDCM.Contract.Core", "IDCM.Contract.Core.Extension.ErrorResult");
             feature.AddKnownType("IDCM.Contract.Core.Extension.ExceptionCallFilter,IDCM.Contract.Core", "IDCM.Contract.Core.Extension.ExceptionCallFilter");
             feature.AddKnownType("IDCM.Contract.Core.Extension.SiloExOptions,IDCM.Contract.Core", "IDCM.Contract.Core.Extension.SiloExOptions");
             feature.AddKnownType("Microsoft.ApplicationInsights.Constants,Microsoft.ApplicationInsights", "Microsoft.ApplicationInsights.Constants");

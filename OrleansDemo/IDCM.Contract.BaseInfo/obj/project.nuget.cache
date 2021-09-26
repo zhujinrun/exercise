@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m3DjolWCdmi1Y1c5eUcOAUWvgTd7XTqwfjGYPD99i/WqaG9KpaqR5/SO5ZZtTSf7EJ+zCDJgmLn5H18ozSHYGg==",
+  "dgSpecHash": "BaXtWKA05s7q5cAN5KSv4iDl8hPsFF09aXNDvkfpCIBqZWlS2n7KzNFkFyelfck7ZU07Pyn4xPiMPOIcTKLj9A==",
   "success": true,
-  "projectFilePath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj",
+  "projectFilePath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.0.0\\microsoft.aspnetcore.connections.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.0.0\\microsoft.aspnetcore.http.features.3.0.0.nupkg.sha512",

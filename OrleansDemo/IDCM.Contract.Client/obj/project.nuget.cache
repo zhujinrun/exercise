@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VyIEDbaQ31G7gJOitPiT/xYwfAoLdSx2IbNWl7LFbOVmBWFZEB5Lh/WWHGa0vQIFrafB3ybAWzLk/iTnI3Y/uA==",
+  "dgSpecHash": "XjRpApEVpEc5it4cUz1jzQq4ueikLnsJfFcOfVt8O/us0oVVuW0R7mnxXu93T1CI6wydSkn6/EkKjXKcepl2Lg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Client\\IDCM.Contract.Client.csproj",
+  "projectFilePath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Client\\IDCM.Contract.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

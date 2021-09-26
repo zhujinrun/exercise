@@ -32,6 +32,7 @@ namespace IDCM.Contract.Core.Extension
                 var msg = string.Format($"{context.Grain.GetType()}.{context.InterfaceMethod.Name}({ (context.Arguments != null ? string.Join(',', context.Arguments) : String.Empty)}) threw an exception: {ex}");
                 this._logger.LogError(msg,ex);
                 context.Result = false;
+                //context.Result = new ErrorResult(ex.Message,500);
             }
         }
     }
