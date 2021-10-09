@@ -6,6 +6,7 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
+        
             (_ = (Action<string>)((string str) => { Console.Write(str); }))("你见过这个东西吗 ");
 
             var bs = new
