@@ -6311,11 +6311,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lx.Project.Cachaing\\Lx.TestProject.Caching\\Lx.TestProject.Caching.csproj",
+      "projectUniqueName": "F:\\GitHub\\exercise\\Lx.Project.CachingForRedis\\Lx.TestProject.Caching\\Lx.TestProject.Caching.csproj",
       "projectName": "Lx.TestProject.Caching",
-      "projectPath": "D:\\Lx.Project.Cachaing\\Lx.TestProject.Caching\\Lx.TestProject.Caching.csproj",
+      "projectPath": "F:\\GitHub\\exercise\\Lx.Project.CachingForRedis\\Lx.TestProject.Caching\\Lx.TestProject.Caching.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Lx.Project.Cachaing\\Lx.TestProject.Caching\\obj\\",
+      "outputPath": "F:\\GitHub\\exercise\\Lx.Project.CachingForRedis\\Lx.TestProject.Caching\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6332,8 +6332,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Lx.Project.Cachaing\\Lx.Project.Unicache\\Lx.Project.Unicache.csproj": {
-              "projectPath": "D:\\Lx.Project.Cachaing\\Lx.Project.Unicache\\Lx.Project.Unicache.csproj"
+            "F:\\GitHub\\exercise\\Lx.Project.CachingForRedis\\Lx.Project.Unicache\\Lx.Project.Unicache.csproj": {
+              "projectPath": "F:\\GitHub\\exercise\\Lx.Project.CachingForRedis\\Lx.Project.Unicache\\Lx.Project.Unicache.csproj"
             }
           }
         }
@@ -6379,26 +6379,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
       }
     }
   }
