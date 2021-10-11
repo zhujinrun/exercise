@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using IDCM.Contract.Core.Extension;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace IDCM.Contract.BarWebApi
 {
@@ -22,10 +23,15 @@ namespace IDCM.Contract.BarWebApi
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                }).UseExtOrleans(builder =>
+            .ConfigureServices(services =>
+            {
+                services.AddTransient<FoundationGrains>(); //orleans注册
+            })
+                //.ConfigureWebHostDefaults(webBuilder =>
+                //{
+                //    webBuilder.UseStartup<Startup>();
+                //}) //不单独对外开放controller可以不需要host服务
+            .UseExtOrleans(builder =>
                 {
                     builder.ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(FoundationGrains).Assembly).WithReferences())
                     .AddIncomingGrainCallFilter<ExceptionCallFilter>();
