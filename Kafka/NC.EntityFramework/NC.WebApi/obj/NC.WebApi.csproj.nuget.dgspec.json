@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj": {}
+    "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj": {
+    "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj",
+        "projectUniqueName": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj",
         "projectName": "NC.MessageBus",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj",
+        "projectPath": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.MessageBus\\obj\\",
+        "outputPath": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.MessageBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/cachemanager/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -77,18 +76,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj": {
+    "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj",
+        "projectUniqueName": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj",
         "projectName": "NC.WebApi",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj",
+        "projectPath": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.WebApi\\obj\\",
+        "outputPath": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,15 +98,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/cachemanager/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj": {
-                "projectPath": "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj"
+              "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj": {
+                "projectPath": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj"
               }
             }
           }
@@ -145,7 +143,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
         }
       }
     }

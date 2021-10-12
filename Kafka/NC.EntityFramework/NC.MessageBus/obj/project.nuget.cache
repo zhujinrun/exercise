@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jn4sFF2hHHhQM3t0sk8sihnWNCk3hOZ1TtGpeVjfwgKg/bcz78gFBSPOJt1SlpkqdbbfYztzSIvpXV+AKXZtwQ==",
+  "dgSpecHash": "Php8RTtZA5EGFquRaB13iYM10vvY5BCGln7834/tJ6AUZMQsO4N60xUjFxYZfn/Gi6Iz6/akYVTKV3U6VVUQtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj",
+  "projectFilePath": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\confluent.kafka\\1.5.3\\confluent.kafka.1.5.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\librdkafka.redist\\1.5.3\\librdkafka.redist.1.5.3.nupkg.sha512",
