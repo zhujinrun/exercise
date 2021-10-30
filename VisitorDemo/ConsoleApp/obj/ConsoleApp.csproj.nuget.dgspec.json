@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub_\\exercise\\VisitorDemo\\VisitorDemo\\VisitorDemo.csproj": {}
+    "D:\\GitHub_\\exercise\\VisitorDemo\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "D:\\GitHub_\\exercise\\VisitorDemo\\VisitorDemo\\VisitorDemo.csproj": {
+    "D:\\GitHub_\\exercise\\VisitorDemo\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub_\\exercise\\VisitorDemo\\VisitorDemo\\VisitorDemo.csproj",
-        "projectName": "VisitorDemo",
-        "projectPath": "D:\\GitHub_\\exercise\\VisitorDemo\\VisitorDemo\\VisitorDemo.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\VisitorDemo\\ConsoleApp\\ConsoleApp.csproj",
+        "projectName": "ConsoleApp",
+        "projectPath": "D:\\GitHub_\\exercise\\VisitorDemo\\ConsoleApp\\ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub_\\exercise\\VisitorDemo\\VisitorDemo\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\VisitorDemo\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
