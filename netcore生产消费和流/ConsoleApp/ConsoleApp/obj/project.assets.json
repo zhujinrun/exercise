@@ -8,19 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\exercise\\netcore.demo\\netcore生产消费和流\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "D:\\GitHub_\\exercise\\netcore生产消费和流\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "F:\\GitHub\\exercise\\netcore.demo\\netcore生产消费和流\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+      "projectPath": "D:\\GitHub_\\exercise\\netcore生产消费和流\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\exercise\\netcore.demo\\netcore生产消费和流\\ConsoleApp\\ConsoleApp\\obj\\",
+      "outputPath": "D:\\GitHub_\\exercise\\netcore生产消费和流\\ConsoleApp\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21458.32\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
       }
     }
   }

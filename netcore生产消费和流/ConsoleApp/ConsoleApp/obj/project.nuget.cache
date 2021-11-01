@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nwq9d0FrXXyXIeNe+YetAcXQC2IBF5HCUAbziR9h8wnRQXuuGINOwelJjOrZNCQ9DWLZPg9ATH0fPJ/OoADFZQ==",
+  "dgSpecHash": "N8Qfei2CanrCGP+kbH8O4hV+0aHzGvJ5VvR7WOQi9Fo/7uxcpNklnCdaIuOqFhrjJzGdirb8IbaF1reYS9YdCw==",
   "success": true,
-  "projectFilePath": "F:\\GitHub\\exercise\\netcore.demo\\netcore生产消费和流\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "D:\\GitHub_\\exercise\\netcore生产消费和流\\ConsoleApp\\ConsoleApp\\ConsoleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
