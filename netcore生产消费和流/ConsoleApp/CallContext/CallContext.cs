@@ -11,7 +11,10 @@ namespace CallContextTest
 
         public static object GetData(string name) => state.TryGetValue(name, out AsyncLocal<object> data) ? data.Value : null;
     }
-
+    /// <summary>
+    /// HttpContext.Current.Items 优选
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public static class CallContext<T>
     {
         static ConcurrentDictionary<string, AsyncLocal<T>> state = new ConcurrentDictionary<string, AsyncLocal<T>>();
