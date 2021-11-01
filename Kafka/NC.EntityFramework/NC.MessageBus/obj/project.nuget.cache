@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Php8RTtZA5EGFquRaB13iYM10vvY5BCGln7834/tJ6AUZMQsO4N60xUjFxYZfn/Gi6Iz6/akYVTKV3U6VVUQtg==",
+  "dgSpecHash": "WAfWBPjf2i1UcYXq1OGXshZEmLfhrPorxseO6O/haZ2VHsIT9/C0gTN8cBzvnydtCfmvGmQaFOLpfnt1qV5fqg==",
   "success": true,
   "projectFilePath": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.MessageBus\\NC.MessageBus.csproj",
   "expectedPackageFiles": [

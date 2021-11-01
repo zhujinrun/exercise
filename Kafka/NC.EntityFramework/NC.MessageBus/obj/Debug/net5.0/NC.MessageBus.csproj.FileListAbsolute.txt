@@ -10,3 +10,15 @@ C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\NC
 C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.dll
 C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\ref\NC.MessageBus.dll
 C:\Users\admin\source\repos\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.pdb
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\NC.MessageBus.deps.json
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\NC.MessageBus.dll
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\ref\NC.MessageBus.dll
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\bin\Debug\net5.0\NC.MessageBus.pdb
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.csproj.AssemblyReference.cache
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.AssemblyInfoInputs.cache
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.AssemblyInfo.cs
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.csproj.CoreCompileInputs.cache
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.dll
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\ref\NC.MessageBus.dll
+F:\GitHub\exercise\Kafka\NC.EntityFramework\NC.MessageBus\obj\Debug\net5.0\NC.MessageBus.pdb

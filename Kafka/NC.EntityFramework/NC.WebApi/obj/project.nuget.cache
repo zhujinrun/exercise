@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bZ1OYTmyzt4vmtYd04QZY/xrbBaU0/on6sRea9t9lsgRXvX6DRCO+nWU6yFYIf8Rv1mYNUvCglxvSNPyEnIqfQ==",
+  "dgSpecHash": "NJE0N0sfcLIZWbYN2zIq/ZDnSZNrMhApzv9Mpoa04PwRqHQb1hydI1woQXr52eFsEy3nAhnkDSedRhMjlPR8Sw==",
   "success": true,
   "projectFilePath": "F:\\GitHub\\exercise\\Kafka\\NC.EntityFramework\\NC.WebApi\\NC.WebApi.csproj",
   "expectedPackageFiles": [
