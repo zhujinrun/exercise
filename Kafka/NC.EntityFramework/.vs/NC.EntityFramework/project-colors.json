@@ -5,7 +5,12 @@
       "ProjectGuid": "6f31a7b4-cf1c-44fe-a8d7-a5ea253de614",
       "DisplayName": "NC.WebApi",
       "ColorIndex": 0
+    },
+    "06e70bb6-d7c7-449b-91ff-01d7e63af05f": {
+      "ProjectGuid": "06e70bb6-d7c7-449b-91ff-01d7e63af05f",
+      "DisplayName": "NC.MessageBus",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
