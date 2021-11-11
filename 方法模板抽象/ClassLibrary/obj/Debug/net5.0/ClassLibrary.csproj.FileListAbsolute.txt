@@ -1,0 +1,11 @@
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\bin\Debug\net5.0\ClassLibrary.deps.json
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\bin\Debug\net5.0\ClassLibrary.dll
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\bin\Debug\net5.0\ref\ClassLibrary.dll
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\bin\Debug\net5.0\ClassLibrary.pdb
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\obj\Debug\net5.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\obj\Debug\net5.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\obj\Debug\net5.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\obj\Debug\net5.0\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\obj\Debug\net5.0\ClassLibrary.dll
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\obj\Debug\net5.0\ref\ClassLibrary.dll
+C:\Users\admin\source\repos\NetcoreTest\ClassLibrary\obj\Debug\net5.0\ClassLibrary.pdb

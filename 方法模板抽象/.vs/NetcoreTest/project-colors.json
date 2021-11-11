@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "96fe1051-443d-4a02-b128-32033a55b678": {
+      "ProjectGuid": "96fe1051-443d-4a02-b128-32033a55b678",
+      "DisplayName": "NetcoreTest",
+      "ColorIndex": 0
+    },
+    "9483d5e0-b266-4ef1-a3a7-f94456ca725f": {
+      "ProjectGuid": "9483d5e0-b266-4ef1-a3a7-f94456ca725f",
+      "DisplayName": "第二版",
+      "ColorIndex": 1
+    },
+    "1a0bf512-f687-4c12-b94b-7db1bd9714a2": {
+      "ProjectGuid": "1a0bf512-f687-4c12-b94b-7db1bd9714a2",
+      "DisplayName": "第三版",
+      "ColorIndex": 2
+    },
+    "b983da0a-7d2f-433f-ac6d-2f7edcb205c6": {
+      "ProjectGuid": "b983da0a-7d2f-433f-ac6d-2f7edcb205c6",
+      "DisplayName": "ClassLibrary",
+      "ColorIndex": 3
+    },
+    "9b655540-43de-4478-aa7b-c5890415720e": {
+      "ProjectGuid": "9b655540-43de-4478-aa7b-c5890415720e",
+      "DisplayName": "第四版",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
