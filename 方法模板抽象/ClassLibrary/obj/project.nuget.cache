@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EyUQSeZ6V8YSNx3uYRDZZnInzicDO7fla/lv/pFhmC5GYeSXi4GNX8MjjpEItbuStm8gmlTWkSvNwQohc/u1Uw==",
+  "dgSpecHash": "drxBvjDMTAMvTGWxOgoIWLtxH0jwwMiK2z395iUIAvYIeNkc7B7mFOvqNYpFNmFo3pWXfvgwW7DdAXbeWqRu0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\ClassLibrary\\ClassLibrary.csproj",
+  "projectFilePath": "D:\\GitHub_\\exercise\\方法模板抽象\\ClassLibrary\\ClassLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

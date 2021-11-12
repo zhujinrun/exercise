@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kATJq3PImygY0MMqWkm8fJ+JCuS3lpSkmwF9AHDsr274jpiUkU9fn0n5TY37843e1Ngo3FiwxKO4/CvzdPv3iw==",
+  "dgSpecHash": "w9gedjBwDjIzTeK2BcZEYcXTNUXbqdvX+drF5J13KPDKzab+/K+3MaEIyrUzjmiBLDS0ydcbvOP1TTH8TlDwtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\第四版\\第四版.csproj",
+  "projectFilePath": "D:\\GitHub_\\exercise\\方法模板抽象\\第四版\\第四版.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

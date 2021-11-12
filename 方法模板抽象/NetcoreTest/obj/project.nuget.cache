@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TlAzMuPahKCoW2lygLUFrWk4gs6WFwf2lhd8Q7hDi2UurbMAX8uOGe2d32d8iD1vqtqQVmuFlNGSgNgOV9ed8g==",
+  "dgSpecHash": "EuvZg2s6zqeGI6bdQGdkzgaby47vdq5twIKR0n0RW/KLlfOL3QUUk2KZDDfIIF1U+zyfZ1eh0CPUjfKbwaMsNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\NetcoreTest\\NetcoreTest.csproj",
+  "projectFilePath": "D:\\GitHub_\\exercise\\方法模板抽象\\NetcoreTest\\NetcoreTest.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

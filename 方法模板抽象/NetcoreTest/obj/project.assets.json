@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\NetcoreTest\\NetcoreTest.csproj",
+      "projectUniqueName": "D:\\GitHub_\\exercise\\方法模板抽象\\NetcoreTest\\NetcoreTest.csproj",
       "projectName": "NetcoreTest",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\NetcoreTest\\NetcoreTest.csproj",
+      "projectPath": "D:\\GitHub_\\exercise\\方法模板抽象\\NetcoreTest\\NetcoreTest.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\NetcoreTest\\obj\\",
+      "outputPath": "D:\\GitHub_\\exercise\\方法模板抽象\\NetcoreTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\admin\\source\\repos\\NetcoreTest\\ClassLibrary\\ClassLibrary.csproj": {
-              "projectPath": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\ClassLibrary\\ClassLibrary.csproj"
+            "D:\\GitHub_\\exercise\\方法模板抽象\\ClassLibrary\\ClassLibrary.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\方法模板抽象\\ClassLibrary\\ClassLibrary.csproj"
             }
           }
         }
@@ -88,7 +88,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

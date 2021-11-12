@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\ClassLibrary\\ClassLibrary.csproj",
+      "projectUniqueName": "D:\\GitHub_\\exercise\\方法模板抽象\\ClassLibrary\\ClassLibrary.csproj",
       "projectName": "ClassLibrary",
-      "projectPath": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\ClassLibrary\\ClassLibrary.csproj",
+      "projectPath": "D:\\GitHub_\\exercise\\方法模板抽象\\ClassLibrary\\ClassLibrary.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\source\\repos\\NetcoreTest\\ClassLibrary\\obj\\",
+      "outputPath": "D:\\GitHub_\\exercise\\方法模板抽象\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
