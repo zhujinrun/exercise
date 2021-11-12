@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary", "ClassLibrar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第四版", "第四版\第四版.csproj", "{9B655540-43DE-4478-AA7B-C5890415720E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽象工厂和工厂方法", "抽象工厂和工厂方法\抽象工厂和工厂方法.csproj", "{3D601575-804C-4EAB-B17C-E845017F2023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "抽象工厂和工厂方法", "抽象工厂和工厂方法\抽象工厂和工厂方法.csproj", "{3D601575-804C-4EAB-B17C-E845017F2023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式", "访问者模式\访问者模式.csproj", "{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3D601575-804C-4EAB-B17C-E845017F2023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D601575-804C-4EAB-B17C-E845017F2023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D601575-804C-4EAB-B17C-E845017F2023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
