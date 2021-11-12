@@ -11,7 +11,7 @@ namespace ConsoleApp
         
         {
         
-            (_ = (Action<string>)((string str) => { Console.Write(str); }))("你见过这个东西吗 ");
+            (_ = (Action<string>)((string str) => { Console.Write(str); }))("Are You Ready? ");
 
             var bs = new
             {             
