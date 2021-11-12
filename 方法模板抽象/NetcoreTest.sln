@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "第四版", "第四版\第�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "抽象工厂和工厂方法", "抽象工厂和工厂方法\抽象工厂和工厂方法.csproj", "{3D601575-804C-4EAB-B17C-E845017F2023}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "访问者模式", "访问者模式\访问者模式.csproj", "{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "访问者模式", "访问者模式\访问者模式.csproj", "{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰器", "装饰器\装饰器.csproj", "{C83A484C-559D-4343-B8ED-D7F02A70936A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "责任链简单", "责任链简单\责任链简单.csproj", "{FB10F983-929D-414C-A32F-DAC0A8F0BF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16F0D9B5-1A02-4CCC-8EA5-1C6E5CB80944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83A484C-559D-4343-B8ED-D7F02A70936A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83A484C-559D-4343-B8ED-D7F02A70936A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83A484C-559D-4343-B8ED-D7F02A70936A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83A484C-559D-4343-B8ED-D7F02A70936A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB10F983-929D-414C-A32F-DAC0A8F0BF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB10F983-929D-414C-A32F-DAC0A8F0BF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB10F983-929D-414C-A32F-DAC0A8F0BF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB10F983-929D-414C-A32F-DAC0A8F0BF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
