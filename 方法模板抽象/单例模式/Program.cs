@@ -81,6 +81,7 @@ namespace 单例模式
     #region 饿汉
     public class TestBaz
     {
+        private TestBaz() { }
         public static readonly TestBaz INSTANCE = new TestBaz();
     }
     #endregion
