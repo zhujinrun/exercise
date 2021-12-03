@@ -252,4 +252,6 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 Add-Migration MyFirstMigration
 Update-Database
 
+docker 内存 cpu占用查询
+top c
 
