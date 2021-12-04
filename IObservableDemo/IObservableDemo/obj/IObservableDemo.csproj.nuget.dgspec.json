@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\IObservableDemo\\IObservableDemo\\IObservableDemo.csproj": {}
+    "D:\\GitHub_\\exercise\\IObservableDemo\\IObservableDemo\\IObservableDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\IObservableDemo\\IObservableDemo\\IObservableDemo.csproj": {
+    "D:\\GitHub_\\exercise\\IObservableDemo\\IObservableDemo\\IObservableDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\IObservableDemo\\IObservableDemo\\IObservableDemo.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\IObservableDemo\\IObservableDemo\\IObservableDemo.csproj",
         "projectName": "IObservableDemo",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\IObservableDemo\\IObservableDemo\\IObservableDemo.csproj",
+        "projectPath": "D:\\GitHub_\\exercise\\IObservableDemo\\IObservableDemo\\IObservableDemo.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\IObservableDemo\\IObservableDemo\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\IObservableDemo\\IObservableDemo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/cachemanager/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -55,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.6.21355.2\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

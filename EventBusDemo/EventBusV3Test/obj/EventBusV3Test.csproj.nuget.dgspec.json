@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3Test\\EventBusV3Test.csproj": {}
+    "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3Test\\EventBusV3Test.csproj": {}
   },
   "projects": {
-    "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3Test\\EventBusV3Test.csproj": {
+    "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3Test\\EventBusV3Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3Test\\EventBusV3Test.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3Test\\EventBusV3Test.csproj",
         "projectName": "EventBusV3Test",
-        "projectPath": "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3Test\\EventBusV3Test.csproj",
-        "packagesPath": "C:\\Users\\12142\\.nuget\\packages\\",
-        "outputPath": "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3Test\\obj\\",
+        "projectPath": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3Test\\EventBusV3Test.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\12142\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3\\EventBusV3.csproj": {
-                "projectPath": "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3\\EventBusV3.csproj"
+              "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3\\EventBusV3.csproj": {
+                "projectPath": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3\\EventBusV3.csproj"
               }
             }
           }
@@ -84,24 +84,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3\\EventBusV3.csproj": {
+    "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3\\EventBusV3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3\\EventBusV3.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3\\EventBusV3.csproj",
         "projectName": "EventBusV3",
-        "projectPath": "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3\\EventBusV3.csproj",
-        "packagesPath": "C:\\Users\\12142\\.nuget\\packages\\",
-        "outputPath": "D:\\我的文档\\repos\\EventBusDemo\\EventBusV3\\obj\\",
+        "projectPath": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3\\EventBusV3.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusV3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\12142\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -142,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
