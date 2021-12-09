@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\我的文档\\repos\\EventBusDemo\\EventBusDemo\\EventBusDemo.csproj": {}
+    "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusDemo\\EventBusDemo.csproj": {}
   },
   "projects": {
-    "D:\\我的文档\\repos\\EventBusDemo\\EventBusDemo\\EventBusDemo.csproj": {
+    "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusDemo\\EventBusDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\我的文档\\repos\\EventBusDemo\\EventBusDemo\\EventBusDemo.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusDemo\\EventBusDemo.csproj",
         "projectName": "EventBusDemo",
-        "projectPath": "D:\\我的文档\\repos\\EventBusDemo\\EventBusDemo\\EventBusDemo.csproj",
-        "packagesPath": "C:\\Users\\12142\\.nuget\\packages\\",
-        "outputPath": "D:\\我的文档\\repos\\EventBusDemo\\EventBusDemo\\obj\\",
+        "projectPath": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusDemo\\EventBusDemo.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub_\\exercise\\EventBusDemo\\EventBusDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\12142\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

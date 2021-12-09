@@ -246,3 +246,13 @@ iptables -I INPUT -p tcp --dport 端口号 -j ACCEPT
 docker 下没有vim 安装命令:
 apt-get update 
 apt-get install vim 
+
+codefirst生成表三部曲：
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Add-Migration MyFirstMigration
+Update-Database
+
+docker 内存 cpu占用查询
+top c
+
+docker stats  查看docker资源
