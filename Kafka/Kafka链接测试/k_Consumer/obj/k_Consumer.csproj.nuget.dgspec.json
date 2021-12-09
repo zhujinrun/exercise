@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj": {}
+    "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj": {}
   },
   "projects": {
-    "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj": {
+    "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj",
+        "projectUniqueName": "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj",
         "projectName": "k_Consumer",
-        "projectPath": "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\obj\\",
+        "projectPath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj",
+        "packagesPath": "C:\\Users\\l\\.nuget\\packages\\",
+        "outputPath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\l\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

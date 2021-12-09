@@ -2556,19 +2556,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\l\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
+      "projectUniqueName": "G:\\Users\\l\\Documents\\GitHub\\exercise\\aspnetcore\\AspNetCore\\AspNetCore.csproj",
       "projectName": "AspNetCore",
-      "projectPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub_\\netcore.demo\\AspNetCore\\AspNetCore\\obj\\",
+      "projectPath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\aspnetcore\\AspNetCore\\AspNetCore.csproj",
+      "packagesPath": "C:\\Users\\l\\.nuget\\packages\\",
+      "outputPath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\aspnetcore\\AspNetCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\l\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2625,12 +2625,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.8, 5.0.8]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2639,7 +2633,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

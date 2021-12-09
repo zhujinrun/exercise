@@ -224,19 +224,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lzx\\.nuget\\packages\\": {}
+    "C:\\Users\\l\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\github\\netcore.demo\\CustomAuthorizationFilter\\CustomAuthorizationFilter\\CustomAuthorizationFilter.csproj",
+      "projectUniqueName": "G:\\Users\\l\\Documents\\GitHub\\exercise\\CustomAuthorizationFilter\\CustomAuthorizationFilter\\CustomAuthorizationFilter.csproj",
       "projectName": "CustomAuthorizationFilter",
-      "projectPath": "D:\\github\\netcore.demo\\CustomAuthorizationFilter\\CustomAuthorizationFilter\\CustomAuthorizationFilter.csproj",
-      "packagesPath": "C:\\Users\\lzx\\.nuget\\packages\\",
-      "outputPath": "D:\\github\\netcore.demo\\CustomAuthorizationFilter\\CustomAuthorizationFilter\\obj\\",
+      "projectPath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\CustomAuthorizationFilter\\CustomAuthorizationFilter\\CustomAuthorizationFilter.csproj",
+      "packagesPath": "C:\\Users\\l\\.nuget\\packages\\",
+      "outputPath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\CustomAuthorizationFilter\\CustomAuthorizationFilter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lzx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\l\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -248,6 +248,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -259,6 +260,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
@@ -279,6 +281,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -287,7 +307,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

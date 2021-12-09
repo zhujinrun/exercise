@@ -11,8 +11,9 @@ namespace k_Producer
         {
             var config = new ProducerConfig
             {
-                BootstrapServers = "13.212.67.10:9082",
-                
+                //BootstrapServers = "13.212.67.10:9082",
+                BootstrapServers = "8.142.71.127:9092",
+
                 ClientId = Dns.GetHostName()
             };
             using (var producer = new ProducerBuilder<Null, string>(config).Build())

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1geJZity8pjki4sTjkCs9jpVfRwnob57AXifpKDaCsZYE1bcHnI89aGS+80txJft8j9clE8gCvu+XfmatctykQ==",
+  "dgSpecHash": "Xx3eYXMjPtcyw3WxmcoHXiFaZ5o9v6A3pATqszsKnmSQ1ms7T+hakhxnNgYH2BiAQkERBt1H7QIXLQXmaINl5w==",
   "success": true,
-  "projectFilePath": "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj",
+  "projectFilePath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Consumer\\k_Consumer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\admin\\.nuget\\packages\\confluent.kafka\\1.7.0\\confluent.kafka.1.7.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\librdkafka.redist\\1.7.0\\librdkafka.redist.1.7.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+    "C:\\Users\\l\\.nuget\\packages\\confluent.kafka\\1.7.0\\confluent.kafka.1.7.0.nupkg.sha512",
+    "C:\\Users\\l\\.nuget\\packages\\librdkafka.redist\\1.7.0\\librdkafka.redist.1.7.0.nupkg.sha512",
+    "C:\\Users\\l\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

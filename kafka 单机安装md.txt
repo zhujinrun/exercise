@@ -1,0 +1,65 @@
+Docker - 通过容器部署Kafka环境教程（以及ZooKeeper）
+2020-02-21发布：hangge阅读：8950
+   Kafka 是一个由 LinkedIn 开发的分布式消息系统。我之前写过文章介绍如何在 CentOS 下使用官方的原生安装包进行安装（点击查看），本文介绍另一种方式：通过 Docker 来快速搭建 Kafka 以及 ZooKeeper 环境，使用这种方式可以免去很多安装配置上的麻烦。
+
+一、安装运行
+1，下载镜像
+首先我们分别执行如下两个命令将 wurstmeister/zookeeper 和 wurstmeister/kafka 这两个镜像下载下来。
+1
+2
+docker pull zookeeper
+docker pull wurstmeister/kafka
+
+2，启动容器
+（1）执行如下命令启动 ZooKeeper 容器:
+1
+docker run -d --name zookeeper -p 2181:2181 -v /usr/local/zookeeper/data:/data -v /usr/local/zookeeper/log:/datalog zookeeper
+
+（2）接着执行如下命令启动 Kafka 容器：
+注意：
+192.168.60.133 改为实际宿主机器的 IP 地址，如果不这么设置，可能会导致在别的机器上访问不到 kafka。
+同时需要使用 KAFKA_LOG_DIRS 指定 log 目录，否则每次启动 kafka 都会自动生成一个随机目录，造成数据无法持久化。
+
+192.168.60.4 为外网ip
+docker run -d --name kafka --publish 9092:9092 \
+--link zookeeper \
+--env KAFKA_ZOOKEEPER_CONNECT=192.168.60.4:2181 \
+--env KAFKA_ADVERTISED_HOST_NAME=192.168.60.4 \
+--env KAFKA_ADVERTISED_PORT=9092  \
+--env KAFKA_LOG_DIRS=/kafka/kafka-logs-1 \
+-v /usr/local/kafka/logs:/kafka/kafka-logs-1  \
+wurstmeister/kafka
+
+到这里已经可以正常使用kafka 了
+二、执行命令
+1，进入容器
+（1）容器启动后执行如下命令进入 kafka 容器：
+1
+docker exec -it kafka /bin/bash
+
+（2）如果要执行命令我们可以入 kafka 默认目录 /opt/kafka 后执行，也可以像下面一样在容器外面通过 docker exec 命令执行。
+
+2，创建查看 Topic
+（1）我们执行如下命令可以创建一个名为 test 的 Topic，该 Topic 包含一个分区和一个 Replica。
+1
+docker exec kafka kafka-topics.sh --create --zookeeper 192.168.60.133:2181 --replication-factor 1 --partitions 1 --topic test
+
+（2）创建后可以执行如下命令查看当前的 Topics：
+1
+docker exec kafka kafka-topics.sh --list --zookeeper 192.168.60.133:2181
+原文:Docker - 通过容器部署Kafka环境教程（以及ZooKeeper）
+
+3，创建消息
+注意：如果事先没有使用 kafka-topics 命令来手工创建 Topic，直接使用下面的内容进行消息创建时也会自动创建 Topics。
+
+（1）首先创建消息生产者。执行如下命令启动 Kafka 基于命令行的消息生产客户端，启动后可以直接在控制台中输入消息来发送，控制台中的每一行数据都会被视为一条消息来发送。
+注意：此时我们可以尝试输入几行消息，由于此时并没有消费者，所以这些输入的消息都会被阻塞在名为 test 的 Topics 中，直到有消费者将其消费掉。
+1
+docker exec -it kafka kafka-console-producer.sh --broker-list 192.168.60.133:9092 --topic test
+
+（2）接着创建消息消费者。我们打开另一个命令窗口执行如下执行命令启动 Kafka 基于命令行的消息消费客户端，启动之后，马上可以在控制台中看到输出了之前我们在消息生产客户端中发送的消息。
+1
+docker exec -it kafka kafka-console-consumer.sh --bootstrap-server 192.168.60.133:9092 --topic test --from-beginning
+
+（3）我们可以再次打开之前的消息生产客户端来发送消息，并观察消费者这边对消息的输出来体验 Kafka 对消息的基础处理。
+原文:Docker - 通过容器部署Kafka环境教程（以及ZooKeeper）
