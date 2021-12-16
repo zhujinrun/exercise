@@ -32,3 +32,4 @@ F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Con
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\ref\IDCM.Contract.IBusiness.dll
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.pdb
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.csproj.AssemblyReference.cache
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.IBusiness\obj\Debug\net5.0\IDCM.Contract.IBusiness.csproj.AssemblyReference.cache

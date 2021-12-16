@@ -1,11 +1,11 @@
 LogLevel:Warning
-ProjectPath:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BaseInfo\IDCM.Contract.BaseInfo.csproj
+ProjectPath:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\IDCM.Contract.BaseInfo.csproj
 ProjectGuid:
 AssemblyName:IDCM.Contract.BaseInfo
 OutputType:Library
-TargetPath:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BaseInfo\bin\Debug\net5.0\IDCM.Contract.BaseInfo.dll
-CodeGenOutputFile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.orleans.g.cs
-Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BaseInfo\IBaseDataGrains.cs
+TargetPath:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\bin\Debug\net5.0\IDCM.Contract.BaseInfo.dll
+CodeGenOutputFile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\obj\Debug\net5.0\IDCM.Contract.BaseInfo.orleans.g.cs
+Compile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BaseInfo\IBaseDataGrains.cs
 Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.connections.abstractions\3.0.0\lib\netcoreapp3.0\Microsoft.AspNetCore.Connections.Abstractions.dll
 Reference:C:\Users\admin\.nuget\packages\microsoft.aspnetcore.http.features\3.0.0\lib\netcoreapp3.0\Microsoft.AspNetCore.Http.Features.dll
 Reference:C:\Users\admin\.nuget\packages\microsoft.bcl.asyncinterfaces\1.1.1\ref\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll
@@ -182,4 +182,4 @@ Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.XDocument.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll
 DefineConstants:TRACE,DEBUG,NET,NET5_0,NETCOREAPP
-InputHash:9b31febc8b5010ff9a9300f89b6a9fee41ae4666
+InputHash:ded2a6cd7dd302c1183f2f296e368c31f6035fe3

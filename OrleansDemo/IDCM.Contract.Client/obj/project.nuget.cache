@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fNAue/kmBh1iQmiqgasCT4R6+A4dX/jKvyT9QZ2+YkmS0t39Xn2IO/bOpsuDtaMB9N43qU5VqjgLyyaHbupwGw==",
+  "dgSpecHash": "1PCGO285JK5PlmFAcYs0Hs74fMMO2y0j2rwcVSHjoUSusthX8u6EfimC4ppf/vRAmr7TO3ABgfSphKzPo1UMFw==",
   "success": true,
-  "projectFilePath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Client\\IDCM.Contract.Client.csproj",
+  "projectFilePath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Client\\IDCM.Contract.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.applicationinsights\\2.4.0\\microsoft.applicationinsights.2.4.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
@@ -161,7 +161,8 @@
     "C:\\Users\\admin\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
   ],
   "logs": []
 }

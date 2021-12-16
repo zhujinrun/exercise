@@ -7965,11 +7965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
+      "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
       "projectName": "IDCM.Contract.WebApi",
-      "projectPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
+      "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\IDCM.Contract.WebApi.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\obj\\",
+      "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7986,17 +7986,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj": {
-              "projectPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj"
+            "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.BaseInfo\\IDCM.Contract.BaseInfo.csproj"
             },
-            "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
-              "projectPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj"
+            "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Business\\IDCM.Contract.Business.csproj"
             },
-            "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {
-              "projectPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj"
+            "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj"
             },
-            "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
-              "projectPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
+            "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj": {
+              "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.IBusiness\\IDCM.Contract.IBusiness.csproj"
             }
           }
         }
@@ -8048,6 +8048,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8056,7 +8062,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

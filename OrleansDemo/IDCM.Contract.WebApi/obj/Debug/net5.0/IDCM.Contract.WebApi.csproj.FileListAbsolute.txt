@@ -229,3 +229,4 @@ F:\GitHub\exercise\OrleansDemo\IDCM.Contract.WebApi\obj\Debug\net5.0\IDCM.Contra
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.WebApi\obj\Debug\net5.0\ref\IDCM.Contract.WebApi.dll
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.WebApi\obj\Debug\net5.0\IDCM.Contract.WebApi.pdb
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.WebApi\obj\Debug\net5.0\IDCM.Contract.WebApi.genruntimeconfig.cache
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.WebApi\obj\Debug\net5.0\IDCM.Contract.WebApi.csproj.CopyComplete

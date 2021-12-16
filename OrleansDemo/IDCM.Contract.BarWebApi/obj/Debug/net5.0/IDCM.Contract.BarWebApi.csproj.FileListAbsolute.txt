@@ -108,3 +108,4 @@ F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\obj\Debug\net5.0\IDCM.Con
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\obj\Debug\net5.0\ref\IDCM.Contract.BarWebApi.dll
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\obj\Debug\net5.0\IDCM.Contract.BarWebApi.pdb
 F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\obj\Debug\net5.0\IDCM.Contract.BarWebApi.genruntimeconfig.cache
+D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\obj\Debug\net5.0\IDCM.Contract.BarWebApi.csproj.CopyComplete

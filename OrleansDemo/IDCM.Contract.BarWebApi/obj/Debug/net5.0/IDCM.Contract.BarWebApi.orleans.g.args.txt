@@ -1,17 +1,17 @@
 LogLevel:Warning
-ProjectPath:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\IDCM.Contract.BarWebApi.csproj
+ProjectPath:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\IDCM.Contract.BarWebApi.csproj
 ProjectGuid:
 AssemblyName:IDCM.Contract.BarWebApi
 OutputType:Exe
-TargetPath:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\bin\Debug\net5.0\IDCM.Contract.BarWebApi.dll
-CodeGenOutputFile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\obj\Debug\net5.0\IDCM.Contract.BarWebApi.orleans.g.cs
-Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\Controllers\WeatherForecastController.cs
-Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\Orleans\FoundationGrains.cs
-Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\Program.cs
-Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\Startup.cs
-Compile:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.BarWebApi\WeatherForecast.cs
-Reference:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Core\bin\Debug\net5.0\IDCM.Contract.Core.dll
-Reference:F:\GitHub\exercise\OrleansDemo\IDCM.Contract.Foundation\bin\Debug\net5.0\IDCM.Contract.Foundation.dll
+TargetPath:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\bin\Debug\net5.0\IDCM.Contract.BarWebApi.dll
+CodeGenOutputFile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\obj\Debug\net5.0\IDCM.Contract.BarWebApi.orleans.g.cs
+Compile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\Controllers\WeatherForecastController.cs
+Compile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\Orleans\FoundationGrains.cs
+Compile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\Program.cs
+Compile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\Startup.cs
+Compile:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.BarWebApi\WeatherForecast.cs
+Reference:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.Core\bin\Debug\net5.0\IDCM.Contract.Core.dll
+Reference:D:\GitHub_\exercise\OrleansDemo\IDCM.Contract.Foundation\bin\Debug\net5.0\IDCM.Contract.Foundation.dll
 Reference:C:\Users\admin\.nuget\packages\microsoft.applicationinsights\2.4.0\lib\netstandard1.3\Microsoft.ApplicationInsights.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Antiforgery.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -316,4 +316,4 @@ Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\System.Xml.XPath.XDocument.dll
 Reference:C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\WindowsBase.dll
 DefineConstants:TRACE,DEBUG,NET,NET5_0,NETCOREAPP
-InputHash:23740d7205a8330b406c70f7aaebfe48882aa0ce
+InputHash:c027daad7f34985ad5f3ea103703533b7112991f

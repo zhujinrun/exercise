@@ -6227,11 +6227,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Foundation\\IDCM.Contract.Foundation.csproj",
+      "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Foundation\\IDCM.Contract.Foundation.csproj",
       "projectName": "IDCM.Contract.Foundation",
-      "projectPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Foundation\\IDCM.Contract.Foundation.csproj",
+      "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Foundation\\IDCM.Contract.Foundation.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Foundation\\obj\\",
+      "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Foundation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6290,7 +6290,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

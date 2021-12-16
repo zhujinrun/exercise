@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {}
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {}
   },
   "projects": {
-    "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {
+    "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj",
         "projectName": "IDCM.Contract.Core",
-        "projectPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj",
+        "projectPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\IDCM.Contract.Core.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\exercise\\OrleansDemo\\IDCM.Contract.Core\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\OrleansDemo\\IDCM.Contract.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
