@@ -215,19 +215,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\l\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Producer\\k_Producer.csproj",
+      "projectUniqueName": "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Producer\\k_Producer.csproj",
       "projectName": "k_Producer",
-      "projectPath": "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Producer\\k_Producer.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Producer\\obj\\",
+      "projectPath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Producer\\k_Producer.csproj",
+      "packagesPath": "C:\\Users\\l\\.nuget\\packages\\",
+      "outputPath": "G:\\Users\\l\\Documents\\GitHub\\exercise\\Kafka\\Kafka链接测试\\k_Producer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\l\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -273,7 +273,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.1.21463.6\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreMidddleware", "As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{2579AB26-DCDD-4C2F-BDCE-B5DDDF79D147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreFilters", "AspNetCoreFilters\AspNetCoreFilters.csproj", "{3DD799BB-B097-4F26-9673-1F7C4D54B7A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreFilters", "AspNetCoreFilters\AspNetCoreFilters.csproj", "{3DD799BB-B097-4F26-9673-1F7C4D54B7A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAspNectCore", "ConsoleAspNectCore\ConsoleAspNectCore.csproj", "{3AE19F42-D186-4903-82DA-1126415F2D9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3DD799BB-B097-4F26-9673-1F7C4D54B7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD799BB-B097-4F26-9673-1F7C4D54B7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD799BB-B097-4F26-9673-1F7C4D54B7A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE19F42-D186-4903-82DA-1126415F2D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE19F42-D186-4903-82DA-1126415F2D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE19F42-D186-4903-82DA-1126415F2D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE19F42-D186-4903-82DA-1126415F2D9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
