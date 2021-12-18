@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace PubSubDemo.DataEntity
 {
+    /// <summary>
+    /// 订阅情况  订阅者和订阅内容的维护
+    /// </summary>
     internal class ArticleSubscription : IObjectWithKey
     {
         private Article article;

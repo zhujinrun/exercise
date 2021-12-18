@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\source\\repos\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj": {}
+    "D:\\GitHub_\\exercise\\发布订阅出版预定\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\source\\repos\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj": {
+    "D:\\GitHub_\\exercise\\发布订阅出版预定\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj",
+        "projectUniqueName": "D:\\GitHub_\\exercise\\发布订阅出版预定\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj",
         "projectName": "PubSubDemo",
-        "projectPath": "C:\\Users\\admin\\source\\repos\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj",
+        "projectPath": "D:\\GitHub_\\exercise\\发布订阅出版预定\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\source\\repos\\PubSubDemo\\PubSubDemo\\obj\\",
+        "outputPath": "D:\\GitHub_\\exercise\\发布订阅出版预定\\PubSubDemo\\PubSubDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

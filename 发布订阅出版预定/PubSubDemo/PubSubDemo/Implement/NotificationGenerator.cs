@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace PubSubDemo.Implement
 {
+    /// <summary>
+    /// 通知生成器
+    /// </summary>
     internal class NotificationGenerator
     {
         private EventStore eventStore;
@@ -17,9 +20,15 @@ namespace PubSubDemo.Implement
             this.eventStore = eventStore;
             this.notificationStore = notificationStore;
             this.articleSubscriptionStore = articleSubscriptionStore;
+            //接受预定通知
             eventStore.NewEventOccured += OnNewEventOccured;
         }
 
+        /// <summary>
+        /// 筛选并生成通知
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         private void OnNewEventOccured(object sender, ExtEventArgs args)
         {
             Event e = args.Event;

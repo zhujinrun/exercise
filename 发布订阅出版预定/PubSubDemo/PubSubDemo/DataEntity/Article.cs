@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PubSubDemo.DataEntity
 {
     /// <summary>
-    /// 预定发布内容对象
+    /// 预定发布内容对象可以是 各种数据类型此实例是string  content
     /// </summary>
     internal class Article : IObjectWithKey
     {

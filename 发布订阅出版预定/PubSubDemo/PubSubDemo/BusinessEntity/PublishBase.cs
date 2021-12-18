@@ -9,9 +9,9 @@ namespace PubSubDemo.BusinessEntity
 {
     internal abstract class PublishBase : IPublisher
     {
-        protected IKeyedObjectStore<Article> articleStore;
-        protected IKeyedObjectStore<ArticleSubscription> subscriptionStore;
-        protected IKeyedObjectStore<Event> eventStore;
+        protected IKeyedObjectStore<Article> articleStore; //订阅列表存储器
+        protected IKeyedObjectStore<ArticleSubscription> subscriptionStore; //订阅情况存储器  订阅 取消订阅写入
+        protected IKeyedObjectStore<Event> eventStore;   //订阅事件存储器  发布后写入
 
         public IEnumerator<Article> Articles
         {

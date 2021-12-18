@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AoOLsN0KUmWg5LP5Grq5JJ3nLJnOdyBdw2JzlFWyyv9wwv0Te5H02kaRcYERL1yq2yDFnPXEC9GjW9UEq0w0Bw==",
+  "dgSpecHash": "1U3ubVFsPQy6KUgbIkTNQ6gwRxdP24xDYiuIsTE4OhtYuXx/oDu3SfF7OB9mg+yovpS2UUolz6kh+eEr8+/IHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\source\\repos\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj",
+  "projectFilePath": "D:\\GitHub_\\exercise\\发布订阅出版预定\\PubSubDemo\\PubSubDemo\\PubSubDemo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace PubSubDemo.DataEntity
 {
+    /// <summary>
+    /// 通知 事件发生后，根据预定条件筛选出类的内容  
+    /// </summary>
     internal class Notification : IObjectWithKey
     {
         private Event e;

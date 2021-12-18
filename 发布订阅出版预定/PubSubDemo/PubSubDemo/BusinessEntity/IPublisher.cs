@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace PubSubDemo.BusinessEntity
 {
+    /// <summary>
+    /// 抽象发接口
+    /// </summary>
     internal interface IPublisher
     {
         void Subscribe(Article article,ISubscriber subscriber);

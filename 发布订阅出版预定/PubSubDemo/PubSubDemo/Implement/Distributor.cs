@@ -17,9 +17,14 @@ namespace PubSubDemo.Implement
         public Distributor(NotificationStore notificationStore)
         {
             this.notificationStore = notificationStore;
+            //发送新的通知情况
             notificationStore.NewNotificationOccured += OnNewNotificationOccured;
         }
-
+        /// <summary>
+        /// 发送新的通知
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="args"></param>
         private void OnNewNotificationOccured(object sender, NotificationEventArgs args)
         {
             Article article = args.Notification.Event.Article;

@@ -9,6 +9,10 @@ using System.Threading.Tasks;
 
 namespace PubSubDemo.Implement
 {
+    /// <summary>
+    /// 测试用内存持久化机制
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     internal class KeyedObjectStore<T> : IKeyedObjectStore<T> where T : class, IObjectWithKey
     {
         protected IDictionary<string,T> data = new Dictionary<string,T>();
