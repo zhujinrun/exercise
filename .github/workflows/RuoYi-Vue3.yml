@@ -1,10 +1,10 @@
-name: Gitee repos mirror periodic job
+name: RuoYi-Vue3 Gitee mirror job
 on:
 # 如果需要PR触发把push前的#去掉
 # push:
   schedule:
     # 每天北京时间9点跑
-    - cron:  '0 1 * * *'
+    - cron:  '30 1 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
