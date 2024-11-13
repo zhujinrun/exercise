@@ -4,9 +4,11 @@ on:
 # push:
   schedule:
     # 每天北京时间9点跑
-    - cron:  '45 1 * * *'
+    - cron:  '0 2 * * *'
+
 jobs:
   build:
+    name: Build Job
     runs-on: ubuntu-latest
     steps:
     - name: Mirror the Github organization repos to Gitee.
