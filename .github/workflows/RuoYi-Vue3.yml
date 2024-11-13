@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Mirror the Github organization repos to Gitee.
+      if: always()
       uses: Yikun/gitee-mirror-action@v0.01
       with:
         # 必选，需要同步的Github用户（源）
