@@ -26,3 +26,10 @@ jobs:
         # static_list: repo_name
         # black_list: 'repo_name,repo_name2'
         # white_list: 'repo_name,repo_name2'
+        timeout: 600
+        debug: true
+        force_update: true
+    - name: Debug repo owner
+      run: |
+        echo ${{ github.repository_owner }}
+        echo ${{ github.actor }}
