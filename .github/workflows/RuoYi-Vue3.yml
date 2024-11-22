@@ -5,9 +5,8 @@ on:
   schedule:
     # UTC 17:00 -> CST (China) 1:00, see https://datetime360.com/cn/utc-cst-china-time/
     - cron:  '5 * * * *'
-
 jobs:
-  run:
+  build:
     name: Build Job
     runs-on: ubuntu-latest
     steps:
@@ -24,8 +23,9 @@ jobs:
         dst_token: ${{ secrets.GITEE_TOKEN }}
         # 如果是组织，指定组织即可，默认为用户user
         # account_type: org
-        # 还有黑、白名单，静态名单机制，可以用于更新某些指定库
-        static_list: "RuoYi-Vue3"
+        # 静态名单机制
+        static_list: 'RuoYi-Vue3'
+        # 还有黑、白名单机制，可以用于更新某些指定库
         # black_list: 'repo_name,repo_name2'
         # white_list: 'repo_name,repo_name2'
         # 启用 git push -f 强制同步
@@ -35,7 +35,7 @@ jobs:
         # 用于设置每个git命令的超时时间
         timeout: '30m'
         # 用于源和目的仓库名不同的镜像
-        mappings: 'RuoYi-Vue3 => RuoYiVue3'
+        # mappings: 'RuoYi-Vue3 => RuoYiVue3'
     - name: Debug repo owner
       run: |
         echo ${{ github.repository_owner }}
