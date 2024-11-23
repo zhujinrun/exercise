@@ -3,7 +3,7 @@ on:
 # push:
   schedule:
     # UTC 17:00 -> CST (China) 1:00, see https://datetime360.com/cn/utc-cst-china-time/
-    - cron:  '5 * * * *'
+    - cron:  '0 0,12 * * *'
   workflow_dispatch:
 
 jobs:
@@ -30,7 +30,7 @@ jobs:
         # black_list: 'repo_name,repo_name2'
         # white_list: 'repo_name,repo_name2'
         # 启用 git push -f 强制同步
-        force_update: true
+        force_update: false
         # 显示所有执行命令
         debug: true
         # 用于设置每个git命令的超时时间
