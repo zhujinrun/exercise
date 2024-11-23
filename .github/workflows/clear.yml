@@ -17,7 +17,7 @@ jobs:
         with:
           token: ${{ secrets.GAYHUB_TOKEN }}
           repository: ${{ github.repository }}
-          retain_days: 7
+          retain_days: 0
           keep_minimum_runs: 1
 
       # - name: Delete workflow runs for remote repo
