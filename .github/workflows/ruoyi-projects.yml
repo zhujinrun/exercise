@@ -1,4 +1,4 @@
-name: RuoYi-Vue3 Gitee mirror job
+name: RuoYi Gitee mirror job
 on:
 # push:
   schedule:
@@ -25,7 +25,7 @@ jobs:
         # 如果是组织，指定组织即可，默认为用户user
         # account_type: org
         # 静态名单机制
-        static_list: 'RuoYi-Vue3,RuoYi-Vue-fast'
+        static_list: 'RuoYi-Vue3,RuoYi-Vue-fast,RuoYi-fast,RuoYi-App'
         # 还有黑、白名单机制，可以用于更新某些指定库
         # black_list: 'repo_name,repo_name2'
         # white_list: 'repo_name,repo_name2'
